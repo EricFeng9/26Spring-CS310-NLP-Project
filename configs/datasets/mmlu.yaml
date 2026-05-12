@@ -1,0 +1,10 @@
+dataset_key: mmlu
+huggingface_path: cais/mmlu
+subset: all
+splits:
+  dev: dev
+  validation: validation
+  test: test
+processed_dir: data/processed/mmlu
+fewshot_source_split: dev
+answer_type: option

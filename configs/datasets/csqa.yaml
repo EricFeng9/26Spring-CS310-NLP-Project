@@ -1,0 +1,9 @@
+dataset_key: csqa
+huggingface_path: tau/commonsense_qa
+subset: null
+splits:
+  train: train
+  validation: validation
+processed_dir: data/processed/csqa
+fewshot_source_split: train
+answer_type: option

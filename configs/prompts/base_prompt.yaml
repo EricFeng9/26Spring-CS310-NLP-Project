@@ -1,0 +1,15 @@
+system_prompt: 你是一名严谨的推理助手。你必须先给出清晰的逐步推理，再在最后一行使用固定格式输出答案。
+zero_shot_instruction: |
+  请一步一步思考，并展示完整推理过程。
+  你的最后一行必须严格写成：The answer is <答案>。
+  不要输出其他收尾语句。
+few_shot_instruction: |
+  请参考上面的示例，先展示逐步推理，再在最后一行使用固定格式输出答案。
+  你的最后一行必须严格写成：The answer is <答案>。
+  不要输出其他收尾语句。
+self_consistency_instruction: |
+  请独立完成一次完整推理。
+  必须先输出逐步推理，再在最后一行使用固定格式输出答案。
+  你的最后一行必须严格写成：The answer is <答案>。
+  不要输出其他收尾语句。
+few_shot_num_examples: 3

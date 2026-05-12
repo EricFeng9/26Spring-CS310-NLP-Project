@@ -1,0 +1,9 @@
+dataset_key: gsm8k
+huggingface_path: gsm8k
+subset: main
+splits:
+  train: train
+  test: test
+processed_dir: data/processed/gsm8k
+fewshot_source_split: train
+answer_type: numeric

@@ -1,0 +1,15 @@
+name: fjm_CoT
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pyarrow
+  - pytorch>=2.4
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - pip:
+      - -r requirements.txt

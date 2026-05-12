@@ -1,0 +1,12 @@
+mode: self_consistency
+model_key: qwen2_5_7b_instruct
+dataset_key: mmlu
+split: test
+limit: 1
+output_dir: outputs/smoke_tests/self_consistency
+num_paths: 3
+max_new_tokens: 64
+temperature: 0.7
+top_p: 0.9
+do_sample: true
+strict_answer_parsing: false
