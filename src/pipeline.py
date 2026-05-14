@@ -32,7 +32,12 @@ def run_zero_shot(run_config: dict, model_config: dict, prompt_config: dict) -> 
             top_p=run_config["top_p"],
             do_sample=run_config["do_sample"],
         )
-        prediction = extract_answer(run_config["dataset_key"], output.generated_text, strict=strict_answer_parsing)
+        prediction = extract_answer(
+            run_config["dataset_key"],
+            output.generated_text,
+            strict=strict_answer_parsing,
+            choices=sample.choices,
+        )
         results.append(
             {
                 "id": sample.id,
@@ -65,7 +70,12 @@ def run_few_shot(run_config: dict, model_config: dict, prompt_config: dict) -> l
             top_p=run_config["top_p"],
             do_sample=run_config["do_sample"],
         )
-        prediction = extract_answer(run_config["dataset_key"], output.generated_text, strict=strict_answer_parsing)
+        prediction = extract_answer(
+            run_config["dataset_key"],
+            output.generated_text,
+            strict=strict_answer_parsing,
+            choices=sample.choices,
+        )
         results.append(
             {
                 "id": sample.id,
@@ -100,7 +110,12 @@ def run_self_consistency(run_config: dict, model_config: dict, prompt_config: di
                 top_p=run_config["top_p"],
                 do_sample=run_config["do_sample"],
             )
-            answer = extract_answer(run_config["dataset_key"], output.generated_text, strict=strict_answer_parsing)
+            answer = extract_answer(
+                run_config["dataset_key"],
+                output.generated_text,
+                strict=strict_answer_parsing,
+                choices=sample.choices,
+            )
             answers.append(answer)
             paths.append({"reasoning": output.generated_text, "answer": answer})
         prediction, vote_counts = majority_vote(answers)

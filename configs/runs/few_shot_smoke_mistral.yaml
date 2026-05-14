@@ -4,9 +4,9 @@ dataset_key: csqa
 split: validation
 limit: 1
 output_dir: outputs/smoke_tests/few_shot
-max_new_tokens: 64
+max_new_tokens: 256
 temperature: 1.0
 top_p: 1.0
 do_sample: false
-strict_answer_parsing: false
+strict_answer_parsing: true
 few_shot_examples_path: data/processed/fewshot/csqa_fewshot.jsonl

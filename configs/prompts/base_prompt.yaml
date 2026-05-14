@@ -1,15 +1,18 @@
-system_prompt: 你是一名严谨的推理助手。你必须先给出清晰的逐步推理，再在最后一行使用固定格式输出答案。
+system_prompt: |
+  You are a careful reasoning assistant for academic benchmark evaluation.
+  Always reason step by step in English.
+  Your final line must use exactly this format: The answer is <answer>.
+  Do not add any extra closing sentence after the final answer line.
 zero_shot_instruction: |
-  请一步一步思考，并展示完整推理过程。
-  你的最后一行必须严格写成：The answer is <答案>。
-  不要输出其他收尾语句。
+  Solve the following problem step by step.
+  Show your reasoning clearly and briefly.
+  Your final line must be exactly: The answer is <answer>.
 few_shot_instruction: |
-  请参考上面的示例，先展示逐步推理，再在最后一行使用固定格式输出答案。
-  你的最后一行必须严格写成：The answer is <答案>。
-  不要输出其他收尾语句。
+  Follow the style of the examples below.
+  Reason step by step in English.
+  Your final line must be exactly: The answer is <answer>.
 self_consistency_instruction: |
-  请独立完成一次完整推理。
-  必须先输出逐步推理，再在最后一行使用固定格式输出答案。
-  你的最后一行必须严格写成：The answer is <答案>。
-  不要输出其他收尾语句。
+  Solve the following problem independently.
+  Reason briefly in English using at most 4 short steps.
+  Your final line must be exactly: The answer is <answer>.
 few_shot_num_examples: 3

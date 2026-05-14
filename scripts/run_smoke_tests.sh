@@ -6,37 +6,34 @@ PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "${PROJECT_ROOT}"
 
 source "$(conda info --base)/etc/profile.d/conda.sh"
-export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-6}"
+# 当前 Python 里的 CUDA 序号和 `nvidia-smi` 显示并不一致。
+# 实测默认值设为 `0` 时，才能稳定落到 48GB 的 A6000 上。
+export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0}"
 
 bash scripts/verify_env.sh
 conda run -n fjm_CoT python scripts/download_datasets.py
 conda run -n fjm_CoT python scripts/build_fewshot_prompts.py
 
-for model in qwen2_5_7b_instruct mistral_7b_instruct_v0_3 olmo3_7b_instruct; do
+for model in mistral_7b_instruct_v0_3 olmo3_7b_instruct phi3_5_mini_instruct; do
   conda run -n fjm_CoT python scripts/download_models.py --model "${model}"
+  if [[ "${model}" == "mistral_7b_instruct_v0_3" ]]; then
+    zero_config="configs/runs/zero_shot_smoke_mistral.yaml"
+    few_config="configs/runs/few_shot_smoke_mistral.yaml"
+    sc_config="configs/runs/self_consistency_smoke_mistral.yaml"
+  elif [[ "${model}" == "olmo3_7b_instruct" ]]; then
+    zero_config="configs/runs/zero_shot_smoke_olmo.yaml"
+    few_config="configs/runs/few_shot_smoke_olmo.yaml"
+    sc_config="configs/runs/self_consistency_smoke_olmo.yaml"
+  elif [[ "${model}" == "phi3_5_mini_instruct" ]]; then
+    zero_config="configs/runs/zero_shot_smoke_phi3.yaml"
+    few_config="configs/runs/few_shot_smoke_phi3.yaml"
+    sc_config="configs/runs/self_consistency_smoke_phi3.yaml"
+  else
+    echo "未知模型：${model}"
+    exit 1
+  fi
 
-  python - <<PY
-from pathlib import Path
-import yaml
-
-files = {
-    "zero_shot_smoke.yaml": ("gsm8k", "test"),
-    "few_shot_smoke.yaml": ("csqa", "validation"),
-    "self_consistency_smoke.yaml": ("mmlu", "test"),
-}
-base = Path("${PROJECT_ROOT}") / "configs" / "runs"
-for file_name, (dataset_key, split_name) in files.items():
-    path = base / file_name
-    data = yaml.safe_load(path.read_text(encoding="utf-8"))
-    data["model_key"] = "${model}"
-    data["dataset_key"] = dataset_key
-    data["split"] = split_name
-    if file_name == "few_shot_smoke.yaml":
-        data["few_shot_examples_path"] = f"data/processed/fewshot/{dataset_key}_fewshot.jsonl"
-    path.write_text(yaml.safe_dump(data, allow_unicode=True, sort_keys=False), encoding="utf-8")
-PY
-
-  conda run -n fjm_CoT python scripts/run_zero_shot.py --config configs/runs/zero_shot_smoke.yaml
-  conda run -n fjm_CoT python scripts/run_few_shot.py --config configs/runs/few_shot_smoke.yaml
-  conda run -n fjm_CoT python scripts/run_self_consistency.py --config configs/runs/self_consistency_smoke.yaml
+  conda run -n fjm_CoT python scripts/run_zero_shot.py --config "${zero_config}"
+  conda run -n fjm_CoT python scripts/run_few_shot.py --config "${few_config}"
+  conda run -n fjm_CoT python scripts/run_self_consistency.py --config "${sc_config}"
 done

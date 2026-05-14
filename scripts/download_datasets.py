@@ -50,7 +50,10 @@ def normalize_csqa_item(item: dict, split: str, index: int) -> dict:
         "answer": str(item["answerKey"]).strip().upper(),
         "metadata": {
             "split": split,
-            "fewshot_reasoning": f"逐项比较选项，并根据常识推断最合理的答案是 {item['answerKey'].strip().upper()}。",
+            "fewshot_reasoning": (
+                "Compare the options using commonsense knowledge, eliminate the implausible choices, "
+                f"and conclude that the best answer is {item['answerKey'].strip().upper()}."
+            ),
         },
     }
 
@@ -69,7 +72,10 @@ def normalize_mmlu_item(item: dict, split: str, index: int) -> dict:
         "metadata": {
             "split": split,
             "subject": str(item["subject"]),
-            "fewshot_reasoning": f"结合题干与学科知识逐步分析，最终答案是 {labels[answer_index]}。",
+            "fewshot_reasoning": (
+                "Use the subject knowledge step by step, rule out the incorrect options, "
+                f"and conclude that the final answer is {labels[answer_index]}."
+            ),
         },
     }
 

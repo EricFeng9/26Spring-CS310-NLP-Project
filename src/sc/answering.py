@@ -6,29 +6,84 @@ import re
 from collections import Counter
 
 
-def extract_answer(dataset_key: str, generated_text: str, strict: bool = True) -> str:
+def _normalize_choice_text(choice: str) -> str:
+    """将选项文本归一化，方便把模型输出映射回选项字母。"""
+    normalized = choice.strip()
+    normalized = re.sub(r"^[A-E]\.\s*", "", normalized, flags=re.IGNORECASE)
+    normalized = normalized.strip().lower()
+    normalized = normalized.replace(",", "")
+    normalized = normalized.replace("$", "")
+    normalized = re.sub(r"\s+", " ", normalized)
+    return normalized
+
+
+def _map_choice_content_to_letter(answer_text: str, choices: list[str]) -> str | None:
+    """把模型输出的选项内容反推为选项字母。
+
+    设计原因：
+    1. 一些基础模型会输出 `The answer is 6.`，而不是 `The answer is D.`。
+    2. baseline 统计需要统一到选项字母层面，因此这里直接做规范化映射。
+    """
+    normalized_answer = answer_text.strip().lower()
+    normalized_answer = normalized_answer.replace(",", "")
+    normalized_answer = normalized_answer.replace("$", "")
+    normalized_answer = re.sub(r"[\*\.\!\?\"'\)\]\}>]+$", "", normalized_answer)
+    normalized_answer = re.sub(r"\s+", " ", normalized_answer)
+
+    for choice in choices:
+        letter_match = re.match(r"^\s*([A-E])\.", choice, flags=re.IGNORECASE)
+        if letter_match is None:
+            continue
+        letter = letter_match.group(1).upper()
+        choice_text = _normalize_choice_text(choice)
+        if normalized_answer == choice_text:
+            return letter
+        if normalized_answer.endswith(choice_text):
+            return letter
+    return None
+
+
+def extract_answer(dataset_key: str, generated_text: str, strict: bool = True, choices: list[str] | None = None) -> str:
     """按数据集类型抽取最终答案。
 
     `strict=True` 时，抽取失败直接抛错。
     `strict=False` 时，抽取失败返回原始生成文本，方便 smoke test 先跑通链路。
     """
     if dataset_key == "gsm8k":
-        match = re.search(r"The answer is\s*([^\n\.]+)", generated_text, flags=re.IGNORECASE)
-        if match is None:
+        matches = re.findall(r"The answer is\s*([^\n]+)", generated_text, flags=re.IGNORECASE)
+        if not matches:
             if strict:
                 raise ValueError(f"GSM8K 答案抽取失败，原始文本为：{generated_text}")
             return generated_text.strip()
-        answer = match.group(1).strip().replace(",", "")
-        answer = answer.replace("$", "")
-        return answer
+        answer_text = matches[-1].strip()
+        answer_text = re.sub(r"[\*\.\!\?\"'\)\]]+$", "", answer_text)
+        answer_text = answer_text.replace(",", "").replace("$", "")
+        number_match = re.search(r"-?\d+(?:\.\d+)?", answer_text)
+        if number_match is None:
+            if strict:
+                raise ValueError(f"GSM8K 数值答案抽取失败，原始文本为：{generated_text}")
+            return answer_text
+        return number_match.group(0)
 
     if dataset_key in {"csqa", "mmlu"}:
-        match = re.search(r"The answer is\s*([A-E])", generated_text, flags=re.IGNORECASE)
-        if match is None:
+        answer_lines = re.findall(r"The answer is\s*([^\n]+)", generated_text, flags=re.IGNORECASE)
+        if not answer_lines:
             if strict:
                 raise ValueError(f"{dataset_key} 答案抽取失败，原始文本为：{generated_text}")
             return generated_text.strip()
-        return match.group(1).upper()
+        final_answer_line = answer_lines[-1]
+        letter_matches = re.findall(r"([A-E])", final_answer_line, flags=re.IGNORECASE)
+        if letter_matches:
+            return letter_matches[-1].upper()
+
+        if choices:
+            mapped_letter = _map_choice_content_to_letter(final_answer_line, choices)
+            if mapped_letter is not None:
+                return mapped_letter
+
+        if strict:
+            raise ValueError(f"{dataset_key} 选项答案抽取失败，原始文本为：{generated_text}")
+        return final_answer_line.strip()
 
     raise ValueError(f"未知数据集：{dataset_key}")
 

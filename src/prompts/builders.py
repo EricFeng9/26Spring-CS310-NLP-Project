@@ -25,10 +25,23 @@ def sample_to_block(sample: TaskSample, include_answer: bool) -> str:
     return "\n".join(lines)
 
 
+def final_answer_instruction(sample: TaskSample) -> str:
+    """根据任务类型生成最终答案格式约束。
+
+    设计原则：
+    1. 多选题必须强制输出选项字母，避免模型把推理出的数值直接当最终答案写出。
+    2. 数值题必须强制输出最终数值，方便后续统一抽取与统计。
+    """
+    if sample.choices:
+        return "Your final line must be exactly: The answer is <A/B/C/D/E>."
+    return "Your final line must be exactly: The answer is <number>."
+
+
 def build_zero_shot_prompt(sample: TaskSample, prompt_config: dict) -> str:
     """构造 Zero-shot CoT prompt。"""
     lines = [
         prompt_config["zero_shot_instruction"].strip(),
+        final_answer_instruction(sample),
         sample_to_block(sample, include_answer=False),
         "Reasoning:",
     ]
@@ -40,6 +53,7 @@ def build_few_shot_prompt(sample: TaskSample, prompt_config: dict, fewshot_sampl
     example_blocks = [sample_to_block(example, include_answer=True) for example in fewshot_samples]
     lines = [
         prompt_config["few_shot_instruction"].strip(),
+        final_answer_instruction(sample),
         "\n\n".join(example_blocks),
         sample_to_block(sample, include_answer=False),
         "Reasoning:",
@@ -51,6 +65,7 @@ def build_self_consistency_prompt(sample: TaskSample, prompt_config: dict) -> st
     """构造 Self-Consistency 使用的单次推理 prompt。"""
     lines = [
         prompt_config["self_consistency_instruction"].strip(),
+        final_answer_instruction(sample),
         sample_to_block(sample, include_answer=False),
         "Reasoning:",
     ]

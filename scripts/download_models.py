@@ -23,11 +23,27 @@ MODEL_CONFIG_DIR = project_root() / "configs" / "models"
 def list_model_keys() -> list[str]:
     """返回全部模型键名。"""
     preferred_order = [
-        "qwen2_5_7b_instruct",
         "mistral_7b_instruct_v0_3",
         "olmo3_7b_instruct",
+        "phi3_5_mini_instruct",
+        "qwen2_5_7b_instruct",
     ]
     return [model_key for model_key in preferred_order if (MODEL_CONFIG_DIR / f"{model_key}.yaml").exists()]
+
+
+def has_complete_local_model(local_dir: Path) -> bool:
+    """检查本地模型目录是否已经具备最基本的可加载文件。
+
+    这里直接以 `config.json` 和至少一个 `*.safetensors` 文件作为完成标记。
+    任务A当前目标是稳定复用已经下载好的本地模型，避免 smoke test 每次都重新访问远端。
+    """
+    if not local_dir.exists():
+        return False
+    if not (local_dir / "config.json").exists():
+        return False
+    if not list(local_dir.glob("*.safetensors")):
+        return False
+    return True
 
 
 def download_one(model_key: str) -> None:
@@ -35,6 +51,9 @@ def download_one(model_key: str) -> None:
     config = load_yaml(MODEL_CONFIG_DIR / f"{model_key}.yaml")
     local_dir = project_root() / config["local_dir"]
     local_dir.mkdir(parents=True, exist_ok=True)
+    if has_complete_local_model(local_dir):
+        print(f"检测到本地模型已存在，跳过下载：{model_key}")
+        return
     try:
         snapshot_download(
             repo_id=config["repo_id"],

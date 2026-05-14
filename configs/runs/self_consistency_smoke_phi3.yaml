@@ -1,5 +1,5 @@
 mode: self_consistency
-model_key: qwen2_5_7b_instruct
+model_key: phi3_5_mini_instruct
 dataset_key: mmlu
 split: test
 limit: 1
