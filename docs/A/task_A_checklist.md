@@ -74,9 +74,9 @@
 - [x] `llama2_7b_hf` on `GSM8K`
 
 结果文件：
-- `outputs/smoke_tests/zero_shot/mistral_7b_instruct_v0_3_gsm8k.jsonl`
-- `outputs/smoke_tests/zero_shot/olmo3_7b_instruct_gsm8k.jsonl`
-- `outputs/smoke_tests/zero_shot/llama2_7b_hf_gsm8k.jsonl`
+- `output/raw/A/smoke_tests/zero_shot/mistral_7b_instruct_v0_3_gsm8k.jsonl`
+- `output/raw/A/smoke_tests/zero_shot/olmo3_7b_instruct_gsm8k.jsonl`
+- `output/raw/A/smoke_tests/zero_shot/llama2_7b_hf_gsm8k.jsonl`
 
 ### 5.2 Few-shot CoT
 - [x] `mistral_7b_instruct_v0_3` on `CSQA`
@@ -84,9 +84,9 @@
 - [x] `llama2_7b_hf` on `CSQA`
 
 结果文件：
-- `outputs/smoke_tests/few_shot/mistral_7b_instruct_v0_3_csqa.jsonl`
-- `outputs/smoke_tests/few_shot/olmo3_7b_instruct_csqa.jsonl`
-- `outputs/smoke_tests/few_shot/llama2_7b_hf_csqa.jsonl`
+- `output/raw/A/smoke_tests/few_shot/mistral_7b_instruct_v0_3_csqa.jsonl`
+- `output/raw/A/smoke_tests/few_shot/olmo3_7b_instruct_csqa.jsonl`
+- `output/raw/A/smoke_tests/few_shot/llama2_7b_hf_csqa.jsonl`
 
 ### 5.3 Self-Consistency
 - [x] `mistral_7b_instruct_v0_3` on `MMLU`
@@ -94,9 +94,9 @@
 - [x] `llama2_7b_hf` on `MMLU`
 
 结果文件：
-- `outputs/smoke_tests/self_consistency/mistral_7b_instruct_v0_3_mmlu.jsonl`
-- `outputs/smoke_tests/self_consistency/olmo3_7b_instruct_mmlu.jsonl`
-- `outputs/smoke_tests/self_consistency/llama2_7b_hf_mmlu.jsonl`
+- `output/raw/A/smoke_tests/self_consistency/mistral_7b_instruct_v0_3_mmlu.jsonl`
+- `output/raw/A/smoke_tests/self_consistency/olmo3_7b_instruct_mmlu.jsonl`
+- `output/raw/A/smoke_tests/self_consistency/llama2_7b_hf_mmlu.jsonl`
 
 ## 6. 关键实现修复
 - [x] prompt 指令切到英文 benchmark 风格

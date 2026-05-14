@@ -1,10 +1,9 @@
-mode: few_shot
+mode: zero_shot
 model_key: llama2_7b_hf
 dataset_key: csqa
 split: validation
-limit: 1
-few_shot_examples_path: data/processed/fewshot/csqa_fewshot.jsonl
-output_dir: output/raw/A/smoke_tests/few_shot
+limit:
+output_dir: output/raw/A/final_runs/zero_shot
 max_new_tokens: 256
 temperature: 0.0
 top_p: 1.0

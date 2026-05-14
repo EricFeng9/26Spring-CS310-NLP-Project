@@ -1,11 +1,11 @@
-mode: zero_shot_cot
+mode: zero_shot
 model_key: olmo3_7b_instruct
 dataset_key: gsm8k
 split: test
-limit: 1
-output_dir: output/raw/A/smoke_tests/zero_shot
+limit:
+output_dir: output/raw/A/final_runs/zero_shot
 max_new_tokens: 256
-temperature: 1.0
+temperature: 0.0
 top_p: 1.0
 do_sample: false
 strict_answer_parsing: true

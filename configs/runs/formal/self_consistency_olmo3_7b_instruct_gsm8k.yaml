@@ -1,10 +1,10 @@
 mode: self_consistency
-model_key: llama2_7b_hf
-dataset_key: mmlu
+model_key: olmo3_7b_instruct
+dataset_key: gsm8k
 split: test
-limit: 1
-output_dir: output/raw/A/smoke_tests/self_consistency
-num_paths: 3
+limit:
+output_dir: output/raw/A/final_runs/self_consistency
+num_paths: 5
 max_new_tokens: 512
 temperature: 0.7
 top_p: 0.9

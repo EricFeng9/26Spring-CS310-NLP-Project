@@ -1,9 +1,10 @@
-mode: zero_shot
+mode: few_shot
 model_key: llama2_7b_hf
 dataset_key: gsm8k
 split: test
-limit: 1
-output_dir: output/raw/A/smoke_tests/zero_shot
+limit:
+few_shot_examples_path: data/processed/fewshot/gsm8k_fewshot.jsonl
+output_dir: output/raw/A/final_runs/few_shot
 max_new_tokens: 256
 temperature: 0.0
 top_p: 1.0

@@ -1,10 +1,10 @@
 mode: few_shot
-model_key: qwen2_5_3b_instruct
+model_key: mistral_7b_instruct_v0_3
 dataset_key: csqa
 split: validation
-limit: 1
+limit:
 few_shot_examples_path: data/processed/fewshot/csqa_fewshot.jsonl
-output_dir: output/raw/A/smoke_tests/few_shot
+output_dir: output/raw/A/final_runs/few_shot
 max_new_tokens: 256
 temperature: 0.0
 top_p: 1.0

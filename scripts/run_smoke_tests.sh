@@ -9,12 +9,14 @@ source "$(conda info --base)/etc/profile.d/conda.sh"
 # 当前 Python 里的 CUDA 序号和 `nvidia-smi` 显示并不一致。
 # 实测默认值设为 `0` 时，才能稳定落到 48GB 的 A6000 上。
 export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0}"
+mkdir -p output/log/A/smoke_tests
+exec > >(tee -a output/log/A/smoke_tests/run_smoke_tests.log) 2>&1
 
 bash scripts/verify_env.sh
 conda run -n fjm_CoT python scripts/download_datasets.py
 conda run -n fjm_CoT python scripts/build_fewshot_prompts.py
 
-for model in mistral_7b_instruct_v0_3 olmo3_7b_instruct phi3_5_mini_instruct; do
+for model in mistral_7b_instruct_v0_3 olmo3_7b_instruct llama2_7b_hf; do
   conda run -n fjm_CoT python scripts/download_models.py --model "${model}"
   if [[ "${model}" == "mistral_7b_instruct_v0_3" ]]; then
     zero_config="configs/runs/zero_shot_smoke_mistral.yaml"
@@ -24,10 +26,10 @@ for model in mistral_7b_instruct_v0_3 olmo3_7b_instruct phi3_5_mini_instruct; do
     zero_config="configs/runs/zero_shot_smoke_olmo.yaml"
     few_config="configs/runs/few_shot_smoke_olmo.yaml"
     sc_config="configs/runs/self_consistency_smoke_olmo.yaml"
-  elif [[ "${model}" == "phi3_5_mini_instruct" ]]; then
-    zero_config="configs/runs/zero_shot_smoke_phi3.yaml"
-    few_config="configs/runs/few_shot_smoke_phi3.yaml"
-    sc_config="configs/runs/self_consistency_smoke_phi3.yaml"
+  elif [[ "${model}" == "llama2_7b_hf" ]]; then
+    zero_config="configs/runs/zero_shot_smoke_llama2.yaml"
+    few_config="configs/runs/few_shot_smoke_llama2.yaml"
+    sc_config="configs/runs/self_consistency_smoke_llama2.yaml"
   else
     echo "未知模型：${model}"
     exit 1

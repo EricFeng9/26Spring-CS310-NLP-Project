@@ -3,7 +3,7 @@ model_key: qwen2_5_7b_instruct
 dataset_key: csqa
 split: validation
 limit: 1
-output_dir: outputs/smoke_tests/few_shot
+output_dir: output/raw/A/smoke_tests/few_shot
 max_new_tokens: 256
 temperature: 1.0
 top_p: 1.0
