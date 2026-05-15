@@ -1,0 +1,12 @@
+
+===== run started at 2026-05-15T01:32:47 =====
+[zero_shot] config=configs/runs/zero_shot_smoke_olmo.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/zero_shot/olmo3_7b_instruct_gsm8k.log
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  22%|##2       | 79/355 [00:00<00:00, 782.32it/s]Loading weights:  45%|####4     | 158/355 [00:00<00:00, 747.71it/s]Loading weights:  66%|######5   | 233/355 [00:00<00:00, 659.32it/s]Loading weights: 100%|##########| 355/355 [00:00<00:00, 1028.64it/s]
+Zero-shot 运行完成，结果已写入：output/raw/A/smoke_tests/zero_shot
+
+===== run started at 2026-05-15T12:29:12 =====
+[zero_shot] config=configs/runs/zero_shot_smoke_olmo.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/zero_shot/olmo3_7b_instruct_gsm8k.log
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  21%|##1       | 76/355 [00:00<00:00, 757.64it/s]Loading weights:  43%|####3     | 154/355 [00:00<00:00, 761.97it/s]Loading weights:  65%|######5   | 231/355 [00:00<00:00, 706.83it/s]Loading weights: 100%|##########| 355/355 [00:00<00:00, 1009.38it/s]
+Zero-shot 运行完成，结果已写入：output/raw/A/smoke_tests/zero_shot

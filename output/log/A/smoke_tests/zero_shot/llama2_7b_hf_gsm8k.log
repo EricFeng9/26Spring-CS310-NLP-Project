@@ -1,0 +1,12 @@
+
+===== run started at 2026-05-15T01:56:09 =====
+[zero_shot] config=configs/runs/zero_shot_smoke_llama2.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/zero_shot/llama2_7b_hf_gsm8k.log
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  21%|##        | 61/291 [00:00<00:00, 604.16it/s]Loading weights:  44%|####3     | 127/291 [00:00<00:00, 635.58it/s]Loading weights:  66%|######5   | 191/291 [00:00<00:00, 515.22it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 736.83it/s]
+Zero-shot 运行完成，结果已写入：output/raw/A/smoke_tests/zero_shot
+
+===== run started at 2026-05-15T12:52:57 =====
+[zero_shot] config=configs/runs/zero_shot_smoke_llama2.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/zero_shot/llama2_7b_hf_gsm8k.log
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  23%|##3       | 68/291 [00:00<00:00, 670.53it/s]Loading weights:  47%|####6     | 136/291 [00:00<00:00, 617.04it/s]Loading weights:  68%|######8   | 198/291 [00:00<00:00, 611.95it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 832.77it/s]
+Zero-shot 运行完成，结果已写入：output/raw/A/smoke_tests/zero_shot

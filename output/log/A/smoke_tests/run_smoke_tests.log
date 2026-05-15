@@ -1,0 +1,179 @@
+开始下载模型：mistral_7b_instruct_v0_3
+检测到本地模型已存在，跳过下载：mistral_7b_instruct_v0_3
+模型下载完成：mistral_7b_instruct_v0_3
+
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  27%|##7       | 80/291 [00:00<00:00, 771.67it/s]Loading weights:  54%|#####4    | 158/291 [00:00<00:00, 704.18it/s]Loading weights:  79%|#######8  | 229/291 [00:00<00:00, 663.06it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 766.49it/s]
+
+[zero_shot] config=configs/runs/zero_shot_smoke_mistral.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/zero_shot/mistral_7b_instruct_v0_3_gsm8k.log
+Zero-shot 运行完成，结果已写入：output/raw/A/smoke_tests/zero_shot
+
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 3872.94it/s]
+
+[few_shot] config=configs/runs/few_shot_smoke_mistral.yaml
+[few_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/few_shot/mistral_7b_instruct_v0_3_csqa.log
+Few-shot 运行完成，结果已写入：output/raw/A/smoke_tests/few_shot
+
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 3622.85it/s]
+
+[self_consistency] config=configs/runs/self_consistency_smoke_mistral.yaml
+[self_consistency] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/self_consistency/mistral_7b_instruct_v0_3_mmlu.log
+Self-Consistency 运行完成，结果已写入：output/raw/A/smoke_tests/self_consistency
+
+开始下载模型：olmo3_7b_instruct
+检测到本地模型已存在，跳过下载：olmo3_7b_instruct
+模型下载完成：olmo3_7b_instruct
+
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  22%|##2       | 79/355 [00:00<00:00, 782.32it/s]Loading weights:  45%|####4     | 158/355 [00:00<00:00, 747.71it/s]Loading weights:  66%|######5   | 233/355 [00:00<00:00, 659.32it/s]Loading weights: 100%|##########| 355/355 [00:00<00:00, 1028.64it/s]
+
+[zero_shot] config=configs/runs/zero_shot_smoke_olmo.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/zero_shot/olmo3_7b_instruct_gsm8k.log
+Zero-shot 运行完成，结果已写入：output/raw/A/smoke_tests/zero_shot
+
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights: 100%|##########| 355/355 [00:00<00:00, 3689.92it/s]
+
+[few_shot] config=configs/runs/few_shot_smoke_olmo.yaml
+[few_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/few_shot/olmo3_7b_instruct_csqa.log
+Few-shot 运行完成，结果已写入：output/raw/A/smoke_tests/few_shot
+
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights: 100%|##########| 355/355 [00:00<00:00, 3702.08it/s]
+
+[self_consistency] config=configs/runs/self_consistency_smoke_olmo.yaml
+[self_consistency] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/self_consistency/olmo3_7b_instruct_mmlu.log
+Self-Consistency 运行完成，结果已写入：output/raw/A/smoke_tests/self_consistency
+
+开始下载模型：llama2_7b_hf
+检测到本地模型已存在，跳过下载：llama2_7b_hf
+模型下载完成：llama2_7b_hf
+
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  21%|##        | 61/291 [00:00<00:00, 604.16it/s]Loading weights:  44%|####3     | 127/291 [00:00<00:00, 635.58it/s]Loading weights:  66%|######5   | 191/291 [00:00<00:00, 515.22it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 736.83it/s]
+[transformers] Both `max_new_tokens` (=256) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+[zero_shot] config=configs/runs/zero_shot_smoke_llama2.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/zero_shot/llama2_7b_hf_gsm8k.log
+Zero-shot 运行完成，结果已写入：output/raw/A/smoke_tests/zero_shot
+
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 3451.25it/s]
+[transformers] Both `max_new_tokens` (=256) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+[few_shot] config=configs/runs/few_shot_smoke_llama2.yaml
+[few_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/few_shot/llama2_7b_hf_csqa.log
+Few-shot 运行完成，结果已写入：output/raw/A/smoke_tests/few_shot
+
+ERROR conda.cli.main_run:execute(41): `conda run python scripts/run_self_consistency.py --config configs/runs/self_consistency_smoke_llama2.yaml` failed. (See above for error)
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 3308.47it/s]
+[transformers] Both `max_new_tokens` (=512) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Traceback (most recent call last):
+  File "/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/scripts/run_self_consistency.py", line 37, in <module>
+    main()
+  File "/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/scripts/run_self_consistency.py", line 31, in main
+    results = run_self_consistency(run_config, model_config, prompt_config)
+  File "/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/src/pipeline.py", line 113, in run_self_consistency
+    answer = extract_answer(
+  File "/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/src/sc/answering.py", line 72, in extract_answer
+    raise ValueError(f"{dataset_key} 答案抽取失败，原始文本为：{generated_text}")
+ValueError: mmlu 答案抽取失败，原始文本为：Answer:
+
+Comment: Please use MathJax to write the math expressions.
+
+Comment: You can read [MathJax tutorial](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
+
+Comment: Hi, I have tried to use MathJax, but it does not work for me.
+
+Comment: You have to use the MathJax button when you write the math expression. Please use the MathJax button for this problem.
+
+Comment: Hi, I have tried to use the MathJax button, but I get an error saying I have to wait 5 minutes before I can use it again.
+
+Comment: Please wait 5 minutes and then use MathJax button.
+
+Comment: Hi, I have tried to use the MathJax button, but I get an error saying I have to wait 1 minute before I can use it again.
+
+Comment: Please wait 1 minute and then use MathJax button.
+
+Comment: Hi, I have tried to use the MathJax button, but I get an error saying I have to wait 1 minute before I can use it again.
+
+Comment: Please wait 1 minute and then use MathJax button.
+
+Comment: Hi, I have tried to use the MathJax button, but I get an error saying I have to wait 1 minute before I can use it again.
+
+Comment: Please wait 1 minute and then use MathJax button.
+
+Comment: Hi, I have tried to use the MathJax button, but I get an error saying I have to wait 1 minute before I can use it again.
+
+Comment: Please wait 1 minute and then use MathJax button.
+
+Comment: Hi, I have tried to use the MathJax button, but I get an error saying I have to wait 1 minute before I can use it again.
+
+Comment: Please wait 1 minute and then use MathJax button.
+
+Comment: Hi, I have tried to use the MathJax button, but I get an error saying I have to wait 1 minute before I can use it again.
+
+Comment: Please wait 1 minute and then use MathJax button.
+
+Comment: Hi, I have tried to use the MathJax button, but
+
+[self_consistency] config=configs/runs/self_consistency_smoke_llama2.yaml
+[self_consistency] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/self_consistency/llama2_7b_hf_mmlu.log
+
+开始下载模型：mistral_7b_instruct_v0_3
+检测到本地模型已存在，跳过下载：mistral_7b_instruct_v0_3
+模型下载完成：mistral_7b_instruct_v0_3
+
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  15%|#5        | 44/291 [00:00<00:00, 439.32it/s]Loading weights:  38%|###8      | 111/291 [00:00<00:00, 561.20it/s]Loading weights:  60%|######    | 176/291 [00:00<00:00, 598.19it/s]Loading weights:  81%|########1 | 236/291 [00:00<00:00, 559.16it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 680.39it/s]
+
+[zero_shot] config=configs/runs/zero_shot_smoke_mistral.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/zero_shot/mistral_7b_instruct_v0_3_gsm8k.log
+Zero-shot 运行完成，结果已写入：output/raw/A/smoke_tests/zero_shot
+
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 3829.65it/s]
+
+[few_shot] config=configs/runs/few_shot_smoke_mistral.yaml
+[few_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/few_shot/mistral_7b_instruct_v0_3_csqa.log
+Few-shot 运行完成，结果已写入：output/raw/A/smoke_tests/few_shot
+
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 3813.67it/s]
+
+[self_consistency] config=configs/runs/self_consistency_smoke_mistral.yaml
+[self_consistency] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/self_consistency/mistral_7b_instruct_v0_3_mmlu.log
+Self-Consistency 运行完成，结果已写入：output/raw/A/smoke_tests/self_consistency
+
+开始下载模型：olmo3_7b_instruct
+检测到本地模型已存在，跳过下载：olmo3_7b_instruct
+模型下载完成：olmo3_7b_instruct
+
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  21%|##1       | 76/355 [00:00<00:00, 757.64it/s]Loading weights:  43%|####3     | 154/355 [00:00<00:00, 761.97it/s]Loading weights:  65%|######5   | 231/355 [00:00<00:00, 706.83it/s]Loading weights: 100%|##########| 355/355 [00:00<00:00, 1009.38it/s]
+
+[zero_shot] config=configs/runs/zero_shot_smoke_olmo.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/zero_shot/olmo3_7b_instruct_gsm8k.log
+Zero-shot 运行完成，结果已写入：output/raw/A/smoke_tests/zero_shot
+
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights: 100%|##########| 355/355 [00:00<00:00, 3732.53it/s]
+
+[few_shot] config=configs/runs/few_shot_smoke_olmo.yaml
+[few_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/few_shot/olmo3_7b_instruct_csqa.log
+Few-shot 运行完成，结果已写入：output/raw/A/smoke_tests/few_shot
+
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights: 100%|##########| 355/355 [00:00<00:00, 3748.26it/s]
+
+[self_consistency] config=configs/runs/self_consistency_smoke_olmo.yaml
+[self_consistency] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/self_consistency/olmo3_7b_instruct_mmlu.log
+Self-Consistency 运行完成，结果已写入：output/raw/A/smoke_tests/self_consistency
+
+开始下载模型：llama2_7b_hf
+检测到本地模型已存在，跳过下载：llama2_7b_hf
+模型下载完成：llama2_7b_hf
+
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  23%|##3       | 68/291 [00:00<00:00, 670.53it/s]Loading weights:  47%|####6     | 136/291 [00:00<00:00, 617.04it/s]Loading weights:  68%|######8   | 198/291 [00:00<00:00, 611.95it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 832.77it/s]
+[transformers] Both `max_new_tokens` (=256) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+[zero_shot] config=configs/runs/zero_shot_smoke_llama2.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/zero_shot/llama2_7b_hf_gsm8k.log
+Zero-shot 运行完成，结果已写入：output/raw/A/smoke_tests/zero_shot
+
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 3758.13it/s]
+[transformers] Both `max_new_tokens` (=256) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+[few_shot] config=configs/runs/few_shot_smoke_llama2.yaml
+[few_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/few_shot/llama2_7b_hf_csqa.log
+Few-shot 运行完成，结果已写入：output/raw/A/smoke_tests/few_shot
+

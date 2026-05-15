@@ -1,0 +1,17 @@
+
+===== run started at 2026-05-15T19:26:39 =====
+[zero_shot] config=configs/runs/formal/zero_shot_llama2_7b_hf_gsm8k.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_runs/zero_shot/llama2_7b_hf_gsm8k.log
+[zero_shot][llama2_7b_hf][gsm8k] loaded 1319 samples from split=test
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  32%|###1      | 92/291 [00:00<00:00, 915.38it/s]Loading weights:  63%|######3   | 184/291 [00:00<00:00, 888.93it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 975.87it/s]
+[zero_shot][llama2_7b_hf][gsm8k] sample 1/1319 start id=gsm8k_test_0
+[zero_shot][llama2_7b_hf][gsm8k] sample 1/1319 done id=gsm8k_test_0 prediction='4' gold='18' correct=False
+[zero_shot][llama2_7b_hf][gsm8k] sample 2/1319 start id=gsm8k_test_1
+[zero_shot][llama2_7b_hf][gsm8k] sample 2/1319 done id=gsm8k_test_1 prediction='<number>' gold='3' correct=False
+[zero_shot][llama2_7b_hf][gsm8k] sample 3/1319 start id=gsm8k_test_2
+[zero_shot][llama2_7b_hf][gsm8k] sample 3/1319 done id=gsm8k_test_2 prediction='<answer>' gold='70000' correct=False
+[zero_shot][llama2_7b_hf][gsm8k] sample 4/1319 start id=gsm8k_test_3
+[zero_shot][llama2_7b_hf][gsm8k] sample 4/1319 done id=gsm8k_test_3 prediction='1. James runs 60 meters each sprint.\n2. He runs 3 sprints 3 times a week.\n3. Therefore, he runs 60 meters 3 times a week.\n4. 60 meters 3 times a week = 180 meters a week.\n5. 180 meters a week = 1800 meters a week.\n6. 1800 meters a week = 18000 meters a week.\n7. 18000 meters a week = 180000 meters a week.\n8. 180000 meters a week = 1800000 meters a week.\n9. 1800000 meters a week = 18000000 meters a week.\n10. 18000000 meters a week = 180000000 meters a week.\n11. 180000000 meters a week = 1800000000 meters a week.\n12.' gold='540' correct=False
+[zero_shot][llama2_7b_hf][gsm8k] sample 5/1319 start id=gsm8k_test_4
+[zero_shot][llama2_7b_hf][gsm8k] sample 5/1319 done id=gsm8k_test_4 prediction='15' gold='20' correct=False
+[zero_shot][llama2_7b_hf][gsm8k] sample 6/1319 start id=gsm8k_test_5

@@ -1,0 +1,61 @@
+Fetching 17 files:   0%|          | 0/17 [00:00<?, ?it/s]Fetching 17 files:   0%|          | 0/17 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/xuyang_lab/cse12311031/.local/lib/python3.9/site-packages/huggingface_hub/utils/_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+  File "/home/xuyang_lab/cse12311031/.local/lib/python3.9/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '403 Forbidden' for url 'https://hf-mirror.com/meta-llama/Llama-2-7b-hf/resolve/01c7f73d771dfac7d292323805ebc428287df4f9/.gitattributes'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/xuyang_lab/cse12311031/.local/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1653, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "/home/xuyang_lab/cse12311031/.local/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/xuyang_lab/cse12311031/.local/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1576, in get_hf_file_metadata
+    response = _httpx_follow_relative_redirects_with_backoff(
+  File "/home/xuyang_lab/cse12311031/.local/lib/python3.9/site-packages/huggingface_hub/utils/_http.py", line 692, in _httpx_follow_relative_redirects_with_backoff
+    hf_raise_for_status(response)
+  File "/home/xuyang_lab/cse12311031/.local/lib/python3.9/site-packages/huggingface_hub/utils/_http.py", line 861, in hf_raise_for_status
+    raise _format(HfHubHTTPError, message, response) from e
+huggingface_hub.errors.HfHubHTTPError: (Request ID: Root=1-6a058afe-680d734f3a6b6a5963b3b281;6fa0c0fb-7742-4329-8e84-e21449b9d86a)
+
+403 Forbidden: Please enable access to public gated repositories in your fine-grained token settings to view this repository..
+Cannot access content at: https://hf-mirror.com/meta-llama/Llama-2-7b-hf/resolve/01c7f73d771dfac7d292323805ebc428287df4f9/.gitattributes.
+Make sure your token has the correct permissions.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/xuyang_lab/cse12311031/.local/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/xuyang_lab/cse12311031/.local/lib/python3.9/site-packages/huggingface_hub/_snapshot_download.py", line 450, in snapshot_download
+    thread_map(
+  File "/opt/ohpc/pub/apps/anaconda3/lib/python3.9/site-packages/tqdm/contrib/concurrent.py", line 94, in thread_map
+    return _executor_map(ThreadPoolExecutor, fn, *iterables, **tqdm_kwargs)
+  File "/opt/ohpc/pub/apps/anaconda3/lib/python3.9/site-packages/tqdm/contrib/concurrent.py", line 76, in _executor_map
+    return list(tqdm_class(ex.map(fn, *iterables, **map_args), **kwargs))
+  File "/opt/ohpc/pub/apps/anaconda3/lib/python3.9/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/opt/ohpc/pub/apps/anaconda3/lib/python3.9/concurrent/futures/_base.py", line 609, in result_iterator
+    yield fs.pop().result()
+  File "/opt/ohpc/pub/apps/anaconda3/lib/python3.9/concurrent/futures/_base.py", line 446, in result
+    return self.__get_result()
+  File "/opt/ohpc/pub/apps/anaconda3/lib/python3.9/concurrent/futures/_base.py", line 391, in __get_result
+    raise self._exception
+  File "/opt/ohpc/pub/apps/anaconda3/lib/python3.9/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/xuyang_lab/cse12311031/.local/lib/python3.9/site-packages/huggingface_hub/_snapshot_download.py", line 430, in _inner_hf_hub_download
+    hf_hub_download(  # type: ignore
+  File "/home/xuyang_lab/cse12311031/.local/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/xuyang_lab/cse12311031/.local/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 965, in hf_hub_download
+    return _hf_hub_download_to_local_dir(
+  File "/home/xuyang_lab/cse12311031/.local/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1328, in _hf_hub_download_to_local_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/home/xuyang_lab/cse12311031/.local/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1769, in _raise_on_head_call_error
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: An error happened while trying to locate the file on the Hub and we cannot find the requested files in the local cache. Please check your connection and try again or make sure your Internet connection is on.

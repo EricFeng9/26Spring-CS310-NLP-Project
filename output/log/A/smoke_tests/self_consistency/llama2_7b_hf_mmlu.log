@@ -1,0 +1,10 @@
+
+===== run started at 2026-05-15T02:35:41 =====
+[self_consistency] config=configs/runs/self_consistency_smoke_llama2.yaml
+[self_consistency] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/self_consistency/llama2_7b_hf_mmlu.log
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 3308.47it/s]
+
+===== run started at 2026-05-15T13:32:20 =====
+[self_consistency] config=configs/runs/self_consistency_smoke_llama2.yaml
+[self_consistency] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/self_consistency/llama2_7b_hf_mmlu.log
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 4101.84it/s]

@@ -13,11 +13,22 @@ mkdir -p output/log/A/smoke_tests
 exec > >(tee -a output/log/A/smoke_tests/run_smoke_tests.log) 2>&1
 
 bash scripts/verify_env.sh
-conda run -n fjm_CoT python scripts/download_datasets.py
-conda run -n fjm_CoT python scripts/build_fewshot_prompts.py
+
+for required_file in \
+  data/processed/gsm8k/test.jsonl \
+  data/processed/csqa/validation.jsonl \
+  data/processed/mmlu/test.jsonl \
+  data/processed/fewshot/gsm8k_fewshot.jsonl \
+  data/processed/fewshot/csqa_fewshot.jsonl \
+  data/processed/fewshot/mmlu_fewshot.jsonl; do
+  if [[ ! -f "${required_file}" ]]; then
+    echo "缺少必需数据文件：${required_file}"
+    exit 1
+  fi
+done
 
 for model in mistral_7b_instruct_v0_3 olmo3_7b_instruct llama2_7b_hf; do
-  conda run -n fjm_CoT python scripts/download_models.py --model "${model}"
+  conda run -n fjm python scripts/download_models.py --model "${model}"
   if [[ "${model}" == "mistral_7b_instruct_v0_3" ]]; then
     zero_config="configs/runs/zero_shot_smoke_mistral.yaml"
     few_config="configs/runs/few_shot_smoke_mistral.yaml"
@@ -35,7 +46,7 @@ for model in mistral_7b_instruct_v0_3 olmo3_7b_instruct llama2_7b_hf; do
     exit 1
   fi
 
-  conda run -n fjm_CoT python scripts/run_zero_shot.py --config "${zero_config}"
-  conda run -n fjm_CoT python scripts/run_few_shot.py --config "${few_config}"
-  conda run -n fjm_CoT python scripts/run_self_consistency.py --config "${sc_config}"
+  conda run -n fjm python scripts/run_zero_shot.py --config "${zero_config}"
+  conda run -n fjm python scripts/run_few_shot.py --config "${few_config}"
+  conda run -n fjm python scripts/run_self_consistency.py --config "${sc_config}"
 done

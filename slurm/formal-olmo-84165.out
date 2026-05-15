@@ -1,0 +1,3 @@
+[zero_shot] config=configs/runs/formal/zero_shot_olmo3_7b_instruct_gsm8k.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_runs/zero_shot/olmo3_7b_instruct_gsm8k.log
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  83%|########3 | 296/355 [00:00<00:00, 2955.34it/s]Loading weights: 100%|##########| 355/355 [00:00<00:00, 2983.22it/s]

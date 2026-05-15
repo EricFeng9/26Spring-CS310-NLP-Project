@@ -1,0 +1,20 @@
+[zero_shot] config=configs/runs/formal/zero_shot_mistral_7b_instruct_v0_3_gsm8k.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_runs/zero_shot/mistral_7b_instruct_v0_3_gsm8k.log
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  26%|##6       | 76/291 [00:00<00:00, 747.50it/s]Loading weights:  57%|#####6    | 165/291 [00:00<00:00, 826.37it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 1006.01it/s]
+Traceback (most recent call last):
+  File "/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/scripts/run_zero_shot.py", line 37, in <module>
+    main()
+  File "/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/scripts/run_zero_shot.py", line 31, in main
+    results = run_zero_shot(run_config, model_config, prompt_config)
+  File "/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/src/pipeline.py", line 35, in run_zero_shot
+    prediction = extract_answer(
+  File "/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/src/sc/answering.py", line 56, in extract_answer
+    raise ValueError(f"GSM8K 答案抽取失败，原始文本为：{generated_text}")
+ValueError: GSM8K 答案抽取失败，原始文本为：1. To start earning money, the total income from selling lemons should be greater than the annual cost of watering and feeding the tree.
+2. Each year, the tree produces 7 lemons, which can be sold for $1.5 each, so the annual income is 7 * $1.5 = $10.5.
+3. The annual cost is $3.
+4. To start earning money, the annual income should be greater than the annual cost, so $10.5 > $3.
+5. This inequality is satisfied when the annual income is at least $3.01 (since $10.5 - $3 = $7.5 > $3).
+6. However, since the tree produces 7 lemons in its first year, it won't produce any lemons in the first year, so it won't generate any income in the first year.
+7. In the second year, the tree will produce 7 lemons, and the annual cost will still be $3.
+8. In the second year, the annual income will be $10.5, which is greater than the annual cost of $3, so he will start

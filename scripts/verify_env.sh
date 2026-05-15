@@ -6,7 +6,7 @@ PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "${PROJECT_ROOT}"
 
 source "$(conda info --base)/etc/profile.d/conda.sh"
-conda run -n fjm_CoT python - <<'PY'
+conda run -n fjm python - <<'PY'
 import importlib
 import torch
 

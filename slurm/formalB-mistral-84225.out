@@ -1,0 +1,34 @@
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  65%|██████▌   | 190/291 [00:00<00:00, 1895.94it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 2138.81it/s]
+[formal_group] loaded shared runner for model=mistral_7b_instruct_v0_3 configs=9 split=test
+[formal_group] config=configs/runs/formal/zero_shot_mistral_7b_instruct_v0_3_gsm8k.yaml
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_runs/zero_shot/mistral_7b_instruct_v0_3_gsm8k.log
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] loaded 1319 samples from split=test
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 1/1319 start id=gsm8k_test_0
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 1/1319 done id=gsm8k_test_0 prediction='18' gold='18' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 2/1319 start id=gsm8k_test_1
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 2/1319 done id=gsm8k_test_1 prediction='2' gold='3' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 3/1319 start id=gsm8k_test_2
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 3/1319 done id=gsm8k_test_2 prediction='90000' gold='70000' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 4/1319 start id=gsm8k_test_3
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 4/1319 done id=gsm8k_test_3 prediction='540' gold='540' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 5/1319 start id=gsm8k_test_4
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 5/1319 done id=gsm8k_test_4 prediction='20' gold='20' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 6/1319 start id=gsm8k_test_5
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 6/1319 done id=gsm8k_test_5 prediction='45' gold='64' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 7/1319 start id=gsm8k_test_6
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 7/1319 done id=gsm8k_test_6 prediction='260' gold='260' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 8/1319 start id=gsm8k_test_7
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 8/1319 done id=gsm8k_test_7 prediction='120' gold='160' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 9/1319 start id=gsm8k_test_8
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 9/1319 done id=gsm8k_test_8 prediction='475' gold='45' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 10/1319 start id=gsm8k_test_9
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 10/1319 done id=gsm8k_test_9 prediction='460' gold='460' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 11/1319 start id=gsm8k_test_10
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 11/1319 done id=gsm8k_test_10 prediction='366' gold='366' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 12/1319 start id=gsm8k_test_11
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 12/1319 done id=gsm8k_test_11 prediction='694' gold='694' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 13/1319 start id=gsm8k_test_12
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 13/1319 done id=gsm8k_test_12 prediction="1. To start earning money, the total income from selling lemons should be greater than the annual cost of watering and feeding the tree.\n2. Each year, the tree produces 7 lemons, which can be sold for $1.5 each, so the annual income is 7 * $1.5 = $10.5.\n3. The annual cost is $3.\n4. To start earning money, the annual income should be greater than the annual cost, so $10.5 > $3.\n5. This inequality is satisfied when the annual income is at least $3.01 (since $10.5 - $3 = $7.5 > $3).\n6. However, since the tree produces 7 lemons in its first year, it won't produce any lemons in the first year, so it won't generate any income in the first year.\n7. In the second year, the tree will produce 7 lemons, and the annual cost will still be $3.\n8. In the second year, the annual income will be $10.5, which is greater than the annual cost of $3, so he will start" gold='13' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 14/1319 start id=gsm8k_test_13
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 14/1319 done id=gsm8k_test_13 prediction='15' gold='18' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 15/1319 start id=gsm8k_test_14

@@ -16,9 +16,13 @@ if command -v mamba >/dev/null 2>&1; then
   ENV_MANAGER="mamba"
 fi
 
-if conda env list | awk '{print $1}' | grep -qx "fjm_CoT"; then
-  conda env remove -n fjm_CoT -y
+if conda env list | awk '{print $1}' | grep -qx "fjm"; then
+  conda env remove -n fjm -y
 fi
 
-"${ENV_MANAGER}" env create -f environment.yml -y
-conda run -n fjm_CoT python -m pip install --upgrade pip
+if [[ "${ENV_MANAGER}" == "mamba" ]]; then
+  "${ENV_MANAGER}" env create -f environment.yml -y
+else
+  "${ENV_MANAGER}" env create -f environment.yml
+fi
+conda run -n fjm python -m pip install --upgrade pip

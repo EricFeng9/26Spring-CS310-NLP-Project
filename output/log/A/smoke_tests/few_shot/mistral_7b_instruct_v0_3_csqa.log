@@ -1,0 +1,12 @@
+
+===== run started at 2026-05-15T01:07:58 =====
+[few_shot] config=configs/runs/few_shot_smoke_mistral.yaml
+[few_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/few_shot/mistral_7b_instruct_v0_3_csqa.log
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 3872.94it/s]
+Few-shot 运行完成，结果已写入：output/raw/A/smoke_tests/few_shot
+
+===== run started at 2026-05-15T12:02:06 =====
+[few_shot] config=configs/runs/few_shot_smoke_mistral.yaml
+[few_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/few_shot/mistral_7b_instruct_v0_3_csqa.log
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 3829.65it/s]
+Few-shot 运行完成，结果已写入：output/raw/A/smoke_tests/few_shot

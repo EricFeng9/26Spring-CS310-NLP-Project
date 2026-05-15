@@ -12,18 +12,32 @@ from src.sc.answering import extract_answer, majority_vote
 from src.utils import load_yaml, resolve_project_path
 
 
+def _progress_prefix(run_config: dict) -> str:
+    """生成统一的进度日志前缀。"""
+    return f"[{run_config['mode']}][{run_config['model_key']}][{run_config['dataset_key']}]"
+
+
 def load_fewshot_examples(path: str | Path) -> list:
     """读取 few-shot 示例。"""
     return load_jsonl_samples(path)
 
 
-def run_zero_shot(run_config: dict, model_config: dict, prompt_config: dict) -> list[dict]:
+def run_zero_shot(
+    run_config: dict,
+    model_config: dict,
+    prompt_config: dict,
+    runner: LocalModelRunner | None = None,
+) -> list[dict]:
     """执行 Zero-shot CoT。"""
     samples = load_processed_split(run_config["dataset_key"], run_config["split"], run_config["limit"])
-    runner = LocalModelRunner(model_config, prompt_config["system_prompt"])
+    total = len(samples)
+    prefix = _progress_prefix(run_config)
+    print(f"{prefix} loaded {total} samples from split={run_config['split']}", flush=True)
+    runner = runner or LocalModelRunner(model_config, prompt_config["system_prompt"])
     strict_answer_parsing = bool(run_config.get("strict_answer_parsing", True))
     results: list[dict] = []
-    for sample in samples:
+    for index, sample in enumerate(samples, start=1):
+        print(f"{prefix} sample {index}/{total} start id={sample.id}", flush=True)
         prompt = build_zero_shot_prompt(sample, prompt_config)
         output = runner.generate(
             prompt=prompt,
@@ -51,17 +65,37 @@ def run_zero_shot(run_config: dict, model_config: dict, prompt_config: dict) -> 
                 "prompt": output.prompt,
             }
         )
+        print(
+            f"{prefix} sample {index}/{total} done id={sample.id} "
+            f"prediction={prediction!r} gold={sample.gold_answer!r} correct={prediction == sample.gold_answer}"
+            ,
+            flush=True,
+        )
     return results
 
 
-def run_few_shot(run_config: dict, model_config: dict, prompt_config: dict) -> list[dict]:
+def run_few_shot(
+    run_config: dict,
+    model_config: dict,
+    prompt_config: dict,
+    runner: LocalModelRunner | None = None,
+) -> list[dict]:
     """执行 Few-shot CoT。"""
     samples = load_processed_split(run_config["dataset_key"], run_config["split"], run_config["limit"])
     fewshot_examples = load_fewshot_examples(run_config["few_shot_examples_path"])
-    runner = LocalModelRunner(model_config, prompt_config["system_prompt"])
+    total = len(samples)
+    prefix = _progress_prefix(run_config)
+    print(
+        f"{prefix} loaded {total} samples from split={run_config['split']} "
+        f"with {len(fewshot_examples)} few-shot examples"
+        ,
+        flush=True,
+    )
+    runner = runner or LocalModelRunner(model_config, prompt_config["system_prompt"])
     strict_answer_parsing = bool(run_config.get("strict_answer_parsing", True))
     results: list[dict] = []
-    for sample in samples:
+    for index, sample in enumerate(samples, start=1):
+        print(f"{prefix} sample {index}/{total} start id={sample.id}", flush=True)
         prompt = build_few_shot_prompt(sample, prompt_config, fewshot_examples)
         output = runner.generate(
             prompt=prompt,
@@ -89,20 +123,44 @@ def run_few_shot(run_config: dict, model_config: dict, prompt_config: dict) -> l
                 "prompt": output.prompt,
             }
         )
+        print(
+            f"{prefix} sample {index}/{total} done id={sample.id} "
+            f"prediction={prediction!r} gold={sample.gold_answer!r} correct={prediction == sample.gold_answer}"
+            ,
+            flush=True,
+        )
     return results
 
 
-def run_self_consistency(run_config: dict, model_config: dict, prompt_config: dict) -> list[dict]:
+def run_self_consistency(
+    run_config: dict,
+    model_config: dict,
+    prompt_config: dict,
+    runner: LocalModelRunner | None = None,
+) -> list[dict]:
     """执行 Self-Consistency。"""
     samples = load_processed_split(run_config["dataset_key"], run_config["split"], run_config["limit"])
-    runner = LocalModelRunner(model_config, prompt_config["system_prompt"])
+    total = len(samples)
+    prefix = _progress_prefix(run_config)
+    print(
+        f"{prefix} loaded {total} samples from split={run_config['split']} "
+        f"num_paths={run_config['num_paths']}"
+        ,
+        flush=True,
+    )
+    runner = runner or LocalModelRunner(model_config, prompt_config["system_prompt"])
     strict_answer_parsing = bool(run_config.get("strict_answer_parsing", True))
     results: list[dict] = []
-    for sample in samples:
+    for index, sample in enumerate(samples, start=1):
+        print(f"{prefix} sample {index}/{total} start id={sample.id}", flush=True)
         prompt = build_self_consistency_prompt(sample, prompt_config)
         paths: list[dict] = []
         answers: list[str] = []
-        for _ in range(run_config["num_paths"]):
+        for path_index in range(run_config["num_paths"]):
+            print(
+                f"{prefix} sample {index}/{total} path {path_index + 1}/{run_config['num_paths']} start",
+                flush=True,
+            )
             output = runner.generate(
                 prompt=prompt,
                 max_new_tokens=run_config["max_new_tokens"],
@@ -118,6 +176,12 @@ def run_self_consistency(run_config: dict, model_config: dict, prompt_config: di
             )
             answers.append(answer)
             paths.append({"reasoning": output.generated_text, "answer": answer})
+            print(
+                f"{prefix} sample {index}/{total} path {path_index + 1}/{run_config['num_paths']} "
+                f"answer={answer!r}"
+                ,
+                flush=True,
+            )
         prediction, vote_counts = majority_vote(answers)
         results.append(
             {
@@ -133,6 +197,13 @@ def run_self_consistency(run_config: dict, model_config: dict, prompt_config: di
                 "paths": paths,
                 "vote_counts": vote_counts,
             }
+        )
+        print(
+            f"{prefix} sample {index}/{total} done id={sample.id} "
+            f"prediction={prediction!r} gold={sample.gold_answer!r} "
+            f"correct={prediction == sample.gold_answer} vote_counts={vote_counts}"
+            ,
+            flush=True,
         )
     return results
 

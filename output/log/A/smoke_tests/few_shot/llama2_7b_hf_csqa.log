@@ -1,0 +1,12 @@
+
+===== run started at 2026-05-15T02:11:55 =====
+[few_shot] config=configs/runs/few_shot_smoke_llama2.yaml
+[few_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/few_shot/llama2_7b_hf_csqa.log
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 3451.25it/s]
+Few-shot 运行完成，结果已写入：output/raw/A/smoke_tests/few_shot
+
+===== run started at 2026-05-15T13:08:36 =====
+[few_shot] config=configs/runs/few_shot_smoke_llama2.yaml
+[few_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/few_shot/llama2_7b_hf_csqa.log
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 3758.13it/s]
+Few-shot 运行完成，结果已写入：output/raw/A/smoke_tests/few_shot

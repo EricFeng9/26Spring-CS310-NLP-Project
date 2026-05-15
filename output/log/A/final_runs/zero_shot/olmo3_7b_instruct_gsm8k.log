@@ -1,0 +1,67 @@
+
+===== run started at 2026-05-15T15:08:51 =====
+[zero_shot] config=configs/runs/formal/zero_shot_olmo3_7b_instruct_gsm8k.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_runs/zero_shot/olmo3_7b_instruct_gsm8k.log
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  29%|##9       | 103/355 [00:00<00:00, 1029.32it/s]Loading weights:  62%|######1   | 220/355 [00:00<00:00, 1105.05it/s]Loading weights:  93%|#########3| 331/355 [00:00<00:00, 1078.11it/s]Loading weights: 100%|##########| 355/355 [00:00<00:00, 1150.20it/s]
+
+===== run started at 2026-05-15T15:44:03 =====
+[zero_shot] config=configs/runs/formal/zero_shot_olmo3_7b_instruct_gsm8k.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_runs/zero_shot/olmo3_7b_instruct_gsm8k.log
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  35%|###4      | 123/355 [00:00<00:00, 1191.29it/s]Loading weights:  68%|######8   | 243/355 [00:00<00:00, 1093.07it/s]Loading weights:  99%|#########9| 353/355 [00:00<00:00, 1066.31it/s]Loading weights: 100%|##########| 355/355 [00:00<00:00, 1087.69it/s]
+
+===== run started at 2026-05-15T16:15:06 =====
+[zero_shot] config=configs/runs/formal/zero_shot_olmo3_7b_instruct_gsm8k.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_runs/zero_shot/olmo3_7b_instruct_gsm8k.log
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights:  83%|########3 | 296/355 [00:00<00:00, 2955.34it/s]Loading weights: 100%|##########| 355/355 [00:00<00:00, 2983.22it/s]
+
+===== run started at 2026-05-15T19:54:16 =====
+[formal_group] config=configs/runs/formal/zero_shot_olmo3_7b_instruct_gsm8k.yaml
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_runs/zero_shot/olmo3_7b_instruct_gsm8k.log
+[zero_shot][olmo3_7b_instruct][gsm8k] loaded 1319 samples from split=test
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 1/1319 start id=gsm8k_test_0
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 1/1319 done id=gsm8k_test_0 prediction='18' gold='18' correct=True
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 2/1319 start id=gsm8k_test_1
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 2/1319 done id=gsm8k_test_1 prediction='3' gold='3' correct=True
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 3/1319 start id=gsm8k_test_2
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 3/1319 done id=gsm8k_test_2 prediction='70000' gold='70000' correct=True
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 4/1319 start id=gsm8k_test_3
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 4/1319 done id=gsm8k_test_3 prediction='540' gold='540' correct=True
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 5/1319 start id=gsm8k_test_4
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 5/1319 done id=gsm8k_test_4 prediction='0' gold='20' correct=False
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 6/1319 start id=gsm8k_test_5
+
+===== run started at 2026-05-15T20:14:34 =====
+[formal_group] config=configs/runs/formal/zero_shot_olmo3_7b_instruct_gsm8k.yaml
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_runs/zero_shot/olmo3_7b_instruct_gsm8k.log
+[zero_shot][olmo3_7b_instruct][gsm8k] loaded 1319 samples from split=test
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 1/1319 start id=gsm8k_test_0
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 1/1319 done id=gsm8k_test_0 prediction='18' gold='18' correct=True
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 2/1319 start id=gsm8k_test_1
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 2/1319 done id=gsm8k_test_1 prediction='3' gold='3' correct=True
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 3/1319 start id=gsm8k_test_2
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 3/1319 done id=gsm8k_test_2 prediction='70000' gold='70000' correct=True
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 4/1319 start id=gsm8k_test_3
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 4/1319 done id=gsm8k_test_3 prediction='540' gold='540' correct=True
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 5/1319 start id=gsm8k_test_4
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 5/1319 done id=gsm8k_test_4 prediction='0' gold='20' correct=False
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 6/1319 start id=gsm8k_test_5
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 6/1319 done id=gsm8k_test_5 prediction='64' gold='64' correct=True
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 7/1319 start id=gsm8k_test_6
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 7/1319 done id=gsm8k_test_6 prediction='260' gold='260' correct=True
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 8/1319 start id=gsm8k_test_7
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 8/1319 done id=gsm8k_test_7 prediction='First, calculate the total time Carla would take to download the 200 GB file at her normal rate of 2 GB per minute.  \nTotal time without interruptions = Total size ÷ Rate = 200 GB ÷ 2 GB/minute = 100 minutes.  \n\nNext, determine how far she has downloaded before the forced restart.  \n40% of 200 GB = 0.4 × 200 = 80 GB.  \n\nTime to download the first 80 GB at 2 GB/minute:  \n80 GB ÷ 2 GB/minute = 40 minutes.  \n\nAt this point, she has been downloading for 40 minutes.  \nThen, Windows restarts her download for 20 minutes, but no data is downloaded during this time.  \n\nAfter the restart, she has to re-download the entire 200 GB from scratch.  \nTime to re-download 200 GB at 2 GB/minute = 200 ÷ 2 = 100 minutes.  \n\nTotal time = time before restart (40 minutes) + restart time (20 minutes) + re-download time (100 minutes)  \n= 40 + 20 + 100 = 160 minutes.  \n\nTo find the total amount of data downloaded, note that the only data downloaded' gold='160' correct=False
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 9/1319 start id=gsm8k_test_8
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 9/1319 done id=gsm8k_test_8 prediction="Let's break down the problem step by step.\n\n**Step 1: Calculate the distance John traveled away from home.**\n- John drives for 3 hours at 60 mph.\n- Distance = speed × time = 60 mph × 3 hours = 180 miles.\nSo, John is 180 miles from home after the first leg.\n\n**Step 2: Analyze John's return journey.**\n- He has 4 hours total to get home.\n- He spends the first 2 hours in standstill traffic (not moving).\n- Then, he drives for 0.5 hours at 30 mph toward home.\n\nDistance covered during return driving:\n- 30 mph × 0.5 hours = 15 miles.\nThis means he reduces his distance from home by 15 miles, so now he is 180 - 15 = 165 miles from home.\n\n**Step 3: Calculate remaining time and distance for the final leg.**\n- Total time allowed to get home: 4 hours.\n- Time already used: 2 hours (traffic) + 0.5 hours (return driving) = 2.5 hours.\n- Remaining time: 4 - 2.5 = 1.5 hours.\n\n**Step 4" gold='45' correct=False
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 10/1319 start id=gsm8k_test_9
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 10/1319 done id=gsm8k_test_9 prediction='460' gold='460' correct=True
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 11/1319 start id=gsm8k_test_10
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 11/1319 done id=gsm8k_test_10 prediction='366' gold='366' correct=True
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 12/1319 start id=gsm8k_test_11
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 12/1319 done id=gsm8k_test_11 prediction='694' gold='694' correct=True
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 13/1319 start id=gsm8k_test_12
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 13/1319 done id=gsm8k_test_12 prediction="To determine how many years it will take for Carlos to start earning money from the lemon tree, we need to calculate the net profit per year after accounting for the cost of maintenance. \n\nEach year, the tree produces 7 lemons, and he sells each lemon for $1.5. So, his annual revenue from lemons is:\n7 lemons/year × $1.5/lemon = $10.50/year\n\nThe annual cost to maintain the tree is $3. Therefore, his net profit per year is:\n$10.50 (revenue) - $3 (cost) = $7.50 net profit/year\n\nSince the initial cost to plant the tree is $90, we need to find how many years it will take for the total net profit to equal or exceed $90:\nLet n be the number of years.  \nTotal profit after n years = n × $7.50\n\nWe set up the inequality:\nn × $7.50 ≥ $90\n\nSolve for n:\nn ≥ $90 ÷ $7.50  \nn ≥ 12\n\nAfter 12 years, Carlos's total net profit will be exactly $90, meaning he starts breaking even in the 13th year (since he won't" gold='13' correct=False
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 14/1319 start id=gsm8k_test_13
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 14/1319 done id=gsm8k_test_13 prediction='Let x be the number of vacuum cleaners Melanie started with.\n\n1. At the green house, she sold (1/3)x vacuum cleaners.\n2. After the green house, she had x - (1/3)x = (2/3)x vacuum cleaners left.\n3. She sold 2 more at the red house, so remaining after red house: (2/3)x - 2.\n4. At the orange house, she sold half of what was left, i.e., (1/2)[(2/3)x - 2].\n   After the orange house, she has the other half left: [(2/3)x - 2]/2.\n5. We know she has 5 vacuum cleaners left after all sales. So:\n   [(2/3)x - 2]/2 = 5\n6. Multiply both sides by 2:\n   (2/3)x - 2 = 10\n7. Add 2 to both sides:\n   (2/3)x = 12\n8. Multiply both sides by (3/2):\n   x = 12 * (3/2) = 18\n9. Check: Started with 18. Sold 6 at green (1/3 of' gold='18' correct=False
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 15/1319 start id=gsm8k_test_14
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 15/1319 done id=gsm8k_test_14 prediction='60' gold='60' correct=True
+[zero_shot][olmo3_7b_instruct][gsm8k] sample 16/1319 start id=gsm8k_test_15

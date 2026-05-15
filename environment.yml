@@ -1,4 +1,4 @@
-name: fjm_CoT
+name: fjm
 channels:
   - pytorch
   - nvidia

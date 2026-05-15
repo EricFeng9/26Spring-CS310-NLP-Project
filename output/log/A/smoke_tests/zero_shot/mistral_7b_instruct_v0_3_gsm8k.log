@@ -1,0 +1,12 @@
+
+===== run started at 2026-05-15T01:02:15 =====
+[zero_shot] config=configs/runs/zero_shot_smoke_mistral.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/zero_shot/mistral_7b_instruct_v0_3_gsm8k.log
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  27%|##7       | 80/291 [00:00<00:00, 771.67it/s]Loading weights:  54%|#####4    | 158/291 [00:00<00:00, 704.18it/s]Loading weights:  79%|#######8  | 229/291 [00:00<00:00, 663.06it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 766.49it/s]
+Zero-shot 运行完成，结果已写入：output/raw/A/smoke_tests/zero_shot
+
+===== run started at 2026-05-15T11:56:23 =====
+[zero_shot] config=configs/runs/zero_shot_smoke_mistral.yaml
+[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/zero_shot/mistral_7b_instruct_v0_3_gsm8k.log
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  15%|#5        | 44/291 [00:00<00:00, 439.32it/s]Loading weights:  38%|###8      | 111/291 [00:00<00:00, 561.20it/s]Loading weights:  60%|######    | 176/291 [00:00<00:00, 598.19it/s]Loading weights:  81%|########1 | 236/291 [00:00<00:00, 559.16it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 680.39it/s]
+Zero-shot 运行完成，结果已写入：output/raw/A/smoke_tests/zero_shot

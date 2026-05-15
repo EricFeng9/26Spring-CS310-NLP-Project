@@ -1,0 +1,12 @@
+
+===== run started at 2026-05-15T01:45:43 =====
+[self_consistency] config=configs/runs/self_consistency_smoke_olmo.yaml
+[self_consistency] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/self_consistency/olmo3_7b_instruct_mmlu.log
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights: 100%|##########| 355/355 [00:00<00:00, 3702.08it/s]
+Self-Consistency 运行完成，结果已写入：output/raw/A/smoke_tests/self_consistency
+
+===== run started at 2026-05-15T12:42:05 =====
+[self_consistency] config=configs/runs/self_consistency_smoke_olmo.yaml
+[self_consistency] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/self_consistency/olmo3_7b_instruct_mmlu.log
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights: 100%|##########| 355/355 [00:00<00:00, 3748.26it/s]
+Self-Consistency 运行完成，结果已写入：output/raw/A/smoke_tests/self_consistency

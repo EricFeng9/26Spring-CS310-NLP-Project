@@ -1,0 +1,12 @@
+
+===== run started at 2026-05-15T01:38:14 =====
+[few_shot] config=configs/runs/few_shot_smoke_olmo.yaml
+[few_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/few_shot/olmo3_7b_instruct_csqa.log
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights: 100%|##########| 355/355 [00:00<00:00, 3689.92it/s]
+Few-shot 运行完成，结果已写入：output/raw/A/smoke_tests/few_shot
+
+===== run started at 2026-05-15T12:34:36 =====
+[few_shot] config=configs/runs/few_shot_smoke_olmo.yaml
+[few_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/few_shot/olmo3_7b_instruct_csqa.log
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights: 100%|##########| 355/355 [00:00<00:00, 3732.53it/s]
+Few-shot 运行完成，结果已写入：output/raw/A/smoke_tests/few_shot

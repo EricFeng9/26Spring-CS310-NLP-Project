@@ -25,6 +25,7 @@ def list_model_keys() -> list[str]:
     preferred_order = [
         "mistral_7b_instruct_v0_3",
         "olmo3_7b_instruct",
+        "llama2_7b_hf",
         "phi3_5_mini_instruct",
         "qwen2_5_7b_instruct",
     ]

@@ -1,0 +1,12 @@
+
+===== run started at 2026-05-15T01:14:59 =====
+[self_consistency] config=configs/runs/self_consistency_smoke_mistral.yaml
+[self_consistency] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/self_consistency/mistral_7b_instruct_v0_3_mmlu.log
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 3622.85it/s]
+Self-Consistency 运行完成，结果已写入：output/raw/A/smoke_tests/self_consistency
+
+===== run started at 2026-05-15T12:09:06 =====
+[self_consistency] config=configs/runs/self_consistency_smoke_mistral.yaml
+[self_consistency] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/smoke_tests/self_consistency/mistral_7b_instruct_v0_3_mmlu.log
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 3813.67it/s]
+Self-Consistency 运行完成，结果已写入：output/raw/A/smoke_tests/self_consistency
