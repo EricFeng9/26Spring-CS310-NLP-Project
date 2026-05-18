@@ -1,13 +1,3 @@
-[zero_shot] config=configs/runs/formal/zero_shot_llama2_7b_hf_gsm8k.yaml
-[zero_shot] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_runs/zero_shot/llama2_7b_hf_gsm8k.log
-[zero_shot][llama2_7b_hf][gsm8k] loaded 1319 samples from split=test
-Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  32%|###1      | 92/291 [00:00<00:00, 915.38it/s]Loading weights:  63%|######3   | 184/291 [00:00<00:00, 888.93it/s]Loading weights: 100%|##########| 291/291 [00:00<00:00, 975.87it/s]
-[transformers] Both `max_new_tokens` (=256) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-[transformers] Both `max_new_tokens` (=256) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-[transformers] Both `max_new_tokens` (=256) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-[transformers] Both `max_new_tokens` (=256) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-[transformers] Both `max_new_tokens` (=256) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-[transformers] Both `max_new_tokens` (=256) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
 Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  67%|██████▋   | 196/291 [00:00<00:00, 1955.42it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 2063.13it/s]
 [formal_group] loaded shared runner for model=llama2_7b_hf configs=9 split=test
 [formal_group] config=configs/runs/formal/zero_shot_llama2_7b_hf_gsm8k.yaml

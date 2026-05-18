@@ -17,6 +17,17 @@ def _progress_prefix(run_config: dict) -> str:
     return f"[{run_config['mode']}][{run_config['model_key']}][{run_config['dataset_key']}]"
 
 
+def _load_run_samples(run_config: dict):
+    """根据运行配置读取全量或固定随机样本。"""
+    return load_processed_split(
+        run_config["dataset_key"],
+        run_config["split"],
+        run_config.get("limit"),
+        run_config.get("sample_size"),
+        run_config.get("sample_seed"),
+    )
+
+
 def load_fewshot_examples(path: str | Path) -> list:
     """读取 few-shot 示例。"""
     return load_jsonl_samples(path)
@@ -29,7 +40,7 @@ def run_zero_shot(
     runner: LocalModelRunner | None = None,
 ) -> list[dict]:
     """执行 Zero-shot CoT。"""
-    samples = load_processed_split(run_config["dataset_key"], run_config["split"], run_config["limit"])
+    samples = _load_run_samples(run_config)
     total = len(samples)
     prefix = _progress_prefix(run_config)
     print(f"{prefix} loaded {total} samples from split={run_config['split']}", flush=True)
@@ -81,7 +92,7 @@ def run_few_shot(
     runner: LocalModelRunner | None = None,
 ) -> list[dict]:
     """执行 Few-shot CoT。"""
-    samples = load_processed_split(run_config["dataset_key"], run_config["split"], run_config["limit"])
+    samples = _load_run_samples(run_config)
     fewshot_examples = load_fewshot_examples(run_config["few_shot_examples_path"])
     total = len(samples)
     prefix = _progress_prefix(run_config)
@@ -139,7 +150,7 @@ def run_self_consistency(
     runner: LocalModelRunner | None = None,
 ) -> list[dict]:
     """执行 Self-Consistency。"""
-    samples = load_processed_split(run_config["dataset_key"], run_config["split"], run_config["limit"])
+    samples = _load_run_samples(run_config)
     total = len(samples)
     prefix = _progress_prefix(run_config)
     print(

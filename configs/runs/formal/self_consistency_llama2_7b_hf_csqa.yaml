@@ -2,11 +2,13 @@ mode: self_consistency
 model_key: llama2_7b_hf
 dataset_key: csqa
 split: validation
-limit:
-output_dir: output/raw/A/final_runs/self_consistency
+limit: null
+output_dir: output/raw/A/sampled_200/self_consistency
 num_paths: 5
 max_new_tokens: 512
 temperature: 0.7
 top_p: 0.9
 do_sample: true
 strict_answer_parsing: false
+sample_size: 200
+sample_seed: 42

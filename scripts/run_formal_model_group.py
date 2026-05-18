@@ -59,9 +59,22 @@ FORMAL_CONFIGS: dict[str, list[str]] = {
 }
 
 
-def run_one_config(config_path: str, runner: LocalModelRunner) -> None:
+def run_one_config(
+    config_path: str,
+    runner: LocalModelRunner,
+    output_root: str | None,
+    sample_size: int | None,
+    sample_seed: int | None,
+) -> None:
     """运行单个 formal 配置。"""
     run_config, model_config, prompt_config = load_core_configs(config_path)
+    if output_root is not None:
+        run_config["output_dir"] = str(Path(output_root) / run_config["mode"])
+    if sample_size is not None:
+        run_config["sample_size"] = sample_size
+        run_config["limit"] = None
+    if sample_seed is not None:
+        run_config["sample_seed"] = sample_seed
     result_name = f"{run_config['model_key']}_{run_config['dataset_key']}"
     log_dir = derive_log_dir_from_output_dir(run_config["output_dir"])
     log_path = log_dir / f"{result_name}.log"
@@ -84,6 +97,9 @@ def main() -> None:
     """脚本入口。"""
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", required=True, choices=sorted(FORMAL_CONFIGS))
+    parser.add_argument("--output-root")
+    parser.add_argument("--sample-size", type=int)
+    parser.add_argument("--sample-seed", type=int)
     args = parser.parse_args()
 
     config_paths = FORMAL_CONFIGS[args.model]
@@ -96,7 +112,7 @@ def main() -> None:
         flush=True,
     )
     for config_path in config_paths:
-        run_one_config(config_path, runner)
+        run_one_config(config_path, runner, args.output_root, args.sample_size, args.sample_seed)
     print(f"[formal_group] all configs completed for model={args.model}", flush=True)
 
 

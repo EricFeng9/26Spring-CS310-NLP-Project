@@ -2,11 +2,13 @@ mode: few_shot
 model_key: llama2_7b_hf
 dataset_key: mmlu
 split: validation
-limit:
+limit: null
 few_shot_examples_path: data/processed/fewshot/mmlu_fewshot.jsonl
-output_dir: output/raw/A/final_runs/few_shot
+output_dir: output/raw/A/sampled_200/few_shot
 max_new_tokens: 256
 temperature: 0.0
 top_p: 1.0
 do_sample: false
-strict_answer_parsing: true
+strict_answer_parsing: false
+sample_size: 200
+sample_seed: 42

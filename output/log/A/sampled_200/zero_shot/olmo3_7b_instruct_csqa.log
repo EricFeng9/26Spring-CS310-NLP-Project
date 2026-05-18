@@ -1,0 +1,34 @@
+
+===== run started at 2026-05-18T09:40:16 =====
+[formal_group] config=configs/runs/formal/zero_shot_olmo3_7b_instruct_csqa.yaml
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/sampled_200/zero_shot/olmo3_7b_instruct_csqa.log
+[zero_shot][olmo3_7b_instruct][csqa] loaded 200 samples from split=validation
+[zero_shot][olmo3_7b_instruct][csqa] sample 1/200 start id=a7ab086045575bb497933726e4e6ad28
+[zero_shot][olmo3_7b_instruct][csqa] sample 1/200 done id=a7ab086045575bb497933726e4e6ad28 prediction='A' gold='A' correct=True
+[zero_shot][olmo3_7b_instruct][csqa] sample 2/200 start id=118a9093a30695622363455e4d911866
+[zero_shot][olmo3_7b_instruct][csqa] sample 2/200 done id=118a9093a30695622363455e4d911866 prediction='B' gold='B' correct=True
+[zero_shot][olmo3_7b_instruct][csqa] sample 3/200 start id=7ea9f721ffc662918bb0c0937a487f04
+[zero_shot][olmo3_7b_instruct][csqa] sample 3/200 done id=7ea9f721ffc662918bb0c0937a487f04 prediction='E' gold='D' correct=False
+[zero_shot][olmo3_7b_instruct][csqa] sample 4/200 start id=fc1d33a2301a30214523c12573f81aba
+[zero_shot][olmo3_7b_instruct][csqa] sample 4/200 done id=fc1d33a2301a30214523c12573f81aba prediction='C' gold='C' correct=True
+[zero_shot][olmo3_7b_instruct][csqa] sample 5/200 start id=b8b287b6277fccd4b7c9c72577177328
+[zero_shot][olmo3_7b_instruct][csqa] sample 5/200 done id=b8b287b6277fccd4b7c9c72577177328 prediction='D' gold='D' correct=True
+[zero_shot][olmo3_7b_instruct][csqa] sample 6/200 start id=113aaea2b1a27a976547f54e531d99bb
+[zero_shot][olmo3_7b_instruct][csqa] sample 6/200 done id=113aaea2b1a27a976547f54e531d99bb prediction='B' gold='B' correct=True
+[zero_shot][olmo3_7b_instruct][csqa] sample 7/200 start id=e6586bba9fe96d38792e6e6d4f2703dc
+[zero_shot][olmo3_7b_instruct][csqa] sample 7/200 done id=e6586bba9fe96d38792e6e6d4f2703dc prediction='B' gold='E' correct=False
+[zero_shot][olmo3_7b_instruct][csqa] sample 8/200 start id=435a728f45d32faa4b3c4553c966fd6b
+[zero_shot][olmo3_7b_instruct][csqa] sample 8/200 done id=435a728f45d32faa4b3c4553c966fd6b prediction='B' gold='B' correct=True
+[zero_shot][olmo3_7b_instruct][csqa] sample 9/200 start id=b47d912136e3304cb5e5890b6b879551
+[zero_shot][olmo3_7b_instruct][csqa] sample 9/200 done id=b47d912136e3304cb5e5890b6b879551 prediction='D' gold='D' correct=True
+[zero_shot][olmo3_7b_instruct][csqa] sample 10/200 start id=a8a8ae7792901c7179ff5538c701af1f
+[zero_shot][olmo3_7b_instruct][csqa] sample 10/200 done id=a8a8ae7792901c7179ff5538c701af1f prediction='E' gold='E' correct=True
+[zero_shot][olmo3_7b_instruct][csqa] sample 11/200 start id=ec79ef747bb89281923edb89ba26786d
+[zero_shot][olmo3_7b_instruct][csqa] sample 11/200 done id=ec79ef747bb89281923edb89ba26786d prediction='A' gold='A' correct=True
+[zero_shot][olmo3_7b_instruct][csqa] sample 12/200 start id=2d33cde5e3987adc8fa2bca0af4dd3dd
+[zero_shot][olmo3_7b_instruct][csqa] sample 12/200 done id=2d33cde5e3987adc8fa2bca0af4dd3dd prediction='A' gold='A' correct=True
+[zero_shot][olmo3_7b_instruct][csqa] sample 13/200 start id=1a8b3c2a46efabcbd506f9cf70886ed0
+[zero_shot][olmo3_7b_instruct][csqa] sample 13/200 done id=1a8b3c2a46efabcbd506f9cf70886ed0 prediction='E' gold='E' correct=True
+[zero_shot][olmo3_7b_instruct][csqa] sample 14/200 start id=1531f1523f5fd24bbdb42c311dbf90e8
+[zero_shot][olmo3_7b_instruct][csqa] sample 14/200 done id=1531f1523f5fd24bbdb42c311dbf90e8 prediction='D' gold='E' correct=False
+[zero_shot][olmo3_7b_instruct][csqa] sample 15/200 start id=ef22ef7aeec70aaa688720f805c1cf38

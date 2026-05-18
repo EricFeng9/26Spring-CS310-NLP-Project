@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#SBATCH --job-name=formalC-llama2
+#SBATCH --job-name=taskA200-llama2
 #SBATCH --account=gpulab02
 #SBATCH --partition=titan
 #SBATCH --qos=titan
@@ -7,7 +7,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=32G
 #SBATCH --time=3-00:00:00
-#SBATCH --exclusive
 #SBATCH --output=slurm/%x-%j.out
 #SBATCH --error=slurm/%x-%j.err
 
@@ -16,6 +15,6 @@ cd /home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project
 source /opt/ohpc/pub/apps/anaconda3/etc/profile.d/conda.sh
 conda activate fjm
 export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0}"
-mkdir -p output/log/A/final_runs
-exec > >(tee -a output/log/A/final_runs/run_formal_llama2.log) 2>&1
+mkdir -p output/log/A/sampled_200
+exec > >(tee -a output/log/A/sampled_200/run_taskA200_llama2.log) 2>&1
 python -u scripts/run_formal_model_group.py --model llama2_7b_hf

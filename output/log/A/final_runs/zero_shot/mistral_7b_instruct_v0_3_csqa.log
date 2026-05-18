@@ -1,0 +1,110 @@
+
+===== run started at 2026-05-17T17:44:05 =====
+[formal_group] config=configs/runs/formal/zero_shot_mistral_7b_instruct_v0_3_csqa.yaml
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_runs/zero_shot/mistral_7b_instruct_v0_3_csqa.log
+[zero_shot][mistral_7b_instruct_v0_3][csqa] loaded 1221 samples from split=validation
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 1/1221 start id=1afa02df02c908a558b4036e80242fac
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 1/1221 done id=1afa02df02c908a558b4036e80242fac prediction='A' gold='A' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 2/1221 start id=a7ab086045575bb497933726e4e6ad28
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 2/1221 done id=a7ab086045575bb497933726e4e6ad28 prediction='A' gold='A' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 3/1221 start id=b8c0a4703079cf661d7261a60a1bcbff
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 3/1221 done id=b8c0a4703079cf661d7261a60a1bcbff prediction='E' gold='B' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 4/1221 start id=e68fb2448fd74e402aae9982aa76e527
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 4/1221 done id=e68fb2448fd74e402aae9982aa76e527 prediction='A' gold='A' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 5/1221 start id=2435de612dd69f2012b9e40d6af4ce38
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 5/1221 done id=2435de612dd69f2012b9e40d6af4ce38 prediction='E' gold='A' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 6/1221 start id=a4892551cb4beb279653ae52d0de4c89
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 6/1221 done id=a4892551cb4beb279653ae52d0de4c89 prediction='E' gold='C' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 7/1221 start id=118a9093a30695622363455e4d911866
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 7/1221 done id=118a9093a30695622363455e4d911866 prediction='C' gold='B' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 8/1221 start id=05ea49b82e8ec519e82d6633936ab8bf
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 8/1221 done id=05ea49b82e8ec519e82d6633936ab8bf prediction='E' gold='D' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 9/1221 start id=c0c07ce781653b2a2c01871ba2bcba93
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 9/1221 done id=c0c07ce781653b2a2c01871ba2bcba93 prediction='C' gold='A' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 10/1221 start id=1d24f406b6828492040b405d3f35119c
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 10/1221 done id=1d24f406b6828492040b405d3f35119c prediction='C' gold='C' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 11/1221 start id=57f92025d860e32c4e780c0d51c1c20c
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 11/1221 done id=57f92025d860e32c4e780c0d51c1c20c prediction='B' gold='E' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 12/1221 start id=81eb4b2ee66edd8bc91ee944697c4e9f
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 12/1221 done id=81eb4b2ee66edd8bc91ee944697c4e9f prediction='E' gold='D' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 13/1221 start id=d807e7ae60976324920c8d29eb42dad6
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 13/1221 done id=d807e7ae60976324920c8d29eb42dad6 prediction='A' gold='A' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 14/1221 start id=7ea9f721ffc662918bb0c0937a487f04
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 14/1221 done id=7ea9f721ffc662918bb0c0937a487f04 prediction='D' gold='D' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 15/1221 start id=fc1d33a2301a30214523c12573f81aba
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 15/1221 done id=fc1d33a2301a30214523c12573f81aba prediction='D' gold='C' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 16/1221 start id=3b8e1d236f5169b6c833a994d6d9c39a
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 16/1221 done id=3b8e1d236f5169b6c833a994d6d9c39a prediction='E' gold='D' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 17/1221 start id=c5c4166f2ed3c2b3517b79e6848e9ae2
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 17/1221 done id=c5c4166f2ed3c2b3517b79e6848e9ae2 prediction='B' gold='D' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 18/1221 start id=6dc5b2884737e66543ce65f8dc40c992
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 18/1221 done id=6dc5b2884737e66543ce65f8dc40c992 prediction='D' gold='E' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 19/1221 start id=8af63d58cc35061dec38e5448c325988
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 19/1221 done id=8af63d58cc35061dec38e5448c325988 prediction='E' gold='E' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 20/1221 start id=768fb09deab56046e1565b6a2556ad5c
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 20/1221 done id=768fb09deab56046e1565b6a2556ad5c prediction='A' gold='D' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 21/1221 start id=cd639cf3ff82f825ace7dd2b087562bd
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 21/1221 done id=cd639cf3ff82f825ace7dd2b087562bd prediction='C' gold='D' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 22/1221 start id=8d79cc5e4eea11f50fab18fdea20fd4f
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 22/1221 done id=8d79cc5e4eea11f50fab18fdea20fd4f prediction='A' gold='C' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 23/1221 start id=e5ad2184e37ae88b2bf46bf6bc0ed2f4
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 23/1221 done id=e5ad2184e37ae88b2bf46bf6bc0ed2f4 prediction='E' gold='D' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 24/1221 start id=b8b287b6277fccd4b7c9c72577177328
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 24/1221 done id=b8b287b6277fccd4b7c9c72577177328 prediction='E' gold='D' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 25/1221 start id=f646f3e064f06423fc25b98500796cf0
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 25/1221 done id=f646f3e064f06423fc25b98500796cf0 prediction='A' gold='E' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 26/1221 start id=b0f7d7978ac41c465108a92660d70e84
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 26/1221 done id=b0f7d7978ac41c465108a92660d70e84 prediction='D' gold='D' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 27/1221 start id=54075de8b8b89ecef2e4eb4eaee2713d
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 27/1221 done id=54075de8b8b89ecef2e4eb4eaee2713d prediction='A' gold='B' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 28/1221 start id=65435b996ce9d1685bebb74b49c1ba7f
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 28/1221 done id=65435b996ce9d1685bebb74b49c1ba7f prediction='E' gold='A' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 29/1221 start id=9889e5389917d812c09d6e5d382d333d
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 29/1221 done id=9889e5389917d812c09d6e5d382d333d prediction='B' gold='B' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 30/1221 start id=a651ffa44ac5febf0aede6748899b981
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 30/1221 done id=a651ffa44ac5febf0aede6748899b981 prediction='E' gold='B' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 31/1221 start id=bdcfbe2132295d437e4c5701085f19c0
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 31/1221 done id=bdcfbe2132295d437e4c5701085f19c0 prediction='D' gold='B' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 32/1221 start id=8d3dc21a53523850ec80771daaa5ff20
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 32/1221 done id=8d3dc21a53523850ec80771daaa5ff20 prediction='E' gold='A' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 33/1221 start id=a80ee7775e934c423012fe98e20ba28b
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 33/1221 done id=a80ee7775e934c423012fe98e20ba28b prediction='D' gold='E' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 34/1221 start id=48a315cfa3ce11f7a9d615bc854331d5
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 34/1221 done id=48a315cfa3ce11f7a9d615bc854331d5 prediction='E' gold='D' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 35/1221 start id=4acd496cc78d96c2431279a5fd87de7c
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 35/1221 done id=4acd496cc78d96c2431279a5fd87de7c prediction='E' gold='E' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 36/1221 start id=91e0f4ab62c9d2fd440d73a3f5308d96
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 36/1221 done id=91e0f4ab62c9d2fd440d73a3f5308d96 prediction='C' gold='C' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 37/1221 start id=b61e849e44db16a581f0b65e28ab95dc
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 37/1221 done id=b61e849e44db16a581f0b65e28ab95dc prediction='C' gold='C' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 38/1221 start id=ba6bd1bdef02d0ebfe5370f92365ae18
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 38/1221 done id=ba6bd1bdef02d0ebfe5370f92365ae18 prediction='A' gold='B' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 39/1221 start id=dc55d473c22b04877b11d584f9548194
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 39/1221 done id=dc55d473c22b04877b11d584f9548194 prediction='E' gold='A' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 40/1221 start id=113aaea2b1a27a976547f54e531d99bb
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 40/1221 done id=113aaea2b1a27a976547f54e531d99bb prediction='D' gold='B' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 41/1221 start id=ba640b9634ad6b4ad98b17b4f152e562
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 41/1221 done id=ba640b9634ad6b4ad98b17b4f152e562 prediction='E' gold='B' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 42/1221 start id=750ebdf36a0b3b407be0fe2163e3700b
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 42/1221 done id=750ebdf36a0b3b407be0fe2163e3700b prediction='B' gold='B' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 43/1221 start id=8f01273422a370a8dbda6bf473a395a0
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 43/1221 done id=8f01273422a370a8dbda6bf473a395a0 prediction='E' gold='E' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 44/1221 start id=e6586bba9fe96d38792e6e6d4f2703dc
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 44/1221 done id=e6586bba9fe96d38792e6e6d4f2703dc prediction='E' gold='E' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 45/1221 start id=6e433471d0e2590b8c73ceef275022b1
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 45/1221 done id=6e433471d0e2590b8c73ceef275022b1 prediction='A' gold='D' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 46/1221 start id=1bc986f8aea88d6927d8a45367855a94
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 46/1221 done id=1bc986f8aea88d6927d8a45367855a94 prediction='D' gold='E' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 47/1221 start id=8d1563697d751a364d688d6701ebdb39
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 47/1221 done id=8d1563697d751a364d688d6701ebdb39 prediction='A' gold='A' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 48/1221 start id=91f512273a2da7ae796919069b20d6cf
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 48/1221 done id=91f512273a2da7ae796919069b20d6cf prediction='E' gold='E' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 49/1221 start id=49cda7eedbf63b3f38e59ba72f1ee1f9
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 49/1221 done id=49cda7eedbf63b3f38e59ba72f1ee1f9 prediction='E' gold='E' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 50/1221 start id=a588407ecaecf0f30c2241c30b470fe2
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 50/1221 done id=a588407ecaecf0f30c2241c30b470fe2 prediction='E' gold='C' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 51/1221 start id=011096bcfff30fd38046cf9db3a411c5
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 51/1221 done id=011096bcfff30fd38046cf9db3a411c5 prediction='E' gold='C' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 52/1221 start id=435a728f45d32faa4b3c4553c966fd6b
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 52/1221 done id=435a728f45d32faa4b3c4553c966fd6b prediction='C' gold='B' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 53/1221 start id=e953dee48c70159ad879143a319ec607
