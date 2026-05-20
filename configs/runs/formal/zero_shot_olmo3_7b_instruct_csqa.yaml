@@ -3,11 +3,11 @@ model_key: olmo3_7b_instruct
 dataset_key: csqa
 split: validation
 limit: null
-output_dir: output/raw/A/sampled_200/zero_shot
+output_dir: output/raw/A/sampled_50/zero_shot
 max_new_tokens: 256
 temperature: 0.0
 top_p: 1.0
 do_sample: false
 strict_answer_parsing: false
-sample_size: 200
+sample_size: 50
 sample_seed: 42

@@ -1,0 +1,6 @@
+
+===== run started at 2026-05-18T21:55:35 =====
+[formal_group] config=dynamic:zero_shot:qwen2_5_0_5b_instruct:csqa
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/lightweight_smoke/zero_shot/qwen2_5_0_5b_instruct_csqa.log
+[zero_shot][qwen2_5_0_5b_instruct][csqa] loaded 1 samples from split=validation
+[zero_shot][qwen2_5_0_5b_instruct][csqa] sample 1/1 start id=03ee30b5801b61aee791a551a9d9a49f

@@ -1,0 +1,54 @@
+
+===== run started at 2026-05-18T20:36:23 =====
+[formal_group] config=configs/runs/formal/zero_shot_mistral_7b_instruct_v0_3_csqa.yaml
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/sampled_50/zero_shot/mistral_7b_instruct_v0_3_csqa.log
+[zero_shot][mistral_7b_instruct_v0_3][csqa] loaded 50 samples from split=validation
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 1/50 start id=7ea9f721ffc662918bb0c0937a487f04
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 1/50 done id=7ea9f721ffc662918bb0c0937a487f04 prediction='D' gold='D' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 2/50 start id=435a728f45d32faa4b3c4553c966fd6b
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 2/50 done id=435a728f45d32faa4b3c4553c966fd6b prediction='C' gold='B' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 3/50 start id=b47d912136e3304cb5e5890b6b879551
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 3/50 done id=b47d912136e3304cb5e5890b6b879551 prediction='D' gold='D' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 4/50 start id=a8a8ae7792901c7179ff5538c701af1f
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 4/50 done id=a8a8ae7792901c7179ff5538c701af1f prediction='E' gold='E' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 5/50 start id=2d33cde5e3987adc8fa2bca0af4dd3dd
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 5/50 done id=2d33cde5e3987adc8fa2bca0af4dd3dd prediction='A' gold='A' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 6/50 start id=1a8b3c2a46efabcbd506f9cf70886ed0
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 6/50 done id=1a8b3c2a46efabcbd506f9cf70886ed0 prediction='E' gold='E' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 7/50 start id=e476e2c8c278eaecfe1a8b884b6aeb8e
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 7/50 done id=e476e2c8c278eaecfe1a8b884b6aeb8e prediction='E' gold='B' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 8/50 start id=3e2222c99e11fca2ad4af2d470eb8ea2_1
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 8/50 done id=3e2222c99e11fca2ad4af2d470eb8ea2_1 prediction='E' gold='D' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 9/50 start id=76b6f0765a3b2fba71021f902142edc0
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 9/50 done id=76b6f0765a3b2fba71021f902142edc0 prediction='E' gold='C' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 10/50 start id=d107d67d525a686fbd8282314d2ea33c
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 10/50 done id=d107d67d525a686fbd8282314d2ea33c prediction='The gentleman is likely to have a club (A). Golf equipment typically includes clubs, such as drivers, irons, and putters. A, club, is the most relevant choice among the given options. The other choices (assembly hall, meditation center, meeting, church) are not related to golf equipment.' gold='A' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 11/50 start id=e69da59cbcf2a302e4523571eba8186b
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 11/50 done id=e69da59cbcf2a302e4523571eba8186b prediction='A' gold='E' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 12/50 start id=ec5a336080e37fbe95d72ad5f9c65ba7
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 12/50 done id=ec5a336080e37fbe95d72ad5f9c65ba7 prediction='E' gold='C' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 13/50 start id=60e8f1a86d4063895f340cd1e3c55f50
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 13/50 done id=60e8f1a86d4063895f340cd1e3c55f50 prediction='E' gold='C' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 14/50 start id=03ee30b5801b61aee791a551a9d9a49f
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 14/50 done id=03ee30b5801b61aee791a551a9d9a49f prediction='A' gold='A' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 15/50 start id=0542414710025f56b0c26e1bae5c4d06
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 15/50 done id=0542414710025f56b0c26e1bae5c4d06 prediction='E' gold='A' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 16/50 start id=93b52e7ea1acf10db891e9355e234123
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 16/50 done id=93b52e7ea1acf10db891e9355e234123 prediction='C' gold='A' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 17/50 start id=5215e26c99b2a9b376fb1c70096a388a
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 17/50 done id=5215e26c99b2a9b376fb1c70096a388a prediction='E' gold='B' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 18/50 start id=b4130d1790948134f3aeab9d3d79c181
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 18/50 done id=b4130d1790948134f3aeab9d3d79c181 prediction='D' gold='A' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 19/50 start id=5a50ea4bb2d13dc4f620ebd45025d445
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 19/50 done id=5a50ea4bb2d13dc4f620ebd45025d445 prediction='E' gold='E' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 20/50 start id=48205cc84aab5e455b22e17c3cc7277d
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 20/50 done id=48205cc84aab5e455b22e17c3cc7277d prediction='E' gold='B' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 21/50 start id=a7d51b753c2113d8b2dbd0ebb5375855_1
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 21/50 done id=a7d51b753c2113d8b2dbd0ebb5375855_1 prediction='E' gold='D' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 22/50 start id=f13efb91090dd28fd2b3c1f4dde680fd
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 22/50 done id=f13efb91090dd28fd2b3c1f4dde680fd prediction='A' gold='A' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 23/50 start id=22fc45d9e6d0baea4a5b0526504225b8
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 23/50 done id=22fc45d9e6d0baea4a5b0526504225b8 prediction='E' gold='B' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 24/50 start id=7d70208061ae3185bcfc9e912ee9e141
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 24/50 done id=7d70208061ae3185bcfc9e912ee9e141 prediction='E' gold='A' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][csqa] sample 25/50 start id=d1ad9b79f54205b6b9ac19a27f9c2be5

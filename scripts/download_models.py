@@ -23,6 +23,9 @@ MODEL_CONFIG_DIR = project_root() / "configs" / "models"
 def list_model_keys() -> list[str]:
     """返回全部模型键名。"""
     preferred_order = [
+        "qwen2_5_0_5b_instruct",
+        "qwen2_5_1_5b_instruct",
+        "tinyllama_1_1b_chat",
         "mistral_7b_instruct_v0_3",
         "olmo3_7b_instruct",
         "llama2_7b_hf",

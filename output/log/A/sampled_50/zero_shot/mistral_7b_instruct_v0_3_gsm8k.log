@@ -1,0 +1,106 @@
+
+===== run started at 2026-05-18T17:15:23 =====
+[formal_group] config=configs/runs/formal/zero_shot_mistral_7b_instruct_v0_3_gsm8k.yaml
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/sampled_50/zero_shot/mistral_7b_instruct_v0_3_gsm8k.log
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] loaded 50 samples from split=test
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 1/50 start id=gsm8k_test_13
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 1/50 done id=gsm8k_test_13 prediction='15' gold='18' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 2/50 start id=gsm8k_test_51
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 2/50 done id=gsm8k_test_51 prediction='5' gold='5' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 3/50 start id=gsm8k_test_54
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 3/50 done id=gsm8k_test_54 prediction='5' gold='40' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 4/50 start id=gsm8k_test_61
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 4/50 done id=gsm8k_test_61 prediction='1430' gold='1430' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 5/50 start id=gsm8k_test_65
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 5/50 done id=gsm8k_test_65 prediction='20' gold='36' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 6/50 start id=gsm8k_test_88
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 6/50 done id=gsm8k_test_88 prediction='8000' gold='8000' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 7/50 start id=gsm8k_test_161
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 7/50 done id=gsm8k_test_161 prediction='13' gold='32' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 8/50 start id=gsm8k_test_178
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 8/50 done id=gsm8k_test_178 prediction='122' gold='122' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 9/50 start id=gsm8k_test_189
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 9/50 done id=gsm8k_test_189 prediction='34.00' gold='34' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 10/50 start id=gsm8k_test_191
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 10/50 done id=gsm8k_test_191 prediction='5' gold='5' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 11/50 start id=gsm8k_test_198
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 11/50 done id=gsm8k_test_198 prediction='220' gold='320' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 12/50 start id=gsm8k_test_209
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 12/50 done id=gsm8k_test_209 prediction="Let's denote the number of cups as C and the number of plates as P.\n\n1. We know that 20 dozen cups cost $1200 less than the cost of half a dozen plates. So, the total cost of 20 dozen cups is $1200 less than $6000 * P/2 (since half a dozen plates is P/2).\n\n2. Convert 20 dozen cups to a common denominator with the plates. That's 240 cups (since 20 * 12 = 240).\n\n3. So, the equation becomes: 240 * cost per cup = $6000 * P/2 - $1200\n\n4. To find the cost per cup, we need to isolate it. First, divide both sides by 240: cost per cup = ($6000 * P/2 - $1200) / 240\n\n5. Simplify the equation: cost per cup = ($6000P - 1200 * 24) / (240 * 24)" gold='145' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 13/50 start id=gsm8k_test_228
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 13/50 done id=gsm8k_test_228 prediction='1' gold='1' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 14/50 start id=gsm8k_test_255
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 14/50 done id=gsm8k_test_255 prediction='96' gold='192' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 15/50 start id=gsm8k_test_285
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 15/50 done id=gsm8k_test_285 prediction='24' gold='21' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 16/50 start id=gsm8k_test_318
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 16/50 done id=gsm8k_test_318 prediction='123' gold='123' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 17/50 start id=gsm8k_test_326
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 17/50 done id=gsm8k_test_326 prediction="Let's break this down:\n\n1. Initially, there were people at the terminal.\n2. At the first stop, 5 more people got in, so the total became people.\n3. At the second stop, 7 people got off, leaving people on the bus.\n4. Then, 8 more people got in at the second stop, making the total people on the bus.\n5. At the third stop, the total number of people on the bus was 20.\n6. So, we can set up an equation: Initial people + People from the first stop + People who got off at the second stop - People who got on at the second stop = People at the third stop.\n7. Plugging in the values, we get: Initial people + 5 + (Total people at the third stop - 7 - 8) = 20.\n8. Simplifying the equation, we get: Initial people + 5 + (20 - 15) = 20.\n9. Solving for the initial number of people, we get: Initial people = 20 - 5 - 5 = 15.\n\nThe" gold='14' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 18/50 start id=gsm8k_test_407
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 18/50 done id=gsm8k_test_407 prediction='4000' gold='2000' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 19/50 start id=gsm8k_test_440
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 19/50 done id=gsm8k_test_440 prediction='98' gold='98' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 20/50 start id=gsm8k_test_447
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 20/50 done id=gsm8k_test_447 prediction='5' gold='5' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 21/50 start id=gsm8k_test_451
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 21/50 done id=gsm8k_test_451 prediction='10950' gold='11050' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 22/50 start id=gsm8k_test_457
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 22/50 done id=gsm8k_test_457 prediction='45' gold='45' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 23/50 start id=gsm8k_test_476
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 23/50 done id=gsm8k_test_476 prediction='5' gold='5' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 24/50 start id=gsm8k_test_501
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 24/50 done id=gsm8k_test_501 prediction='274' gold='273' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 25/50 start id=gsm8k_test_541
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 25/50 done id=gsm8k_test_541 prediction="Let's denote the number of days in April as D.\n\n1. Elvis wants to save $1125 in a month. Since there are 30 days in a month (for simplicity, assuming April has 30 days), he needs to save $1125 / 30 = $37.5 per day on average.\n\n2. In the first half of the month, he saves the same amount each day, so let's denote this amount as S.\n\n3. In the second half of the month, he wants to save twice as much daily as in the first half, so the amount he saves each day in the second half is 2 * S.\n\n4. The total amount he saves in the second half of the month is (D/2) * (2 * S), where D/2 is the number of days in the second half.\n\n5. To hit his target, the total amount he saves in the second half should be equal to the difference between his monthly target and the amount he saves in the first half: (1125 - (D/2) * S) = (D/2) * (2 * S)." gold='50' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 26/50 start id=gsm8k_test_563
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 26/50 done id=gsm8k_test_563 prediction='6' gold='12' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 27/50 start id=gsm8k_test_569
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 27/50 done id=gsm8k_test_569 prediction='21' gold='21' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 28/50 start id=gsm8k_test_600
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 28/50 done id=gsm8k_test_600 prediction='10' gold='10' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 29/50 start id=gsm8k_test_689
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 29/50 done id=gsm8k_test_689 prediction="1. Manolo bought 5 lollipops at $0.40 each, so the cost of lollipops is 5 * $0.40 = $2.00.\n2. He also bought 4 candies that cost $3.20.\n3. The total cost of candies is $3.20.\n4. The total cost of the items Manolo bought initially is $2.00 (lollipops) + $3.20 (candies) = $5.20.\n5. Now, Manolo wants to buy 10 lollipops. The cost of 10 lollipops is 10 * $0.40 = $4.00.\n6. He also wants to buy 10 candies, but we don't know their individual cost yet.\n7. To find the total cost of 10 candies, we need to find the difference between the total cost of all items he bought initially and the cost of lollipops: $5.20 (total cost) - $4.00 (cost of lollipops) = $" gold='7' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 30/50 start id=gsm8k_test_696
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 30/50 done id=gsm8k_test_696 prediction='180' gold='145' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 31/50 start id=gsm8k_test_704
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 31/50 done id=gsm8k_test_704 prediction="1. The total amount of money is $100, and the ratio of Gerald's share to Julia's share is 3:2.\n2. Let G represent Gerald's share and J represent Julia's share. So, we have G + J = $100.\n3. We know that Gerald spent $10 on a book, so his current money is G - $10.\n4. According to the given ratio, Gerald's share is 3 times larger than the difference between his current money and Julia's share. So, 3(G - $10) = 2J.\n5. Since the total amount is $100, we can write another equation: G + J = $100.\n6. Now we have a system of two equations:\n   a. 3(G - $10) = 2J\n   b. G + J = $100\n7. To solve this system, we can first isolate J from equation (b): J = $100 - G.\n8. Next, substitute J from equation (a): 3(G - $" gold='50' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 32/50 start id=gsm8k_test_735
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 32/50 done id=gsm8k_test_735 prediction='40' gold='50' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 33/50 start id=gsm8k_test_775
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 33/50 done id=gsm8k_test_775 prediction='276' gold='276' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 34/50 start id=gsm8k_test_778
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 34/50 done id=gsm8k_test_778 prediction='38.00' gold='38' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 35/50 start id=gsm8k_test_859
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 35/50 done id=gsm8k_test_859 prediction="Let's denote the amount of money Rafaela received as R. Since each customer gave her a $20 tip, the total amount Rafaela received is 40 * $20 = $800.\n\nJulieta received 10% less money than Rafaela, so her total amount is R - 0.10 * R = 0.90 * R.\n\nThe total amount they received together is the sum of their individual tips, which is R + 0.90 * R = 1.90 * R.\n\nWe know the total amount they received is $800, so we can set up the equation 1.90 * R = $800 and solve for R:\n\nR = $800 / 1.90 ≈ $421.05\n\nNow, we can find the amount Julieta received:\n\nJulieta's tips = 0.90 * R ≈ 0.90 * $421.05 ≈ $378.95\n\nRafaela's tips = R ≈ $4" gold='1520' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 36/50 start id=gsm8k_test_864
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 36/50 done id=gsm8k_test_864 prediction='80' gold='80' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 37/50 start id=gsm8k_test_865
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 37/50 done id=gsm8k_test_865 prediction='23' gold='23' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 38/50 start id=gsm8k_test_919
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 38/50 done id=gsm8k_test_919 prediction='90' gold='90' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 39/50 start id=gsm8k_test_940
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 39/50 done id=gsm8k_test_940 prediction='280' gold='280' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 40/50 start id=gsm8k_test_1034
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 40/50 done id=gsm8k_test_1034 prediction='66' gold='66' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 41/50 start id=gsm8k_test_1098
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 41/50 done id=gsm8k_test_1098 prediction='30' gold='30' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 42/50 start id=gsm8k_test_1116
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 42/50 done id=gsm8k_test_1116 prediction='60' gold='60' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 43/50 start id=gsm8k_test_1130
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 43/50 done id=gsm8k_test_1130 prediction="First, let's find out how many boxes Nik needs to hold all his crayons. Since he has 200 crayons and each group is 8 crayons, the number of boxes is 200 / 8 = 25 boxes.\n\nNext, let's calculate the weight of the crayons. Since each crayon weighs 1 ounce and there are 200 crayons, the weight of the crayons is 200 * 1 = 200 ounces.\n\nEach box weighs 8 ounces, so the weight of the empty boxes is 25 * 8 = 200 ounces.\n\nNow, let's find the total weight of the crayons and the boxes. The weight of the crayons is 200 ounces, the weight of the empty boxes is 200 ounces, and since they are added together, the total weight is 200 + 200 = 400 ounces.\n\nFinally, to convert the total weight from ounces to pounds, we divide by" gold='25' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 44/50 start id=gsm8k_test_1149
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 44/50 done id=gsm8k_test_1149 prediction='93' gold='93' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 45/50 start id=gsm8k_test_1206
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 45/50 done id=gsm8k_test_1206 prediction='40000' gold='40000' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 46/50 start id=gsm8k_test_1209
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 46/50 done id=gsm8k_test_1209 prediction='81' gold='29' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 47/50 start id=gsm8k_test_1232
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 47/50 done id=gsm8k_test_1232 prediction='15' gold='15' correct=True
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 48/50 start id=gsm8k_test_1236
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 48/50 done id=gsm8k_test_1236 prediction='54' gold='84' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 49/50 start id=gsm8k_test_1287
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 49/50 done id=gsm8k_test_1287 prediction='72' gold='84' correct=False
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 50/50 start id=gsm8k_test_1309
+[zero_shot][mistral_7b_instruct_v0_3][gsm8k] sample 50/50 done id=gsm8k_test_1309 prediction='2080' gold='2280' correct=False
+[formal_group] completed config=configs/runs/formal/zero_shot_mistral_7b_instruct_v0_3_gsm8k.yaml

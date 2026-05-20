@@ -436,3 +436,5 @@
 [zero_shot][olmo3_7b_instruct][csqa] sample 14/200 start id=1531f1523f5fd24bbdb42c311dbf90e8
 [zero_shot][olmo3_7b_instruct][csqa] sample 14/200 done id=1531f1523f5fd24bbdb42c311dbf90e8 prediction='D' gold='E' correct=False
 [zero_shot][olmo3_7b_instruct][csqa] sample 15/200 start id=ef22ef7aeec70aaa688720f805c1cf38
+[zero_shot][olmo3_7b_instruct][csqa] sample 15/200 done id=ef22ef7aeec70aaa688720f805c1cf38 prediction='B' gold='B' correct=True
+[zero_shot][olmo3_7b_instruct][csqa] sample 16/200 start id=2c0030cc14a27be2401dcfdaa501f0fc

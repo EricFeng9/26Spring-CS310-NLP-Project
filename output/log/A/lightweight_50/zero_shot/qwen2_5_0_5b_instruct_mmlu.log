@@ -1,0 +1,12 @@
+
+===== run started at 2026-05-18T22:33:25 =====
+[formal_group] config=dynamic:zero_shot:qwen2_5_0_5b_instruct:mmlu
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/lightweight_50/zero_shot/qwen2_5_0_5b_instruct_mmlu.log
+[zero_shot][qwen2_5_0_5b_instruct][mmlu] loaded 50 samples from split=test
+[zero_shot][qwen2_5_0_5b_instruct][mmlu] sample 1/50 start id=mmlu_test_106
+[zero_shot][qwen2_5_0_5b_instruct][mmlu] sample 1/50 done id=mmlu_test_106 prediction='C' gold='A' correct=False
+[zero_shot][qwen2_5_0_5b_instruct][mmlu] sample 2/50 start id=mmlu_test_409
+[zero_shot][qwen2_5_0_5b_instruct][mmlu] sample 2/50 done id=mmlu_test_409 prediction='B' gold='C' correct=False
+[zero_shot][qwen2_5_0_5b_instruct][mmlu] sample 3/50 start id=mmlu_test_434
+[zero_shot][qwen2_5_0_5b_instruct][mmlu] sample 3/50 done id=mmlu_test_434 prediction='To solve this problem, let\'s break down each option:\n\n1. **Social Contract**: This refers to an agreement or arrangement that defines the relationship between individuals within a community or state. It involves mutual obligations and rights.\n\n2. **Duty Ethics**: This focuses on the ethical principles that guide actions based on duties rather than rules or laws. It does not directly relate to agreements between members of society and their governing bodies.\n\n3. **Consequentialism**: This approach emphasizes the consequences of actions and seeks to determine what is right or wrong based on these outcomes. While it can apply to some social contracts, it doesn\'t specifically refer to agreements between members and their governing bodies.\n\n4. **Virtue Ethics**: This type of ethics emphasizes the moral character and virtues of individuals. It often includes discussions about how to achieve virtuous behavior through self-improvement and moral development.\n\nGiven the context provided, "The hypothetical agreement" suggests a legal or contractual framework where rights and responsibilities are established. Among the options given, "Social Contract" best fits this description as it involves agreements between individuals (members) and their governing bodies (governments).\n\nTherefore, the correct answer is A. Social Contract.' gold='A' correct=False
+[zero_shot][qwen2_5_0_5b_instruct][mmlu] sample 4/50 start id=mmlu_test_488

@@ -1,0 +1,8 @@
+
+===== run started at 2026-05-18T21:53:11 =====
+[formal_group] config=dynamic:zero_shot:qwen2_5_0_5b_instruct:gsm8k
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/lightweight_smoke/zero_shot/qwen2_5_0_5b_instruct_gsm8k.log
+[zero_shot][qwen2_5_0_5b_instruct][gsm8k] loaded 1 samples from split=test
+[zero_shot][qwen2_5_0_5b_instruct][gsm8k] sample 1/1 start id=gsm8k_test_1309
+[zero_shot][qwen2_5_0_5b_instruct][gsm8k] sample 1/1 done id=gsm8k_test_1309 prediction='1880' gold='2280' correct=False
+[formal_group] completed config=dynamic:zero_shot:qwen2_5_0_5b_instruct:gsm8k
