@@ -204,3 +204,209 @@
 [zero_shot][qwen2_5_1_5b_instruct][csqa] sample 100/100 start id=549cf641318edfc0510fa7c7dbb359e1
 [zero_shot][qwen2_5_1_5b_instruct][csqa] sample 100/100 done id=549cf641318edfc0510fa7c7dbb359e1 prediction='C' gold='C' correct=True
 [formal_group] completed config=dynamic:zero_shot:qwen2_5_1_5b_instruct:csqa
+
+===== run started at 2026-05-20T17:00:24 =====
+[formal_group] config=dynamic:zero_shot:qwen2_5_1_5b_instruct:csqa
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/lightweight_100/zero_shot/qwen2_5_1_5b_instruct_csqa.log
+[zero_shot][qwen2_5_1_5b_instruct][csqa] loaded 100 samples from split=validation
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 1/100 start id=7ea9f721ffc662918bb0c0937a487f04
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 1/100 done id=7ea9f721ffc662918bb0c0937a487f04 prediction='E' gold='D' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 2/100 start id=435a728f45d32faa4b3c4553c966fd6b
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 2/100 done id=435a728f45d32faa4b3c4553c966fd6b prediction='B' gold='B' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 3/100 start id=b47d912136e3304cb5e5890b6b879551
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 3/100 done id=b47d912136e3304cb5e5890b6b879551 prediction='D' gold='D' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 4/100 start id=a8a8ae7792901c7179ff5538c701af1f
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 4/100 done id=a8a8ae7792901c7179ff5538c701af1f prediction='E' gold='E' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 5/100 start id=2d33cde5e3987adc8fa2bca0af4dd3dd
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 5/100 done id=2d33cde5e3987adc8fa2bca0af4dd3dd prediction='C' gold='A' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 6/100 start id=1a8b3c2a46efabcbd506f9cf70886ed0
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 6/100 done id=1a8b3c2a46efabcbd506f9cf70886ed0 prediction=':' gold='E' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 7/100 start id=1531f1523f5fd24bbdb42c311dbf90e8
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 7/100 done id=1531f1523f5fd24bbdb42c311dbf90e8 prediction='E' gold='E' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 8/100 start id=ef22ef7aeec70aaa688720f805c1cf38
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 8/100 done id=ef22ef7aeec70aaa688720f805c1cf38 prediction='C' gold='B' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 9/100 start id=4da33e6f4b789776acb1bc10195baa83
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 9/100 done id=4da33e6f4b789776acb1bc10195baa83 prediction='B' gold='B' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 10/100 start id=1ab746bcd100ccf513055fe93c61010b
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 10/100 done id=1ab746bcd100ccf513055fe93c61010b prediction='B' gold='B' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 11/100 start id=e476e2c8c278eaecfe1a8b884b6aeb8e
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 11/100 done id=e476e2c8c278eaecfe1a8b884b6aeb8e prediction='The question presents a scenario where Sam was initially described as a "stranger," but then it asks how Mark treated Sam despite being a stranger. This implies that Mark\'s treatment of Sam was more positive than simply treating him as an unknown individual.\n\n1. **Identify the context**: Sam is described as a stranger, which means he has no prior relationship with Mark or others involved in the situation.\n2. **Analyze each option**:\n   - A. Friend: While friends can treat strangers well, the question specifies that Mark treated Sam even though he was a stranger, suggesting a level of familiarity beyond just friendship.\n   - B. Family: Family members often treat strangers kindly due to familial bonds, but again, the phrase "even so" indicates something more specific than mere kinship.\n   - C. Known person: Being known to someone doesn\'t necessarily mean they were treated well; it could imply acquaintanceship rather than personal interaction.\n   - D. Park: Parks are places, not people, so this cannot be the correct answer.\n   - E. Outsider: An outsider might receive less attention or kindness compared to insiders, making this unlikely given the context.\n3. **Conclusion**: Given that Mark treated Sam even when he was a stranger, the' gold='B' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 12/100 start id=6c36226b23377a0dd0188bf56840e22a
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 12/100 done id=6c36226b23377a0dd0188bf56840e22a prediction='E' gold='C' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 13/100 start id=3e2222c99e11fca2ad4af2d470eb8ea2_1
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 13/100 done id=3e2222c99e11fca2ad4af2d470eb8ea2_1 prediction='D' gold='D' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 14/100 start id=fa031cff8e11e75c68d6a99ef0e5ca3a
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 14/100 done id=fa031cff8e11e75c68d6a99ef0e5ca3a prediction="To determine how someone can be let into a brownstone, we need to consider what a brownstone is and its typical entry points.\n\n1. **Brownstone Definition**: A brownstone is typically a type of residential building made from stone or brick, often with a distinctive appearance due to its coloration.\n2. **Entry Points**: For a person to enter a brownstone, they would usually need access through an entrance door or window that leads inside the property.\n\nNow, let's evaluate each option:\n\n- **Brooklyn (A)**: This refers to a borough within New York City, not a specific way to enter a brownstone.\n- **Ring (B)**: While rings might be used as a metaphorical term, it does not describe a physical means of entering a brownstone.\n- **Subdivision (C)**: Subdivisions refer to areas where multiple homes are built on one piece of land, but they do not provide direct entry methods.\n- **Bricks (D)**: Bricks are materials used in construction, not a method of entry.\n- **New York City (E)**: Similar to Brooklyn, referring to a city rather than a specific entry point.\n\nGiven these considerations, none of the options directly address how someone could physically enter a" gold='B' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 15/100 start id=76b6f0765a3b2fba71021f902142edc0
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 15/100 done id=76b6f0765a3b2fba71021f902142edc0 prediction='E' gold='C' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 16/100 start id=ae56eff01d05422ddbcb26be7181356a
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 16/100 done id=ae56eff01d05422ddbcb26be7181356a prediction='E' gold='B' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 17/100 start id=d107d67d525a686fbd8282314d2ea33c
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 17/100 done id=d107d67d525a686fbd8282314d2ea33c prediction='A' gold='A' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 18/100 start id=e69da59cbcf2a302e4523571eba8186b
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 18/100 done id=e69da59cbcf2a302e4523571eba8186b prediction='Step 1: Analyze the given information.\n- The computer was difficult for him to understand at the store.\n- She signed up for something to learn more.\n\nStep 2: Consider the context of learning about computers.\n- Learning about computers typically involves understanding concepts related to technology and software.\n\nStep 3: Evaluate each option based on its relevance to learning about computers.\n- Classroom: A structured environment where one can learn from instructors and peers.\n- Facebook: An online social network primarily used for communication and sharing content.\n- School: A place where students receive formal education.\n- Apartment: A residential building or structure.\n- Demonstration: An explanation or presentation of how something works.\n\nStep 4: Determine which option aligns best with the purpose of learning about computers.\n- A classroom would provide structured instruction and hands-on experience.\n- A demonstration could offer an interactive way to learn about computers.\n- School might also include educational materials but may not focus specifically on computers.\n- An apartment does not relate directly to learning about computers.\n- Facebook is unrelated to learning about computers.\n\nStep 5: Conclude that the most appropriate choice is either "classroom" or "demonstration."\n- If choosing between these two, "demonstration" seems slightly more specific' gold='E' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 19/100 start id=ec5a336080e37fbe95d72ad5f9c65ba7
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 19/100 done id=ec5a336080e37fbe95d72ad5f9c65ba7 prediction='C' gold='C' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 20/100 start id=056b33c7050c167b0d4348d40d169358
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 20/100 done id=056b33c7050c167b0d4348d40d169358 prediction='E' gold='B' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 21/100 start id=60e8f1a86d4063895f340cd1e3c55f50
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 21/100 done id=60e8f1a86d4063895f340cd1e3c55f50 prediction='E' gold='C' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 22/100 start id=03ee30b5801b61aee791a551a9d9a49f
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 22/100 done id=03ee30b5801b61aee791a551a9d9a49f prediction='A' gold='A' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 23/100 start id=0542414710025f56b0c26e1bae5c4d06
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 23/100 done id=0542414710025f56b0c26e1bae5c4d06 prediction='E' gold='A' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 24/100 start id=026cb9c07a583ec933f2c4c67ae73836
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 24/100 done id=026cb9c07a583ec933f2c4c67ae73836 prediction='B' gold='B' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 25/100 start id=93b52e7ea1acf10db891e9355e234123
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 25/100 done id=93b52e7ea1acf10db891e9355e234123 prediction='A' gold='A' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 26/100 start id=1d44fb5f4b7f1e23ff6c1c083db81ba1
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 26/100 done id=1d44fb5f4b7f1e23ff6c1c083db81ba1 prediction="To determine what people are likely to want to do with their friends, let's consider common social behaviors and activities that individuals engage in when spending time with others.\n\n1. **Own Land**: Owning land typically involves significant financial investment and maintenance responsibilities. This activity may not align well with casual or frequent interactions with friends who might have different priorities or schedules.\n\n2. **Own Home**: Similar to owning land, owning a home requires substantial resources and ongoing management. Friends often prioritize shared experiences over material possessions, making it less likely they would desire to own a home together.\n\n3. **Talk to Each Other**: Engaging in conversation and sharing thoughts is fundamental to human interaction. People generally value meaningful conversations and emotional connections more than material ownership.\n\n4. **Believe in God**: Belief in a higher power can vary greatly among individuals. Some people find comfort in religious communities, while others prefer secular settings. Therefore, belief in God does not necessarily correlate with wanting to spend time with friends.\n\n5. **Spend Time**: Spending time with friends encompasses various activities such as discussing ideas, enjoying leisure activities, or simply being present. This option directly addresses the act of engaging in social interactions rather than specific material possessions.\n\nGiven these considerations, the most universally appealing and practical choice for" gold='E' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 27/100 start id=5215e26c99b2a9b376fb1c70096a388a
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 27/100 done id=5215e26c99b2a9b376fb1c70096a388a prediction='E' gold='B' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 28/100 start id=b4130d1790948134f3aeab9d3d79c181
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 28/100 done id=b4130d1790948134f3aeab9d3d79c181 prediction='E' gold='A' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 29/100 start id=651785ed4f7b0bd2e7ca9f70a42acea5
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 29/100 done id=651785ed4f7b0bd2e7ca9f70a42acea5 prediction='A' gold='A' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 30/100 start id=ee46995407eb6357bb5410d49d378629
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 30/100 done id=ee46995407eb6357bb5410d49d378629 prediction='E' gold='A' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 31/100 start id=adbddc80b10bf25f09c6c2bee4e3c59b
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 31/100 done id=adbddc80b10bf25f09c6c2bee4e3c59b prediction='E' gold='E' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 32/100 start id=5a50ea4bb2d13dc4f620ebd45025d445
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 32/100 done id=5a50ea4bb2d13dc4f620ebd45025d445 prediction='E' gold='E' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 33/100 start id=48205cc84aab5e455b22e17c3cc7277d
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 33/100 done id=48205cc84aab5e455b22e17c3cc7277d prediction='B' gold='B' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 34/100 start id=b9e04a53c0ee7325b901de4d12d56884
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 34/100 done id=b9e04a53c0ee7325b901de4d12d56884 prediction='C' gold='C' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 35/100 start id=64d2310eff6b661baeb41b4ccc392e35
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 35/100 done id=64d2310eff6b661baeb41b4ccc392e35 prediction='D' gold='D' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 36/100 start id=6c70d98cfb8e97fda8caefcee761a229
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 36/100 done id=6c70d98cfb8e97fda8caefcee761a229 prediction='D' gold='D' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 37/100 start id=a7d51b753c2113d8b2dbd0ebb5375855_1
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 37/100 done id=a7d51b753c2113d8b2dbd0ebb5375855_1 prediction='D' gold='D' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 38/100 start id=f13efb91090dd28fd2b3c1f4dde680fd
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 38/100 done id=f13efb91090dd28fd2b3c1f4dde680fd prediction='A' gold='A' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 39/100 start id=fb64149cf01c5b496d986f56852273e9
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 39/100 done id=fb64149cf01c5b496d986f56852273e9 prediction='D' gold='D' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 40/100 start id=22fc45d9e6d0baea4a5b0526504225b8
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 40/100 done id=22fc45d9e6d0baea4a5b0526504225b8 prediction='E' gold='B' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 41/100 start id=7d70208061ae3185bcfc9e912ee9e141
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 41/100 done id=7d70208061ae3185bcfc9e912ee9e141 prediction='A' gold='A' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 42/100 start id=055817d8d703d3c2802545e3fccdcde3
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 42/100 done id=055817d8d703d3c2802545e3fccdcde3 prediction='B' gold='B' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 43/100 start id=3a3b5d4a517ef70d25eb558f1a622937
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 43/100 done id=3a3b5d4a517ef70d25eb558f1a622937 prediction='The question describes a scenario where someone is looking for a bald eagle while being patriotic. Bald eagles are native to North America, particularly in areas like Minnesota, Canada, and other parts of the continent.\n\nStep 1: Identify the location of bald eagles.\n- Bald eagles are found primarily in North America, including states like Minnesota, Canada, Alaska, and others.\n\nStep 2: Consider the context of patriotism.\n- Being patriotic often involves supporting or celebrating national symbols and landmarks.\n\nStep 3: Evaluate the options provided.\n- "City" (A) is too broad and doesn\'t specifically relate to bald eagles.\n- "Canada" (B) is a country but not necessarily the best place to find a bald eagle.\n- "Minnesota" (C) is a state known for its bald eagle population.\n- "Thermal" (D) is an area type and not directly related to bald eagles.\n- "Photograph" (E) is a possible action, but it\'s not specific enough given the context.\n\nStep 4: Determine the most appropriate choice based on the context.\n- Given that bald eagles are native to North America and Minnesota has a significant population, finding a bald eagle there would align well with the patriotic theme.' gold='E' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 44/100 start id=d1ad9b79f54205b6b9ac19a27f9c2be5
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 44/100 done id=d1ad9b79f54205b6b9ac19a27f9c2be5 prediction='A' gold='E' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 45/100 start id=48abc2c113623fd72f758502529f93a5
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 45/100 done id=48abc2c113623fd72f758502529f93a5 prediction='B' gold='C' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 46/100 start id=463521a93ae71e93bea8b97cdf7a6792
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 46/100 done id=463521a93ae71e93bea8b97cdf7a6792 prediction="To determine what John would find the hardest to clean, we need to consider which areas have the greatest amount of accumulated dust.\n\n1. **Closet**: Closets typically contain items like clothes, shoes, and other personal belongings that can accumulate dust over time. While it's possible to clean them, they may also require more effort due to their size and location within the house.\n\n2. **Under the Bed**: This area is often overlooked but can become quite dusty with frequent movement and exposure to outdoor elements. It requires minimal effort to clean compared to larger spaces.\n\n3. **Television**: Dust on a TV screen is relatively easy to remove using a soft cloth or vacuum cleaner attachment designed for electronic devices.\n\n4. **Attic**: Attics are usually less cluttered than closets and bedrooms, making cleaning easier. However, attics can still accumulate significant amounts of dust from various sources such as insulation, old furniture, and stored materials.\n\n5. **Most Buildings**: Cleaning an entire building involves multiple rooms, floors, and potentially different types of surfaces (e.g., walls, ceilings, floors). This task is much more extensive and challenging than cleaning individual areas like closets, under beds, or even TVs.\n\nGiven these considerations, the hardest area for John to clean would likely" gold='D' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 47/100 start id=f8a2cbc7189b92a809ce9cd857030621
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 47/100 done id=f8a2cbc7189b92a809ce9cd857030621 prediction='E' gold='B' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 48/100 start id=fce1c5d069758aea57a787fc98dcf7a9
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 48/100 done id=fce1c5d069758aea57a787fc98dcf7a9 prediction='E' gold='E' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 49/100 start id=c0d75f9fbf30aa3a612f16edb20d6b8d
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 49/100 done id=c0d75f9fbf30aa3a612f16edb20d6b8d prediction='C' gold='B' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 50/100 start id=7bb87c6d8eab57d4e983f60025b1f0dc
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 50/100 done id=7bb87c6d8eab57d4e983f60025b1f0dc prediction='D' gold='D' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 51/100 start id=083861fc5ebb9226fff70544f3f83d2b
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 51/100 done id=083861fc5ebb9226fff70544f3f83d2b prediction='A' gold='A' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 52/100 start id=c3b7f4196b12714940ac1b9417194df4
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 52/100 done id=c3b7f4196b12714940ac1b9417194df4 prediction='E' gold='D' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 53/100 start id=bee2a6eadfaf7a4fa0a214e341ddbe5b
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 53/100 done id=bee2a6eadfaf7a4fa0a214e341ddbe5b prediction='C' gold='A' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 54/100 start id=839f3c37622c1ed5eebc9cd0b9d658e8
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 54/100 done id=839f3c37622c1ed5eebc9cd0b9d658e8 prediction='D' gold='D' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 55/100 start id=9b62cd7f89716f393239e6c6ff3e11d5
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 55/100 done id=9b62cd7f89716f393239e6c6ff3e11d5 prediction='A' gold='A' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 56/100 start id=96cb628fb7ed2f53245598f707ed2b80
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 56/100 done id=96cb628fb7ed2f53245598f707ed2b80 prediction='B' gold='B' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 57/100 start id=536c9af0fae0aa75b32874dfcac66353
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 57/100 done id=536c9af0fae0aa75b32874dfcac66353 prediction='A' gold='A' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 58/100 start id=1510f5183095466e4fe41b82501a9dd0
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 58/100 done id=1510f5183095466e4fe41b82501a9dd0 prediction='C' gold='C' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 59/100 start id=f48528156632b9c5b18af9ce2095509b
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 59/100 done id=f48528156632b9c5b18af9ce2095509b prediction='C' gold='C' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 60/100 start id=f912bcd7479b76db9b1c57a612b90f00
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 60/100 done id=f912bcd7479b76db9b1c57a612b90f00 prediction='E' gold='B' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 61/100 start id=92869fc0be5dc45f407700692ffd80a0
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 61/100 done id=92869fc0be5dc45f407700692ffd80a0 prediction='E' gold='E' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 62/100 start id=2a58e81a9c4ce095d099e0d785fc2da4
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 62/100 done id=2a58e81a9c4ce095d099e0d785fc2da4 prediction='E' gold='E' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 63/100 start id=cc1a547bdfdcc95e4d632453af14bc96
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 63/100 done id=cc1a547bdfdcc95e4d632453af14bc96 prediction='D' gold='C' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 64/100 start id=ef3d5d35128678937c36438466e0fc93
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 64/100 done id=ef3d5d35128678937c36438466e0fc93 prediction='C' gold='E' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 65/100 start id=0f0e339412f719a019bf373e6daf2530
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 65/100 done id=0f0e339412f719a019bf373e6daf2530 prediction='A' gold='A' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 66/100 start id=489a082aab43dd1a53f3f1f89c2365ed
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 66/100 done id=489a082aab43dd1a53f3f1f89c2365ed prediction='E' gold='A' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 67/100 start id=f8a9208665a4f2d64986940456b4b964
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 67/100 done id=f8a9208665a4f2d64986940456b4b964 prediction='E' gold='D' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 68/100 start id=167d2cfa04bfaea0e0b5bac3598d5769
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 68/100 done id=167d2cfa04bfaea0e0b5bac3598d5769 prediction='D' gold='D' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 69/100 start id=a585df0818180ce3c06f963a4c3c810a
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 69/100 done id=a585df0818180ce3c06f963a4c3c810a prediction='D' gold='A' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 70/100 start id=c7cb327fa4c0008efaa7741081a365d4
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 70/100 done id=c7cb327fa4c0008efaa7741081a365d4 prediction='E' gold='E' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 71/100 start id=c54ddc0f9d170ba65d9f4f2e0bb41d1c
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 71/100 done id=c54ddc0f9d170ba65d9f4f2e0bb41d1c prediction='A' gold='A' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 72/100 start id=d35112a99ab3983fb51c3adae80bc2da
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 72/100 done id=d35112a99ab3983fb51c3adae80bc2da prediction='E' gold='D' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 73/100 start id=a00276c6db928900772c0320aeff77c0
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 73/100 done id=a00276c6db928900772c0320aeff77c0 prediction='B' gold='B' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 74/100 start id=60e7338e9e6bfc746a15a161eb12706c
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 74/100 done id=60e7338e9e6bfc746a15a161eb12706c prediction='E' gold='E' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 75/100 start id=004607228ad49b69eac932c1005d6106
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 75/100 done id=004607228ad49b69eac932c1005d6106 prediction='D' gold='C' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 76/100 start id=0c1efb38e023ee9725486fbec4f2d797
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 76/100 done id=0c1efb38e023ee9725486fbec4f2d797 prediction='D' gold='D' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 77/100 start id=b7ab4a5e0c19a98f41cd1ba3176f2dff
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 77/100 done id=b7ab4a5e0c19a98f41cd1ba3176f2dff prediction='E' gold='C' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 78/100 start id=230cc491829307e8edb5423c8d09f945
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 78/100 done id=230cc491829307e8edb5423c8d09f945 prediction='C' gold='C' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 79/100 start id=e43c4eaa04243ddee30f29171718eb92
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 79/100 done id=e43c4eaa04243ddee30f29171718eb92 prediction='E' gold='A' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 80/100 start id=7a58e7e7bf76658751e850f790922aba
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 80/100 done id=7a58e7e7bf76658751e850f790922aba prediction='E' gold='E' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 81/100 start id=13fc28f53423a9b3a656c9431df1b3b5
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 81/100 done id=13fc28f53423a9b3a656c9431df1b3b5 prediction='E' gold='E' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 82/100 start id=3f4b48708d08f8bf7bec796531023f9c
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 82/100 done id=3f4b48708d08f8bf7bec796531023f9c prediction='A' gold='A' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 83/100 start id=8233ccb60dd0c0ff3b7ca5d73e5681f2
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 83/100 done id=8233ccb60dd0c0ff3b7ca5d73e5681f2 prediction='B' gold='B' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 84/100 start id=1db19a32a3edbff9981976dc9ec800ce
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 84/100 done id=1db19a32a3edbff9981976dc9ec800ce prediction='A' gold='A' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 85/100 start id=f7a6d0d816d14210f3af5dabe21bf804
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 85/100 done id=f7a6d0d816d14210f3af5dabe21bf804 prediction='A' gold='A' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 86/100 start id=e40fd2c17fe2cde4bd4af540d35fd518
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 86/100 done id=e40fd2c17fe2cde4bd4af540d35fd518 prediction='E' gold='E' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 87/100 start id=3095078e4771053d9d5fa8d4f5f3dc38
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 87/100 done id=3095078e4771053d9d5fa8d4f5f3dc38 prediction='C' gold='C' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 88/100 start id=ac6378b5e8462dc1bde1155d706213d8
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 88/100 done id=ac6378b5e8462dc1bde1155d706213d8 prediction='E' gold='C' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 89/100 start id=3cb91a71a6567da870eedf37becc97ef
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 89/100 done id=3cb91a71a6567da870eedf37becc97ef prediction='A' gold='A' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 90/100 start id=f61d83f90b92a8d537989e55ee70542d
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 90/100 done id=f61d83f90b92a8d537989e55ee70542d prediction='D' gold='D' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 91/100 start id=d3b145911a76fd6fbe9a23ab027be024
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 91/100 done id=d3b145911a76fd6fbe9a23ab027be024 prediction='A' gold='A' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 92/100 start id=ca60a46c9007e4b6213f50bfb5342fdd
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 92/100 done id=ca60a46c9007e4b6213f50bfb5342fdd prediction='E' gold='B' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 93/100 start id=8e7941ce31996ca83cc0a68f7313c96d
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 93/100 done id=8e7941ce31996ca83cc0a68f7313c96d prediction='B' gold='B' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 94/100 start id=a2aa95861ef74bf1ecfc55db505e3982
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 94/100 done id=a2aa95861ef74bf1ecfc55db505e3982 prediction='D' gold='D' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 95/100 start id=5365fd00ef8cec62ee5685e246a939db
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 95/100 done id=5365fd00ef8cec62ee5685e246a939db prediction='E' gold='E' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 96/100 start id=d0a42c8180b4e080aa071dd70fce7e03
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 96/100 done id=d0a42c8180b4e080aa071dd70fce7e03 prediction='E' gold='B' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 97/100 start id=6544a50bf9563d52dbd2034e81df0bf3
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 97/100 done id=6544a50bf9563d52dbd2034e81df0bf3 prediction='C' gold='D' correct=False
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 98/100 start id=2ca05683157a3cd89d82016f13e560ec
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 98/100 done id=2ca05683157a3cd89d82016f13e560ec prediction='B' gold='B' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 99/100 start id=8f2976690c83be6b8fa3a1196dfd9722
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 99/100 done id=8f2976690c83be6b8fa3a1196dfd9722 prediction='E' gold='E' correct=True
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 100/100 start id=549cf641318edfc0510fa7c7dbb359e1
+[zero_shot][qwen2_5_1_5b_instruct][csqa] sample 100/100 done id=549cf641318edfc0510fa7c7dbb359e1 prediction='C' gold='C' correct=True
+[formal_group] completed config=dynamic:zero_shot:qwen2_5_1_5b_instruct:csqa

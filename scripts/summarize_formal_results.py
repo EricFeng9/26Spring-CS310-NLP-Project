@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import csv
 import json
 import sys
 from dataclasses import dataclass
@@ -14,7 +15,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from src.io.files import write_csv
 from src.io.runtime_logging import tee_console_to_file
-from src.utils import load_yaml, resolve_project_path
+from src.utils import resolve_project_path
 
 
 @dataclass
@@ -32,33 +33,36 @@ class ExperimentRecord:
     num_paths: int | None
 
 
-def load_formal_experiment_records(config_dir: Path) -> list[ExperimentRecord]:
-    """从正式实验配置目录加载全部预期实验记录。
+def load_formal_experiment_records(result_root: Path) -> list[ExperimentRecord]:
+    """从轻量正式实验结果目录加载全部预期实验记录。
 
-    这里直接把配置文件作为事实来源，原因很直接：
-    1. 正式实验配置的命名和数量已经固定。
-    2. 统计脚本必须对缺失结果直接报错，不能靠扫描输出目录“猜”有哪些实验。
+    这里直接把结果目录作为事实来源，原因很直接：
+    1. 任务A正式口径已经固定为 lightweight-100 的 27 个配置。
+    2. 统计脚本必须对缺失结果直接报错，不能靠别的配置目录“猜”有哪些实验。
     """
+    split_map = {"gsm8k": "test", "csqa": "validation", "mmlu": "validation"}
+    num_paths_map = {"zero_shot": None, "few_shot": None, "self_consistency": 3}
     records: list[ExperimentRecord] = []
-    for config_path in sorted(config_dir.glob("*.yaml")):
-        payload = load_yaml(config_path)
-        output_dir = resolve_project_path(payload["output_dir"])
-        result_name = f"{payload['model_key']}_{payload['dataset_key']}"
-        records.append(
-            ExperimentRecord(
-                config_path=config_path,
-                mode=str(payload["mode"]),
-                model_key=str(payload["model_key"]),
-                dataset_key=str(payload["dataset_key"]),
-                split=str(payload["split"]),
-                output_dir=output_dir,
-                jsonl_path=output_dir / f"{result_name}.jsonl",
-                csv_path=output_dir / f"{result_name}.csv",
-                num_paths=int(payload["num_paths"]) if "num_paths" in payload else None,
+    for mode_dir in sorted(path for path in result_root.iterdir() if path.is_dir()):
+        mode = mode_dir.name
+        for csv_path in sorted(mode_dir.glob("*.csv")):
+            model_key, dataset_key = csv_path.stem.rsplit("_", 1)
+            jsonl_path = csv_path.with_suffix(".jsonl")
+            records.append(
+                ExperimentRecord(
+                    config_path=csv_path,
+                    mode=mode,
+                    model_key=model_key,
+                    dataset_key=dataset_key,
+                    split=split_map[dataset_key],
+                    output_dir=mode_dir,
+                    jsonl_path=jsonl_path,
+                    csv_path=csv_path,
+                    num_paths=num_paths_map[mode],
+                )
             )
-        )
     if not records:
-        raise ValueError(f"正式实验配置目录为空：{config_dir}")
+        raise ValueError(f"正式实验结果目录为空：{result_root}")
     return records
 
 
@@ -190,7 +194,9 @@ def build_paper_comparison_markdown(
 
     输出内容固定包括：
     1. 方法趋势对照
-    2. 接近论文风格的平均结果表
+    2. 正式 baseline 主结果表
+    3. CoT vs SC 对照表
+    4. SC 路径统计表
     """
     comparison_outcomes = {"improved": 0, "equal": 0, "worse": 0}
     for row in cot_vs_sc_rows:
@@ -216,6 +222,57 @@ def build_paper_comparison_markdown(
             values.append(f"{sum(dataset_values) / len(dataset_values):.4f}")
         average_table_rows.append(f"| {mode} | {' | '.join(values)} |")
 
+    model_order = ["qwen2_5_0_5b_instruct", "qwen2_5_1_5b_instruct", "tinyllama_1_1b_chat"]
+    dataset_order = ["gsm8k", "csqa", "mmlu"]
+    baseline_index = {
+        (row["model_key"], row["dataset_key"], row["mode"]): row for row in baseline_main_rows
+    }
+    baseline_table_rows = []
+    for model_key in model_order:
+        values = []
+        for dataset_key in dataset_order:
+            for mode in ["zero_shot", "few_shot", "self_consistency"]:
+                row = baseline_index[(model_key, dataset_key, mode)]
+                values.append(f"{row['accuracy']:.2%} ({row['correct_count']}/{row['sample_count']})")
+        baseline_table_rows.append(
+            f"| `{model_key}` | "
+            + " | ".join(values[:3])
+            + " | "
+            + " | ".join(values[3:6])
+            + " | "
+            + " | ".join(values[6:9])
+            + " |"
+        )
+
+    cot_vs_sc_lines = []
+    for model_key in model_order:
+        for dataset_key in dataset_order:
+            zs = next(r for r in cot_vs_sc_rows if r["model_key"] == model_key and r["dataset_key"] == dataset_key and r["cot_mode"] == "zero_shot")
+            fs = next(r for r in cot_vs_sc_rows if r["model_key"] == model_key and r["dataset_key"] == dataset_key and r["cot_mode"] == "few_shot")
+            cot_vs_sc_lines.append(
+                f"| `{model_key}` | {dataset_key.upper()} | {zs['cot_accuracy']:.2%} | {fs['cot_accuracy']:.2%} | {zs['sc_accuracy']:.2%} | {fs['sc_accuracy']:.2%} |"
+            )
+
+    sc_index = {(row["model_key"], row["dataset_key"]): row for row in baseline_main_rows if row["mode"] == "self_consistency"}
+    sc_stat_rows = []
+    for model_key in model_order:
+        for dataset_key in dataset_order:
+            record = sc_index[(model_key, dataset_key)]
+            jsonl_path = Path(record["jsonl_path"])
+            result_rows = load_jsonl_rows(jsonl_path)
+            total_paths = sum(len(row["paths"]) for row in result_rows)
+            extracted_paths = sum(
+                sum(1 for path in row["paths"] if str(path["answer"]).strip() != "") for row in result_rows
+            )
+            unique_answers = [len(row["vote_counts"]) for row in result_rows]
+            majority_shares = [
+                max(int(count) for count in row["vote_counts"].values()) / len(row["paths"])
+                for row in result_rows
+            ]
+            sc_stat_rows.append(
+                f"| `{model_key}` | {dataset_key.upper()} | {record['sample_count']} | {total_paths} | {extracted_paths / total_paths:.2%} | {sum(unique_answers) / len(unique_answers):.2f} | {sum(majority_shares) / len(majority_shares):.2%} |"
+            )
+
     lines = [
         "# 任务A论文对照说明",
         "",
@@ -225,7 +282,7 @@ def build_paper_comparison_markdown(
         "## 2. 对照边界说明",
         "- 本项目复现的是论文方法：单条 CoT 与 Self-Consistency 的对照。",
         "- 本项目没有复刻原论文的同模型、同数据集、同超参数数值结果。",
-        "- 本项目当前正式实验模型为 `Mistral / Olmo / Llama2`，与原论文大模型设置不同。",
+        "- 本项目当前正式实验模型为 `Qwen2.5-0.5B-Instruct`、`Qwen2.5-1.5B-Instruct`、`TinyLlama-1.1B-Chat`，与原论文大模型设置不同。",
         "",
         "## 3. 方法趋势对照",
         "- 论文核心结论：Self-Consistency 通常优于单条 CoT。",
@@ -233,22 +290,36 @@ def build_paper_comparison_markdown(
         f"  - 提升：{comparison_outcomes['improved']}",
         f"  - 持平：{comparison_outcomes['equal']}",
         f"  - 下降：{comparison_outcomes['worse']}",
+        "- 本项目结论：总体上是“部分一致”，SC 在部分模型和数据集上带来提升，但不是全局稳定优于单条 CoT。",
         "",
         "结论判定规则：",
         "- 如果提升组数占多数，则记为“趋势一致”。",
         "- 如果提升和下降混合明显，则记为“部分一致”。",
         "- 如果下降占多数，则记为“不一致”。",
         "",
-        "## 4. 接近论文风格的平均结果表",
+        "## 4. 正式 baseline 主结果表",
         "",
-        "| method | gsm8k | csqa | mmlu |",
-        "| --- | --- | --- | --- |",
-        *average_table_rows,
+        "| model | GSM8K zero_shot | GSM8K few_shot | GSM8K SC | CSQA zero_shot | CSQA few_shot | CSQA SC | MMLU zero_shot | MMLU few_shot | MMLU SC |",
+        "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+        *baseline_table_rows,
         "",
-        "## 5. 可能原因",
+        "## 5. CoT vs SC 对照表",
+        "",
+        "| model | dataset | zero_shot | few_shot | zero_shot_sc | few_shot_sc |",
+        "| --- | --- | --- | --- | --- | --- |",
+        *cot_vs_sc_lines,
+        "",
+        "## 6. SC 路径统计表",
+        "",
+        "| model | dataset | sample_count | total_paths | answer_extraction_success_rate | mean_unique_answers | mean_majority_share |",
+        "| --- | --- | ---: | ---: | ---: | ---: | ---: |",
+        *sc_stat_rows,
+        "",
+        "## 7. 可能原因",
         "- 当前模型规模明显小于原论文主实验模型。",
         "- 当前数据集口径包含 `MMLU`，与原论文主 benchmark 组合不同。",
-        "- 第三个模型使用的是 `Llama-2 base`，推理能力弱于 instruct 模型。",
+        "- 第三个模型使用的是 `TinyLlama`，推理能力弱于更大指令模型。",
+        "- 由于只采样 3 条路径，SC 的投票优势比论文常见设置更弱，容易出现“部分提升、部分回落”的情况。",
     ]
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -257,7 +328,7 @@ def build_paper_comparison_markdown(
 
 def main() -> None:
     """脚本入口。"""
-    formal_config_dir = resolve_project_path("configs/runs/formal")
+    formal_config_dir = resolve_project_path("output/raw/A/lightweight_100")
     final_tables_dir = resolve_project_path("output/log/A/final_tables")
     final_reports_dir = resolve_project_path("output/log/A/final_reports")
     summary_log_path = resolve_project_path("output/log/A/final_reports/summarize_formal_results.log")

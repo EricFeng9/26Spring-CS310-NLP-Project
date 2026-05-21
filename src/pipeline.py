@@ -159,12 +159,19 @@ def run_self_consistency(
         ,
         flush=True,
     )
+    fewshot_examples = []
+    if "few_shot_examples_path" in run_config:
+        fewshot_examples = load_fewshot_examples(run_config["few_shot_examples_path"])
+        print(
+            f"{prefix} using {len(fewshot_examples)} few-shot examples for SC prompt",
+            flush=True,
+        )
     runner = runner or LocalModelRunner(model_config, prompt_config["system_prompt"])
     strict_answer_parsing = bool(run_config.get("strict_answer_parsing", True))
     results: list[dict] = []
     for index, sample in enumerate(samples, start=1):
         print(f"{prefix} sample {index}/{total} start id={sample.id}", flush=True)
-        prompt = build_self_consistency_prompt(sample, prompt_config)
+        prompt = build_self_consistency_prompt(sample, prompt_config, fewshot_examples)
         paths: list[dict] = []
         answers: list[str] = []
         for path_index in range(run_config["num_paths"]):

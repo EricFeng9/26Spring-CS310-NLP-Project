@@ -208,11 +208,11 @@
 
 当项目中已经具备“3 个模型在 3 个数据集上的正式 CoT / SC baseline 结果、可复现的准确率表、单条 CoT 与 SC 的对照结论、以及与参考论文的方法趋势对照说明”时，任务A才算真正完成。
 
-## 当前已完成结果快照
+## 最终结果
 
-统计时间：`2026-05-20 10:05 CST`
+统计时间：`2026-05-21`
 
-当前正式口径：
+当前正式口径已全部完成：
 
 - 模型：`qwen2_5_0_5b_instruct`、`qwen2_5_1_5b_instruct`、`tinyllama_1_1b_chat`
 - 数据集：`GSM8K`、`CSQA`、`MMLU`
@@ -222,54 +222,81 @@
 - Self-Consistency 路径数：`3`
 - 结果目录：`output/raw/A/lightweight_100/`
 
-当前完成度：
+完成度：
 
-- `zero_shot`：`9 / 9` 完成
-- `few_shot`：`9 / 9` 完成
-- `self_consistency`：`5 / 9` 完成
-- 总计：`23 / 27` 完成
+- `zero_shot`：`9 / 9`
+- `few_shot`：`9 / 9`
+- `self_consistency`：`9 / 9`
+- 总计：`27 / 27`
 
-仍在运行或尚未完成的配置：
+### 正式 baseline 主结果表
 
-- `qwen2_5_1_5b_instruct × self_consistency × mmlu`
-- `tinyllama_1_1b_chat × self_consistency × gsm8k`
-- `tinyllama_1_1b_chat × self_consistency × csqa`
-- `tinyllama_1_1b_chat × self_consistency × mmlu`
+表中数值为 `accuracy`，括号内为 `correct / sample_count`。
 
-### 已完成主结果表
+| model | GSM8K zero_shot | GSM8K few_shot | GSM8K SC | CSQA zero_shot | CSQA few_shot | CSQA SC | MMLU zero_shot | MMLU few_shot | MMLU SC |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| `qwen2_5_0_5b_instruct` | 28.00% (28/100) | 10.00% (10/100) | 20.00% (20/100) | 33.00% (33/100) | 47.00% (47/100) | 43.00% (43/100) | 31.00% (31/100) | 23.00% (23/100) | 33.00% (33/100) |
+| `qwen2_5_1_5b_instruct` | 56.00% (56/100) | 66.00% (66/100) | 67.00% (67/100) | 60.00% (60/100) | 66.00% (66/100) | 67.00% (67/100) | 41.00% (41/100) | 54.00% (54/100) | 50.00% (50/100) |
+| `tinyllama_1_1b_chat` | 3.00% (3/100) | 2.00% (2/100) | 1.00% (1/100) | 20.00% (20/100) | 24.00% (24/100) | 27.00% (27/100) | 11.00% (11/100) | 16.00% (16/100) | 9.00% (9/100) |
 
-表中数值为准确率，括号内为 `correct / sample_count`。
+### CoT vs SC 对照表
 
-| model | dataset | zero_shot | few_shot | self_consistency |
-| --- | --- | --- | --- | --- |
-| `qwen2_5_0_5b_instruct` | GSM8K | 28.00% (28/100) | 10.00% (10/100) | 24.00% (24/100) |
-| `qwen2_5_0_5b_instruct` | CSQA | 16.00% (16/100) | 42.00% (42/100) | 22.00% (22/100) |
-| `qwen2_5_0_5b_instruct` | MMLU | 6.00% (6/100) | 6.00% (6/100) | 11.00% (11/100) |
-| `qwen2_5_1_5b_instruct` | GSM8K | 56.00% (56/100) | 66.00% (66/100) | 53.00% (53/100) |
-| `qwen2_5_1_5b_instruct` | CSQA | 30.00% (30/100) | 65.00% (65/100) | 37.00% (37/100) |
-| `qwen2_5_1_5b_instruct` | MMLU | 15.00% (15/100) | 37.00% (37/100) | 运行中 |
-| `tinyllama_1_1b_chat` | GSM8K | 3.00% (3/100) | 2.00% (2/100) | 运行中 |
-| `tinyllama_1_1b_chat` | CSQA | 16.00% (16/100) | 19.00% (19/100) | 待运行 |
-| `tinyllama_1_1b_chat` | MMLU | 9.00% (9/100) | 16.00% (16/100) | 待运行 |
+| model | dataset | zero_shot | few_shot | zero_shot_sc | few_shot_sc |
+| --- | --- | --- | --- | --- | --- |
+| `qwen2_5_0_5b_instruct` | GSM8K | 28.00% | 10.00% | 20.00% | 20.00% |
+| `qwen2_5_0_5b_instruct` | CSQA | 33.00% | 47.00% | 43.00% | 43.00% |
+| `qwen2_5_0_5b_instruct` | MMLU | 31.00% | 23.00% | 33.00% | 33.00% |
+| `qwen2_5_1_5b_instruct` | GSM8K | 56.00% | 66.00% | 67.00% | 67.00% |
+| `qwen2_5_1_5b_instruct` | CSQA | 60.00% | 66.00% | 67.00% | 67.00% |
+| `qwen2_5_1_5b_instruct` | MMLU | 41.00% | 54.00% | 50.00% | 50.00% |
+| `tinyllama_1_1b_chat` | GSM8K | 3.00% | 2.00% | 1.00% | 1.00% |
+| `tinyllama_1_1b_chat` | CSQA | 20.00% | 24.00% | 27.00% | 27.00% |
+| `tinyllama_1_1b_chat` | MMLU | 11.00% | 16.00% | 9.00% | 9.00% |
 
-### 已完成 Self-Consistency 路径统计
-
-`answer_extraction_success_rate` 表示 SC 的每条采样路径是否成功抽取到非空答案；`mean_unique_answers` 表示每题 3 条路径中平均产生多少个不同答案；`mean_majority_share` 表示多数票平均占比。
+### SC 路径统计表
 
 | model | dataset | sample_count | total_paths | answer_extraction_success_rate | mean_unique_answers | mean_majority_share |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
-| `qwen2_5_0_5b_instruct` | GSM8K | 100 | 300 | 100.00% | 2.81 | 39.67% |
-| `qwen2_5_0_5b_instruct` | CSQA | 100 | 300 | 100.00% | 2.46 | 51.33% |
-| `qwen2_5_0_5b_instruct` | MMLU | 100 | 300 | 100.00% | 2.70 | 43.33% |
-| `qwen2_5_1_5b_instruct` | GSM8K | 100 | 300 | 100.00% | 2.20 | 60.00% |
-| `qwen2_5_1_5b_instruct` | CSQA | 100 | 300 | 100.00% | 1.54 | 82.00% |
+| `qwen2_5_0_5b_instruct` | GSM8K | 100 | 300 | 100.00% | 2.85 | 38.33% |
+| `qwen2_5_0_5b_instruct` | CSQA | 100 | 300 | 100.00% | 1.73 | 75.67% |
+| `qwen2_5_0_5b_instruct` | MMLU | 100 | 300 | 100.00% | 2.37 | 54.33% |
+| `qwen2_5_1_5b_instruct` | GSM8K | 100 | 300 | 100.00% | 1.92 | 69.33% |
+| `qwen2_5_1_5b_instruct` | CSQA | 100 | 300 | 100.00% | 1.18 | 94.00% |
+| `qwen2_5_1_5b_instruct` | MMLU | 100 | 300 | 100.00% | 1.63 | 79.00% |
+| `tinyllama_1_1b_chat` | GSM8K | 100 | 300 | 100.00% | 2.93 | 35.67% |
+| `tinyllama_1_1b_chat` | CSQA | 100 | 300 | 100.00% | 2.15 | 61.67% |
+| `tinyllama_1_1b_chat` | MMLU | 100 | 300 | 100.00% | 2.78 | 40.67% |
 
-### 当前中间观察
+### 结论
 
-截至当前快照，Self-Consistency 在轻量模型上的提升并不稳定：
+- `SC` 并非在所有模型和数据集上都优于单条 `CoT`，但它确实在部分设置下带来了稳定增益。
+- 本项目与参考论文的结论是 `部分一致`，而不是对论文数值或增益幅度的直接复刻。
+- 从模型规模看，`qwen2_5_1_5b_instruct` 的结果最接近论文趋势，`tinyllama_1_1b_chat` 偏离最明显，这也说明在本项目的硬件约束下，模型规模会显著影响 SC 的收益。
+- 从数据集看，`CSQA` 上 SC 更容易体现投票收益，`GSM8K` 更依赖模型本身的推理质量，`MMLU` 则介于两者之间。
 
-- `qwen2_5_0_5b_instruct`：SC 相比 zero-shot 在 CSQA、MMLU 有提升，但相比 few-shot 只在 MMLU 持平/略优。
-- `qwen2_5_1_5b_instruct`：已完成的 GSM8K、CSQA 上，few-shot 明显强于 SC。
-- `tinyllama_1_1b_chat`：SC 尚未完成；从 zero-shot/few-shot 看，模型本身推理和格式遵循能力较弱，后续分析需要单独说明。
+更具体地说：
 
-该快照只是已完成结果统计，不作为最终结论。最终结论需要等待 27 个配置全部完成后，重新生成完整结果表、CoT vs SC 对照表和论文趋势说明。
+- `qwen2_5_0_5b_instruct`
+  - `SC` 相比 `zero_shot` 在 `CSQA` 和 `MMLU` 上有提升，但在 `GSM8K` 上回落。
+  - `SC` 相比 `few_shot` 只在 `GSM8K` 和 `MMLU` 上略有收益，在 `CSQA` 上略低。
+  - 说明对 0.5B 模型而言，SC 可以修正一部分单条 CoT 的随机性，但还不足以稳定压过更强的 few-shot baseline。
+
+- `qwen2_5_1_5b_instruct`
+  - `SC` 相比 `zero_shot` 在三个数据集上都提升，说明模型能力提升后，SC 的多数投票开始更容易发挥作用。
+  - `SC` 相比 `few_shot` 在 `GSM8K` 和 `CSQA` 上基本持平或略高，在 `MMLU` 上略低。
+  - 这组结果最符合论文主趋势，但也显示出 few-shot 仍然可能与 SC 形成竞争。
+
+- `tinyllama_1_1b_chat`
+  - `SC` 只在 `CSQA` 上明显优于 `zero_shot`，在 `GSM8K` 和 `MMLU` 上反而回落。
+  - `SC` 相比 `few_shot` 在三个数据集上都没有形成稳定优势。
+  - 这说明在较弱模型上，SC 的多路径采样会放大路径噪声，投票未必能抵消模型本身的推理不足。
+
+- 从 SC 路径统计看，`qwen2_5_1_5b_instruct` 在 `CSQA` 上的 `mean_unique_answers` 最低、`mean_majority_share` 最高，说明路径间更容易形成一致答案，这也是它更接近论文趋势的重要原因之一。
+- 相比之下，`tinyllama_1_1b_chat` 的路径多样性更高、共识更弱，SC 的票选优势被稀释，因此结果更不稳定。
+
+### 交付文件
+
+- 主结果表：`output/log/A/final_tables/baseline_main_results.csv`
+- CoT vs SC 对照表：`output/log/A/final_tables/cot_vs_sc_comparison.csv`
+- SC 路径统计表：`output/log/A/final_tables/sc_path_stats.csv`
+- 论文对照说明：`output/log/A/final_reports/paper_comparison.md`

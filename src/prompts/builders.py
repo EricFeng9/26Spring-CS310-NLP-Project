@@ -61,8 +61,23 @@ def build_few_shot_prompt(sample: TaskSample, prompt_config: dict, fewshot_sampl
     return "\n\n".join(lines)
 
 
-def build_self_consistency_prompt(sample: TaskSample, prompt_config: dict) -> str:
+def build_self_consistency_prompt(
+    sample: TaskSample,
+    prompt_config: dict,
+    fewshot_samples: list[TaskSample] | None = None,
+) -> str:
     """构造 Self-Consistency 使用的单次推理 prompt。"""
+    if fewshot_samples:
+        example_blocks = [sample_to_block(example, include_answer=True) for example in fewshot_samples]
+        lines = [
+            prompt_config["few_shot_instruction"].strip(),
+            final_answer_instruction(sample),
+            "\n\n".join(example_blocks),
+            sample_to_block(sample, include_answer=False),
+            "Reasoning:",
+        ]
+        return "\n\n".join(lines)
+
     lines = [
         prompt_config["self_consistency_instruction"].strip(),
         final_answer_instruction(sample),

@@ -2071,3 +2071,91 @@
 [self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 57/100 done id=mmlu_test_6924 prediction='C' gold='A' correct=False vote_counts={'C': 2, 'E': 1}
 [self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 start id=mmlu_test_7359
 [self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 path 1/3 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 path 2/3 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 path 3/3 answer='E'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 done id=mmlu_test_7359 prediction='B' gold='B' correct=True vote_counts={'B': 1, 'D': 1, 'E': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 start id=mmlu_test_7428
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 path 1/3 answer='E'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 path 2/3 answer='E'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 path 3/3 answer='E'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 done id=mmlu_test_7428 prediction='E' gold='D' correct=False vote_counts={'E': 3}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 start id=mmlu_test_7527
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 path 1/3 answer='E'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 path 2/3 answer='E'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 path 3/3 answer='E'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 done id=mmlu_test_7527 prediction='E' gold='B' correct=False vote_counts={'E': 3}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 start id=mmlu_test_8279
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 path 1/3 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 path 2/3 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 path 3/3 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 done id=mmlu_test_8279 prediction='C' gold='C' correct=True vote_counts={'C': 2, 'D': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 start id=mmlu_test_8785
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 path 1/3 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 path 2/3 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 path 3/3 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 done id=mmlu_test_8785 prediction='A' gold='B' correct=False vote_counts={'A': 1, 'B': 1, 'C': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 start id=mmlu_test_8928
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 path 1/3 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 path 2/3 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 path 3/3 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 done id=mmlu_test_8928 prediction='A' gold='D' correct=False vote_counts={'A': 3}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 start id=mmlu_test_8935
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 path 1/3 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 path 2/3 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 path 3/3 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 done id=mmlu_test_8935 prediction='A' gold='A' correct=True vote_counts={'A': 3}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 start id=mmlu_test_9044
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 path 1/3 answer="Step 1: Consider the scenario where the main character feeds the baby fingernails and toenails.\nScenario analysis: Feeding fingernails and toenails to a baby would be extremely harmful and dangerous, likely causing severe health issues or death. This action goes against common decency and basic human rights.\n\nStep 2: Consider the scenario where the main character demands a cigarette from someone outside a store.\nScenario analysis: Demanding a cigarette can be considered rude behavior but is generally within acceptable social norms if done politely and respectfully.\n\nStep 3: Determine whether each scenario involves clear moral wrongdoing according to ordinary moral standards in the US as of 2020.\nAnalysis: Feeding fingernails and toenails to a baby clearly violates the child's right to life, liberty, and bodily integrity. Demanding cigarettes from someone else could potentially cause harm if they refuse, making it morally questionable in certain contexts but not necessarily inherently wrong.\n\nStep 4: Match the scenarios with their respective answers based on the above analysis.\nAnswer: A. Wrong, Wrong"
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 path 2/3 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 path 3/3 answer="Scenario 1 involves feeding fingernails and toenails to a baby, which would certainly be considered extremely cruel and morally wrong behavior. This fits with the concept of harming or deliberately causing harm to another person.\n\nScenario 2 involves demanding a cigarette from someone who has no cigarettes available, without regard for their personal needs or desires. While it might seem like an innocent request in some contexts, it could also be seen as exploiting someone's vulnerability or making them feel uncomfortable if they don't have anything to offer.\n\nThe correct answer is D. Not wrong, Not wrong."
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 done id=mmlu_test_9044 prediction="Step 1: Consider the scenario where the main character feeds the baby fingernails and toenails.\nScenario analysis: Feeding fingernails and toenails to a baby would be extremely harmful and dangerous, likely causing severe health issues or death. This action goes against common decency and basic human rights.\n\nStep 2: Consider the scenario where the main character demands a cigarette from someone outside a store.\nScenario analysis: Demanding a cigarette can be considered rude behavior but is generally within acceptable social norms if done politely and respectfully.\n\nStep 3: Determine whether each scenario involves clear moral wrongdoing according to ordinary moral standards in the US as of 2020.\nAnalysis: Feeding fingernails and toenails to a baby clearly violates the child's right to life, liberty, and bodily integrity. Demanding cigarettes from someone else could potentially cause harm if they refuse, making it morally questionable in certain contexts but not necessarily inherently wrong.\n\nStep 4: Match the scenarios with their respective answers based on the above analysis.\nAnswer: A. Wrong, Wrong" gold='A' correct=False vote_counts={"Step 1: Consider the scenario where the main character feeds the baby fingernails and toenails.\nScenario analysis: Feeding fingernails and toenails to a baby would be extremely harmful and dangerous, likely causing severe health issues or death. This action goes against common decency and basic human rights.\n\nStep 2: Consider the scenario where the main character demands a cigarette from someone outside a store.\nScenario analysis: Demanding a cigarette can be considered rude behavior but is generally within acceptable social norms if done politely and respectfully.\n\nStep 3: Determine whether each scenario involves clear moral wrongdoing according to ordinary moral standards in the US as of 2020.\nAnalysis: Feeding fingernails and toenails to a baby clearly violates the child's right to life, liberty, and bodily integrity. Demanding cigarettes from someone else could potentially cause harm if they refuse, making it morally questionable in certain contexts but not necessarily inherently wrong.\n\nStep 4: Match the scenarios with their respective answers based on the above analysis.\nAnswer: A. Wrong, Wrong": 1, 'B': 1, "Scenario 1 involves feeding fingernails and toenails to a baby, which would certainly be considered extremely cruel and morally wrong behavior. This fits with the concept of harming or deliberately causing harm to another person.\n\nScenario 2 involves demanding a cigarette from someone who has no cigarettes available, without regard for their personal needs or desires. While it might seem like an innocent request in some contexts, it could also be seen as exploiting someone's vulnerability or making them feel uncomfortable if they don't have anything to offer.\n\nThe correct answer is D. Not wrong, Not wrong.": 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 start id=mmlu_test_9195
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 path 1/3 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 path 2/3 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 path 3/3 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 done id=mmlu_test_9195 prediction='A' gold='B' correct=False vote_counts={'A': 2, 'B': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 start id=mmlu_test_9459
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 path 1/3 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 path 2/3 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 path 3/3 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 done id=mmlu_test_9459 prediction='D' gold='A' correct=False vote_counts={'D': 3}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 start id=mmlu_test_9654
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 path 1/3 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 path 2/3 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 path 3/3 answer='E'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 done id=mmlu_test_9654 prediction='C' gold='C' correct=True vote_counts={'C': 1, 'B': 1, 'E': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 69/100 start id=mmlu_test_9674
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 69/100 path 1/3 start

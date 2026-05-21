@@ -69,7 +69,7 @@ LIGHTWEIGHT_MODELS = {
 DATASET_SPLITS = {
     "gsm8k": "test",
     "csqa": "validation",
-    "mmlu": "test",
+    "mmlu": "validation",
 }
 
 MODE_DEFAULTS = {
@@ -117,7 +117,7 @@ def _build_lightweight_run_config(
         "sample_seed": sample_seed if sample_seed is not None else 42,
         **MODE_DEFAULTS[mode],
     }
-    if mode == "few_shot":
+    if mode in {"few_shot", "self_consistency"}:
         run_config["few_shot_examples_path"] = f"data/processed/fewshot/{dataset_key}_fewshot.jsonl"
     return run_config
 

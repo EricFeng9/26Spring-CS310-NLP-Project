@@ -1,0 +1,22 @@
+
+===== run started at 2026-05-21T12:16:32 =====
+[formal_summary] config_dir=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/configs/runs/formal
+[formal_summary] summary_log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_reports/summarize_formal_results.log
+
+===== run started at 2026-05-21T12:18:58 =====
+[formal_summary] config_dir=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/raw/A/lightweight_100
+[formal_summary] summary_log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_reports/summarize_formal_results.log
+正式实验结果汇总完成。
+主结果表：/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_tables/baseline_main_results.csv
+CoT vs SC 对照表：/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_tables/cot_vs_sc_comparison.csv
+SC 路径统计表：/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_tables/sc_path_stats.csv
+论文对照说明：/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_reports/paper_comparison.md
+
+===== run started at 2026-05-21T12:21:17 =====
+[formal_summary] config_dir=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/raw/A/lightweight_100
+[formal_summary] summary_log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_reports/summarize_formal_results.log
+正式实验结果汇总完成。
+主结果表：/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_tables/baseline_main_results.csv
+CoT vs SC 对照表：/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_tables/cot_vs_sc_comparison.csv
+SC 路径统计表：/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_tables/sc_path_stats.csv
+论文对照说明：/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/final_reports/paper_comparison.md

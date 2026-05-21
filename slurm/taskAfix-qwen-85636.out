@@ -1,0 +1,11 @@
+[taskAfix-qwen] pipeline started at Wed May 20 11:53:04 CST 2026
+[taskAfix-qwen] start model=qwen2_5_0_5b_instruct mode=zero_shot at Wed May 20 11:53:04 CST 2026
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  80%|████████  | 233/290 [00:00<00:00, 2320.51it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 2154.85it/s]
+[formal_group] loaded shared runner for model=qwen2_5_0_5b_instruct configs=3 mode=zero_shot
+[formal_group] skip existing config=dynamic:zero_shot:qwen2_5_0_5b_instruct:gsm8k jsonl=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/raw/A/lightweight_100/zero_shot/qwen2_5_0_5b_instruct_gsm8k.jsonl csv=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/raw/A/lightweight_100/zero_shot/qwen2_5_0_5b_instruct_gsm8k.csv
+[formal_group] config=dynamic:zero_shot:qwen2_5_0_5b_instruct:csqa
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/lightweight_100/zero_shot/qwen2_5_0_5b_instruct_csqa.log
+[zero_shot][qwen2_5_0_5b_instruct][csqa] loaded 100 samples from split=validation
+[zero_shot][qwen2_5_0_5b_instruct][csqa] sample 1/100 start id=7ea9f721ffc662918bb0c0937a487f04
+[zero_shot][qwen2_5_0_5b_instruct][csqa] sample 1/100 done id=7ea9f721ffc662918bb0c0937a487f04 prediction='A' gold='D' correct=False
+[zero_shot][qwen2_5_0_5b_instruct][csqa] sample 2/100 start id=435a728f45d32faa4b3c4553c966fd6b

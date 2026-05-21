@@ -204,3 +204,227 @@
 [zero_shot][tinyllama_1_1b_chat][csqa] sample 100/100 start id=549cf641318edfc0510fa7c7dbb359e1
 [zero_shot][tinyllama_1_1b_chat][csqa] sample 100/100 done id=549cf641318edfc0510fa7c7dbb359e1 prediction='D' gold='C' correct=False
 [formal_group] completed config=dynamic:zero_shot:tinyllama_1_1b_chat:csqa
+
+===== run started at 2026-05-20T11:49:52 =====
+[formal_group] config=dynamic:zero_shot:tinyllama_1_1b_chat:csqa
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/lightweight_100/zero_shot/tinyllama_1_1b_chat_csqa.log
+[zero_shot][tinyllama_1_1b_chat][csqa] loaded 100 samples from split=validation
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 1/100 start id=7ea9f721ffc662918bb0c0937a487f04
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 1/100 done id=7ea9f721ffc662918bb0c0937a487f04 prediction='D' gold='D' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 2/100 start id=435a728f45d32faa4b3c4553c966fd6b
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 2/100 done id=435a728f45d32faa4b3c4553c966fd6b prediction='1. If I was getting drunk, and people couldn\'t understand me, what might I be having?\n    A. A seizure\n    B. Slurred speech\n    C. Death\n    D. Forgetfulness\n    E. Pass out\n\nReasoning:\n\na) The first choice, "a seizure," is not a reasonable answer. A seizure is a medical condition that causes sudden and uncontrollable movements, such as twitching or convulsions. In the context of this question, "getting drunk" and "people" refer to alcohol consumption, which is not a medical condition.\n\nb) The second choice, "slurred speech," is also not a reasonable answer. Slurred speech is a symptom of alcohol intoxication, not a condition in and of itself.\n\nc) The third choice, "death," is also not a reasonable answer. Death is a medical condition that occurs when the body stops functioning properly due to a variety of causes, including alcohol intoxication.\n\nd) The fourth choice, "forgetfulness," is also not a reasonable answer. Forgetting is' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 3/100 start id=b47d912136e3304cb5e5890b6b879551
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 3/100 done id=b47d912136e3304cb5e5890b6b879551 prediction='A' gold='D' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 4/100 start id=a8a8ae7792901c7179ff5538c701af1f
+
+===== run started at 2026-05-20T11:53:26 =====
+[formal_group] config=dynamic:zero_shot:tinyllama_1_1b_chat:csqa
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/lightweight_100/zero_shot/tinyllama_1_1b_chat_csqa.log
+[zero_shot][tinyllama_1_1b_chat][csqa] loaded 100 samples from split=validation
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 1/100 start id=7ea9f721ffc662918bb0c0937a487f04
+
+===== run started at 2026-05-20T11:55:31 =====
+[formal_group] config=dynamic:zero_shot:tinyllama_1_1b_chat:csqa
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/lightweight_100/zero_shot/tinyllama_1_1b_chat_csqa.log
+[zero_shot][tinyllama_1_1b_chat][csqa] loaded 100 samples from split=validation
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 1/100 start id=7ea9f721ffc662918bb0c0937a487f04
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 1/100 done id=7ea9f721ffc662918bb0c0937a487f04 prediction='D' gold='D' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 2/100 start id=435a728f45d32faa4b3c4553c966fd6b
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 2/100 done id=435a728f45d32faa4b3c4553c966fd6b prediction='C' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 3/100 start id=b47d912136e3304cb5e5890b6b879551
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 3/100 done id=b47d912136e3304cb5e5890b6b879551 prediction='A' gold='D' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 4/100 start id=a8a8ae7792901c7179ff5538c701af1f
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 4/100 done id=a8a8ae7792901c7179ff5538c701af1f prediction='A' gold='E' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 5/100 start id=2d33cde5e3987adc8fa2bca0af4dd3dd
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 5/100 done id=2d33cde5e3987adc8fa2bca0af4dd3dd prediction='D' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 6/100 start id=1a8b3c2a46efabcbd506f9cf70886ed0
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 6/100 done id=1a8b3c2a46efabcbd506f9cf70886ed0 prediction='E' gold='E' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 7/100 start id=1531f1523f5fd24bbdb42c311dbf90e8
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 7/100 done id=1531f1523f5fd24bbdb42c311dbf90e8 prediction='E' gold='E' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 8/100 start id=ef22ef7aeec70aaa688720f805c1cf38
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 8/100 done id=ef22ef7aeec70aaa688720f805c1cf38 prediction='A' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 9/100 start id=4da33e6f4b789776acb1bc10195baa83
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 9/100 done id=4da33e6f4b789776acb1bc10195baa83 prediction='A' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 10/100 start id=1ab746bcd100ccf513055fe93c61010b
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 10/100 done id=1ab746bcd100ccf513055fe93c61010b prediction='D' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 11/100 start id=e476e2c8c278eaecfe1a8b884b6aeb8e
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 11/100 done id=e476e2c8c278eaecfe1a8b884b6aeb8e prediction='C' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 12/100 start id=6c36226b23377a0dd0188bf56840e22a
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 12/100 done id=6c36226b23377a0dd0188bf56840e22a prediction='E' gold='C' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 13/100 start id=3e2222c99e11fca2ad4af2d470eb8ea2_1
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 13/100 done id=3e2222c99e11fca2ad4af2d470eb8ea2_1 prediction='"specialized runway."' gold='D' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 14/100 start id=fa031cff8e11e75c68d6a99ef0e5ca3a
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 14/100 done id=fa031cff8e11e75c68d6a99ef0e5ca3a prediction='B' gold='B' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 15/100 start id=76b6f0765a3b2fba71021f902142edc0
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 15/100 done id=76b6f0765a3b2fba71021f902142edc0 prediction='C' gold='C' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 16/100 start id=ae56eff01d05422ddbcb26be7181356a
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 16/100 done id=ae56eff01d05422ddbcb26be7181356a prediction='E' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 17/100 start id=d107d67d525a686fbd8282314d2ea33c
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 17/100 done id=d107d67d525a686fbd8282314d2ea33c prediction='B' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 18/100 start id=e69da59cbcf2a302e4523571eba8186b
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 18/100 done id=e69da59cbcf2a302e4523571eba8186b prediction='A' gold='E' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 19/100 start id=ec5a336080e37fbe95d72ad5f9c65ba7
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 19/100 done id=ec5a336080e37fbe95d72ad5f9c65ba7 prediction='A' gold='C' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 20/100 start id=056b33c7050c167b0d4348d40d169358
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 20/100 done id=056b33c7050c167b0d4348d40d169358 prediction='A' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 21/100 start id=60e8f1a86d4063895f340cd1e3c55f50
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 21/100 done id=60e8f1a86d4063895f340cd1e3c55f50 prediction='A' gold='C' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 22/100 start id=03ee30b5801b61aee791a551a9d9a49f
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 22/100 done id=03ee30b5801b61aee791a551a9d9a49f prediction='"your sweater may produce."' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 23/100 start id=0542414710025f56b0c26e1bae5c4d06
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 23/100 done id=0542414710025f56b0c26e1bae5c4d06 prediction='1. Choice A: Multivitamin\n\nThe given statement "Minerals can be obtained in what way for a person who avoids leafy greens?" implies that minerals can be obtained in a specific way for someone who avoids leafy greens. Therefore, the correct answer is choice A: multivitamin.\n\nReasoning:\n- The given statement implies that minerals can be obtained in a specific way for someone who avoids leafy greens.\n- Choice A: multivitamin is a common multivitamin supplement that contains a variety of essential vitamins and minerals.\n- The given statement implies that someone who avoids leafy greens can benefit from taking a multivitamin supplement.\n\n2. Choice B: Farm\n\nThe given statement "Minerals can be obtained in what way for a person who avoids leafy greens?" implies that minerals can be obtained in a specific way for someone who avoids leafy greens. Therefore, the correct answer is choice B: farm.\n\nReasoning:\n- The given statement implies that minerals can be obtained in a specific way' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 24/100 start id=026cb9c07a583ec933f2c4c67ae73836
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 24/100 done id=026cb9c07a583ec933f2c4c67ae73836 prediction='E' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 25/100 start id=93b52e7ea1acf10db891e9355e234123
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 25/100 done id=93b52e7ea1acf10db891e9355e234123 prediction='A' gold='A' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 26/100 start id=1d44fb5f4b7f1e23ff6c1c083db81ba1
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 26/100 done id=1d44fb5f4b7f1e23ff6c1c083db81ba1 prediction='A' gold='E' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 27/100 start id=5215e26c99b2a9b376fb1c70096a388a
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 27/100 done id=5215e26c99b2a9b376fb1c70096a388a prediction='E' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 28/100 start id=b4130d1790948134f3aeab9d3d79c181
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 28/100 done id=b4130d1790948134f3aeab9d3d79c181 prediction='A' gold='A' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 29/100 start id=651785ed4f7b0bd2e7ca9f70a42acea5
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 29/100 done id=651785ed4f7b0bd2e7ca9f70a42acea5 prediction='A' gold='A' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 30/100 start id=ee46995407eb6357bb5410d49d378629
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 30/100 done id=ee46995407eb6357bb5410d49d378629 prediction='C' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 31/100 start id=adbddc80b10bf25f09c6c2bee4e3c59b
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 31/100 done id=adbddc80b10bf25f09c6c2bee4e3c59b prediction='D' gold='E' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 32/100 start id=5a50ea4bb2d13dc4f620ebd45025d445
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 32/100 done id=5a50ea4bb2d13dc4f620ebd45025d445 prediction='A' gold='E' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 33/100 start id=48205cc84aab5e455b22e17c3cc7277d
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 33/100 done id=48205cc84aab5e455b22e17c3cc7277d prediction='"None of the above".' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 34/100 start id=b9e04a53c0ee7325b901de4d12d56884
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 34/100 done id=b9e04a53c0ee7325b901de4d12d56884 prediction='A' gold='C' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 35/100 start id=64d2310eff6b661baeb41b4ccc392e35
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 35/100 done id=64d2310eff6b661baeb41b4ccc392e35 prediction='The question "When we are running" asks us to analyze the action of running.\n\n1. The action of running is a physical movement that involves the legs, feet, and body.\n2. Running is a common activity that people engage in for various reasons, such as exercise, transportation, or travel.\n3. Running is a physical activity that requires a lot of effort and energy, which can be measured by the distance covered or the time taken.\n\nBased on the above information, the correct answer is "A."\n\nReasoning:\n\n1. The action of running is a physical movement that involves the legs, feet, and body.\n2. Running is a common activity that people engage in for various reasons, such as exercise, transportation, or travel.\n3. Running is a physical activity that requires a lot of effort and energy, which can be measured by the distance covered or the time taken.\n\nTherefore, the correct answer is "A."\n\nQuestion: What is the purpose of the question "When we are running"?\n\nReasoning:\n\n1. The question "When we are running" asks us to analyze the action of running.\n2.' gold='D' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 36/100 start id=6c70d98cfb8e97fda8caefcee761a229
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 36/100 done id=6c70d98cfb8e97fda8caefcee761a229 prediction='D' gold='D' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 37/100 start id=a7d51b753c2113d8b2dbd0ebb5375855_1
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 37/100 done id=a7d51b753c2113d8b2dbd0ebb5375855_1 prediction='D' gold='D' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 38/100 start id=f13efb91090dd28fd2b3c1f4dde680fd
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 38/100 done id=f13efb91090dd28fd2b3c1f4dde680fd prediction='D' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 39/100 start id=fb64149cf01c5b496d986f56852273e9
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 39/100 done id=fb64149cf01c5b496d986f56852273e9 prediction='1. Choice A: radio shack\n\nReasoning:\n- radio shack is a place that sells electronic devices, such as radios, televisions, and stereos\n- large cable hanging overhead is a common feature in radio shack, as it is used to connect devices to the electrical outlets\n- therefore, radio shack is a place that has large cable hanging overhead\n\n2. Choice B: electrical device\n\nReasoning:\n- electrical device is a term used to describe any device that uses electricity, such as a light bulb, a power outlet, or a computer\n- large cable hanging overhead is a common feature in electrical devices, as it is used to connect wires and cables to the electrical outlets\n- therefore, electrical device is a place that has large cable hanging overhead\n\n3. Choice C: shower\n\nReasoning:\n- shower is a type of bathroom fixture that is typically used for bathing, showering, or washing\n- large cable hanging overhead is a common feature in shower fixtures, as it is used to connect the water supply' gold='D' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 40/100 start id=22fc45d9e6d0baea4a5b0526504225b8
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 40/100 done id=22fc45d9e6d0baea4a5b0526504225b8 prediction='C' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 41/100 start id=7d70208061ae3185bcfc9e912ee9e141
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 41/100 done id=7d70208061ae3185bcfc9e912ee9e141 prediction='C' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 42/100 start id=055817d8d703d3c2802545e3fccdcde3
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 42/100 done id=055817d8d703d3c2802545e3fccdcde3 prediction='C' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 43/100 start id=3a3b5d4a517ef70d25eb558f1a622937
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 43/100 done id=3a3b5d4a517ef70d25eb558f1a622937 prediction='E' gold='E' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 44/100 start id=d1ad9b79f54205b6b9ac19a27f9c2be5
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 44/100 done id=d1ad9b79f54205b6b9ac19a27f9c2be5 prediction='C' gold='E' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 45/100 start id=48abc2c113623fd72f758502529f93a5
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 45/100 done id=48abc2c113623fd72f758502529f93a5 prediction='Question: By learning about the world, many poor college students gain what?\n\nChoices:\nA. pleasure\nB. greater mobility\nC. desire to travel\nD. global warming\nE. increased security\n\nReasoning:\n1. Poor college students often have limited access to resources and opportunities outside of their immediate surroundings.\n2. Learning about the world through various academic disciplines, such as history, geography, and economics, can provide them with a broader perspective and knowledge of the world beyond their immediate surroundings.\n3. By gaining a deeper understanding of the world, poor college students may develop a greater desire to travel, explore new places, and experience different cultures.\n4. Global warming and increased security are two examples of global issues that can be explored through academic disciplines. By learning about these issues, poor college students may gain a greater sense of responsibility and a desire to take action to address them.\n5. Finally, increased security can be a concern for many poor college students, as they may not have access to the same level of security as their wealthier peers. By learning about the world through academic disciplines, poor college students may' gold='C' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 46/100 start id=463521a93ae71e93bea8b97cdf7a6792
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 46/100 done id=463521a93ae71e93bea8b97cdf7a6792 prediction="1. Choice A: Closet\nJohn's place is a small apartment, and he has limited space. Therefore, he would have to clean the dust from the closet.\n\nReasoning: John's place is a small apartment, and he has limited space. Therefore, he would have to clean the dust from the closet.\n\n2. Choice B: Under the bed\nJohn's place is a small apartment, and he has limited space. However, he has a small bed underneath the bed. Therefore, he would have to clean the dust from the bed.\n\nReasoning: John's place is a small apartment, and he has limited space. However, he has a small bed underneath the bed. Therefore, he would have to clean the dust from the bed.\n\n3. Choice C: Television\nJohn's place is a small apartment, and he has limited space. However, he has a large television. Therefore, he would have to clean the dust from the television.\n\nReasoning: John's place is a small apartment, and he has limited space. However, he has a large television. Therefore" gold='D' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 47/100 start id=f8a2cbc7189b92a809ce9cd857030621
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 47/100 done id=f8a2cbc7189b92a809ce9cd857030621 prediction='E' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 48/100 start id=fce1c5d069758aea57a787fc98dcf7a9
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 48/100 done id=fce1c5d069758aea57a787fc98dcf7a9 prediction='D' gold='E' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 49/100 start id=c0d75f9fbf30aa3a612f16edb20d6b8d
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 49/100 done id=c0d75f9fbf30aa3a612f16edb20d6b8d prediction='E' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 50/100 start id=7bb87c6d8eab57d4e983f60025b1f0dc
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 50/100 done id=7bb87c6d8eab57d4e983f60025b1f0dc prediction='E' gold='D' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 51/100 start id=083861fc5ebb9226fff70544f3f83d2b
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 51/100 done id=083861fc5ebb9226fff70544f3f83d2b prediction='E' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 52/100 start id=c3b7f4196b12714940ac1b9417194df4
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 52/100 done id=c3b7f4196b12714940ac1b9417194df4 prediction='B' gold='D' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 53/100 start id=bee2a6eadfaf7a4fa0a214e341ddbe5b
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 53/100 done id=bee2a6eadfaf7a4fa0a214e341ddbe5b prediction='A' gold='A' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 54/100 start id=839f3c37622c1ed5eebc9cd0b9d658e8
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 54/100 done id=839f3c37622c1ed5eebc9cd0b9d658e8 prediction='A' gold='D' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 55/100 start id=9b62cd7f89716f393239e6c6ff3e11d5
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 55/100 done id=9b62cd7f89716f393239e6c6ff3e11d5 prediction='1. The shark actually counted as evidence, so where did the legal team bring it?\n\nAnswer: The legal team brought the shark to court.\n\nReasoning: The shark was brought to court as evidence, and the legal team brought it to court to present it as evidence.\n\n2. Where did the legal team bring the shark to court?\n\nAnswer: The legal team brought the shark to court in a courtroom.\n\nReasoning: The legal team brought the shark to court in a courtroom, which is where the shark was presented as evidence.\n\n3. Where did the legal team bring the shark to court in a courtroom?\n\nAnswer: The legal team brought the shark to court in a courtroom.\n\nReasoning: The legal team brought the shark to court in a courtroom, which is where the shark was presented as evidence.\n\n4. Where did the legal team bring the shark to court in a courtroom?\n\nAnswer: The legal team brought the shark to court in a courtroom.\n\nReasoning: The legal team brought the shark to court in a courtroom, which' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 56/100 start id=96cb628fb7ed2f53245598f707ed2b80
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 56/100 done id=96cb628fb7ed2f53245598f707ed2b80 prediction='1. Choice A: Clothes get stained\nJohn loved to paint houses, but he usually did it with clothes. This means that he used his clothes to paint the houses.\n\nReasoning: John loved to paint houses, so he would use his clothes to paint the houses.\n\n2. Choice B: With brush\nJohn loved to paint houses, but he usually used a brush. This means that he used a brush to paint the houses.\n\nReasoning: John loved to paint houses, so he would use a brush to paint the houses.\n\n3. Choice C: Wallpaper\nJohn loved to paint houses, but he usually used wallpaper. This means that he used wallpaper to paint the houses.\n\nReasoning: John loved to paint houses, so he would use wallpaper to paint the houses.\n\n4. Choice D: Electrical circuit\nJohn loved to paint houses, but he usually used an electrical circuit. This means that he used an electrical circuit to paint the houses.\n\nReasoning: John loved to paint houses, so he would use an electrical circuit to paint the houses.\n\n5. Choice' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 57/100 start id=536c9af0fae0aa75b32874dfcac66353
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 57/100 done id=536c9af0fae0aa75b32874dfcac66353 prediction='D' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 58/100 start id=1510f5183095466e4fe41b82501a9dd0
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 58/100 done id=1510f5183095466e4fe41b82501a9dd0 prediction='C' gold='C' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 59/100 start id=f48528156632b9c5b18af9ce2095509b
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 59/100 done id=f48528156632b9c5b18af9ce2095509b prediction='C' gold='C' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 60/100 start id=f912bcd7479b76db9b1c57a612b90f00
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 60/100 done id=f912bcd7479b76db9b1c57a612b90f00 prediction='1. Choice A: control children\n\nJohn and Judy were parents, and they had two wonderful kids who were not always well-behaved. Therefore, they felt it was their job to control their children.\n\nReasoning: John and Judy were parents, and they had two wonderful kids who were not always well-behaved. Therefore, they felt it was their job to control their children.\n\n2. Choice B: guide children\n\nJohn and Judy were parents, and they had two wonderful kids who were not always well-behaved. They felt it was their job to guide their children.\n\nReasoning: John and Judy were parents, and they had two wonderful kids who were not always well-behaved. Therefore, they felt it was their job to guide their children.\n\n3. Choice C: speak freely\n\nJohn and Judy were parents, and they had two wonderful kids who were not always well-behaved. They felt it was their job to speak freely with their children.\n\nReasoning: John and Judy were parents, and they had two wonderful kids who were not always well-be' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 61/100 start id=92869fc0be5dc45f407700692ffd80a0
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 61/100 done id=92869fc0be5dc45f407700692ffd80a0 prediction='D' gold='E' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 62/100 start id=2a58e81a9c4ce095d099e0d785fc2da4
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 62/100 done id=2a58e81a9c4ce095d099e0d785fc2da4 prediction='B' gold='E' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 63/100 start id=cc1a547bdfdcc95e4d632453af14bc96
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 63/100 done id=cc1a547bdfdcc95e4d632453af14bc96 prediction='D' gold='C' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 64/100 start id=ef3d5d35128678937c36438466e0fc93
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 64/100 done id=ef3d5d35128678937c36438466e0fc93 prediction='The program kept getting errors, the amateur end user began to become frustrated. This is because the program was not being compiled or debugged properly. The correct answer is "compile."\n\nThe program keeps getting errors because it is not being compiled or debugged properly. This means that the program is not being executed correctly, which can lead to errors.\n\nTo solve this problem, the amateur end user should follow the steps to compile and debug the program. This will ensure that the program is being executed correctly and that any errors are caught early on.' gold='E' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 65/100 start id=0f0e339412f719a019bf373e6daf2530
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 65/100 done id=0f0e339412f719a019bf373e6daf2530 prediction='E' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 66/100 start id=489a082aab43dd1a53f3f1f89c2365ed
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 66/100 done id=489a082aab43dd1a53f3f1f89c2365ed prediction='<answer>.' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 67/100 start id=f8a9208665a4f2d64986940456b4b964
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 67/100 done id=f8a9208665a4f2d64986940456b4b964 prediction='A' gold='D' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 68/100 start id=167d2cfa04bfaea0e0b5bac3598d5769
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 68/100 done id=167d2cfa04bfaea0e0b5bac3598d5769 prediction='D' gold='D' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 69/100 start id=a585df0818180ce3c06f963a4c3c810a
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 69/100 done id=a585df0818180ce3c06f963a4c3c810a prediction='E' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 70/100 start id=c7cb327fa4c0008efaa7741081a365d4
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 70/100 done id=c7cb327fa4c0008efaa7741081a365d4 prediction='D' gold='E' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 71/100 start id=c54ddc0f9d170ba65d9f4f2e0bb41d1c
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 71/100 done id=c54ddc0f9d170ba65d9f4f2e0bb41d1c prediction='E' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 72/100 start id=d35112a99ab3983fb51c3adae80bc2da
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 72/100 done id=d35112a99ab3983fb51c3adae80bc2da prediction='E' gold='D' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 73/100 start id=a00276c6db928900772c0320aeff77c0
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 73/100 done id=a00276c6db928900772c0320aeff77c0 prediction='E' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 74/100 start id=60e7338e9e6bfc746a15a161eb12706c
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 74/100 done id=60e7338e9e6bfc746a15a161eb12706c prediction='"what".' gold='E' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 75/100 start id=004607228ad49b69eac932c1005d6106
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 75/100 done id=004607228ad49b69eac932c1005d6106 prediction='A' gold='C' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 76/100 start id=0c1efb38e023ee9725486fbec4f2d797
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 76/100 done id=0c1efb38e023ee9725486fbec4f2d797 prediction='E' gold='D' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 77/100 start id=b7ab4a5e0c19a98f41cd1ba3176f2dff
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 77/100 done id=b7ab4a5e0c19a98f41cd1ba3176f2dff prediction='A' gold='C' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 78/100 start id=230cc491829307e8edb5423c8d09f945
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 78/100 done id=230cc491829307e8edb5423c8d09f945 prediction='The answer to the question is "A."\n\nFirst, we need to understand the context of the question. The question is asking everyone to do something that they don\'t want to do. This could be anything from expelling someone from the group to wearing shoes.\n\nTo answer this question, we need to consider the options given in the given text. The first option, "explicate," is not a valid answer. It does not fit the context of the question.\n\nThe second option, "pay tribute to king," is also not a valid answer. It implies that someone is paying tribute to a king, which is not what the question is asking.\n\nThe third option, "hope for peace," is also not a valid answer. It implies that someone is hoping for peace, which is not what the question is asking.\n\nThe fourth option, "wear shoes," is also not a valid answer. It implies that someone is wearing shoes, which is not what the question is asking.\n\nThe final option, "do well," is the only valid answer. It fits the context of the question and is the correct answer.\n\nTherefore, the answer to the question' gold='C' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 79/100 start id=e43c4eaa04243ddee30f29171718eb92
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 79/100 done id=e43c4eaa04243ddee30f29171718eb92 prediction='A' gold='A' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 80/100 start id=7a58e7e7bf76658751e850f790922aba
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 80/100 done id=7a58e7e7bf76658751e850f790922aba prediction='A' gold='E' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 81/100 start id=13fc28f53423a9b3a656c9431df1b3b5
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 81/100 done id=13fc28f53423a9b3a656c9431df1b3b5 prediction='E' gold='E' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 82/100 start id=3f4b48708d08f8bf7bec796531023f9c
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 82/100 done id=3f4b48708d08f8bf7bec796531023f9c prediction='E' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 83/100 start id=8233ccb60dd0c0ff3b7ca5d73e5681f2
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 83/100 done id=8233ccb60dd0c0ff3b7ca5d73e5681f2 prediction='A' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 84/100 start id=1db19a32a3edbff9981976dc9ec800ce
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 84/100 done id=1db19a32a3edbff9981976dc9ec800ce prediction='E' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 85/100 start id=f7a6d0d816d14210f3af5dabe21bf804
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 85/100 done id=f7a6d0d816d14210f3af5dabe21bf804 prediction='A' gold='A' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 86/100 start id=e40fd2c17fe2cde4bd4af540d35fd518
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 86/100 done id=e40fd2c17fe2cde4bd4af540d35fd518 prediction='A' gold='E' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 87/100 start id=3095078e4771053d9d5fa8d4f5f3dc38
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 87/100 done id=3095078e4771053d9d5fa8d4f5f3dc38 prediction='D' gold='C' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 88/100 start id=ac6378b5e8462dc1bde1155d706213d8
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 88/100 done id=ac6378b5e8462dc1bde1155d706213d8 prediction='A' gold='C' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 89/100 start id=3cb91a71a6567da870eedf37becc97ef
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 89/100 done id=3cb91a71a6567da870eedf37becc97ef prediction='D' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 90/100 start id=f61d83f90b92a8d537989e55ee70542d
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 90/100 done id=f61d83f90b92a8d537989e55ee70542d prediction='Question: The buildings were intended to not have residential kitchens in them, what were they designed for?\n\nChoices:\nA. large city\n- The buildings were designed for commercial purposes, such as offices, retail stores, and restaurants.\nB. small\n- The buildings were designed for residential purposes, such as apartments, condominiums, and townhouses.\nC. eat cake\n- The buildings were designed for commercial purposes, such as offices, retail stores, and restaurants.\nD. university\n- The buildings were designed for educational purposes, such as universities, colleges, and schools.\nE. town\n- The buildings were designed for residential purposes, such as apartments, condominiums, and townhouses.\n\nReasoning:\n\n1. The buildings were intended to not have residential kitchens in them, which means they were designed for commercial purposes.\n\n2. Commercial purposes require commercial kitchens, which are designed for commercial use.\n\n3. The buildings were designed for commercial purposes, which means they were designed for commercial kitchens.\n\n4. Commercial kitchens are designed' gold='D' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 91/100 start id=d3b145911a76fd6fbe9a23ab027be024
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 91/100 done id=d3b145911a76fd6fbe9a23ab027be024 prediction='D' gold='A' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 92/100 start id=ca60a46c9007e4b6213f50bfb5342fdd
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 92/100 done id=ca60a46c9007e4b6213f50bfb5342fdd prediction='D' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 93/100 start id=8e7941ce31996ca83cc0a68f7313c96d
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 93/100 done id=8e7941ce31996ca83cc0a68f7313c96d prediction='C' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 94/100 start id=a2aa95861ef74bf1ecfc55db505e3982
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 94/100 done id=a2aa95861ef74bf1ecfc55db505e3982 prediction='D' gold='D' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 95/100 start id=5365fd00ef8cec62ee5685e246a939db
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 95/100 done id=5365fd00ef8cec62ee5685e246a939db prediction='D' gold='E' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 96/100 start id=d0a42c8180b4e080aa071dd70fce7e03
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 96/100 done id=d0a42c8180b4e080aa071dd70fce7e03 prediction='D' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 97/100 start id=6544a50bf9563d52dbd2034e81df0bf3
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 97/100 done id=6544a50bf9563d52dbd2034e81df0bf3 prediction='E' gold='D' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 98/100 start id=2ca05683157a3cd89d82016f13e560ec
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 98/100 done id=2ca05683157a3cd89d82016f13e560ec prediction='"an' gold='B' correct=False
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 99/100 start id=8f2976690c83be6b8fa3a1196dfd9722
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 99/100 done id=8f2976690c83be6b8fa3a1196dfd9722 prediction='E' gold='E' correct=True
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 100/100 start id=549cf641318edfc0510fa7c7dbb359e1
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 100/100 done id=549cf641318edfc0510fa7c7dbb359e1 prediction='D' gold='C' correct=False
+[formal_group] completed config=dynamic:zero_shot:tinyllama_1_1b_chat:csqa

@@ -1,0 +1,10 @@
+model_key,dataset_key,split,num_paths,sample_count,answer_extraction_success_rate,mean_unique_answers,mean_majority_share
+qwen2_5_0_5b_instruct,csqa,validation,3,100,1.0,1.73,0.756667
+qwen2_5_0_5b_instruct,gsm8k,test,3,100,1.0,2.85,0.383333
+qwen2_5_0_5b_instruct,mmlu,validation,3,100,1.0,2.37,0.543333
+qwen2_5_1_5b_instruct,csqa,validation,3,100,1.0,1.18,0.94
+qwen2_5_1_5b_instruct,gsm8k,test,3,100,1.0,1.92,0.693333
+qwen2_5_1_5b_instruct,mmlu,validation,3,100,1.0,1.63,0.79
+tinyllama_1_1b_chat,csqa,validation,3,100,1.0,2.15,0.616667
+tinyllama_1_1b_chat,gsm8k,test,3,100,1.0,2.93,0.356667
+tinyllama_1_1b_chat,mmlu,validation,3,100,1.0,2.78,0.406667

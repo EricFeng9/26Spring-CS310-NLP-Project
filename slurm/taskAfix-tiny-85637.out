@@ -1,0 +1,10 @@
+[taskAfix-tiny] pipeline started at Wed May 20 11:53:06 CST 2026
+[taskAfix-tiny] start model=tinyllama_1_1b_chat mode=zero_shot at Wed May 20 11:53:06 CST 2026
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:  61%|██████    | 123/201 [00:00<00:00, 1229.41it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 1615.53it/s]
+[formal_group] loaded shared runner for model=tinyllama_1_1b_chat configs=3 mode=zero_shot
+[formal_group] skip existing config=dynamic:zero_shot:tinyllama_1_1b_chat:gsm8k jsonl=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/raw/A/lightweight_100/zero_shot/tinyllama_1_1b_chat_gsm8k.jsonl csv=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/raw/A/lightweight_100/zero_shot/tinyllama_1_1b_chat_gsm8k.csv
+[formal_group] config=dynamic:zero_shot:tinyllama_1_1b_chat:csqa
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/lightweight_100/zero_shot/tinyllama_1_1b_chat_csqa.log
+[zero_shot][tinyllama_1_1b_chat][csqa] loaded 100 samples from split=validation
+[zero_shot][tinyllama_1_1b_chat][csqa] sample 1/100 start id=7ea9f721ffc662918bb0c0937a487f04
+[transformers] Both `max_new_tokens` (=256) and `max_length`(=2048) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)

@@ -43,6 +43,30 @@ def _map_choice_content_to_letter(answer_text: str, choices: list[str]) -> str |
     return None
 
 
+def _extract_choice_letter(answer_text: str, allow_standalone: bool = True) -> str | None:
+    """从最终答案片段中抽取选项字母，避免把 because 等普通单词误当答案。"""
+    normalized = answer_text.strip()
+    normalized = re.sub(r"^[\"'`\s\*\(\[]+", "", normalized)
+
+    labelled_match = re.search(
+        r"(?:option|choice|answer|best answer|correct answer|final answer)\s*(?:is|:)?\s*([A-E])\b",
+        normalized,
+        flags=re.IGNORECASE,
+    )
+    if labelled_match:
+        return labelled_match.group(1).upper()
+
+    leading_match = re.match(r"^([A-E])(?:\s*[\.\):：、-]|\s*$)", normalized, flags=re.IGNORECASE)
+    if leading_match:
+        return leading_match.group(1).upper()
+
+    standalone_match = re.search(r"\b([A-E])\b", normalized, flags=re.IGNORECASE)
+    if allow_standalone and standalone_match:
+        return standalone_match.group(1).upper()
+
+    return None
+
+
 def extract_answer(dataset_key: str, generated_text: str, strict: bool = True, choices: list[str] | None = None) -> str:
     """按数据集类型抽取最终答案。
 
@@ -68,13 +92,21 @@ def extract_answer(dataset_key: str, generated_text: str, strict: bool = True, c
     if dataset_key in {"csqa", "mmlu"}:
         answer_lines = re.findall(r"The answer is\s*([^\n]+)", generated_text, flags=re.IGNORECASE)
         if not answer_lines:
+            tail_text = "\n".join(generated_text.strip().splitlines()[-3:])
+            fallback_letter = _extract_choice_letter(tail_text, allow_standalone=False)
+            if fallback_letter is not None:
+                return fallback_letter
+            if choices:
+                mapped_letter = _map_choice_content_to_letter(tail_text, choices)
+                if mapped_letter is not None:
+                    return mapped_letter
             if strict:
                 raise ValueError(f"{dataset_key} 答案抽取失败，原始文本为：{generated_text}")
             return generated_text.strip()
         final_answer_line = answer_lines[-1]
-        letter_matches = re.findall(r"([A-E])", final_answer_line, flags=re.IGNORECASE)
-        if letter_matches:
-            return letter_matches[-1].upper()
+        choice_letter = _extract_choice_letter(final_answer_line)
+        if choice_letter is not None:
+            return choice_letter
 
         if choices:
             mapped_letter = _map_choice_content_to_letter(final_answer_line, choices)

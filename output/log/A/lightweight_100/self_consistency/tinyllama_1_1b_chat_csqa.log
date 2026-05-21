@@ -1,0 +1,807 @@
+
+===== run started at 2026-05-20T18:35:11 =====
+[formal_group] config=dynamic:self_consistency:tinyllama_1_1b_chat:csqa
+[formal_group] log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/A/lightweight_100/self_consistency/tinyllama_1_1b_chat_csqa.log
+[self_consistency][tinyllama_1_1b_chat][csqa] loaded 100 samples from split=validation num_paths=3
+[self_consistency][tinyllama_1_1b_chat][csqa] using 3 few-shot examples for SC prompt
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 1/100 start id=7ea9f721ffc662918bb0c0937a487f04
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 1/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 1/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 1/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 1/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 1/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 1/100 path 3/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 1/100 done id=7ea9f721ffc662918bb0c0937a487f04 prediction='A' gold='D' correct=False vote_counts={'A': 2, 'E': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 2/100 start id=435a728f45d32faa4b3c4553c966fd6b
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 2/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 2/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 2/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 2/100 path 2/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 2/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 2/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 2/100 done id=435a728f45d32faa4b3c4553c966fd6b prediction='A' gold='B' correct=False vote_counts={'A': 2, 'C': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 3/100 start id=b47d912136e3304cb5e5890b6b879551
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 3/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 3/100 path 1/3 answer='_________.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 3/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 3/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 3/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 3/100 path 3/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 3/100 done id=b47d912136e3304cb5e5890b6b879551 prediction='_________.' gold='D' correct=False vote_counts={'_________.': 1, 'A': 1, 'E': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 4/100 start id=a8a8ae7792901c7179ff5538c701af1f
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 4/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 4/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 4/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 4/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 4/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 4/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 4/100 done id=a8a8ae7792901c7179ff5538c701af1f prediction='A' gold='E' correct=False vote_counts={'A': 3}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 5/100 start id=2d33cde5e3987adc8fa2bca0af4dd3dd
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 5/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 5/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 5/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 5/100 path 2/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 5/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 5/100 path 3/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 5/100 done id=2d33cde5e3987adc8fa2bca0af4dd3dd prediction='D' gold='A' correct=False vote_counts={'A': 1, 'D': 2}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 6/100 start id=1a8b3c2a46efabcbd506f9cf70886ed0
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 6/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 6/100 path 1/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 6/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 6/100 path 2/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 6/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 6/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 6/100 done id=1a8b3c2a46efabcbd506f9cf70886ed0 prediction='E' gold='E' correct=True vote_counts={'E': 1, 'C': 1, 'A': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 7/100 start id=1531f1523f5fd24bbdb42c311dbf90e8
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 7/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 7/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 7/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 7/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 7/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 7/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 7/100 done id=1531f1523f5fd24bbdb42c311dbf90e8 prediction='A' gold='E' correct=False vote_counts={'A': 3}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 8/100 start id=ef22ef7aeec70aaa688720f805c1cf38
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 8/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 8/100 path 1/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 8/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 8/100 path 2/3 answer='Question: To locate a choker not located in a jewelry store, neck, or jewelry box, one would go to a jewelry box.\n\nReasoning: Comparing the options using commonsense knowledge, one would eliminate the implausible choices of jewelry store, neck, and jewelry box, leaving only the answer choice of jewelry box.\n\nQuestion: Billy set aside a block of time for having fun after work because he wanted to relax and enjoy himself.\n\nReasoning: Comparing the options using commonsense knowledge, one would eliminate the implausible choice of stress relief, leaving only the answer choice of pleasure.\n\nQuestion: Billy set aside a block of time for having fun after work because he was happy and needed a break from work.\n\nReasoning: Comparing the options using commonsense knowledge, one would eliminate the implausible choices of ocean and laugh, leaving only the answer choice of happiness.\n\nQuestion: The sanctions against the school were a punishing blow, and they seemed to cause a punishment.\n\nReasoning: Comparing the options using commonsense knowledge, one would eliminate the implausible choices of ignore and yell at, leaving only the answer choice of enforce.\n\nQuestion: Sammy wanted to go to where the people were because he wanted to be with them.\n\nReasoning: Comparing the options using commonsense knowledge, one would eliminate the implausible choices of race track and populated areas, leaving only the answer choice of the desert.\n\nQuestion: To locate a choker not located in a jewelry store, neck, or jewelry box, one would go to a jewelry box.\n\nReason'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 8/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 8/100 path 3/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 8/100 done id=ef22ef7aeec70aaa688720f805c1cf38 prediction='E' gold='B' correct=False vote_counts={'E': 1, 'Question: To locate a choker not located in a jewelry store, neck, or jewelry box, one would go to a jewelry box.\n\nReasoning: Comparing the options using commonsense knowledge, one would eliminate the implausible choices of jewelry store, neck, and jewelry box, leaving only the answer choice of jewelry box.\n\nQuestion: Billy set aside a block of time for having fun after work because he wanted to relax and enjoy himself.\n\nReasoning: Comparing the options using commonsense knowledge, one would eliminate the implausible choice of stress relief, leaving only the answer choice of pleasure.\n\nQuestion: Billy set aside a block of time for having fun after work because he was happy and needed a break from work.\n\nReasoning: Comparing the options using commonsense knowledge, one would eliminate the implausible choices of ocean and laugh, leaving only the answer choice of happiness.\n\nQuestion: The sanctions against the school were a punishing blow, and they seemed to cause a punishment.\n\nReasoning: Comparing the options using commonsense knowledge, one would eliminate the implausible choices of ignore and yell at, leaving only the answer choice of enforce.\n\nQuestion: Sammy wanted to go to where the people were because he wanted to be with them.\n\nReasoning: Comparing the options using commonsense knowledge, one would eliminate the implausible choices of race track and populated areas, leaving only the answer choice of the desert.\n\nQuestion: To locate a choker not located in a jewelry store, neck, or jewelry box, one would go to a jewelry box.\n\nReason': 1, 'B': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 9/100 start id=4da33e6f4b789776acb1bc10195baa83
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 9/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 9/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 9/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 9/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 9/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 9/100 path 3/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 9/100 done id=4da33e6f4b789776acb1bc10195baa83 prediction='A' gold='B' correct=False vote_counts={'A': 2, 'C': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 10/100 start id=1ab746bcd100ccf513055fe93c61010b
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 10/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 10/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 10/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 10/100 path 2/3 answer='Mammoth cave.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 10/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 10/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 10/100 done id=1ab746bcd100ccf513055fe93c61010b prediction='A' gold='B' correct=False vote_counts={'A': 2, 'Mammoth cave.': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 11/100 start id=e476e2c8c278eaecfe1a8b884b6aeb8e
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 11/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 11/100 path 1/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 11/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 11/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 11/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 11/100 path 3/3 answer='Question: How can you use commonsense knowledge to reason step by step in English?\n\nAnswer: By following a logical process of comparison, elimination, and conclusion, reasoning step by step in English requires using commonsense knowledge. This means using practical and common sense examples to understand the question and its possible answers. By comparing options using commonsense knowledge, eliminating implausible choices, and arriving at the best answer, you are demonstrating your ability to reason step by step in English.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 11/100 done id=e476e2c8c278eaecfe1a8b884b6aeb8e prediction='B' gold='B' correct=True vote_counts={'B': 1, 'A': 1, 'Question: How can you use commonsense knowledge to reason step by step in English?\n\nAnswer: By following a logical process of comparison, elimination, and conclusion, reasoning step by step in English requires using commonsense knowledge. This means using practical and common sense examples to understand the question and its possible answers. By comparing options using commonsense knowledge, eliminating implausible choices, and arriving at the best answer, you are demonstrating your ability to reason step by step in English.': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 12/100 start id=6c36226b23377a0dd0188bf56840e22a
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 12/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 12/100 path 1/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 12/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 12/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 12/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 12/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 12/100 done id=6c36226b23377a0dd0188bf56840e22a prediction='A' gold='C' correct=False vote_counts={'E': 1, 'A': 2}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 13/100 start id=3e2222c99e11fca2ad4af2d470eb8ea2_1
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 13/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 13/100 path 1/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 13/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 13/100 path 2/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 13/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 13/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 13/100 done id=3e2222c99e11fca2ad4af2d470eb8ea2_1 prediction='D' gold='D' correct=True vote_counts={'D': 1, 'B': 1, 'A': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 14/100 start id=fa031cff8e11e75c68d6a99ef0e5ca3a
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 14/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 14/100 path 1/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 14/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 14/100 path 2/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 14/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 14/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 14/100 done id=fa031cff8e11e75c68d6a99ef0e5ca3a prediction='B' gold='B' correct=True vote_counts={'B': 1, 'E': 1, 'A': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 15/100 start id=76b6f0765a3b2fba71021f902142edc0
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 15/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 15/100 path 1/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 15/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 15/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 15/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 15/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 15/100 done id=76b6f0765a3b2fba71021f902142edc0 prediction='A' gold='C' correct=False vote_counts={'D': 1, 'A': 2}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 16/100 start id=ae56eff01d05422ddbcb26be7181356a
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 16/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 16/100 path 1/3 answer='Question: Can you reason step by step in English using commonsense knowledge to answer the question "What could suddenly stop someone when they are running?"\n\nChoices:\nA. mushroom\nB. falling down\nC. sweating\nD. exhaustion\nE. getting tired\n\nReasoning:\nComparing the options using commonsense knowledge, we can eliminate the implausible choices "exhaustion" and "getting tired" as they are not relevant to the question.\n\nThe best answer is "mushroom".\n\nQuestion: What is the best answer for the question "The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?"\n\nChoices:\nA. ignore\nB. enforce\nC. authoritarian\nD. yell at\nE. avoid\n\nReasoning:\nComparing the options using commonsense knowledge, we can eliminate the implausible choices "ignore" and "enforce" as they are not relevant to the question.\n\nThe best answer is "authoritarian."\n\nQuestion: Where might Sammy want to go if he wanted to go to where the people were?\n\nChoices:\nA. race track\nB. populated areas\nC. the desert\nD. apartment\nE. roadblock\n\nReasoning:\nComparing the options using commonsense knowledge, we can eliminate the implausible choices "populated areas" and "roadblock" as they are not relevant to the question.\n\nThe best answer is "roadblock".\n\nQuestion: To locate a choker not located in a jewelry box or boutique where would you go?\n\nChoices:\nA. jew'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 16/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 16/100 path 2/3 answer='Question: What is the best answer to the question, "What could suddenly stop someone when he or she is running?"\n\nChoices:\nA. mushroom\nB. falling down\nC. sweating\nD. exhaustion\nE. getting tired\n\nReasoning: \n\n1. Comparison: Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n\n2. Implausible choices: The implausible choices "getting tired" and "exhaustion" are not comparable to the given options "suddenly stopping someone when they are running" and "falling down."\n\n3. Conclusion: Based on the given options, the best answer is "suddenly stopping someone when they are running."'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 16/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 16/100 path 3/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 16/100 done id=ae56eff01d05422ddbcb26be7181356a prediction='Question: Can you reason step by step in English using commonsense knowledge to answer the question "What could suddenly stop someone when they are running?"\n\nChoices:\nA. mushroom\nB. falling down\nC. sweating\nD. exhaustion\nE. getting tired\n\nReasoning:\nComparing the options using commonsense knowledge, we can eliminate the implausible choices "exhaustion" and "getting tired" as they are not relevant to the question.\n\nThe best answer is "mushroom".\n\nQuestion: What is the best answer for the question "The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?"\n\nChoices:\nA. ignore\nB. enforce\nC. authoritarian\nD. yell at\nE. avoid\n\nReasoning:\nComparing the options using commonsense knowledge, we can eliminate the implausible choices "ignore" and "enforce" as they are not relevant to the question.\n\nThe best answer is "authoritarian."\n\nQuestion: Where might Sammy want to go if he wanted to go to where the people were?\n\nChoices:\nA. race track\nB. populated areas\nC. the desert\nD. apartment\nE. roadblock\n\nReasoning:\nComparing the options using commonsense knowledge, we can eliminate the implausible choices "populated areas" and "roadblock" as they are not relevant to the question.\n\nThe best answer is "roadblock".\n\nQuestion: To locate a choker not located in a jewelry box or boutique where would you go?\n\nChoices:\nA. jew' gold='B' correct=False vote_counts={'Question: Can you reason step by step in English using commonsense knowledge to answer the question "What could suddenly stop someone when they are running?"\n\nChoices:\nA. mushroom\nB. falling down\nC. sweating\nD. exhaustion\nE. getting tired\n\nReasoning:\nComparing the options using commonsense knowledge, we can eliminate the implausible choices "exhaustion" and "getting tired" as they are not relevant to the question.\n\nThe best answer is "mushroom".\n\nQuestion: What is the best answer for the question "The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?"\n\nChoices:\nA. ignore\nB. enforce\nC. authoritarian\nD. yell at\nE. avoid\n\nReasoning:\nComparing the options using commonsense knowledge, we can eliminate the implausible choices "ignore" and "enforce" as they are not relevant to the question.\n\nThe best answer is "authoritarian."\n\nQuestion: Where might Sammy want to go if he wanted to go to where the people were?\n\nChoices:\nA. race track\nB. populated areas\nC. the desert\nD. apartment\nE. roadblock\n\nReasoning:\nComparing the options using commonsense knowledge, we can eliminate the implausible choices "populated areas" and "roadblock" as they are not relevant to the question.\n\nThe best answer is "roadblock".\n\nQuestion: To locate a choker not located in a jewelry box or boutique where would you go?\n\nChoices:\nA. jew': 1, 'Question: What is the best answer to the question, "What could suddenly stop someone when he or she is running?"\n\nChoices:\nA. mushroom\nB. falling down\nC. sweating\nD. exhaustion\nE. getting tired\n\nReasoning: \n\n1. Comparison: Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n\n2. Implausible choices: The implausible choices "getting tired" and "exhaustion" are not comparable to the given options "suddenly stopping someone when they are running" and "falling down."\n\n3. Conclusion: Based on the given options, the best answer is "suddenly stopping someone when they are running."': 1, 'C': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 17/100 start id=d107d67d525a686fbd8282314d2ea33c
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 17/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 17/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 17/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 17/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 17/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 17/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 17/100 done id=d107d67d525a686fbd8282314d2ea33c prediction='A' gold='A' correct=True vote_counts={'A': 3}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 18/100 start id=e69da59cbcf2a302e4523571eba8186b
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 18/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 18/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 18/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 18/100 path 2/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 18/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 18/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 18/100 done id=e69da59cbcf2a302e4523571eba8186b prediction='A' gold='E' correct=False vote_counts={'A': 2, 'C': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 19/100 start id=ec5a336080e37fbe95d72ad5f9c65ba7
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 19/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 19/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 19/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 19/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 19/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 19/100 path 3/3 answer="Question: What is the best way to find a choker that is not located in a jewelry box or boutique?\nChoices:\nA. Go to a jewelry store\nB. Look in a necklace\nC. Look in a jewelry box\nD. Look in a boutique\nE. Don't know\n\nReasoning:\nTo find a choker that is not located in a jewelry box or boutique, you must first know where to look. If you do not know where to look, then your best bet is to look in a jewelry store. However, if you know that you are looking for a choker, then you should look in a necklace or a jewelry box. If you do not know which option to choose, then it is best to avoid this question altogether."
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 19/100 done id=ec5a336080e37fbe95d72ad5f9c65ba7 prediction='A' gold='C' correct=False vote_counts={'A': 2, "Question: What is the best way to find a choker that is not located in a jewelry box or boutique?\nChoices:\nA. Go to a jewelry store\nB. Look in a necklace\nC. Look in a jewelry box\nD. Look in a boutique\nE. Don't know\n\nReasoning:\nTo find a choker that is not located in a jewelry box or boutique, you must first know where to look. If you do not know where to look, then your best bet is to look in a jewelry store. However, if you know that you are looking for a choker, then you should look in a necklace or a jewelry box. If you do not know which option to choose, then it is best to avoid this question altogether.": 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 20/100 start id=056b33c7050c167b0d4348d40d169358
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 20/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 20/100 path 1/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 20/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 20/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 20/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 20/100 path 3/3 answer='Question: What is the best answer for the question "Where would stones not be arranged in a path?"\n\nAnswer: The best answer for the question "Where would stones not be arranged in a path?" is A. quarries.\n\nReasoning: This answer makes the most sense given the given context: stones are not arranged in a path. It is not possible for stones to be arranged in a path due to the terrain, rock formation, or any other factors.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 20/100 done id=056b33c7050c167b0d4348d40d169358 prediction='B' gold='B' correct=True vote_counts={'B': 1, 'A': 1, 'Question: What is the best answer for the question "Where would stones not be arranged in a path?"\n\nAnswer: The best answer for the question "Where would stones not be arranged in a path?" is A. quarries.\n\nReasoning: This answer makes the most sense given the given context: stones are not arranged in a path. It is not possible for stones to be arranged in a path due to the terrain, rock formation, or any other factors.': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 21/100 start id=60e8f1a86d4063895f340cd1e3c55f50
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 21/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 21/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 21/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 21/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 21/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 21/100 path 3/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 21/100 done id=60e8f1a86d4063895f340cd1e3c55f50 prediction='A' gold='C' correct=False vote_counts={'A': 2, 'E': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 22/100 start id=03ee30b5801b61aee791a551a9d9a49f
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 22/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 22/100 path 1/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 22/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 22/100 path 2/3 answer='To answer the question, "You can do knitting to get the feeling of what?" The best answer is "sweater may produced." \n\nReasoning:\n1. Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is "sweater may produced." \n2. The given question "You can do knitting to get the feeling of what?" asks about the feeling you get when knitting. The answer "sweater may produced" suggests that knitting can produce a sweater. \n3. The given sentence "To locate a choker not located in a jewelry box or boutique where would you go?" also asks about the feeling you get. The answer "jewelry box" implies that a location where a choker is not located is a jewelry box. Therefore, the given sentence "To locate a choker not located in a jewelry box or boutique where would you go?" is implausible. \n4. The given sentence "To do knitting to get the feeling of what?" asks about the action of knitting. The answer "sweater may produced" suggests that knitting can give you the feeling of producing a sweater. \n5. The given sentence "You can do knitting to get the feeling of what?" is asking about the feeling you get when doing knitting. The answer "sweater may produced" implies that knitting can give you the feeling of producing a sweater. Therefore, the given sentence "You can do knitting to get the feeling of what?" is the best answer.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 22/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 22/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 22/100 done id=03ee30b5801b61aee791a551a9d9a49f prediction='E' gold='A' correct=False vote_counts={'E': 1, 'To answer the question, "You can do knitting to get the feeling of what?" The best answer is "sweater may produced." \n\nReasoning:\n1. Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is "sweater may produced." \n2. The given question "You can do knitting to get the feeling of what?" asks about the feeling you get when knitting. The answer "sweater may produced" suggests that knitting can produce a sweater. \n3. The given sentence "To locate a choker not located in a jewelry box or boutique where would you go?" also asks about the feeling you get. The answer "jewelry box" implies that a location where a choker is not located is a jewelry box. Therefore, the given sentence "To locate a choker not located in a jewelry box or boutique where would you go?" is implausible. \n4. The given sentence "To do knitting to get the feeling of what?" asks about the action of knitting. The answer "sweater may produced" suggests that knitting can give you the feeling of producing a sweater. \n5. The given sentence "You can do knitting to get the feeling of what?" is asking about the feeling you get when doing knitting. The answer "sweater may produced" implies that knitting can give you the feeling of producing a sweater. Therefore, the given sentence "You can do knitting to get the feeling of what?" is the best answer.': 1, 'A': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 23/100 start id=0542414710025f56b0c26e1bae5c4d06
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 23/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 23/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 23/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 23/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 23/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 23/100 path 3/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 23/100 done id=0542414710025f56b0c26e1bae5c4d06 prediction='A' gold='A' correct=True vote_counts={'A': 2, 'C': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 24/100 start id=026cb9c07a583ec933f2c4c67ae73836
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 24/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 24/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 24/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 24/100 path 2/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 24/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 24/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 24/100 done id=026cb9c07a583ec933f2c4c67ae73836 prediction='A' gold='B' correct=False vote_counts={'A': 2, 'C': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 25/100 start id=93b52e7ea1acf10db891e9355e234123
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 25/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 25/100 path 1/3 answer='1. The sanctions against the school were a punishing blow, and they seemed to be what the efforts the school had made to change.\n\n2. Sammy wanted to go to where the people were, but the best answer is A.\n\n3. To locate a choker not located in a jewelry store or neck, you would need to go to a jewelry store.\n\n4. While knitting, you can do listening to music, watching television, making blankets, or eating.\n\n5. While knitting you can do watching television, making blankets, or eating.\n\n6. While knitting you can do listening to music, watching television, making blankets, or eating.\n\n7. To locate a choker not located in a jewelry box or boutique, you would need to go to a jewelry box or boutique.\n\n8. While knitting, you can do watching television, making blankets, or eating.\n\n9. To locate a choker not located in a jewelry store or neck, you would need to go to a jewelry store.\n\n10. While knitting you can do watching television, making blankets, or eating.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 25/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 25/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 25/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 25/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 25/100 done id=93b52e7ea1acf10db891e9355e234123 prediction='A' gold='A' correct=True vote_counts={'1. The sanctions against the school were a punishing blow, and they seemed to be what the efforts the school had made to change.\n\n2. Sammy wanted to go to where the people were, but the best answer is A.\n\n3. To locate a choker not located in a jewelry store or neck, you would need to go to a jewelry store.\n\n4. While knitting, you can do listening to music, watching television, making blankets, or eating.\n\n5. While knitting you can do watching television, making blankets, or eating.\n\n6. While knitting you can do listening to music, watching television, making blankets, or eating.\n\n7. To locate a choker not located in a jewelry box or boutique, you would need to go to a jewelry box or boutique.\n\n8. While knitting, you can do watching television, making blankets, or eating.\n\n9. To locate a choker not located in a jewelry store or neck, you would need to go to a jewelry store.\n\n10. While knitting you can do watching television, making blankets, or eating.': 1, 'A': 2}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 26/100 start id=1d44fb5f4b7f1e23ff6c1c083db81ba1
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 26/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 26/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 26/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 26/100 path 2/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 26/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 26/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 26/100 done id=1d44fb5f4b7f1e23ff6c1c083db81ba1 prediction='A' gold='E' correct=False vote_counts={'A': 2, 'C': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 27/100 start id=5215e26c99b2a9b376fb1c70096a388a
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 27/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 27/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 27/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 27/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 27/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 27/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 27/100 done id=5215e26c99b2a9b376fb1c70096a388a prediction='A' gold='B' correct=False vote_counts={'A': 3}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 28/100 start id=b4130d1790948134f3aeab9d3d79c181
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 28/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 28/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 28/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 28/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 28/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 28/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 28/100 done id=b4130d1790948134f3aeab9d3d79c181 prediction='A' gold='A' correct=True vote_counts={'A': 3}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 29/100 start id=651785ed4f7b0bd2e7ca9f70a42acea5
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 29/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 29/100 path 1/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 29/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 29/100 path 2/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 29/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 29/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 29/100 done id=651785ed4f7b0bd2e7ca9f70a42acea5 prediction='E' gold='A' correct=False vote_counts={'E': 1, 'B': 1, 'A': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 30/100 start id=ee46995407eb6357bb5410d49d378629
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 30/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 30/100 path 1/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 30/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 30/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 30/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 30/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 30/100 done id=ee46995407eb6357bb5410d49d378629 prediction='A' gold='A' correct=True vote_counts={'C': 1, 'A': 2}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 31/100 start id=adbddc80b10bf25f09c6c2bee4e3c59b
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 31/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 31/100 path 1/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 31/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 31/100 path 2/3 answer='Question: Who is the author of the text material?\n\nAnswer: The author of the text material is a careful reasoning assistant for academic benchmark evaluation.\n\nQuestion: How many choices are there in the text material?\n\nAnswer: The text material has five choices.\n\nQuestion: Which option best describes the best answer for the given question?\n\nAnswer: The best answer for the given question is A.\n\nQuestion: What is the punishing blow that the school was hit with?\n\nAnswer: The punishing blow that the school was hit with is a punishing blow.\n\nQuestion: What is the best answer for the given question?\n\nAnswer: The best answer for the given question is A.\n\nQuestion: Where can you go to locate a choker that is not located in a jewelry box or boutique?\n\nAnswer: To locate a choker that is not located in a jewelry box or boutique is located in a neck.\n\nQuestion: What is the best answer for the given question?\n\nAnswer: The best answer for the given question is A.\n\nQuestion: Where can you buy a clock, clothing, and wrenches?\n\nAnswer: To buy a clock, clothing, and wrenches is located in a counter.\n\nQuestion: Who is the author of the text material?\n\nAnswer: The author of the text material is a careful reasoning assistant for academic benchmark evaluation.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 31/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 31/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 31/100 done id=adbddc80b10bf25f09c6c2bee4e3c59b prediction='B' gold='E' correct=False vote_counts={'B': 1, 'Question: Who is the author of the text material?\n\nAnswer: The author of the text material is a careful reasoning assistant for academic benchmark evaluation.\n\nQuestion: How many choices are there in the text material?\n\nAnswer: The text material has five choices.\n\nQuestion: Which option best describes the best answer for the given question?\n\nAnswer: The best answer for the given question is A.\n\nQuestion: What is the punishing blow that the school was hit with?\n\nAnswer: The punishing blow that the school was hit with is a punishing blow.\n\nQuestion: What is the best answer for the given question?\n\nAnswer: The best answer for the given question is A.\n\nQuestion: Where can you go to locate a choker that is not located in a jewelry box or boutique?\n\nAnswer: To locate a choker that is not located in a jewelry box or boutique is located in a neck.\n\nQuestion: What is the best answer for the given question?\n\nAnswer: The best answer for the given question is A.\n\nQuestion: Where can you buy a clock, clothing, and wrenches?\n\nAnswer: To buy a clock, clothing, and wrenches is located in a counter.\n\nQuestion: Who is the author of the text material?\n\nAnswer: The author of the text material is a careful reasoning assistant for academic benchmark evaluation.': 1, 'A': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 32/100 start id=5a50ea4bb2d13dc4f620ebd45025d445
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 32/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 32/100 path 1/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 32/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 32/100 path 2/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 32/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 32/100 path 3/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 32/100 done id=5a50ea4bb2d13dc4f620ebd45025d445 prediction='C' gold='E' correct=False vote_counts={'C': 2, 'B': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 33/100 start id=48205cc84aab5e455b22e17c3cc7277d
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 33/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 33/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 33/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 33/100 path 2/3 answer='Question: What did the adult do before the job interview?\nChoices:\nA. work\nB. dress himself\nC. marry\nD. dress himself\nE. drive train\n\nReasoning:\n1. Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n2. The adult did not do anything before the job interview.\n\nQuestion: How did the adult dress himself before the job interview?\nChoices:\nA. He wore a suit\nB. He dressed himself with a suit\nC. He dressed himself with a tie\nD. He wore a tie\nE. He dressed himself without a tie\n\nReasoning:\n1. Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n2. The adult did not dress himself with a tie.\n\nQuestion: Where did the adult marry himself?\nChoices:\nA. In a chapel\nB. In a hotel\nC. In a grocery store\nD. In a car\nE. In a bar\n\nReasoning:\n1. Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is C.\n2. The adult did not marry himself in a hotel or bar.\n\nQuestion: What did the adult dress himself without a tie?\nChoices:\nA. He wore a dress shirt\nB. He wore a dress shirt with a tie\nC. He wore a suit without a tie\nD. He wore a suit with a tie\nE. He wore a dress shirt with a tie\n\nReasoning:\n1. Compare the options using commonsense knowledge'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 33/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 33/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 33/100 done id=48205cc84aab5e455b22e17c3cc7277d prediction='A' gold='B' correct=False vote_counts={'A': 2, 'Question: What did the adult do before the job interview?\nChoices:\nA. work\nB. dress himself\nC. marry\nD. dress himself\nE. drive train\n\nReasoning:\n1. Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n2. The adult did not do anything before the job interview.\n\nQuestion: How did the adult dress himself before the job interview?\nChoices:\nA. He wore a suit\nB. He dressed himself with a suit\nC. He dressed himself with a tie\nD. He wore a tie\nE. He dressed himself without a tie\n\nReasoning:\n1. Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n2. The adult did not dress himself with a tie.\n\nQuestion: Where did the adult marry himself?\nChoices:\nA. In a chapel\nB. In a hotel\nC. In a grocery store\nD. In a car\nE. In a bar\n\nReasoning:\n1. Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is C.\n2. The adult did not marry himself in a hotel or bar.\n\nQuestion: What did the adult dress himself without a tie?\nChoices:\nA. He wore a dress shirt\nB. He wore a dress shirt with a tie\nC. He wore a suit without a tie\nD. He wore a suit with a tie\nE. He wore a dress shirt with a tie\n\nReasoning:\n1. Compare the options using commonsense knowledge': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 34/100 start id=b9e04a53c0ee7325b901de4d12d56884
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 34/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 34/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 34/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 34/100 path 2/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 34/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 34/100 path 3/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 34/100 done id=b9e04a53c0ee7325b901de4d12d56884 prediction='B' gold='C' correct=False vote_counts={'A': 1, 'B': 2}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 35/100 start id=64d2310eff6b661baeb41b4ccc392e35
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 35/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 35/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 35/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 35/100 path 2/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 35/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 35/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 35/100 done id=64d2310eff6b661baeb41b4ccc392e35 prediction='A' gold='D' correct=False vote_counts={'A': 2, 'D': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 36/100 start id=6c70d98cfb8e97fda8caefcee761a229
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 36/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 36/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 36/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 36/100 path 2/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 36/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 36/100 path 3/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 36/100 done id=6c70d98cfb8e97fda8caefcee761a229 prediction='A' gold='D' correct=False vote_counts={'A': 1, 'E': 1, 'C': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 37/100 start id=a7d51b753c2113d8b2dbd0ebb5375855_1
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 37/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 37/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 37/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 37/100 path 2/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 37/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 37/100 path 3/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 37/100 done id=a7d51b753c2113d8b2dbd0ebb5375855_1 prediction='A' gold='D' correct=False vote_counts={'A': 1, 'D': 1, 'C': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 38/100 start id=f13efb91090dd28fd2b3c1f4dde680fd
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 38/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 38/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 38/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 38/100 path 2/3 answer='Question: To locate a choker not located in a jewelry box or boutique where would you go?\n\nChoices:\nA. jewelry store\nB. neck\nC. jewlery box\nD. jewelry box\nE. boutique\n\nReasoning:\n\n1. Compare the options using commonsense knowledge:\n- The first option, "jewelry store," is a physical location where jewelry items could be sold. - The second option, "neck," is a physical location where a necklace could be worn. - The third option, "jewelry box," is a physical location where jewelry items could be stored. - The fourth option, "boutique," is a physical location where fashion items or accessories could be sold. - The fifth option, "jewelry box," is a physical location where jewelry items could be stored. - The sixth option, "boutique," is a physical location where fashion items or accessories could be sold. - The seventh option, "neck," is a physical location where a necklace could be worn. - The eighth option, "jewelry box," is a physical location where jewelry items could be stored. - The ninth option, "boutique," is a physical location where fashion items or accessories could be sold. - The tenth option, "jewelry store," is a physical location where jewelry items could be sold. - The eleventh option, "neck," is a physical location where a necklace could be worn. - The twelfth option, "jewelry box," is a physical location where jewelry items could be stored. - The'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 38/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 38/100 path 3/3 answer='Question: What is the best answer to the question, "The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?"\n\nThe best answer is "A."\n\nReasoning:\n- Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is "A."\n- The best answer is "A" because "ignore," "enforce," "authoritarian," and "avoid" are implausible choices that do not reflect the evidence provided in the given material.\n- The best answer is also "A" because "ignore" suggests the school was not taking the issue seriously, while "enforce" suggests the punishment was severe and unjustified.\n- "A" is also the only correct answer because it matches the given material\'s tone, meaning the school was punished for its efforts to change, not for simply making mistakes.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 38/100 done id=f13efb91090dd28fd2b3c1f4dde680fd prediction='A' gold='A' correct=True vote_counts={'A': 1, 'Question: To locate a choker not located in a jewelry box or boutique where would you go?\n\nChoices:\nA. jewelry store\nB. neck\nC. jewlery box\nD. jewelry box\nE. boutique\n\nReasoning:\n\n1. Compare the options using commonsense knowledge:\n- The first option, "jewelry store," is a physical location where jewelry items could be sold. - The second option, "neck," is a physical location where a necklace could be worn. - The third option, "jewelry box," is a physical location where jewelry items could be stored. - The fourth option, "boutique," is a physical location where fashion items or accessories could be sold. - The fifth option, "jewelry box," is a physical location where jewelry items could be stored. - The sixth option, "boutique," is a physical location where fashion items or accessories could be sold. - The seventh option, "neck," is a physical location where a necklace could be worn. - The eighth option, "jewelry box," is a physical location where jewelry items could be stored. - The ninth option, "boutique," is a physical location where fashion items or accessories could be sold. - The tenth option, "jewelry store," is a physical location where jewelry items could be sold. - The eleventh option, "neck," is a physical location where a necklace could be worn. - The twelfth option, "jewelry box," is a physical location where jewelry items could be stored. - The': 1, 'Question: What is the best answer to the question, "The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?"\n\nThe best answer is "A."\n\nReasoning:\n- Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is "A."\n- The best answer is "A" because "ignore," "enforce," "authoritarian," and "avoid" are implausible choices that do not reflect the evidence provided in the given material.\n- The best answer is also "A" because "ignore" suggests the school was not taking the issue seriously, while "enforce" suggests the punishment was severe and unjustified.\n- "A" is also the only correct answer because it matches the given material\'s tone, meaning the school was punished for its efforts to change, not for simply making mistakes.': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 39/100 start id=fb64149cf01c5b496d986f56852273e9
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 39/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 39/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 39/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 39/100 path 2/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 39/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 39/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 39/100 done id=fb64149cf01c5b496d986f56852273e9 prediction='A' gold='D' correct=False vote_counts={'A': 2, 'D': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 40/100 start id=22fc45d9e6d0baea4a5b0526504225b8
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 40/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 40/100 path 1/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 40/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 40/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 40/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 40/100 path 3/3 answer='Question: What is the best answer for the question "What might a person be watching if they see a man with a suitcase full of money?" Answer:\nThe best answer for the question "What might a person be watching if they see a man with a suitcase full of money?" is D: airplane. This answer is based on the given options, which include baggage compartment, movie, subway, and cargo hold. All these options exclude airplanes, which are usually equipped with large suitcases that are not usually seen by passengers.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 40/100 done id=22fc45d9e6d0baea4a5b0526504225b8 prediction='C' gold='B' correct=False vote_counts={'C': 1, 'A': 1, 'Question: What is the best answer for the question "What might a person be watching if they see a man with a suitcase full of money?" Answer:\nThe best answer for the question "What might a person be watching if they see a man with a suitcase full of money?" is D: airplane. This answer is based on the given options, which include baggage compartment, movie, subway, and cargo hold. All these options exclude airplanes, which are usually equipped with large suitcases that are not usually seen by passengers.': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 41/100 start id=7d70208061ae3185bcfc9e912ee9e141
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 41/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 41/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 41/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 41/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 41/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 41/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 41/100 done id=7d70208061ae3185bcfc9e912ee9e141 prediction='A' gold='A' correct=True vote_counts={'A': 3}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 42/100 start id=055817d8d703d3c2802545e3fccdcde3
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 42/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 42/100 path 1/3 answer='______.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 42/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 42/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 42/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 42/100 path 3/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 42/100 done id=055817d8d703d3c2802545e3fccdcde3 prediction='______.' gold='B' correct=False vote_counts={'______.': 1, 'A': 1, 'C': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 43/100 start id=3a3b5d4a517ef70d25eb558f1a622937
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 43/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 43/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 43/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 43/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 43/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 43/100 path 3/3 answer='1. Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?\nChoices:\nA. Ignore\nB. Enforce\nC. Authoritarian\nD. Yell at\nE. Avoid\n\nReasoning:\n- Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n- The best answer is A because it is the only option that matches the given text material.\n\n2. Question: Sammy wanted to go to where the people were.\nChoices:\nA. Race track\nB. Populated areas\nC. The desert\nD. Apartment\nE. Roadblock\n\nReasoning:\n- Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is B.\n- The best answer is B because it is the only option that matches the given text material.\n\n3. Question: To locate a choker not located in a jewelry box or boutique where would you go?\nChoices:\nA. Jewelry store\nB. Neck\nC. Jewelry box\nD. Jewelry box\nE. Boutique\n\nReasoning:\n- Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n- The best answer is A because it is the only option that matches the given text material.\n\n4. Question: A patriotic guy with a camera is looking for a bald eagle, what is he likely to do with the eagle if he finds one?\nChoices:\nA. City\nB.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 43/100 done id=3a3b5d4a517ef70d25eb558f1a622937 prediction='A' gold='E' correct=False vote_counts={'A': 2, '1. Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?\nChoices:\nA. Ignore\nB. Enforce\nC. Authoritarian\nD. Yell at\nE. Avoid\n\nReasoning:\n- Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n- The best answer is A because it is the only option that matches the given text material.\n\n2. Question: Sammy wanted to go to where the people were.\nChoices:\nA. Race track\nB. Populated areas\nC. The desert\nD. Apartment\nE. Roadblock\n\nReasoning:\n- Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is B.\n- The best answer is B because it is the only option that matches the given text material.\n\n3. Question: To locate a choker not located in a jewelry box or boutique where would you go?\nChoices:\nA. Jewelry store\nB. Neck\nC. Jewelry box\nD. Jewelry box\nE. Boutique\n\nReasoning:\n- Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n- The best answer is A because it is the only option that matches the given text material.\n\n4. Question: A patriotic guy with a camera is looking for a bald eagle, what is he likely to do with the eagle if he finds one?\nChoices:\nA. City\nB.': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 44/100 start id=d1ad9b79f54205b6b9ac19a27f9c2be5
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 44/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 44/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 44/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 44/100 path 2/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 44/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 44/100 path 3/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 44/100 done id=d1ad9b79f54205b6b9ac19a27f9c2be5 prediction='B' gold='E' correct=False vote_counts={'A': 1, 'B': 2}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 45/100 start id=48abc2c113623fd72f758502529f93a5
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 45/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 45/100 path 1/3 answer='Question: By learning about the world, many poor college students gain what?\nChoices:\nA. pleasure\nB. greater mobility\nC. desire to travel\nD. global warming\nE. increased security\n\nReasoning:\n\n1. Poor college students often face financial constraints, making it difficult for them to afford expensive travel or vacations. By learning about the world through study abroad programs or cultural immersion trips, they gain firsthand experience in different cultures and gain a deeper understanding of global issues.\n\n2. By learning about the world, poor college students also gain a sense of global mobility, which can lead to greater personal and professional opportunities. For example, they may be able to travel to other countries and experience firsthand the benefits of international collaboration.\n\n3. Poor college students often face social isolation and lack of mobility due to financial constraints. By learning about the world through study abroad programs or cultural immersion trips, they gain the opportunity to meet and connect with people from different cultures and backgrounds. This can lead to new friendships and opportunities for professional development.\n\n4. Poor college students often face increased security due to their lack of financial resources. By learning about the world through study abroad programs or cultural immersion trips, they gain firsthand experience in situations of conflict and security, which can inform their decision-making and decision-making processes.\n\nIn summary, by learning about the world through study abroad programs or cultural immersion trips, poor college students gain a sense of global mobility, experience firsthand the benefits of international collaboration, and gain the opportunity to meet and connect with people from different cultures and backgrounds.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 45/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 45/100 path 2/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 45/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 45/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 45/100 done id=48abc2c113623fd72f758502529f93a5 prediction='Question: By learning about the world, many poor college students gain what?\nChoices:\nA. pleasure\nB. greater mobility\nC. desire to travel\nD. global warming\nE. increased security\n\nReasoning:\n\n1. Poor college students often face financial constraints, making it difficult for them to afford expensive travel or vacations. By learning about the world through study abroad programs or cultural immersion trips, they gain firsthand experience in different cultures and gain a deeper understanding of global issues.\n\n2. By learning about the world, poor college students also gain a sense of global mobility, which can lead to greater personal and professional opportunities. For example, they may be able to travel to other countries and experience firsthand the benefits of international collaboration.\n\n3. Poor college students often face social isolation and lack of mobility due to financial constraints. By learning about the world through study abroad programs or cultural immersion trips, they gain the opportunity to meet and connect with people from different cultures and backgrounds. This can lead to new friendships and opportunities for professional development.\n\n4. Poor college students often face increased security due to their lack of financial resources. By learning about the world through study abroad programs or cultural immersion trips, they gain firsthand experience in situations of conflict and security, which can inform their decision-making and decision-making processes.\n\nIn summary, by learning about the world through study abroad programs or cultural immersion trips, poor college students gain a sense of global mobility, experience firsthand the benefits of international collaboration, and gain the opportunity to meet and connect with people from different cultures and backgrounds.' gold='C' correct=False vote_counts={'Question: By learning about the world, many poor college students gain what?\nChoices:\nA. pleasure\nB. greater mobility\nC. desire to travel\nD. global warming\nE. increased security\n\nReasoning:\n\n1. Poor college students often face financial constraints, making it difficult for them to afford expensive travel or vacations. By learning about the world through study abroad programs or cultural immersion trips, they gain firsthand experience in different cultures and gain a deeper understanding of global issues.\n\n2. By learning about the world, poor college students also gain a sense of global mobility, which can lead to greater personal and professional opportunities. For example, they may be able to travel to other countries and experience firsthand the benefits of international collaboration.\n\n3. Poor college students often face social isolation and lack of mobility due to financial constraints. By learning about the world through study abroad programs or cultural immersion trips, they gain the opportunity to meet and connect with people from different cultures and backgrounds. This can lead to new friendships and opportunities for professional development.\n\n4. Poor college students often face increased security due to their lack of financial resources. By learning about the world through study abroad programs or cultural immersion trips, they gain firsthand experience in situations of conflict and security, which can inform their decision-making and decision-making processes.\n\nIn summary, by learning about the world through study abroad programs or cultural immersion trips, poor college students gain a sense of global mobility, experience firsthand the benefits of international collaboration, and gain the opportunity to meet and connect with people from different cultures and backgrounds.': 1, 'C': 1, 'A': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 46/100 start id=463521a93ae71e93bea8b97cdf7a6792
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 46/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 46/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 46/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 46/100 path 2/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 46/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 46/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 46/100 done id=463521a93ae71e93bea8b97cdf7a6792 prediction='A' gold='D' correct=False vote_counts={'A': 2, 'B': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 47/100 start id=f8a2cbc7189b92a809ce9cd857030621
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 47/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 47/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 47/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 47/100 path 2/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 47/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 47/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 47/100 done id=f8a2cbc7189b92a809ce9cd857030621 prediction='A' gold='B' correct=False vote_counts={'A': 2, 'B': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 48/100 start id=fce1c5d069758aea57a787fc98dcf7a9
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 48/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 48/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 48/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 48/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 48/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 48/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 48/100 done id=fce1c5d069758aea57a787fc98dcf7a9 prediction='A' gold='E' correct=False vote_counts={'A': 3}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 49/100 start id=c0d75f9fbf30aa3a612f16edb20d6b8d
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 49/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 49/100 path 1/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 49/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 49/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 49/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 49/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 49/100 done id=c0d75f9fbf30aa3a612f16edb20d6b8d prediction='A' gold='B' correct=False vote_counts={'B': 1, 'A': 2}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 50/100 start id=7bb87c6d8eab57d4e983f60025b1f0dc
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 50/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 50/100 path 1/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 50/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 50/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 50/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 50/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 50/100 done id=7bb87c6d8eab57d4e983f60025b1f0dc prediction='A' gold='D' correct=False vote_counts={'E': 1, 'A': 2}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 51/100 start id=083861fc5ebb9226fff70544f3f83d2b
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 51/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 51/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 51/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 51/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 51/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 51/100 path 3/3 answer='Question: What is the best answer for the question "Where is Sammy\'s intended destination?"\n\nChoices:\nA. Race track\nB. Populated areas\nC. Desert\nD. Apartment\nE. Roadblock\n\nReasoning:\nComparing the options using commonsense knowledge, eliminating implausible choices, and concluding that the best answer is "A" (a race track).\n\nQuestion: Who is the intended target of the man\'s pail catching draining motor oil?\n\nChoices:\nA. Garage\nB. Hardware store\nC. Utility room\nD. Wishing well\nE. Laundry\n\nReasoning:\nCompare the options using commonsense knowledge, eliminating implausible choices, and concluding that the best answer is "E" (laundry).\n\nQuestion: What is the likely location of the choker not located in a jewelry box or boutique where would Sammy be looking for a specific type of jewelry?\n\nChoices:\nA. Jewelry store\nB. Neck\nC. Jewelry box\nD. Jewelry box\nE. Boutique\n\nReasoning:\nCompare the options using commonsense knowledge, eliminating implausible choices, and concluding that the best answer is "B" (neck).\n\nQuestion: What is the intended location for the man\'s pail catching draining motor oil?\n\nChoices:\nA. Garage\nB. Hardware store\nC. Utility room\nD. Wishing well\nE. Laundry\n\nReasoning:\nCompare the options using commonsense knowledge,'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 51/100 done id=083861fc5ebb9226fff70544f3f83d2b prediction='A' gold='A' correct=True vote_counts={'A': 2, 'Question: What is the best answer for the question "Where is Sammy\'s intended destination?"\n\nChoices:\nA. Race track\nB. Populated areas\nC. Desert\nD. Apartment\nE. Roadblock\n\nReasoning:\nComparing the options using commonsense knowledge, eliminating implausible choices, and concluding that the best answer is "A" (a race track).\n\nQuestion: Who is the intended target of the man\'s pail catching draining motor oil?\n\nChoices:\nA. Garage\nB. Hardware store\nC. Utility room\nD. Wishing well\nE. Laundry\n\nReasoning:\nCompare the options using commonsense knowledge, eliminating implausible choices, and concluding that the best answer is "E" (laundry).\n\nQuestion: What is the likely location of the choker not located in a jewelry box or boutique where would Sammy be looking for a specific type of jewelry?\n\nChoices:\nA. Jewelry store\nB. Neck\nC. Jewelry box\nD. Jewelry box\nE. Boutique\n\nReasoning:\nCompare the options using commonsense knowledge, eliminating implausible choices, and concluding that the best answer is "B" (neck).\n\nQuestion: What is the intended location for the man\'s pail catching draining motor oil?\n\nChoices:\nA. Garage\nB. Hardware store\nC. Utility room\nD. Wishing well\nE. Laundry\n\nReasoning:\nCompare the options using commonsense knowledge,': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 52/100 start id=c3b7f4196b12714940ac1b9417194df4
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 52/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 52/100 path 1/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 52/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 52/100 path 2/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 52/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 52/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 52/100 done id=c3b7f4196b12714940ac1b9417194df4 prediction='E' gold='D' correct=False vote_counts={'E': 1, 'D': 1, 'A': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 53/100 start id=bee2a6eadfaf7a4fa0a214e341ddbe5b
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 53/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 53/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 53/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 53/100 path 2/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 53/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 53/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 53/100 done id=bee2a6eadfaf7a4fa0a214e341ddbe5b prediction='A' gold='A' correct=True vote_counts={'A': 2, 'C': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 54/100 start id=839f3c37622c1ed5eebc9cd0b9d658e8
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 54/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 54/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 54/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 54/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 54/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 54/100 path 3/3 answer='To answer the question, choose the correct answer based on the commonsense knowledge available to you:\n\n1. A. hospital\n2. B. chest\n3. C. home\n4. D. cabinet\n5. E. dresser drawers\n\nThe best answer is "A" because a hospital is a place where people go to receive medical attention, and a chest is the area underneath a bed where clothes are stored. The "socks" option is implausible since socks are typically kept in a drawer or closet.\n\nSimilarly, the best answer for the question "Where can you store your spare linens near your socks?" is "A," since a chest is the area where clothes are stored.\n\nConclusion:\n\nBased on the commonsense knowledge available, the best answer for the question "Where can you store your spare linens near your socks?" is "A."'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 54/100 done id=839f3c37622c1ed5eebc9cd0b9d658e8 prediction='A' gold='D' correct=False vote_counts={'A': 2, 'To answer the question, choose the correct answer based on the commonsense knowledge available to you:\n\n1. A. hospital\n2. B. chest\n3. C. home\n4. D. cabinet\n5. E. dresser drawers\n\nThe best answer is "A" because a hospital is a place where people go to receive medical attention, and a chest is the area underneath a bed where clothes are stored. The "socks" option is implausible since socks are typically kept in a drawer or closet.\n\nSimilarly, the best answer for the question "Where can you store your spare linens near your socks?" is "A," since a chest is the area where clothes are stored.\n\nConclusion:\n\nBased on the commonsense knowledge available, the best answer for the question "Where can you store your spare linens near your socks?" is "A."': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 55/100 start id=9b62cd7f89716f393239e6c6ff3e11d5
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 55/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 55/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 55/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 55/100 path 2/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 55/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 55/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 55/100 done id=9b62cd7f89716f393239e6c6ff3e11d5 prediction='A' gold='A' correct=True vote_counts={'A': 2, 'D': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 56/100 start id=96cb628fb7ed2f53245598f707ed2b80
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 56/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 56/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 56/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 56/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 56/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 56/100 path 3/3 answer='To locate a choker not located in a jewelry box or boutique, one could go to a jewelry store or neck where John usually did his painting. This answer choice is the best because it eliminates both implausible options and matches the provided context.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 56/100 done id=96cb628fb7ed2f53245598f707ed2b80 prediction='A' gold='B' correct=False vote_counts={'A': 2, 'To locate a choker not located in a jewelry box or boutique, one could go to a jewelry store or neck where John usually did his painting. This answer choice is the best because it eliminates both implausible options and matches the provided context.': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 57/100 start id=536c9af0fae0aa75b32874dfcac66353
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 57/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 57/100 path 1/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 57/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 57/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 57/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 57/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 57/100 done id=536c9af0fae0aa75b32874dfcac66353 prediction='A' gold='A' correct=True vote_counts={'E': 1, 'A': 2}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 58/100 start id=1510f5183095466e4fe41b82501a9dd0
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 58/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 58/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 58/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 58/100 path 2/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 58/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 58/100 path 3/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 58/100 done id=1510f5183095466e4fe41b82501a9dd0 prediction='A' gold='C' correct=False vote_counts={'A': 1, 'C': 1, 'B': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 59/100 start id=f48528156632b9c5b18af9ce2095509b
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 59/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 59/100 path 1/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 59/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 59/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 59/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 59/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 59/100 done id=f48528156632b9c5b18af9ce2095509b prediction='A' gold='C' correct=False vote_counts={'C': 1, 'A': 2}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 60/100 start id=f912bcd7479b76db9b1c57a612b90f00
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 60/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 60/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 60/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 60/100 path 2/3 answer='Question: What is the best answer to the question "What was the best way to handle the situation, and what was the best answer for each question?"\n\n1. The best answer for question 1 is "A."\n\n2. The best answer for question 2 is "B."\n\n3. The best answer for question 3 is "C."\n\n4. The best answer for question 4 is "D."\n\n5. The best answer for question 5 is "E."\n\n6. The best answer for question 6 is "B."\n\n7. The best answer for question 7 is "A."\n\n8. The best answer for question 8 is "D."\n\n9. The best answer for question 9 is "B."\n\n10. The best answer for question 10 is "A."'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 60/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 60/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 60/100 done id=f912bcd7479b76db9b1c57a612b90f00 prediction='A' gold='B' correct=False vote_counts={'A': 2, 'Question: What is the best answer to the question "What was the best way to handle the situation, and what was the best answer for each question?"\n\n1. The best answer for question 1 is "A."\n\n2. The best answer for question 2 is "B."\n\n3. The best answer for question 3 is "C."\n\n4. The best answer for question 4 is "D."\n\n5. The best answer for question 5 is "E."\n\n6. The best answer for question 6 is "B."\n\n7. The best answer for question 7 is "A."\n\n8. The best answer for question 8 is "D."\n\n9. The best answer for question 9 is "B."\n\n10. The best answer for question 10 is "A."': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 61/100 start id=92869fc0be5dc45f407700692ffd80a0
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 61/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 61/100 path 1/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 61/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 61/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 61/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 61/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 61/100 done id=92869fc0be5dc45f407700692ffd80a0 prediction='A' gold='E' correct=False vote_counts={'D': 1, 'A': 2}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 62/100 start id=2a58e81a9c4ce095d099e0d785fc2da4
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 62/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 62/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 62/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 62/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 62/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 62/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 62/100 done id=2a58e81a9c4ce095d099e0d785fc2da4 prediction='A' gold='E' correct=False vote_counts={'A': 3}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 63/100 start id=cc1a547bdfdcc95e4d632453af14bc96
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 63/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 63/100 path 1/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 63/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 63/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 63/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 63/100 path 3/3 answer='[insert answer here].'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 63/100 done id=cc1a547bdfdcc95e4d632453af14bc96 prediction='D' gold='C' correct=False vote_counts={'D': 1, 'A': 1, '[insert answer here].': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 64/100 start id=ef3d5d35128678937c36438466e0fc93
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 64/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 64/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 64/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 64/100 path 2/3 answer='Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?\nChoices:\nA. ignore\nB. enforce\nC. authoritarian\nD. yell at\nE. avoid\n\nReasoning:\nTo answer this question, we can compare the options using commonsense knowledge. The options "ignore," "enforce," and "authoritarian" are all implausible, as they do not reflect the efforts the school made to change. Therefore, the best answer is "A," which is the choice that aligns with commonsense knowledge.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 64/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 64/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 64/100 done id=ef3d5d35128678937c36438466e0fc93 prediction='A' gold='E' correct=False vote_counts={'A': 2, 'Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?\nChoices:\nA. ignore\nB. enforce\nC. authoritarian\nD. yell at\nE. avoid\n\nReasoning:\nTo answer this question, we can compare the options using commonsense knowledge. The options "ignore," "enforce," and "authoritarian" are all implausible, as they do not reflect the efforts the school made to change. Therefore, the best answer is "A," which is the choice that aligns with commonsense knowledge.': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 65/100 start id=0f0e339412f719a019bf373e6daf2530
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 65/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 65/100 path 1/3 answer='Here are the step-by-step instructions for writing an academic benchmark evaluation in English:\n\n1. Choose a question or statement to be evaluated.\n\n2. Break down the question or statement into its component parts, including the subject (e.g., "The sanctions against the school were a punishing blow"), the predicate (e.g., "They seemed to what the efforts the school had made to change"), and the predicate adjunct (e.g., "to change").\n\n3. Use commonsense knowledge to reason step by step in English, eliminating implausible choices and concluding that the best answer is the correct one.\n\n4. If there are multiple correct answers, choose the one that makes the most sense and is supported by the evidence presented.\n\n5. Write your final line exactly as it is written, using the correct grammatical tense and voice.\n\nHere are some examples of how to write the final line for the benchmark evaluation:\n\n- The sanctions against the school were a punishing blow, and they seemed to have what the efforts the school had made to change.\n- Sammy wanted to go to where the people were, but where might he go?\n- To locate a choker not located in a jewelry box or boutique, would you go?\n- Ficus can be planted in a yard to make summer more bearable, what sort of areas do they create?'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 65/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 65/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 65/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 65/100 path 3/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 65/100 done id=0f0e339412f719a019bf373e6daf2530 prediction='Here are the step-by-step instructions for writing an academic benchmark evaluation in English:\n\n1. Choose a question or statement to be evaluated.\n\n2. Break down the question or statement into its component parts, including the subject (e.g., "The sanctions against the school were a punishing blow"), the predicate (e.g., "They seemed to what the efforts the school had made to change"), and the predicate adjunct (e.g., "to change").\n\n3. Use commonsense knowledge to reason step by step in English, eliminating implausible choices and concluding that the best answer is the correct one.\n\n4. If there are multiple correct answers, choose the one that makes the most sense and is supported by the evidence presented.\n\n5. Write your final line exactly as it is written, using the correct grammatical tense and voice.\n\nHere are some examples of how to write the final line for the benchmark evaluation:\n\n- The sanctions against the school were a punishing blow, and they seemed to have what the efforts the school had made to change.\n- Sammy wanted to go to where the people were, but where might he go?\n- To locate a choker not located in a jewelry box or boutique, would you go?\n- Ficus can be planted in a yard to make summer more bearable, what sort of areas do they create?' gold='A' correct=False vote_counts={'Here are the step-by-step instructions for writing an academic benchmark evaluation in English:\n\n1. Choose a question or statement to be evaluated.\n\n2. Break down the question or statement into its component parts, including the subject (e.g., "The sanctions against the school were a punishing blow"), the predicate (e.g., "They seemed to what the efforts the school had made to change"), and the predicate adjunct (e.g., "to change").\n\n3. Use commonsense knowledge to reason step by step in English, eliminating implausible choices and concluding that the best answer is the correct one.\n\n4. If there are multiple correct answers, choose the one that makes the most sense and is supported by the evidence presented.\n\n5. Write your final line exactly as it is written, using the correct grammatical tense and voice.\n\nHere are some examples of how to write the final line for the benchmark evaluation:\n\n- The sanctions against the school were a punishing blow, and they seemed to have what the efforts the school had made to change.\n- Sammy wanted to go to where the people were, but where might he go?\n- To locate a choker not located in a jewelry box or boutique, would you go?\n- Ficus can be planted in a yard to make summer more bearable, what sort of areas do they create?': 1, 'A': 1, 'D': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 66/100 start id=489a082aab43dd1a53f3f1f89c2365ed
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 66/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 66/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 66/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 66/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 66/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 66/100 path 3/3 answer="To answer the question, children's behavior is a direct reflection of their upbringing and socialization.\n\nThe best answer to this question is A. Parents. This choice is based on the given material's statement that children's behavior is a direct reflection of their upbringing and socialization. Children are raised by their parents, who in turn are socialized by their own parents, and this process continues throughout their lives. Therefore, it is reasonable to conclude that children's behavior is a reflection of their upbringing and socialization."
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 66/100 done id=489a082aab43dd1a53f3f1f89c2365ed prediction='A' gold='A' correct=True vote_counts={'A': 2, "To answer the question, children's behavior is a direct reflection of their upbringing and socialization.\n\nThe best answer to this question is A. Parents. This choice is based on the given material's statement that children's behavior is a direct reflection of their upbringing and socialization. Children are raised by their parents, who in turn are socialized by their own parents, and this process continues throughout their lives. Therefore, it is reasonable to conclude that children's behavior is a reflection of their upbringing and socialization.": 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 67/100 start id=f8a9208665a4f2d64986940456b4b964
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 67/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 67/100 path 1/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 67/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 67/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 67/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 67/100 path 3/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 67/100 done id=f8a9208665a4f2d64986940456b4b964 prediction='D' gold='D' correct=True vote_counts={'D': 1, 'A': 1, 'B': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 68/100 start id=167d2cfa04bfaea0e0b5bac3598d5769
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 68/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 68/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 68/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 68/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 68/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 68/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 68/100 done id=167d2cfa04bfaea0e0b5bac3598d5769 prediction='A' gold='D' correct=False vote_counts={'A': 3}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 69/100 start id=a585df0818180ce3c06f963a4c3c810a
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 69/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 69/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 69/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 69/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 69/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 69/100 path 3/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 69/100 done id=a585df0818180ce3c06f963a4c3c810a prediction='A' gold='A' correct=True vote_counts={'A': 2, 'B': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 70/100 start id=c7cb327fa4c0008efaa7741081a365d4
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 70/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 70/100 path 1/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 70/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 70/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 70/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 70/100 path 3/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 70/100 done id=c7cb327fa4c0008efaa7741081a365d4 prediction='B' gold='E' correct=False vote_counts={'B': 2, 'A': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 71/100 start id=c54ddc0f9d170ba65d9f4f2e0bb41d1c
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 71/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 71/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 71/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 71/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 71/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 71/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 71/100 done id=c54ddc0f9d170ba65d9f4f2e0bb41d1c prediction='A' gold='A' correct=True vote_counts={'A': 3}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 72/100 start id=d35112a99ab3983fb51c3adae80bc2da
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 72/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 72/100 path 1/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 72/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 72/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 72/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 72/100 path 3/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 72/100 done id=d35112a99ab3983fb51c3adae80bc2da prediction='B' gold='D' correct=False vote_counts={'B': 1, 'A': 1, 'D': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 73/100 start id=a00276c6db928900772c0320aeff77c0
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 73/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 73/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 73/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 73/100 path 2/3 answer='Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?\n\nChoices:\nA. ignore\nB. enforce\nC. authoritarian\nD. yell at\nE. avoid\n\nReasoning:\nComparing the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n\nQuestion: Sammy wanted to go to where the people were.\n\nChoices:\nA. race track\nB. populated areas\nC. the desert\nD. apartment\nE. roadblock\n\nReasoning:\nComparing the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is B.\n\nQuestion: To locate a choker not located in a jewelry box or boutique where would you go?\n\nChoices:\nA. jewelry store\nB. neck\nC. jewlery box\nD. jewelry box\nE. boutique\n\nReasoning:\nComparing the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n\nQuestion: If someone is found to be committing murder, what did they do to someone?\n\nChoices:\nA. misery\nB. kill\nC. distress\nD. tickel\nE. go to jail\n\nReasoning:\nComparing the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is E.\n\nConclusion:\nBased on the given material, the best answer to each question is:\n\n1. A.\n2'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 73/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 73/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 73/100 done id=a00276c6db928900772c0320aeff77c0 prediction='A' gold='B' correct=False vote_counts={'A': 2, 'Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?\n\nChoices:\nA. ignore\nB. enforce\nC. authoritarian\nD. yell at\nE. avoid\n\nReasoning:\nComparing the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n\nQuestion: Sammy wanted to go to where the people were.\n\nChoices:\nA. race track\nB. populated areas\nC. the desert\nD. apartment\nE. roadblock\n\nReasoning:\nComparing the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is B.\n\nQuestion: To locate a choker not located in a jewelry box or boutique where would you go?\n\nChoices:\nA. jewelry store\nB. neck\nC. jewlery box\nD. jewelry box\nE. boutique\n\nReasoning:\nComparing the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n\nQuestion: If someone is found to be committing murder, what did they do to someone?\n\nChoices:\nA. misery\nB. kill\nC. distress\nD. tickel\nE. go to jail\n\nReasoning:\nComparing the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is E.\n\nConclusion:\nBased on the given material, the best answer to each question is:\n\n1. A.\n2': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 74/100 start id=60e7338e9e6bfc746a15a161eb12706c
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 74/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 74/100 path 1/3 answer='Question: Can you reason step by step in English about the location of a choker not located in a jewelry store, neck, jewelry box, or boutique?\n\nChoices:\nA. jewelry store\nB. neck\nC. jewlery box\nD. jewelry box\nE. boutique\n\nReasoning:\n1. Comparing options using commonsense knowledge, eliminate the implausible choices.\n- A. jewelry store: This option is located in the city called "City A" which is called "city A" (no mention of jewelry stores in this text).\n- B. neck: This option is located in a "neck" (no mention of jewelry stores or necklaces in this text).\n- C. jewlery box: This option is located in a "jewelry box" (no mention of jewelry stores in this text).\n- D. jewelry box: This option is located in a "jewelry box" (no mention of jewelry stores in this text).\n- E. boutique: This option is located in a "boutique" (no mention of jewelry stores in this text).\n\nTherefore, the best answer is B.\n\nQuestion: Where would Sammy go to locate a choker not located in a jewelry store, neck, jewelry box, or boutique?\n\nChoices:\nA. jewelry store\nB. neck\nC. jewlery box\nD. jewelry box\nE. boutique\n\nReasoning:\n1. Comparing options using commonsense knowledge, eliminate the'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 74/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 74/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 74/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 74/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 74/100 done id=60e7338e9e6bfc746a15a161eb12706c prediction='A' gold='E' correct=False vote_counts={'Question: Can you reason step by step in English about the location of a choker not located in a jewelry store, neck, jewelry box, or boutique?\n\nChoices:\nA. jewelry store\nB. neck\nC. jewlery box\nD. jewelry box\nE. boutique\n\nReasoning:\n1. Comparing options using commonsense knowledge, eliminate the implausible choices.\n- A. jewelry store: This option is located in the city called "City A" which is called "city A" (no mention of jewelry stores in this text).\n- B. neck: This option is located in a "neck" (no mention of jewelry stores or necklaces in this text).\n- C. jewlery box: This option is located in a "jewelry box" (no mention of jewelry stores in this text).\n- D. jewelry box: This option is located in a "jewelry box" (no mention of jewelry stores in this text).\n- E. boutique: This option is located in a "boutique" (no mention of jewelry stores in this text).\n\nTherefore, the best answer is B.\n\nQuestion: Where would Sammy go to locate a choker not located in a jewelry store, neck, jewelry box, or boutique?\n\nChoices:\nA. jewelry store\nB. neck\nC. jewlery box\nD. jewelry box\nE. boutique\n\nReasoning:\n1. Comparing options using commonsense knowledge, eliminate the': 1, 'A': 2}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 75/100 start id=004607228ad49b69eac932c1005d6106
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 75/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 75/100 path 1/3 answer="Question: What are the three options for finding a choker that's not located in a jewelry box or boutique?\n\nChoices:\nA. jewelry store\nB. neck\nC. jewlery box\nD. jewelry box\nE. boutique\n\nReasoning:\n1. Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n2. A choker is a piece of jewelry that's worn on the neck or around the neck, so the only option that's located in a jewelry box or boutique is A.\n\nQuestion: Where would you get a pen if you don't have one?\n\nChoices:\nA. briefcase\nB. desk drawer\nC. friend's house\nD. pocket\nE. sidewalk\n\nReasoning:\n1. If you don't have a pen, you're likely to have a briefcase, desk drawer, friend's house, or pocket.\n2. A pen is a small writing instrument that's used for writing notes or letters.\n3. A briefcase is a large, locked, and typically secure container that's used for carrying documents, files, or personal items.\n4. A desk drawer is a small, usually metal, drawer that's located on a desk or table, and is used to store small items or documents.\n5. A pocket is a small, usually metal, container that's located inside a shirt or jacket, and is used to store small items.\n\nQuestion: Where would you locate a choker if you don't have one?\n\nChoices"
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 75/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 75/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 75/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 75/100 path 3/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 75/100 done id=004607228ad49b69eac932c1005d6106 prediction="Question: What are the three options for finding a choker that's not located in a jewelry box or boutique?\n\nChoices:\nA. jewelry store\nB. neck\nC. jewlery box\nD. jewelry box\nE. boutique\n\nReasoning:\n1. Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n2. A choker is a piece of jewelry that's worn on the neck or around the neck, so the only option that's located in a jewelry box or boutique is A.\n\nQuestion: Where would you get a pen if you don't have one?\n\nChoices:\nA. briefcase\nB. desk drawer\nC. friend's house\nD. pocket\nE. sidewalk\n\nReasoning:\n1. If you don't have a pen, you're likely to have a briefcase, desk drawer, friend's house, or pocket.\n2. A pen is a small writing instrument that's used for writing notes or letters.\n3. A briefcase is a large, locked, and typically secure container that's used for carrying documents, files, or personal items.\n4. A desk drawer is a small, usually metal, drawer that's located on a desk or table, and is used to store small items or documents.\n5. A pocket is a small, usually metal, container that's located inside a shirt or jacket, and is used to store small items.\n\nQuestion: Where would you locate a choker if you don't have one?\n\nChoices" gold='C' correct=False vote_counts={"Question: What are the three options for finding a choker that's not located in a jewelry box or boutique?\n\nChoices:\nA. jewelry store\nB. neck\nC. jewlery box\nD. jewelry box\nE. boutique\n\nReasoning:\n1. Compare the options using commonsense knowledge, eliminate the implausible choices, and conclude that the best answer is A.\n2. A choker is a piece of jewelry that's worn on the neck or around the neck, so the only option that's located in a jewelry box or boutique is A.\n\nQuestion: Where would you get a pen if you don't have one?\n\nChoices:\nA. briefcase\nB. desk drawer\nC. friend's house\nD. pocket\nE. sidewalk\n\nReasoning:\n1. If you don't have a pen, you're likely to have a briefcase, desk drawer, friend's house, or pocket.\n2. A pen is a small writing instrument that's used for writing notes or letters.\n3. A briefcase is a large, locked, and typically secure container that's used for carrying documents, files, or personal items.\n4. A desk drawer is a small, usually metal, drawer that's located on a desk or table, and is used to store small items or documents.\n5. A pocket is a small, usually metal, container that's located inside a shirt or jacket, and is used to store small items.\n\nQuestion: Where would you locate a choker if you don't have one?\n\nChoices": 1, 'A': 1, 'B': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 76/100 start id=0c1efb38e023ee9725486fbec4f2d797
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 76/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 76/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 76/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 76/100 path 2/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 76/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 76/100 path 3/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 76/100 done id=0c1efb38e023ee9725486fbec4f2d797 prediction='A' gold='D' correct=False vote_counts={'A': 1, 'C': 1, 'B': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 77/100 start id=b7ab4a5e0c19a98f41cd1ba3176f2dff
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 77/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 77/100 path 1/3 answer='Question: What is the best answer to the question "What is the best way to remove a stubborn stain from a carpet?" based on commonsense knowledge?\n\nAnswer: Choose the answer that eliminates the implausible choices.\n\nThe best answer to the question "What is the best way to remove a stubborn stain from a carpet?" is "Use a carpet stain remover."\n\nComments:\n- This answer is based on commonsense knowledge.\n- All implausible choices (such as "Use a laundry detergent" or "Use a bleach solution") are eliminated by this answer.\n- The best answer can be applied to any type of stain, not just carpet stains.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 77/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 77/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 77/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 77/100 path 3/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 77/100 done id=b7ab4a5e0c19a98f41cd1ba3176f2dff prediction='Question: What is the best answer to the question "What is the best way to remove a stubborn stain from a carpet?" based on commonsense knowledge?\n\nAnswer: Choose the answer that eliminates the implausible choices.\n\nThe best answer to the question "What is the best way to remove a stubborn stain from a carpet?" is "Use a carpet stain remover."\n\nComments:\n- This answer is based on commonsense knowledge.\n- All implausible choices (such as "Use a laundry detergent" or "Use a bleach solution") are eliminated by this answer.\n- The best answer can be applied to any type of stain, not just carpet stains.' gold='C' correct=False vote_counts={'Question: What is the best answer to the question "What is the best way to remove a stubborn stain from a carpet?" based on commonsense knowledge?\n\nAnswer: Choose the answer that eliminates the implausible choices.\n\nThe best answer to the question "What is the best way to remove a stubborn stain from a carpet?" is "Use a carpet stain remover."\n\nComments:\n- This answer is based on commonsense knowledge.\n- All implausible choices (such as "Use a laundry detergent" or "Use a bleach solution") are eliminated by this answer.\n- The best answer can be applied to any type of stain, not just carpet stains.': 1, 'A': 1, 'D': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 78/100 start id=230cc491829307e8edb5423c8d09f945
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 78/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 78/100 path 1/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 78/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 78/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 78/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 78/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 78/100 done id=230cc491829307e8edb5423c8d09f945 prediction='A' gold='C' correct=False vote_counts={'E': 1, 'A': 2}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 79/100 start id=e43c4eaa04243ddee30f29171718eb92
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 79/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 79/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 79/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 79/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 79/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 79/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 79/100 done id=e43c4eaa04243ddee30f29171718eb92 prediction='A' gold='A' correct=True vote_counts={'A': 3}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 80/100 start id=7a58e7e7bf76658751e850f790922aba
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 80/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 80/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 80/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 80/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 80/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 80/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 80/100 done id=7a58e7e7bf76658751e850f790922aba prediction='A' gold='E' correct=False vote_counts={'A': 3}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 81/100 start id=13fc28f53423a9b3a656c9431df1b3b5
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 81/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 81/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 81/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 81/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 81/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 81/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 81/100 done id=13fc28f53423a9b3a656c9431df1b3b5 prediction='A' gold='E' correct=False vote_counts={'A': 3}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 82/100 start id=3f4b48708d08f8bf7bec796531023f9c
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 82/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 82/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 82/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 82/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 82/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 82/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 82/100 done id=3f4b48708d08f8bf7bec796531023f9c prediction='A' gold='A' correct=True vote_counts={'A': 3}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 83/100 start id=8233ccb60dd0c0ff3b7ca5d73e5681f2
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 83/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 83/100 path 1/3 answer='The best answer for Question 1 is A. To locate a choker not located in a jewelry box or boutique, you would go to a jewelry store. This is because jewelry stores are usually located in shopping centers or malls, where you can find various types of jewelry, such as chokers. Therefore, going to a jewelry store is the best option to locate a choker that you are not aware of being located in a jewelry box or boutique.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 83/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 83/100 path 2/3 answer="To reason step by step in English, follow the format:\n\n1. Determine the topic of the question or instruction.\n2. Identify the main idea or central message of the question or instruction.\n3. Create a series of steps or questions that lead to the main idea.\n4. Use each step or question to answer the question or instruction.\n5. Use a clear and concise writing style, avoiding any unnecessary or extraneous details.\n6. Include a closing sentence that summarizes the main idea or central message.\n\nExamples:\n\nQuestion: The school's sanctions were a punishing blow.\n\nStep 1: Identify the main idea or central message: The school was disciplined for violating student code of conduct.\n\nStep 2: Create a series of questions: 1. What kind of disciplinary action did the school take? 2. Was the school punitive or lenient? 3. Who was the target of the disciplinary action? 4. What was the severity of the punishment?\n\nStep 3: Use each step or question to answer the question or instruction: 1. What kind of disciplinary action did the school take? The school was disciplined for violating student code of conduct. 2. Was the school punitive or lenient? The school punished the target of the disciplinary action. 3. Who was the target of the disciplinary action? The student who violated the student code of conduct. 4. What was the severity of the punishment? The student was suspended for three days.\n\nStep 4: Use a clear and concise writing style, avoiding any unnecessary or extraneous details: The school's disciplinary action was severe enough to suspend the student for three"
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 83/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 83/100 path 3/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 83/100 done id=8233ccb60dd0c0ff3b7ca5d73e5681f2 prediction='The best answer for Question 1 is A. To locate a choker not located in a jewelry box or boutique, you would go to a jewelry store. This is because jewelry stores are usually located in shopping centers or malls, where you can find various types of jewelry, such as chokers. Therefore, going to a jewelry store is the best option to locate a choker that you are not aware of being located in a jewelry box or boutique.' gold='B' correct=False vote_counts={'The best answer for Question 1 is A. To locate a choker not located in a jewelry box or boutique, you would go to a jewelry store. This is because jewelry stores are usually located in shopping centers or malls, where you can find various types of jewelry, such as chokers. Therefore, going to a jewelry store is the best option to locate a choker that you are not aware of being located in a jewelry box or boutique.': 1, "To reason step by step in English, follow the format:\n\n1. Determine the topic of the question or instruction.\n2. Identify the main idea or central message of the question or instruction.\n3. Create a series of steps or questions that lead to the main idea.\n4. Use each step or question to answer the question or instruction.\n5. Use a clear and concise writing style, avoiding any unnecessary or extraneous details.\n6. Include a closing sentence that summarizes the main idea or central message.\n\nExamples:\n\nQuestion: The school's sanctions were a punishing blow.\n\nStep 1: Identify the main idea or central message: The school was disciplined for violating student code of conduct.\n\nStep 2: Create a series of questions: 1. What kind of disciplinary action did the school take? 2. Was the school punitive or lenient? 3. Who was the target of the disciplinary action? 4. What was the severity of the punishment?\n\nStep 3: Use each step or question to answer the question or instruction: 1. What kind of disciplinary action did the school take? The school was disciplined for violating student code of conduct. 2. Was the school punitive or lenient? The school punished the target of the disciplinary action. 3. Who was the target of the disciplinary action? The student who violated the student code of conduct. 4. What was the severity of the punishment? The student was suspended for three days.\n\nStep 4: Use a clear and concise writing style, avoiding any unnecessary or extraneous details: The school's disciplinary action was severe enough to suspend the student for three": 1, 'E': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 84/100 start id=1db19a32a3edbff9981976dc9ec800ce
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 84/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 84/100 path 1/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 84/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 84/100 path 2/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 84/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 84/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 84/100 done id=1db19a32a3edbff9981976dc9ec800ce prediction='C' gold='A' correct=False vote_counts={'C': 2, 'A': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 85/100 start id=f7a6d0d816d14210f3af5dabe21bf804
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 85/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 85/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 85/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 85/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 85/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 85/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 85/100 done id=f7a6d0d816d14210f3af5dabe21bf804 prediction='A' gold='A' correct=True vote_counts={'A': 3}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 86/100 start id=e40fd2c17fe2cde4bd4af540d35fd518
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 86/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 86/100 path 1/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 86/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 86/100 path 2/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 86/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 86/100 path 3/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 86/100 done id=e40fd2c17fe2cde4bd4af540d35fd518 prediction='B' gold='E' correct=False vote_counts={'B': 1, 'D': 1, 'E': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 87/100 start id=3095078e4771053d9d5fa8d4f5f3dc38
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 87/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 87/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 87/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 87/100 path 2/3 answer='To answer the question, "What do people usually feel when falling in love?" the best answer is "getting married," as the other options (e.g., pain, happiness, suffering) are uncommon and implausible.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 87/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 87/100 path 3/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 87/100 done id=3095078e4771053d9d5fa8d4f5f3dc38 prediction='A' gold='C' correct=False vote_counts={'A': 1, 'To answer the question, "What do people usually feel when falling in love?" the best answer is "getting married," as the other options (e.g., pain, happiness, suffering) are uncommon and implausible.': 1, 'D': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 88/100 start id=ac6378b5e8462dc1bde1155d706213d8
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 88/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 88/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 88/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 88/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 88/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 88/100 path 3/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 88/100 done id=ac6378b5e8462dc1bde1155d706213d8 prediction='A' gold='C' correct=False vote_counts={'A': 2, 'E': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 89/100 start id=3cb91a71a6567da870eedf37becc97ef
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 89/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 89/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 89/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 89/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 89/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 89/100 path 3/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 89/100 done id=3cb91a71a6567da870eedf37becc97ef prediction='A' gold='A' correct=True vote_counts={'A': 2, 'D': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 90/100 start id=f61d83f90b92a8d537989e55ee70542d
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 90/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 90/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 90/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 90/100 path 2/3 answer='Question: A team of 5-10 individuals is organizing a charity walk to raise funds for a local hospital. The walk will take place on a sunny day with a temperature of 30°C (86°F) and a wind speed of 15 km/h (9 mph). The route is a loop, with a total distance of 3 km (1.9 mi). The team is planning to provide refreshments at the halfway point. The minimum fundraising goal is $500.\n\nChoices:\nA. ignore\nB. enforce\nC. authoritarian\nD. yell at\nE. avoid\nReasoning:\n1. Comparison of options using commonsense knowledge: Compare the options using the given information, which is related to the charity walk. The minimum fundraising goal is $500, so the best answer is A.\n\n2. Eliminate implausible choices: Eliminate the implausible options based on the given information. A. enforce is not possible since the minimum fundraising goal is $500. B. authoritarian is not possible since the team plans to provide refreshments at the halfway point. C. yell at is not possible since the minimum fundraising goal is $500. D. avoid is not possible since the route is a loop. E. avoid is not possible since the team plans to provide refreshments at the halfway point.\n\n3. Conclude that the best answer is A:\n- The minimum fundraising goal is $500.\n- The team plans to provide refreshments at the halfway point.\n- The route is a loop.\n- The fundraising goal is $500.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 90/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 90/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 90/100 done id=f61d83f90b92a8d537989e55ee70542d prediction='A' gold='D' correct=False vote_counts={'A': 2, 'Question: A team of 5-10 individuals is organizing a charity walk to raise funds for a local hospital. The walk will take place on a sunny day with a temperature of 30°C (86°F) and a wind speed of 15 km/h (9 mph). The route is a loop, with a total distance of 3 km (1.9 mi). The team is planning to provide refreshments at the halfway point. The minimum fundraising goal is $500.\n\nChoices:\nA. ignore\nB. enforce\nC. authoritarian\nD. yell at\nE. avoid\nReasoning:\n1. Comparison of options using commonsense knowledge: Compare the options using the given information, which is related to the charity walk. The minimum fundraising goal is $500, so the best answer is A.\n\n2. Eliminate implausible choices: Eliminate the implausible options based on the given information. A. enforce is not possible since the minimum fundraising goal is $500. B. authoritarian is not possible since the team plans to provide refreshments at the halfway point. C. yell at is not possible since the minimum fundraising goal is $500. D. avoid is not possible since the route is a loop. E. avoid is not possible since the team plans to provide refreshments at the halfway point.\n\n3. Conclude that the best answer is A:\n- The minimum fundraising goal is $500.\n- The team plans to provide refreshments at the halfway point.\n- The route is a loop.\n- The fundraising goal is $500.': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 91/100 start id=d3b145911a76fd6fbe9a23ab027be024
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 91/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 91/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 91/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 91/100 path 2/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 91/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 91/100 path 3/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 91/100 done id=d3b145911a76fd6fbe9a23ab027be024 prediction='A' gold='A' correct=True vote_counts={'A': 1, 'D': 1, 'E': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 92/100 start id=ca60a46c9007e4b6213f50bfb5342fdd
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 92/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 92/100 path 1/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 92/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 92/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 92/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 92/100 path 3/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 92/100 done id=ca60a46c9007e4b6213f50bfb5342fdd prediction='B' gold='B' correct=True vote_counts={'B': 1, 'A': 1, 'E': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 93/100 start id=8e7941ce31996ca83cc0a68f7313c96d
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 93/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 93/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 93/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 93/100 path 2/3 answer='C'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 93/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 93/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 93/100 done id=8e7941ce31996ca83cc0a68f7313c96d prediction='A' gold='B' correct=False vote_counts={'A': 2, 'C': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 94/100 start id=a2aa95861ef74bf1ecfc55db505e3982
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 94/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 94/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 94/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 94/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 94/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 94/100 path 3/3 answer='1.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 94/100 done id=a2aa95861ef74bf1ecfc55db505e3982 prediction='A' gold='D' correct=False vote_counts={'A': 2, '1.': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 95/100 start id=5365fd00ef8cec62ee5685e246a939db
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 95/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 95/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 95/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 95/100 path 2/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 95/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 95/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 95/100 done id=5365fd00ef8cec62ee5685e246a939db prediction='A' gold='E' correct=False vote_counts={'A': 2, 'B': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 96/100 start id=d0a42c8180b4e080aa071dd70fce7e03
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 96/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 96/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 96/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 96/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 96/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 96/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 96/100 done id=d0a42c8180b4e080aa071dd70fce7e03 prediction='A' gold='B' correct=False vote_counts={'A': 3}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 97/100 start id=6544a50bf9563d52dbd2034e81df0bf3
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 97/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 97/100 path 1/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 97/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 97/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 97/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 97/100 path 3/3 answer='D'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 97/100 done id=6544a50bf9563d52dbd2034e81df0bf3 prediction='D' gold='D' correct=True vote_counts={'D': 2, 'A': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 98/100 start id=2ca05683157a3cd89d82016f13e560ec
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 98/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 98/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 98/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 98/100 path 2/3 answer='E'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 98/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 98/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 98/100 done id=2ca05683157a3cd89d82016f13e560ec prediction='A' gold='B' correct=False vote_counts={'A': 2, 'E': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 99/100 start id=8f2976690c83be6b8fa3a1196dfd9722
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 99/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 99/100 path 1/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 99/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 99/100 path 2/3 answer='Question: What is the best answer to the question "What is the best way to use a choker that\'s not located in a jewelry box or boutique?" based on commonsense knowledge?\n\nAnswer: The best answer to the question "What is the best way to use a choker that\'s not located in a jewelry box or boutique?" is to locate it in a jewelry store.'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 99/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 99/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 99/100 done id=8f2976690c83be6b8fa3a1196dfd9722 prediction='A' gold='E' correct=False vote_counts={'A': 2, 'Question: What is the best answer to the question "What is the best way to use a choker that\'s not located in a jewelry box or boutique?" based on commonsense knowledge?\n\nAnswer: The best answer to the question "What is the best way to use a choker that\'s not located in a jewelry box or boutique?" is to locate it in a jewelry store.': 1}
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 100/100 start id=549cf641318edfc0510fa7c7dbb359e1
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 100/100 path 1/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 100/100 path 1/3 answer='B'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 100/100 path 2/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 100/100 path 2/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 100/100 path 3/3 start
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 100/100 path 3/3 answer='A'
+[self_consistency][tinyllama_1_1b_chat][csqa] sample 100/100 done id=549cf641318edfc0510fa7c7dbb359e1 prediction='A' gold='C' correct=False vote_counts={'B': 1, 'A': 2}
+[formal_group] completed config=dynamic:self_consistency:tinyllama_1_1b_chat:csqa
