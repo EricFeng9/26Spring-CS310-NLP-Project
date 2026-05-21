@@ -137,6 +137,39 @@ def duplicate_reasoning_ratio(paths: list[dict]) -> float:
     return duplicate_count / len(reasonings)
 
 
+def reasoning_complexity_score(reasoning: str) -> int:
+    """给单条推理路径计算轻量复杂度分数。
+
+    该分数用于探索 Fu et al. 的复杂度启发：更完整、更复杂的推理链可能更可靠。
+    分数只依赖已有推理文本，不调用模型，不引入额外训练。
+    """
+    text = str(reasoning).strip()
+    if not text:
+        return 0
+
+    word_count = len(re.findall(r"\b\w+\b", text))
+    sentence_count = len(re.findall(r"[.!?。！？]+", text))
+    newline_count = text.count("\n")
+    step_marker_count = len(
+        re.findall(
+            r"\b(?:step\s*\d+|first|second|third|next|then|finally|therefore)\b",
+            text,
+            flags=re.IGNORECASE,
+        )
+    )
+    number_count = len(re.findall(r"-?\d+(?:\.\d+)?", text))
+    operator_count = len(re.findall(r"[\+\-\*/=×÷]", text))
+
+    return (
+        word_count
+        + 8 * step_marker_count
+        + 4 * sentence_count
+        + 3 * newline_count
+        + 2 * number_count
+        + operator_count
+    )
+
+
 def build_path_views(dataset_key: str, row: dict) -> list[dict]:
     """将原始路径转换为带归一化结果和有效性标记的结构。"""
     views: list[dict] = []
@@ -151,6 +184,7 @@ def build_path_views(dataset_key: str, row: dict) -> list[dict]:
                 "normalized_answer": normalized_answer,
                 "raw_valid": bool(raw_answer),
                 "normalized_valid": is_valid_answer(dataset_key, normalized_answer),
+                "complexity_score": reasoning_complexity_score(path.get("reasoning", "")),
             }
         )
     return views

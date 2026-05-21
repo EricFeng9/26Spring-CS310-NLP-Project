@@ -41,6 +41,11 @@ output/raw/A/lightweight_100/self_consistency/
 - 多数票置信度分桶：按 `1/3`、`2/3`、`3/3` 投票强度统计准确率
 - 正确性转移矩阵：统计从原始 SC 到改进 SC 的错转对、对转错
 
+复杂度探索：
+
+- `most_complex`：直接选择复杂度最高的路径
+- `complexity_weighted_vote`：按复杂度分数加权投票
+
 ## 2. 主结果
 
 | model | dataset | original_sc | normalized_vote | filtered_vote | normalized_filtered_vote |
@@ -232,4 +237,35 @@ output/log/B/oracle_path_analysis.csv
 output/log/B/majority_confidence_buckets.csv
 output/log/B/original_to_improved_transition.csv
 output/log/B/model_average_diagnostics.csv
+```
+
+## 14. 复杂度探索
+
+这是对 Fu et al. “复杂推理链更有价值” 的轻量验证。这里不重新采样路径，只在已有 3 条路径上用文本复杂度打分。
+
+| model | dataset | most_complex | complexity_weighted_vote | normalized_filtered_vote |
+| --- | --- | ---: | ---: | ---: |
+| `qwen2_5_0_5b_instruct` | CSQA | 44% | 44% | 43% |
+| `qwen2_5_0_5b_instruct` | GSM8K | 33% | 42% | 45% |
+| `qwen2_5_0_5b_instruct` | MMLU | 37% | 38% | 35% |
+| `qwen2_5_1_5b_instruct` | CSQA | 65% | 67% | 67% |
+| `qwen2_5_1_5b_instruct` | GSM8K | 59% | 65% | 69% |
+| `qwen2_5_1_5b_instruct` | MMLU | 50% | 50% | 50% |
+| `tinyllama_1_1b_chat` | CSQA | 25% | 25% | 29% |
+| `tinyllama_1_1b_chat` | GSM8K | 1% | 2% | 5% |
+| `tinyllama_1_1b_chat` | MMLU | 25% | 24% | 23% |
+
+复杂度探索结论：
+
+- 复杂度启发有一定信息量，尤其在 Qwen0.5B 的 GSM8K 上，复杂度加权投票从 `33%` 提升到 `42%`。
+- 但它整体不如答案归一化稳定，Qwen1.5B 的 GSM8K 上 `complexity_weighted_vote` 仍低于 `normalized_filtered_vote`。
+- `most_complex` 单独使用时并不总是最优，说明“更复杂”只能作为辅助信号，不能直接替代投票聚合。
+- 这个结果更适合写成探索性分析：复杂推理链有价值，但要和答案归一化、路径过滤结合起来用。
+
+## 15. 复杂度输出文件
+
+新增复杂度输出：
+
+```text
+output/log/B/complexity_ablation.csv
 ```
