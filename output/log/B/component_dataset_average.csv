@@ -1,0 +1,13 @@
+dataset_key,component_setting,model_count,mean_accuracy,mean_absolute_gain_vs_original_sc,mean_vote_changed_rate,mean_majority_share
+csqa,filtered_vote,3,0.463333,0.006667,0.026667,0.771111
+csqa,normalized_filtered_vote,3,0.463333,0.006667,0.026667,0.777778
+csqa,normalized_vote,3,0.453333,-0.003333,0.03,0.78
+csqa,original_sc,3,0.456667,0.0,0.0,0.771111
+gsm8k,filtered_vote,3,0.323333,0.03,0.286667,0.445555
+gsm8k,normalized_filtered_vote,3,0.396667,0.103333,0.33,0.553334
+gsm8k,normalized_vote,3,0.393333,0.1,0.33,0.553334
+gsm8k,original_sc,3,0.293333,0.0,0.0,0.477778
+mmlu,filtered_vote,3,0.36,0.053333,0.21,0.566667
+mmlu,normalized_filtered_vote,3,0.36,0.053333,0.216667,0.593333
+mmlu,normalized_vote,3,0.33,0.023333,0.236667,0.645556
+mmlu,original_sc,3,0.306667,0.0,0.0,0.58

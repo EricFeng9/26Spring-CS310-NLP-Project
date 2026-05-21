@@ -1,0 +1,10 @@
+model_key,dataset_key,sample_count,same_correct,same_wrong,wrong_to_correct,correct_to_wrong,prediction_changed,net_correct_gain,prediction_changed_rate
+qwen2_5_0_5b_instruct,csqa,100,43,57,0,0,0,0,0.0
+qwen2_5_0_5b_instruct,gsm8k,100,19,54,26,1,64,25,0.64
+qwen2_5_0_5b_instruct,mmlu,100,33,65,2,0,17,2,0.17
+qwen2_5_1_5b_instruct,csqa,100,67,33,0,0,0,0,0.0
+qwen2_5_1_5b_instruct,gsm8k,100,67,31,2,0,3,2,0.03
+qwen2_5_1_5b_instruct,mmlu,100,50,50,0,0,2,0,0.02
+tinyllama_1_1b_chat,csqa,100,27,71,2,0,8,2,0.08
+tinyllama_1_1b_chat,gsm8k,100,1,95,4,0,32,4,0.32
+tinyllama_1_1b_chat,mmlu,100,9,77,14,0,46,14,0.46
