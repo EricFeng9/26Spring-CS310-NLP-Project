@@ -1,0 +1,1206 @@
+
+===== run started at 2026-05-27T23:47:44 =====
+[taskC] start name=qwen2_5_1_5b_instruct_mmlu_n5_t0p7 log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/C_titan_cu124/runs/qwen2_5_1_5b_instruct_mmlu_n5_t0p7.log
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] loaded 100 samples from split=validation num_paths=5
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] using 3 few-shot examples for SC prompt
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 1/100 start id=mmlu_validation_13
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 1/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 1/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 1/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 1/100 path 2/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 1/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 1/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 1/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 1/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 1/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 1/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 1/100 done id=mmlu_validation_13 prediction='D' gold='C' correct=False vote_counts={'D': 3, 'C': 1, 'A': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 2/100 start id=mmlu_validation_51
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 2/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 2/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 2/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 2/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 2/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 2/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 2/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 2/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 2/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 2/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 2/100 done id=mmlu_validation_51 prediction='A' gold='A' correct=True vote_counts={'D': 2, 'A': 3}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 3/100 start id=mmlu_validation_54
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 3/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 3/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 3/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 3/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 3/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 3/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 3/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 3/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 3/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 3/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 3/100 done id=mmlu_validation_54 prediction='A' gold='D' correct=False vote_counts={'B': 1, 'A': 4}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 4/100 start id=mmlu_validation_61
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 4/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 4/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 4/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 4/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 4/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 4/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 4/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 4/100 path 4/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 4/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 4/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 4/100 done id=mmlu_validation_61 prediction='D' gold='D' correct=True vote_counts={'D': 4, 'C': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 5/100 start id=mmlu_validation_65
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 5/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 5/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 5/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 5/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 5/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 5/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 5/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 5/100 path 4/5 answer=': None of the above choices accurately represent what is true of blackouts and dizziness based on the limited information provided.'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 5/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 5/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 5/100 done id=mmlu_validation_65 prediction='A' gold='A' correct=True vote_counts={'A': 4, ': None of the above choices accurately represent what is true of blackouts and dizziness based on the limited information provided.': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 6/100 start id=mmlu_validation_88
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 6/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 6/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 6/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 6/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 6/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 6/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 6/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 6/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 6/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 6/100 path 5/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 6/100 done id=mmlu_validation_88 prediction='B' gold='C' correct=False vote_counts={'B': 2, 'D': 1, 'A': 2}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 7/100 start id=mmlu_validation_93
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 7/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 7/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 7/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 7/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 7/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 7/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 7/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 7/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 7/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 7/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 7/100 done id=mmlu_validation_93 prediction='D' gold='D' correct=True vote_counts={'D': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 8/100 start id=mmlu_validation_114
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 8/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 8/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 8/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 8/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 8/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 8/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 8/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 8/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 8/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 8/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 8/100 done id=mmlu_validation_114 prediction='D' gold='D' correct=True vote_counts={'D': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 9/100 start id=mmlu_validation_142
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 9/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 9/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 9/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 9/100 path 2/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 9/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 9/100 path 3/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 9/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 9/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 9/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 9/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 9/100 done id=mmlu_validation_142 prediction='A' gold='D' correct=False vote_counts={'A': 2, 'B': 1, 'C': 1, 'D': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 10/100 start id=mmlu_validation_146
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 10/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 10/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 10/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 10/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 10/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 10/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 10/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 10/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 10/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 10/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 10/100 done id=mmlu_validation_146 prediction='A' gold='B' correct=False vote_counts={'D': 2, 'A': 3}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 11/100 start id=mmlu_validation_161
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 11/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 11/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 11/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 11/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 11/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 11/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 11/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 11/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 11/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 11/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 11/100 done id=mmlu_validation_161 prediction='D' gold='D' correct=True vote_counts={'D': 4, 'A': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 12/100 start id=mmlu_validation_163
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 12/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 12/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 12/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 12/100 path 2/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 12/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 12/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 12/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 12/100 path 4/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 12/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 12/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 12/100 done id=mmlu_validation_163 prediction='D' gold='A' correct=False vote_counts={'D': 3, 'C': 1, 'B': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 13/100 start id=mmlu_validation_178
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 13/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 13/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 13/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 13/100 path 2/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 13/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 13/100 path 3/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 13/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 13/100 path 4/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 13/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 13/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 13/100 done id=mmlu_validation_178 prediction='A' gold='C' correct=False vote_counts={'A': 2, 'C': 2, 'B': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 14/100 start id=mmlu_validation_189
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 14/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 14/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 14/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 14/100 path 2/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 14/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 14/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 14/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 14/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 14/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 14/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 14/100 done id=mmlu_validation_189 prediction='A' gold='C' correct=False vote_counts={'A': 4, 'B': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 15/100 start id=mmlu_validation_191
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 15/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 15/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 15/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 15/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 15/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 15/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 15/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 15/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 15/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 15/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 15/100 done id=mmlu_validation_191 prediction='A' gold='A' correct=True vote_counts={'A': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 16/100 start id=mmlu_validation_198
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 16/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 16/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 16/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 16/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 16/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 16/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 16/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 16/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 16/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 16/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 16/100 done id=mmlu_validation_198 prediction='A' gold='B' correct=False vote_counts={'A': 4, 'D': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 17/100 start id=mmlu_validation_206
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 17/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 17/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 17/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 17/100 path 2/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 17/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 17/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 17/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 17/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 17/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 17/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 17/100 done id=mmlu_validation_206 prediction='D' gold='A' correct=False vote_counts={'D': 2, 'C': 1, 'A': 2}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 18/100 start id=mmlu_validation_209
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 18/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 18/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 18/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 18/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 18/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 18/100 path 3/5 answer='Let\'s analyze each option step by step:\n\n1. **Statement 1**: "Every element of a group generates a cyclic subgroup of the group."\n   - This statement is true. By definition, every element \\( a \\) in a group \\( G \\) can generate a cyclic subgroup consisting of powers of \\( a \\), denoted as \\( \\langle a \\rangle \\).\n\n2. **Statement 2**: "The symmetric group S\\_n has n! elements."\n   - This statement is false. The symmetric group \\( S_n \\) consists of all permutations of \\( n \\) elements, and there is no universal number \\( n! \\) representing its size; it depends on the specific value of \\( n \\). For example, \\( S_1 = \\{ () \\} \\) (a set with 1 element) and \\( S_2 = S_2 = \\{ (), (12) \\} \\) (two sets, but different sizes).\n\nSince we need to find the correct choice based on these statements being either true or false, let\'s evaluate each given answer:\n\n- **Option A**: V, I, and P\n  - Neither statement 1 nor statement 2 is directly related to voltage, current, and power rating, so this does not align with our analysis.\n\n- **Option B**: V/2, I/2, and P/4\n  - Statement 2 is explicitly stated incorrectly, hence this cannot be right.\n\n- **Option C**: V/2, I and P/2\n  - Statement 2 is incorrect, so this cannot be the right answer.\n\n- **Option D**: V, I/2, and P/2\n  - Statement 2 is incorrect, so this also cannot be the right answer.\n\nGiven the incorrect nature of Statements 1 and 2, none of the provided choices seem'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 18/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 18/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 18/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 18/100 path 5/5 answer='not explicitly stated among the given options. Given the lack of additional context, we cannot confidently select any single option as correct from the ones provided.'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 18/100 done id=mmlu_validation_209 prediction='D' gold='D' correct=True vote_counts={'B': 1, 'D': 2, 'Let\'s analyze each option step by step:\n\n1. **Statement 1**: "Every element of a group generates a cyclic subgroup of the group."\n   - This statement is true. By definition, every element \\( a \\) in a group \\( G \\) can generate a cyclic subgroup consisting of powers of \\( a \\), denoted as \\( \\langle a \\rangle \\).\n\n2. **Statement 2**: "The symmetric group S\\_n has n! elements."\n   - This statement is false. The symmetric group \\( S_n \\) consists of all permutations of \\( n \\) elements, and there is no universal number \\( n! \\) representing its size; it depends on the specific value of \\( n \\). For example, \\( S_1 = \\{ () \\} \\) (a set with 1 element) and \\( S_2 = S_2 = \\{ (), (12) \\} \\) (two sets, but different sizes).\n\nSince we need to find the correct choice based on these statements being either true or false, let\'s evaluate each given answer:\n\n- **Option A**: V, I, and P\n  - Neither statement 1 nor statement 2 is directly related to voltage, current, and power rating, so this does not align with our analysis.\n\n- **Option B**: V/2, I/2, and P/4\n  - Statement 2 is explicitly stated incorrectly, hence this cannot be right.\n\n- **Option C**: V/2, I and P/2\n  - Statement 2 is incorrect, so this cannot be the right answer.\n\n- **Option D**: V, I/2, and P/2\n  - Statement 2 is incorrect, so this also cannot be the right answer.\n\nGiven the incorrect nature of Statements 1 and 2, none of the provided choices seem': 1, 'not explicitly stated among the given options. Given the lack of additional context, we cannot confidently select any single option as correct from the ones provided.': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 19/100 start id=mmlu_validation_228
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 19/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 19/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 19/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 19/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 19/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 19/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 19/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 19/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 19/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 19/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 19/100 done id=mmlu_validation_228 prediction='A' gold='A' correct=True vote_counts={'A': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 20/100 start id=mmlu_validation_255
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 20/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 20/100 path 1/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 20/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 20/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 20/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 20/100 path 3/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 20/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 20/100 path 4/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 20/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 20/100 path 5/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 20/100 done id=mmlu_validation_255 prediction='C' gold='C' correct=True vote_counts={'C': 4, 'D': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 21/100 start id=mmlu_validation_285
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 21/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 21/100 path 1/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 21/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 21/100 path 2/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 21/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 21/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 21/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 21/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 21/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 21/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 21/100 done id=mmlu_validation_285 prediction='D' gold='B' correct=False vote_counts={'C': 2, 'D': 3}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 22/100 start id=mmlu_validation_318
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 22/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 22/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 22/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 22/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 22/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 22/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 22/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 22/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 22/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 22/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 22/100 done id=mmlu_validation_318 prediction='A' gold='C' correct=False vote_counts={'D': 1, 'A': 4}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 23/100 start id=mmlu_validation_326
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 23/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 23/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 23/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 23/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 23/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 23/100 path 3/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 23/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 23/100 path 4/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 23/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 23/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 23/100 done id=mmlu_validation_326 prediction='D' gold='D' correct=True vote_counts={'D': 3, 'C': 2}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 24/100 start id=mmlu_validation_333
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 24/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 24/100 path 1/5 answer="Use the formula for the first ionization energy to find the charge on sodium using Avogadro's number, and then convert the atomic radius from picometers to angstroms. Then determine which option correctly represents both the charge and the atomic radius.\n\n- Sodium (Na) has two electrons in its outer shell.\n- From the periodic table, we know Na forms Na⁺ when it loses one electron.\n- Using Avogadro’s number \\( N_A = 6.022 \\times 10^{23} \\) mol⁻¹, the number of moles in 496 kJ/mol is approximately 1 mole.\n- Therefore, there are \\( 2 \\times 6.022 \\times 10^{23} \\) Na atoms in 1 mole of sodium.\n- Since each atom has one electron, there are 2 electrons per mole of sodium atoms.\n- This means that each sodium atom has only one valence electron.\n- To form Na⁺ ions, each sodium atom will lose one electron, so each Na⁺ ion carries a -1 charge.\n- Therefore, the charge of Na⁺ is -1.\n\nNow calculate the atomic radius in angstroms:\n\n- Atomic radius in picometers (pm) is given as 186 pm.\n- Convert to angstroms (Å): \n  \\( 1 \\text{ Å} = 10^{-10} \\text{ m} \\)\n  \\( 186 \\text{ pm} = 186 \\times 10^{-10} \\text{ m} = 186 \\times 10^{-10} \\times 10^{10} \\text{ Å} = 186 \\text{ Å} \\)\n\nSo, the correct values are:\n\n- Charge of Na⁺:"
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 24/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 24/100 path 2/5 answer="Use the given data to determine the correct values for the atomic radius and the first ionization energy.\n- Atomic radius (r) = 186 pm\n- First ionization energy (E) = 496 kJ/mol\n\nConvert the atomic radius from picometers to meters for consistency with other units:\n1 pm = 1 × 10^-12 m\n\nAtomic radius in meters:\nr = 186 pm * (1 × 10^-12 m/pm) = 1.86 × 10^-10 m\n\nNow calculate the number of protons using Avogadro's number:\nNumber of protons (Z) = N_A * r / (4πε₀)\nwhere ε₀ is the permittivity of free space (approximately 8.854 × 10^-12 F/m)\n\nZ = (6.022 × 10²³ mol⁻¹ * 1.86 × 10^-10 m) / (4π * 8.854 × 10^-12 F/m)\nZ ≈ 4.92 × 10²⁶ protons\n\nThe first ionization energy is proportional to the number of valence electrons minus one:\nE ∝ (Z - 1)\n\nGiven E = 496 kJ/mol, we need to find the number of valence electrons:\nZ - 1 = Number of valence electrons\n4.92 × 10²⁶ - 1 = Number of valence electrons\n4.92 × 10²⁶ valence electrons\n\nCalculate the reduced mass (μ):\nμ = m_H * m_N / (m_H + m_N)\nWhere m_H and m_N are the masses of hydrogen and nitrogen respectively."
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 24/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 24/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 24/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 24/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 24/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 24/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 24/100 done id=mmlu_validation_333 prediction='D' gold='A' correct=False vote_counts={"Use the formula for the first ionization energy to find the charge on sodium using Avogadro's number, and then convert the atomic radius from picometers to angstroms. Then determine which option correctly represents both the charge and the atomic radius.\n\n- Sodium (Na) has two electrons in its outer shell.\n- From the periodic table, we know Na forms Na⁺ when it loses one electron.\n- Using Avogadro’s number \\( N_A = 6.022 \\times 10^{23} \\) mol⁻¹, the number of moles in 496 kJ/mol is approximately 1 mole.\n- Therefore, there are \\( 2 \\times 6.022 \\times 10^{23} \\) Na atoms in 1 mole of sodium.\n- Since each atom has one electron, there are 2 electrons per mole of sodium atoms.\n- This means that each sodium atom has only one valence electron.\n- To form Na⁺ ions, each sodium atom will lose one electron, so each Na⁺ ion carries a -1 charge.\n- Therefore, the charge of Na⁺ is -1.\n\nNow calculate the atomic radius in angstroms:\n\n- Atomic radius in picometers (pm) is given as 186 pm.\n- Convert to angstroms (Å): \n  \\( 1 \\text{ Å} = 10^{-10} \\text{ m} \\)\n  \\( 186 \\text{ pm} = 186 \\times 10^{-10} \\text{ m} = 186 \\times 10^{-10} \\times 10^{10} \\text{ Å} = 186 \\text{ Å} \\)\n\nSo, the correct values are:\n\n- Charge of Na⁺:": 1, "Use the given data to determine the correct values for the atomic radius and the first ionization energy.\n- Atomic radius (r) = 186 pm\n- First ionization energy (E) = 496 kJ/mol\n\nConvert the atomic radius from picometers to meters for consistency with other units:\n1 pm = 1 × 10^-12 m\n\nAtomic radius in meters:\nr = 186 pm * (1 × 10^-12 m/pm) = 1.86 × 10^-10 m\n\nNow calculate the number of protons using Avogadro's number:\nNumber of protons (Z) = N_A * r / (4πε₀)\nwhere ε₀ is the permittivity of free space (approximately 8.854 × 10^-12 F/m)\n\nZ = (6.022 × 10²³ mol⁻¹ * 1.86 × 10^-10 m) / (4π * 8.854 × 10^-12 F/m)\nZ ≈ 4.92 × 10²⁶ protons\n\nThe first ionization energy is proportional to the number of valence electrons minus one:\nE ∝ (Z - 1)\n\nGiven E = 496 kJ/mol, we need to find the number of valence electrons:\nZ - 1 = Number of valence electrons\n4.92 × 10²⁶ - 1 = Number of valence electrons\n4.92 × 10²⁶ valence electrons\n\nCalculate the reduced mass (μ):\nμ = m_H * m_N / (m_H + m_N)\nWhere m_H and m_N are the masses of hydrogen and nitrogen respectively.": 1, 'D': 2, 'A': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 25/100 start id=mmlu_validation_334
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 25/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 25/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 25/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 25/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 25/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 25/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 25/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 25/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 25/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 25/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 25/100 done id=mmlu_validation_334 prediction='D' gold='D' correct=True vote_counts={'D': 4, 'A': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 26/100 start id=mmlu_validation_350
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 26/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 26/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 26/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 26/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 26/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 26/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 26/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 26/100 path 4/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 26/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 26/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 26/100 done id=mmlu_validation_350 prediction='D' gold='C' correct=False vote_counts={'B': 1, 'D': 2, 'C': 1, 'A': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 27/100 start id=mmlu_validation_393
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 27/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 27/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 27/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 27/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 27/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 27/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 27/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 27/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 27/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 27/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 27/100 done id=mmlu_validation_393 prediction='D' gold='A' correct=False vote_counts={'D': 4, 'A': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 28/100 start id=mmlu_validation_407
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 28/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 28/100 path 1/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 28/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 28/100 path 2/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 28/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 28/100 path 3/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 28/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 28/100 path 4/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 28/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 28/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 28/100 done id=mmlu_validation_407 prediction='C' gold='D' correct=False vote_counts={'C': 4, 'D': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 29/100 start id=mmlu_validation_429
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 29/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 29/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 29/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 29/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 29/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 29/100 path 3/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 29/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 29/100 path 4/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 29/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 29/100 path 5/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 29/100 done id=mmlu_validation_429 prediction='C' gold='C' correct=True vote_counts={'A': 1, 'D': 1, 'C': 2, 'B': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 30/100 start id=mmlu_validation_440
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 30/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 30/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 30/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 30/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 30/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 30/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 30/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 30/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 30/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 30/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 30/100 done id=mmlu_validation_440 prediction='D' gold='C' correct=False vote_counts={'D': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 31/100 start id=mmlu_validation_447
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 31/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 31/100 path 1/5 answer="Use the subject knowledge to analyze each option:\n\nA. Higher prices would decrease the purchasing power of money but do not directly affect the demand for it as a store of value. This is not the most direct cause of a decline in the demand for money.\n\nB. More money being placed into checking accounts implies people have less need for cash or savings, which can lead to a reduction in the demand for physical currency if electronic transactions become dominant. However, this is indirect and may not fully capture the essence of a general decline in the demand for money.\n\nC. Higher returns on bonds might incentivize saving rather than spending, potentially increasing the demand for money. This option seems plausible as it suggests an increase in the velocity of money.\n\nD. More credit cards could increase the demand for money, especially in transactions where payment via card is used instead of cash or checks. This would counteract the potential decline suggested by the other factors.\n\nConsidering these points, the most likely causes of a decline in the demand for money involve changes in financial behavior and return incentives. Therefore, the best choices seem to be related to investment opportunities (returns on bonds) and how they influence consumer behavior towards using cash.\n\nFinal analysis:\n\n- Option A (Higher prices): Does not directly impact the demand for money per se.\n- Option B (More money placed in checking accounts): Indirectly affects demand through reduced cash usage.\n- Option C (Higher returns on bonds): Directly influences consumers' preferences regarding the use of money.\n- Option D (More credit cards): Can increase overall monetary demand through increased transactions facilitated by digital payments.\n\nConclusion:\nBased on the subject matter covered, the correct choice should reflect the primary reasons affecting the demand for money. Given the complexity and typical analysis methods within economics, particularly focusing on interest rates, returns on assets like bonds, and their impacts on personal finance decisions, the best match is between statements 2 and"
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 31/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 31/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 31/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 31/100 path 3/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 31/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 31/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 31/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 31/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 31/100 done id=mmlu_validation_447 prediction='A' gold='C' correct=False vote_counts={"Use the subject knowledge to analyze each option:\n\nA. Higher prices would decrease the purchasing power of money but do not directly affect the demand for it as a store of value. This is not the most direct cause of a decline in the demand for money.\n\nB. More money being placed into checking accounts implies people have less need for cash or savings, which can lead to a reduction in the demand for physical currency if electronic transactions become dominant. However, this is indirect and may not fully capture the essence of a general decline in the demand for money.\n\nC. Higher returns on bonds might incentivize saving rather than spending, potentially increasing the demand for money. This option seems plausible as it suggests an increase in the velocity of money.\n\nD. More credit cards could increase the demand for money, especially in transactions where payment via card is used instead of cash or checks. This would counteract the potential decline suggested by the other factors.\n\nConsidering these points, the most likely causes of a decline in the demand for money involve changes in financial behavior and return incentives. Therefore, the best choices seem to be related to investment opportunities (returns on bonds) and how they influence consumer behavior towards using cash.\n\nFinal analysis:\n\n- Option A (Higher prices): Does not directly impact the demand for money per se.\n- Option B (More money placed in checking accounts): Indirectly affects demand through reduced cash usage.\n- Option C (Higher returns on bonds): Directly influences consumers' preferences regarding the use of money.\n- Option D (More credit cards): Can increase overall monetary demand through increased transactions facilitated by digital payments.\n\nConclusion:\nBased on the subject matter covered, the correct choice should reflect the primary reasons affecting the demand for money. Given the complexity and typical analysis methods within economics, particularly focusing on interest rates, returns on assets like bonds, and their impacts on personal finance decisions, the best match is between statements 2 and": 1, 'A': 3, 'C': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 32/100 start id=mmlu_validation_449
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 32/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 32/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 32/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 32/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 32/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 32/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 32/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 32/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 32/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 32/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 32/100 done id=mmlu_validation_449 prediction='A' gold='D' correct=False vote_counts={'A': 4, 'D': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 33/100 start id=mmlu_validation_451
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 33/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 33/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 33/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 33/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 33/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 33/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 33/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 33/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 33/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 33/100 path 5/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 33/100 done id=mmlu_validation_451 prediction='D' gold='D' correct=True vote_counts={'D': 4, 'C': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 34/100 start id=mmlu_validation_457
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 34/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 34/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 34/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 34/100 path 2/5 answer='Use the given information and the constraints provided to deduce the correct answer.\n- The distance between exits 41 and 50 is 100 km.\n- Each exit is at least 6 km apart.\n\nSince the distance between exits 41 and 50 is 100 km, we can determine the minimum number of exits (including 41 and 50) by dividing the total distance by the minimum distance:\n\n\\[ \\text{Minimum number of exits} = \\frac{100}{6} \\approx 16.67 \\]\n\nSince there must be an integer number of exits between these two points, we round up to the nearest whole number:\n\n\\[ \\text{Number of exits} = 17 \\]\n\nThis means there are 17 consecutive exits from 41 to 50. To find the longest possible distance between exit 47 and exit 48, we need to consider the arrangement where exit 47 comes immediately before exit 48.\n\nGiven that there are 16 other exits between 41 and 50, exit 47 cannot be too close to exit 48 because it would violate the condition that each exit is at least 6 km apart. Therefore, the longest possible distance between them would be when they are as far apart as allowed without violating the distance constraint.\n\nThus, the longest possible distance between exit 47 and exit 48 is 6 km - 1 km = 5 km less than the gap between exit 41 and 48:\n\n\\[ \\text{Longest possible distance} = 100 - 16 \\times 6 = 100 - 96 = 4 \\]\n\nTherefore, the longest possible distance between exit 47 and exit 48 is 4 km. The'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 34/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 34/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 34/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 34/100 path 4/5 answer="Use the given information about exits on a highway, the distance between them, and the condition that each exit is at least 6 km apart to determine the longest possible distance between exit 47 and exit 48.\n- There are 50 exits, with exits numbered consecutively from 1 to 50.\n- The distance from exit 41 to exit 50 is 100 km.\n- Each exit is at least 6 km from the next exit.\n\nFirst, calculate the total number of gaps between these exits:\n\\[ \\text{Number of gaps} = 50 - 1 = 49 \\]\n\nGiven that the distance from exit 41 to exit 50 is 100 km, we can infer that there are 48 gaps between these two exits (since the first gap starts at exit 1):\n\\[ \\text{Distance per gap} = \\frac{\\text{Total distance}}{\\text{Number of gaps}} = \\frac{100}{48} \\approx 2.08 \\text{ km/gap} \\]\n\nSince each exit must be at least 6 km apart, let's consider if it's possible to have a larger gap without violating the condition:\n\nIf we were to place more than one gap of 6 km between exit 47 and exit 48, the calculation would look like this:\n\\[ \\text{Gap size} > 6 \\]\n\\[ \\text{Number of gaps} > 1 \\]\n\\[ \\text{Total distance greater than } 6 \\times (\\text{Number of gaps}) > 6 \\times 2 = 12 \\]\n\nHowever, since the total distance covered by the gaps should equal or exceed 100 km but no single gap can exceed 12 km, placing two gaps of"
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 34/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 34/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 34/100 done id=mmlu_validation_457 prediction='D' gold='A' correct=False vote_counts={'D': 2, 'Use the given information and the constraints provided to deduce the correct answer.\n- The distance between exits 41 and 50 is 100 km.\n- Each exit is at least 6 km apart.\n\nSince the distance between exits 41 and 50 is 100 km, we can determine the minimum number of exits (including 41 and 50) by dividing the total distance by the minimum distance:\n\n\\[ \\text{Minimum number of exits} = \\frac{100}{6} \\approx 16.67 \\]\n\nSince there must be an integer number of exits between these two points, we round up to the nearest whole number:\n\n\\[ \\text{Number of exits} = 17 \\]\n\nThis means there are 17 consecutive exits from 41 to 50. To find the longest possible distance between exit 47 and exit 48, we need to consider the arrangement where exit 47 comes immediately before exit 48.\n\nGiven that there are 16 other exits between 41 and 50, exit 47 cannot be too close to exit 48 because it would violate the condition that each exit is at least 6 km apart. Therefore, the longest possible distance between them would be when they are as far apart as allowed without violating the distance constraint.\n\nThus, the longest possible distance between exit 47 and exit 48 is 6 km - 1 km = 5 km less than the gap between exit 41 and 48:\n\n\\[ \\text{Longest possible distance} = 100 - 16 \\times 6 = 100 - 96 = 4 \\]\n\nTherefore, the longest possible distance between exit 47 and exit 48 is 4 km. The': 1, 'A': 1, "Use the given information about exits on a highway, the distance between them, and the condition that each exit is at least 6 km apart to determine the longest possible distance between exit 47 and exit 48.\n- There are 50 exits, with exits numbered consecutively from 1 to 50.\n- The distance from exit 41 to exit 50 is 100 km.\n- Each exit is at least 6 km from the next exit.\n\nFirst, calculate the total number of gaps between these exits:\n\\[ \\text{Number of gaps} = 50 - 1 = 49 \\]\n\nGiven that the distance from exit 41 to exit 50 is 100 km, we can infer that there are 48 gaps between these two exits (since the first gap starts at exit 1):\n\\[ \\text{Distance per gap} = \\frac{\\text{Total distance}}{\\text{Number of gaps}} = \\frac{100}{48} \\approx 2.08 \\text{ km/gap} \\]\n\nSince each exit must be at least 6 km apart, let's consider if it's possible to have a larger gap without violating the condition:\n\nIf we were to place more than one gap of 6 km between exit 47 and exit 48, the calculation would look like this:\n\\[ \\text{Gap size} > 6 \\]\n\\[ \\text{Number of gaps} > 1 \\]\n\\[ \\text{Total distance greater than } 6 \\times (\\text{Number of gaps}) > 6 \\times 2 = 12 \\]\n\nHowever, since the total distance covered by the gaps should equal or exceed 100 km but no single gap can exceed 12 km, placing two gaps of": 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 35/100 start id=mmlu_validation_466
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 35/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 35/100 path 1/5 answer="Use the subject knowledge to solve each equation individually:\n\nFrom \\(a(a+2b) = \\frac{104}{3}\\):\n\\[ a^2 + 2ab = \\frac{104}{3} \\]\n\nFrom \\(b(b+2c) = \\frac{7}{9}\\):\n\\[ b^2 + 2bc = \\frac{7}{9} \\]\n\nFrom \\(c(c+2a) = -7\\):\n\\[ c^2 + 2ac = -7 \\]\n\nNow we have three equations with three unknowns \\(a, b,\\) and \\(c\\). These can be treated as simultaneous linear equations. \n\nTo eliminate one variable at a time, we could subtract appropriate multiples of these equations from each other. However, due to their complexity, solving them simultaneously analytically seems challenging without further simplification or numerical methods.\n\nInstead, let's consider if there might be a simpler approach or insight. Notice that both terms involving \\(b\\) and \\(c\\) share common factors when combined appropriately (e.g., multiplying through by constants to clear denominators).\n\nAfter some algebraic manipulation and possible substitution attempts, we may find specific values for \\(a, b,\\) and \\(c\\) satisfying the given conditions. For instance, assuming certain integer solutions based on symmetry or pattern recognition often leads us closer than direct algebraic manipulation alone.\n\nGiven the constraints and aiming for simplicity within the provided choices, let’s check if any simple combination like adding or subtracting these equations yields a feasible result among the given options.\n\nTesting potential sums or differences of these expressions might help identify viable solutions more directly than brute-force solving:\n\nSumming the first two equations:\n\\[ a^2 + 2ab + b^2 + 2bc = \\frac{104}{3} + \\frac{7}{9} \\]\nThis does"
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 35/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 35/100 path 2/5 answer="First, let's solve each equation to express \\(a\\), \\(b\\), and \\(c\\) in terms of one another or simplify them:\n\nGiven equations:\n\\[ a(a+2b) = \\frac{104}{3} \\]\n\\[ b(b+2c) = \\frac{7}{9} \\]\n\\[ c(c+2a) = -7 \\]\n\nLet's start with the first equation:\n\\[ a(a+2b) = \\frac{104}{3} \\]\n\nFor simplicity, assume \\(b = 1\\):\n\\[ a(a+2) = \\frac{104}{3} \\]\n\\[ a^2 + 2a - \\frac{104}{3} = 0 \\]\n\nNow solve for \\(a\\). Let's multiply through by 3 to clear the fraction:\n\\[ 3a^2 + 6a - 104 = 0 \\]\n\nUsing the quadratic formula \\(a = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\\):\n\nHere, \\(a = 3\\), \\(b = 6\\), and \\(c = -104\\):\n\\[ a = \\frac{-6 \\pm \\sqrt{6^2 - 4 \\cdot 3 \\cdot (-104)}}{2 \\cdot 3} \\]\n\\[ a = \\frac{-6 \\pm \\sqrt{36 + 1248}}{6} \\]\n\\[ a = \\frac{-6 \\pm \\sqrt{1284}}{6} \\]\n\\[ a = \\frac{-6 \\pm 2\\sqrt{321}}{6} \\]\n\\[ a = \\frac{-3 \\pm \\sqrt{321}}{3} \\]\n\nSince"
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 35/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 35/100 path 3/5 answer="Given the equations:\n\n\\[ a(a+2b) = \\frac{104}{3}, \\]\n\\[ b(b+2c) = \\frac{7}{9}, \\]\n\\[ c(c+2a) = -7, \\]\n\nwe need to solve for \\(a\\), \\(b\\), and \\(c\\) and find \\(|a+b+c|\\).\n\nFirst, let's multiply each equation by its respective denominator to eliminate fractions:\n\n1. Multiply the first equation by 3:\n   \\[ 3a(a+2b) = 104. \\]\n   This simplifies to:\n   \\[ 3a^2 + 6ab = 104. \\]\n\n2. Multiply the second equation by 9:\n   \\[ 9b(b+2c) = 7. \\]\n   This simplifies to:\n   \\[ 9b^2 + 18bc = 7. \\]\n\n3. Multiply the third equation by 1:\n   \\[ c(c+2a) = -7. \\]\n   This remains as it is:\n   \\[ c^2 + 2ac = -7. \\]\n\nNow we have a system of three quadratic equations with variables \\(a\\), \\(b\\), and \\(c\\). However, solving these directly might be complex without additional context or constraints. Instead, we can try to find possible values for \\(a\\), \\(b\\), and \\(c\\) that satisfy at least two of the given conditions.\n\nLet’s test if there could be simple integer solutions by trial and error within the bounds provided by the problem (since we're working modulo 3).\n\nAssume \\(a = 2\\):\n\\[ 2(2+2b) = \\frac{104}{3} \\implies 4 +"
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 35/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 35/100 path 4/5 answer="To solve for \\(a\\), \\(b\\), and \\(c\\) using the given equations:\n\n1. \\(a(a+2b) = \\frac{104}{3}\\)\n   Let's assume \\(a = x\\), then we have:\n   \\[x(x + 2y) = \\frac{104}{3}\\]\n   \n2. \\(b(b+2c) = \\frac{7}{9}\\)\n   Let's assume \\(b = y\\), then we have:\n   \\[y(y + 2z) = \\frac{7}{9}\\]\n\n3. \\(c(c+2a) = -7\\)\n   Let's assume \\(c = z\\), then we have:\n   \\[z(z + 2x) = -7\\]\n\nBy trial and error or solving these equations systematically, we can try values that satisfy each equation. \n\nTesting possible values:\n- For \\(a = \\frac{8}{3}\\):\n  \\[\\left(\\frac{8}{3}\\right)\\left(\\frac{8}{3} + 2y\\right) = \\frac{104}{3}\\]\n  Simplifying gives us:\n  \\[\\frac{8}{3}(y + \\frac{8}{3}) = \\frac{104}{3}\\]\n  Solving for \\(y\\):\n  \\[y + \\frac{8}{3} = 13\\]\n  \\[y = 13 - \\frac{8}{3} = \\frac{39 - 8}{3} = \\frac{31}{3}\\]\n  \n  This does not seem to lead directly to integer solutions easily.\n\nRevisiting our approach, if \\(a = b = c = \\pm 1\\):\n\n- Testing \\(a ="
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 35/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 35/100 path 5/5 answer="First, simplify each equation to isolate terms involving \\(a\\), \\(b\\), and \\(c\\).\n\n1. From \\(a(a+2b) = \\frac{104}{3}\\):\n\\[ a^2 + 2ab = \\frac{104}{3} \\]\n2. From \\(b(b+2c) = \\frac{7}{9}\\):\n\\[ b^2 + 2bc = \\frac{7}{9} \\]\n3. From \\(c(c+2a) = -7\\):\n\\[ c^2 + 2ca = -7 \\]\n\nNext, let's assume \\(a = x\\), \\(b = y\\), and \\(c = z\\). This assumption simplifies the equations into:\n\n1. \\(x(x + 2y) = \\frac{104}{3}\\)\n2. \\(y(y + 2z) = \\frac{7}{9}\\)\n3. \\(z(z + 2x) = -7\\)\n\nWe need to solve these three quadratic equations simultaneously.\n\nAfter solving these equations systematically (which involves trial and error or using computational tools), we can identify possible solutions for \\(x\\), \\(y\\), and \\(z\\) that satisfy all three equations.\n\nLet's assume the simplest solution where \\(a = 2\\), \\(b = 1\\), and \\(c = -3\\):\n\n- For \\(a = 2\\): \n  \\[ 2(2 + 2 \\cdot 1) = 8 \\neq \\frac{104}{3} \\] (Incorrect, so try another combination)\n\nTrying other combinations, if \\(a = 4\\), \\(b = 1\\), and \\(c = -1\\):\n\n- For \\(a = 4\\):\n  \\["
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 35/100 done id=mmlu_validation_466 prediction="Use the subject knowledge to solve each equation individually:\n\nFrom \\(a(a+2b) = \\frac{104}{3}\\):\n\\[ a^2 + 2ab = \\frac{104}{3} \\]\n\nFrom \\(b(b+2c) = \\frac{7}{9}\\):\n\\[ b^2 + 2bc = \\frac{7}{9} \\]\n\nFrom \\(c(c+2a) = -7\\):\n\\[ c^2 + 2ac = -7 \\]\n\nNow we have three equations with three unknowns \\(a, b,\\) and \\(c\\). These can be treated as simultaneous linear equations. \n\nTo eliminate one variable at a time, we could subtract appropriate multiples of these equations from each other. However, due to their complexity, solving them simultaneously analytically seems challenging without further simplification or numerical methods.\n\nInstead, let's consider if there might be a simpler approach or insight. Notice that both terms involving \\(b\\) and \\(c\\) share common factors when combined appropriately (e.g., multiplying through by constants to clear denominators).\n\nAfter some algebraic manipulation and possible substitution attempts, we may find specific values for \\(a, b,\\) and \\(c\\) satisfying the given conditions. For instance, assuming certain integer solutions based on symmetry or pattern recognition often leads us closer than direct algebraic manipulation alone.\n\nGiven the constraints and aiming for simplicity within the provided choices, let’s check if any simple combination like adding or subtracting these equations yields a feasible result among the given options.\n\nTesting potential sums or differences of these expressions might help identify viable solutions more directly than brute-force solving:\n\nSumming the first two equations:\n\\[ a^2 + 2ab + b^2 + 2bc = \\frac{104}{3} + \\frac{7}{9} \\]\nThis does" gold='C' correct=False vote_counts={"Use the subject knowledge to solve each equation individually:\n\nFrom \\(a(a+2b) = \\frac{104}{3}\\):\n\\[ a^2 + 2ab = \\frac{104}{3} \\]\n\nFrom \\(b(b+2c) = \\frac{7}{9}\\):\n\\[ b^2 + 2bc = \\frac{7}{9} \\]\n\nFrom \\(c(c+2a) = -7\\):\n\\[ c^2 + 2ac = -7 \\]\n\nNow we have three equations with three unknowns \\(a, b,\\) and \\(c\\). These can be treated as simultaneous linear equations. \n\nTo eliminate one variable at a time, we could subtract appropriate multiples of these equations from each other. However, due to their complexity, solving them simultaneously analytically seems challenging without further simplification or numerical methods.\n\nInstead, let's consider if there might be a simpler approach or insight. Notice that both terms involving \\(b\\) and \\(c\\) share common factors when combined appropriately (e.g., multiplying through by constants to clear denominators).\n\nAfter some algebraic manipulation and possible substitution attempts, we may find specific values for \\(a, b,\\) and \\(c\\) satisfying the given conditions. For instance, assuming certain integer solutions based on symmetry or pattern recognition often leads us closer than direct algebraic manipulation alone.\n\nGiven the constraints and aiming for simplicity within the provided choices, let’s check if any simple combination like adding or subtracting these equations yields a feasible result among the given options.\n\nTesting potential sums or differences of these expressions might help identify viable solutions more directly than brute-force solving:\n\nSumming the first two equations:\n\\[ a^2 + 2ab + b^2 + 2bc = \\frac{104}{3} + \\frac{7}{9} \\]\nThis does": 1, "First, let's solve each equation to express \\(a\\), \\(b\\), and \\(c\\) in terms of one another or simplify them:\n\nGiven equations:\n\\[ a(a+2b) = \\frac{104}{3} \\]\n\\[ b(b+2c) = \\frac{7}{9} \\]\n\\[ c(c+2a) = -7 \\]\n\nLet's start with the first equation:\n\\[ a(a+2b) = \\frac{104}{3} \\]\n\nFor simplicity, assume \\(b = 1\\):\n\\[ a(a+2) = \\frac{104}{3} \\]\n\\[ a^2 + 2a - \\frac{104}{3} = 0 \\]\n\nNow solve for \\(a\\). Let's multiply through by 3 to clear the fraction:\n\\[ 3a^2 + 6a - 104 = 0 \\]\n\nUsing the quadratic formula \\(a = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\\):\n\nHere, \\(a = 3\\), \\(b = 6\\), and \\(c = -104\\):\n\\[ a = \\frac{-6 \\pm \\sqrt{6^2 - 4 \\cdot 3 \\cdot (-104)}}{2 \\cdot 3} \\]\n\\[ a = \\frac{-6 \\pm \\sqrt{36 + 1248}}{6} \\]\n\\[ a = \\frac{-6 \\pm \\sqrt{1284}}{6} \\]\n\\[ a = \\frac{-6 \\pm 2\\sqrt{321}}{6} \\]\n\\[ a = \\frac{-3 \\pm \\sqrt{321}}{3} \\]\n\nSince": 1, "Given the equations:\n\n\\[ a(a+2b) = \\frac{104}{3}, \\]\n\\[ b(b+2c) = \\frac{7}{9}, \\]\n\\[ c(c+2a) = -7, \\]\n\nwe need to solve for \\(a\\), \\(b\\), and \\(c\\) and find \\(|a+b+c|\\).\n\nFirst, let's multiply each equation by its respective denominator to eliminate fractions:\n\n1. Multiply the first equation by 3:\n   \\[ 3a(a+2b) = 104. \\]\n   This simplifies to:\n   \\[ 3a^2 + 6ab = 104. \\]\n\n2. Multiply the second equation by 9:\n   \\[ 9b(b+2c) = 7. \\]\n   This simplifies to:\n   \\[ 9b^2 + 18bc = 7. \\]\n\n3. Multiply the third equation by 1:\n   \\[ c(c+2a) = -7. \\]\n   This remains as it is:\n   \\[ c^2 + 2ac = -7. \\]\n\nNow we have a system of three quadratic equations with variables \\(a\\), \\(b\\), and \\(c\\). However, solving these directly might be complex without additional context or constraints. Instead, we can try to find possible values for \\(a\\), \\(b\\), and \\(c\\) that satisfy at least two of the given conditions.\n\nLet’s test if there could be simple integer solutions by trial and error within the bounds provided by the problem (since we're working modulo 3).\n\nAssume \\(a = 2\\):\n\\[ 2(2+2b) = \\frac{104}{3} \\implies 4 +": 1, "To solve for \\(a\\), \\(b\\), and \\(c\\) using the given equations:\n\n1. \\(a(a+2b) = \\frac{104}{3}\\)\n   Let's assume \\(a = x\\), then we have:\n   \\[x(x + 2y) = \\frac{104}{3}\\]\n   \n2. \\(b(b+2c) = \\frac{7}{9}\\)\n   Let's assume \\(b = y\\), then we have:\n   \\[y(y + 2z) = \\frac{7}{9}\\]\n\n3. \\(c(c+2a) = -7\\)\n   Let's assume \\(c = z\\), then we have:\n   \\[z(z + 2x) = -7\\]\n\nBy trial and error or solving these equations systematically, we can try values that satisfy each equation. \n\nTesting possible values:\n- For \\(a = \\frac{8}{3}\\):\n  \\[\\left(\\frac{8}{3}\\right)\\left(\\frac{8}{3} + 2y\\right) = \\frac{104}{3}\\]\n  Simplifying gives us:\n  \\[\\frac{8}{3}(y + \\frac{8}{3}) = \\frac{104}{3}\\]\n  Solving for \\(y\\):\n  \\[y + \\frac{8}{3} = 13\\]\n  \\[y = 13 - \\frac{8}{3} = \\frac{39 - 8}{3} = \\frac{31}{3}\\]\n  \n  This does not seem to lead directly to integer solutions easily.\n\nRevisiting our approach, if \\(a = b = c = \\pm 1\\):\n\n- Testing \\(a =": 1, "First, simplify each equation to isolate terms involving \\(a\\), \\(b\\), and \\(c\\).\n\n1. From \\(a(a+2b) = \\frac{104}{3}\\):\n\\[ a^2 + 2ab = \\frac{104}{3} \\]\n2. From \\(b(b+2c) = \\frac{7}{9}\\):\n\\[ b^2 + 2bc = \\frac{7}{9} \\]\n3. From \\(c(c+2a) = -7\\):\n\\[ c^2 + 2ca = -7 \\]\n\nNext, let's assume \\(a = x\\), \\(b = y\\), and \\(c = z\\). This assumption simplifies the equations into:\n\n1. \\(x(x + 2y) = \\frac{104}{3}\\)\n2. \\(y(y + 2z) = \\frac{7}{9}\\)\n3. \\(z(z + 2x) = -7\\)\n\nWe need to solve these three quadratic equations simultaneously.\n\nAfter solving these equations systematically (which involves trial and error or using computational tools), we can identify possible solutions for \\(x\\), \\(y\\), and \\(z\\) that satisfy all three equations.\n\nLet's assume the simplest solution where \\(a = 2\\), \\(b = 1\\), and \\(c = -3\\):\n\n- For \\(a = 2\\): \n  \\[ 2(2 + 2 \\cdot 1) = 8 \\neq \\frac{104}{3} \\] (Incorrect, so try another combination)\n\nTrying other combinations, if \\(a = 4\\), \\(b = 1\\), and \\(c = -1\\):\n\n- For \\(a = 4\\):\n  \\[": 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 36/100 start id=mmlu_validation_476
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 36/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 36/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 36/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 36/100 path 2/5 answer='E'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 36/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 36/100 path 3/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 36/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 36/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 36/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 36/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 36/100 done id=mmlu_validation_476 prediction='B' gold='B' correct=True vote_counts={'B': 2, 'E': 1, 'A': 1, 'D': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 37/100 start id=mmlu_validation_501
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 37/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 37/100 path 1/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 37/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 37/100 path 2/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 37/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 37/100 path 3/5 answer="Use the subject knowledge step by step:\n\n- In a perfectly competitive market, firms have no control over the market price.\n- Therefore, they can sell any quantity at the prevailing market price without affecting it.\n\nStep-by-step reasoning:\n1. **Average Revenue (AR)**: Since AR = P (price), if P > MR (Marginal Revenue), then AR > MR.\n   - For a perfectly competitive firm, P equals the market price, which does not change with different quantities sold.\n   - Hence, P ≠ MR.\n\n2. **Marginal Revenue (MR)**: Since MR = ΔP/ΔQ (change in price per unit change in quantity):\n   - In perfect competition, each small increase or decrease in quantity sold will always result in a proportional increase or decrease in total revenue.\n   - This means MR remains constant and positive, even as Q increases from zero.\n\n3. **Price and Marginal Revenue**: At the profit-maximizing level of production, Price (P) equals Marginal Revenue (MR).\n   - In a perfectly competitive market, P equals MC (Marginal Cost).\n\n4. **Market Demand Curve**: In a perfectly competitive market, there is only one market demand curve reflecting the entire industry’s demand for the product.\n\n5. **Perfect Competition Firm's Demand Curve**: The demand curve faced by a perfectly competitive firm is downward sloping but identical to the market demand curve for the same good.\n\n6. **Average Revenue vs. Marginal Revenue**: For a perfectly competitive firm, Average Revenue (AR) is greater than Marginal Revenue (MR) because every additional unit sold decreases price due to the law of supply and demand.\n\nConcluding the analysis:\n- Statements A and D do not hold true for perfectly competitive firms due to the nature of price and quantity relationships in such markets.\n- Statement C accurately describes how a perfectly competitive firm would act to maximize profits,"
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 37/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 37/100 path 4/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 37/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 37/100 path 5/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 37/100 done id=mmlu_validation_501 prediction='C' gold='C' correct=True vote_counts={'C': 2, 'B': 2, "Use the subject knowledge step by step:\n\n- In a perfectly competitive market, firms have no control over the market price.\n- Therefore, they can sell any quantity at the prevailing market price without affecting it.\n\nStep-by-step reasoning:\n1. **Average Revenue (AR)**: Since AR = P (price), if P > MR (Marginal Revenue), then AR > MR.\n   - For a perfectly competitive firm, P equals the market price, which does not change with different quantities sold.\n   - Hence, P ≠ MR.\n\n2. **Marginal Revenue (MR)**: Since MR = ΔP/ΔQ (change in price per unit change in quantity):\n   - In perfect competition, each small increase or decrease in quantity sold will always result in a proportional increase or decrease in total revenue.\n   - This means MR remains constant and positive, even as Q increases from zero.\n\n3. **Price and Marginal Revenue**: At the profit-maximizing level of production, Price (P) equals Marginal Revenue (MR).\n   - In a perfectly competitive market, P equals MC (Marginal Cost).\n\n4. **Market Demand Curve**: In a perfectly competitive market, there is only one market demand curve reflecting the entire industry’s demand for the product.\n\n5. **Perfect Competition Firm's Demand Curve**: The demand curve faced by a perfectly competitive firm is downward sloping but identical to the market demand curve for the same good.\n\n6. **Average Revenue vs. Marginal Revenue**: For a perfectly competitive firm, Average Revenue (AR) is greater than Marginal Revenue (MR) because every additional unit sold decreases price due to the law of supply and demand.\n\nConcluding the analysis:\n- Statements A and D do not hold true for perfectly competitive firms due to the nature of price and quantity relationships in such markets.\n- Statement C accurately describes how a perfectly competitive firm would act to maximize profits,": 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 38/100 start id=mmlu_validation_541
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 38/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 38/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 38/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 38/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 38/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 38/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 38/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 38/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 38/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 38/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 38/100 done id=mmlu_validation_541 prediction='A' gold='A' correct=True vote_counts={'A': 4, 'D': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 39/100 start id=mmlu_validation_546
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 39/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 39/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 39/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 39/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 39/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 39/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 39/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 39/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 39/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 39/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 39/100 done id=mmlu_validation_546 prediction='A' gold='A' correct=True vote_counts={'A': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 40/100 start id=mmlu_validation_552
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 40/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 40/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 40/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 40/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 40/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 40/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 40/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 40/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 40/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 40/100 path 5/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 40/100 done id=mmlu_validation_552 prediction='A' gold='A' correct=True vote_counts={'A': 3, 'D': 1, 'C': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 41/100 start id=mmlu_validation_563
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 41/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 41/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 41/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 41/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 41/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 41/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 41/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 41/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 41/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 41/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 41/100 done id=mmlu_validation_563 prediction='D' gold='D' correct=True vote_counts={'B': 1, 'D': 4}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 42/100 start id=mmlu_validation_569
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 42/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 42/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 42/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 42/100 path 2/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 42/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 42/100 path 3/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 42/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 42/100 path 4/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 42/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 42/100 path 5/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 42/100 done id=mmlu_validation_569 prediction='B' gold='B' correct=True vote_counts={'B': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 43/100 start id=mmlu_validation_592
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 43/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 43/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 43/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 43/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 43/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 43/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 43/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 43/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 43/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 43/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 43/100 done id=mmlu_validation_592 prediction='A' gold='A' correct=True vote_counts={'A': 4, 'D': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 44/100 start id=mmlu_validation_600
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 44/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 44/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 44/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 44/100 path 2/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 44/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 44/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 44/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 44/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 44/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 44/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 44/100 done id=mmlu_validation_600 prediction='B' gold='B' correct=True vote_counts={'B': 2, 'A': 2, 'D': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 45/100 start id=mmlu_validation_664
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 45/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 45/100 path 1/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 45/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 45/100 path 2/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 45/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 45/100 path 3/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 45/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 45/100 path 4/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 45/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 45/100 path 5/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 45/100 done id=mmlu_validation_664 prediction='C' gold='C' correct=True vote_counts={'C': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 46/100 start id=mmlu_validation_689
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 46/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 46/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 46/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 46/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 46/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 46/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 46/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 46/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 46/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 46/100 path 5/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 46/100 done id=mmlu_validation_689 prediction='A' gold='A' correct=True vote_counts={'A': 4, 'B': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 47/100 start id=mmlu_validation_696
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 47/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 47/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 47/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 47/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 47/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 47/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 47/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 47/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 47/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 47/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 47/100 done id=mmlu_validation_696 prediction='A' gold='A' correct=True vote_counts={'A': 4, 'D': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 48/100 start id=mmlu_validation_704
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 48/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 48/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 48/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 48/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 48/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 48/100 path 3/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 48/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 48/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 48/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 48/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 48/100 done id=mmlu_validation_704 prediction='D' gold='B' correct=False vote_counts={'D': 4, 'B': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 49/100 start id=mmlu_validation_727
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 49/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 49/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 49/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 49/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 49/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 49/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 49/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 49/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 49/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 49/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 49/100 done id=mmlu_validation_727 prediction='A' gold='A' correct=True vote_counts={'A': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 50/100 start id=mmlu_validation_735
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 50/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 50/100 path 1/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 50/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 50/100 path 2/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 50/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 50/100 path 3/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 50/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 50/100 path 4/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 50/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 50/100 path 5/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 50/100 done id=mmlu_validation_735 prediction='C' gold='C' correct=True vote_counts={'C': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 51/100 start id=mmlu_validation_740
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 51/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 51/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 51/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 51/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 51/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 51/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 51/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 51/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 51/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 51/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 51/100 done id=mmlu_validation_740 prediction='A' gold='C' correct=False vote_counts={'A': 4, 'D': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 52/100 start id=mmlu_validation_747
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 52/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 52/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 52/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 52/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 52/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 52/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 52/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 52/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 52/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 52/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 52/100 done id=mmlu_validation_747 prediction='D' gold='D' correct=True vote_counts={'D': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 53/100 start id=mmlu_validation_758
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 53/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 53/100 path 1/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 53/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 53/100 path 2/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 53/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 53/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 53/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 53/100 path 4/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 53/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 53/100 path 5/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 53/100 done id=mmlu_validation_758 prediction='C' gold='C' correct=True vote_counts={'C': 4, 'A': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 54/100 start id=mmlu_validation_775
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 54/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 54/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 54/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 54/100 path 2/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 54/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 54/100 path 3/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 54/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 54/100 path 4/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 54/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 54/100 path 5/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 54/100 done id=mmlu_validation_775 prediction='B' gold='B' correct=True vote_counts={'B': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 55/100 start id=mmlu_validation_777
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 55/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 55/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 55/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 55/100 path 2/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 55/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 55/100 path 3/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 55/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 55/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 55/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 55/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 55/100 done id=mmlu_validation_777 prediction='B' gold='B' correct=True vote_counts={'B': 3, 'D': 2}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 56/100 start id=mmlu_validation_778
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 56/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 56/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 56/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 56/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 56/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 56/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 56/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 56/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 56/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 56/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 56/100 done id=mmlu_validation_778 prediction='D' gold='D' correct=True vote_counts={'D': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 57/100 start id=mmlu_validation_859
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 57/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 57/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 57/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 57/100 path 2/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 57/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 57/100 path 3/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 57/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 57/100 path 4/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 57/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 57/100 path 5/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 57/100 done id=mmlu_validation_859 prediction='B' gold='B' correct=True vote_counts={'B': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 start id=mmlu_validation_864
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 path 1/5 answer='Mike'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 path 3/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 path 4/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 path 5/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 58/100 done id=mmlu_validation_864 prediction='B' gold='B' correct=True vote_counts={'Mike': 1, 'D': 1, 'B': 3}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 start id=mmlu_validation_865
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 path 2/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 path 3/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 path 4/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 path 5/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 59/100 done id=mmlu_validation_865 prediction='B' gold='B' correct=True vote_counts={'B': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 start id=mmlu_validation_919
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 60/100 done id=mmlu_validation_919 prediction='A' gold='C' correct=False vote_counts={'A': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 start id=mmlu_validation_928
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 61/100 done id=mmlu_validation_928 prediction='A' gold='A' correct=True vote_counts={'A': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 start id=mmlu_validation_940
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 62/100 done id=mmlu_validation_940 prediction='A' gold='B' correct=False vote_counts={'A': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 start id=mmlu_validation_946
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 63/100 done id=mmlu_validation_946 prediction='A' gold='B' correct=False vote_counts={'A': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 start id=mmlu_validation_1034
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 path 2/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 path 5/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 64/100 done id=mmlu_validation_1034 prediction='A' gold='C' correct=False vote_counts={'A': 3, 'C': 2}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 start id=mmlu_validation_1093
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 path 5/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 65/100 done id=mmlu_validation_1093 prediction='D' gold='C' correct=False vote_counts={'D': 4, 'C': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 start id=mmlu_validation_1098
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 path 4/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 66/100 done id=mmlu_validation_1098 prediction='A' gold='C' correct=False vote_counts={'D': 1, 'A': 3, 'B': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 start id=mmlu_validation_1116
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 path 1/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 path 2/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 67/100 done id=mmlu_validation_1116 prediction='A' gold='C' correct=False vote_counts={'C': 2, 'A': 3}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 start id=mmlu_validation_1130
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 path 1/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 path 2/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 path 3/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 path 5/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 68/100 done id=mmlu_validation_1130 prediction='C' gold='C' correct=True vote_counts={'C': 4, 'D': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 69/100 start id=mmlu_validation_1140
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 69/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 69/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 69/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 69/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 69/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 69/100 path 3/5 answer=': Cannot be determined definitively given the provided choices.'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 69/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 69/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 69/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 69/100 path 5/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 69/100 done id=mmlu_validation_1140 prediction='D' gold='D' correct=True vote_counts={'D': 3, ': Cannot be determined definitively given the provided choices.': 1, 'B': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 70/100 start id=mmlu_validation_1149
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 70/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 70/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 70/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 70/100 path 2/5 answer="First, we calculate the total gain or loss from the ordinary income and the long-term capital loss. \n\nDecker's ordinary income = $10000\nLong-term capital loss = $4000\n\nTotal gain/loss = Ordinary Income - Long-Term Capital Loss  \n                  = $10000 - $4000  \n                  = $6000 (Loss)\n\nNext, we need to understand how Decker can allocate his basis against the loss. Since he owns 100% of the company, his basis will be distributed among his shares according to his ownership percentage. However, since there is no information about the number of shares owned, let's assume it remains 1 share per 100% interest (which would mean a basis of $25000).\n\nDecker's basis at the start = $25000\n\nNow, we subtract this basis from the total loss:\n\nAllocated loss = Total Loss - Basis \n               = $6000 - $25000 \n               = -$23000 (Negative because his basis exceeded the loss)\n\nSince a negative basis doesn't make sense in this context, Decker cannot fully deduct his entire long-term capital loss against the loss recognized on ordinary income. Therefore, he can only deduct up to his initial basis ($25000), which leaves him with a remaining loss of $-7500 (the difference between zero and $23000). Thus, Decker can deduct $25000 but will have a carryforward loss of $7500.\n\nHowever, given the choices provided, none directly match our deductions. Given the problem setup seems to imply a straightforward deduction without further adjustments due to the lack of specifics on the structure of the shares, the closest interpretation aligns with"
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 70/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 70/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 70/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 70/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 70/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 70/100 path 5/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 70/100 done id=mmlu_validation_1149 prediction='D' gold='C' correct=False vote_counts={'D': 2, "First, we calculate the total gain or loss from the ordinary income and the long-term capital loss. \n\nDecker's ordinary income = $10000\nLong-term capital loss = $4000\n\nTotal gain/loss = Ordinary Income - Long-Term Capital Loss  \n                  = $10000 - $4000  \n                  = $6000 (Loss)\n\nNext, we need to understand how Decker can allocate his basis against the loss. Since he owns 100% of the company, his basis will be distributed among his shares according to his ownership percentage. However, since there is no information about the number of shares owned, let's assume it remains 1 share per 100% interest (which would mean a basis of $25000).\n\nDecker's basis at the start = $25000\n\nNow, we subtract this basis from the total loss:\n\nAllocated loss = Total Loss - Basis \n               = $6000 - $25000 \n               = -$23000 (Negative because his basis exceeded the loss)\n\nSince a negative basis doesn't make sense in this context, Decker cannot fully deduct his entire long-term capital loss against the loss recognized on ordinary income. Therefore, he can only deduct up to his initial basis ($25000), which leaves him with a remaining loss of $-7500 (the difference between zero and $23000). Thus, Decker can deduct $25000 but will have a carryforward loss of $7500.\n\nHowever, given the choices provided, none directly match our deductions. Given the problem setup seems to imply a straightforward deduction without further adjustments due to the lack of specifics on the structure of the shares, the closest interpretation aligns with": 1, 'A': 1, 'C': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 71/100 start id=mmlu_validation_1182
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 71/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 71/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 71/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 71/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 71/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 71/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 71/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 71/100 path 4/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 71/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 71/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 71/100 done id=mmlu_validation_1182 prediction='D' gold='B' correct=False vote_counts={'D': 4, 'C': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 72/100 start id=mmlu_validation_1206
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 72/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 72/100 path 1/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 72/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 72/100 path 2/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 72/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 72/100 path 3/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 72/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 72/100 path 4/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 72/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 72/100 path 5/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 72/100 done id=mmlu_validation_1206 prediction='C' gold='A' correct=False vote_counts={'C': 4, 'B': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 73/100 start id=mmlu_validation_1209
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 73/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 73/100 path 1/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 73/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 73/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 73/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 73/100 path 3/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 73/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 73/100 path 4/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 73/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 73/100 path 5/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 73/100 done id=mmlu_validation_1209 prediction='C' gold='A' correct=False vote_counts={'C': 4, 'A': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 74/100 start id=mmlu_validation_1232
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 74/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 74/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 74/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 74/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 74/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 74/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 74/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 74/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 74/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 74/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 74/100 done id=mmlu_validation_1232 prediction='D' gold='D' correct=True vote_counts={'D': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 75/100 start id=mmlu_validation_1236
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 75/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 75/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 75/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 75/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 75/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 75/100 path 3/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 75/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 75/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 75/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 75/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 75/100 done id=mmlu_validation_1236 prediction='D' gold='C' correct=False vote_counts={'D': 3, 'C': 1, 'A': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 76/100 start id=mmlu_validation_1247
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 76/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 76/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 76/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 76/100 path 2/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 76/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 76/100 path 3/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 76/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 76/100 path 4/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 76/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 76/100 path 5/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 76/100 done id=mmlu_validation_1247 prediction='B' gold='A' correct=False vote_counts={'B': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 77/100 start id=mmlu_validation_1266
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 77/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 77/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 77/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 77/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 77/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 77/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 77/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 77/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 77/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 77/100 path 5/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 77/100 done id=mmlu_validation_1266 prediction='D' gold='C' correct=False vote_counts={'D': 4, 'B': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 78/100 start id=mmlu_validation_1287
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 78/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 78/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 78/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 78/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 78/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 78/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 78/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 78/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 78/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 78/100 path 5/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 78/100 done id=mmlu_validation_1287 prediction='D' gold='B' correct=False vote_counts={'D': 4, 'B': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 79/100 start id=mmlu_validation_1300
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 79/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 79/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 79/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 79/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 79/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 79/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 79/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 79/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 79/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 79/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 79/100 done id=mmlu_validation_1300 prediction='D' gold='C' correct=False vote_counts={'D': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 80/100 start id=mmlu_validation_1301
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 80/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 80/100 path 1/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 80/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 80/100 path 2/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 80/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 80/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 80/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 80/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 80/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 80/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 80/100 done id=mmlu_validation_1301 prediction='C' gold='C' correct=True vote_counts={'C': 2, 'A': 2, 'D': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 81/100 start id=mmlu_validation_1309
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 81/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 81/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 81/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 81/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 81/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 81/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 81/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 81/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 81/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 81/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 81/100 done id=mmlu_validation_1309 prediction='A' gold='C' correct=False vote_counts={'B': 1, 'A': 2, 'D': 2}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 82/100 start id=mmlu_validation_1310
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 82/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 82/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 82/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 82/100 path 2/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 82/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 82/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 82/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 82/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 82/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 82/100 path 5/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 82/100 done id=mmlu_validation_1310 prediction='A' gold='A' correct=True vote_counts={'A': 3, 'B': 1, 'C': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 83/100 start id=mmlu_validation_1327
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 83/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 83/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 83/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 83/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 83/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 83/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 83/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 83/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 83/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 83/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 83/100 done id=mmlu_validation_1327 prediction='D' gold='B' correct=False vote_counts={'D': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 84/100 start id=mmlu_validation_1330
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 84/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 84/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 84/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 84/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 84/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 84/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 84/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 84/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 84/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 84/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 84/100 done id=mmlu_validation_1330 prediction='D' gold='C' correct=False vote_counts={'B': 1, 'D': 4}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 85/100 start id=mmlu_validation_1354
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 85/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 85/100 path 1/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 85/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 85/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 85/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 85/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 85/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 85/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 85/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 85/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 85/100 done id=mmlu_validation_1354 prediction='A' gold='A' correct=True vote_counts={'C': 1, 'A': 4}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 86/100 start id=mmlu_validation_1372
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 86/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 86/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 86/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 86/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 86/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 86/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 86/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 86/100 path 4/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 86/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 86/100 path 5/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 86/100 done id=mmlu_validation_1372 prediction='A' gold='A' correct=True vote_counts={'A': 3, 'B': 2}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 87/100 start id=mmlu_validation_1385
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 87/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 87/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 87/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 87/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 87/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 87/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 87/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 87/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 87/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 87/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 87/100 done id=mmlu_validation_1385 prediction='D' gold='B' correct=False vote_counts={'D': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 88/100 start id=mmlu_validation_1399
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 88/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 88/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 88/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 88/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 88/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 88/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 88/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 88/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 88/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 88/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 88/100 done id=mmlu_validation_1399 prediction='A' gold='A' correct=True vote_counts={'A': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 89/100 start id=mmlu_validation_1402
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 89/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 89/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 89/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 89/100 path 2/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 89/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 89/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 89/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 89/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 89/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 89/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 89/100 done id=mmlu_validation_1402 prediction='D' gold='B' correct=False vote_counts={'D': 3, 'B': 1, 'A': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 90/100 start id=mmlu_validation_1409
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 90/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 90/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 90/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 90/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 90/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 90/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 90/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 90/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 90/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 90/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 90/100 done id=mmlu_validation_1409 prediction='A' gold='A' correct=True vote_counts={'A': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 91/100 start id=mmlu_validation_1429
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 91/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 91/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 91/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 91/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 91/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 91/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 91/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 91/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 91/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 91/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 91/100 done id=mmlu_validation_1429 prediction='A' gold='B' correct=False vote_counts={'A': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 92/100 start id=mmlu_validation_1436
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 92/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 92/100 path 1/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 92/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 92/100 path 2/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 92/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 92/100 path 3/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 92/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 92/100 path 4/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 92/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 92/100 path 5/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 92/100 done id=mmlu_validation_1436 prediction='C' gold='C' correct=True vote_counts={'C': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 93/100 start id=mmlu_validation_1437
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 93/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 93/100 path 1/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 93/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 93/100 path 2/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 93/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 93/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 93/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 93/100 path 4/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 93/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 93/100 path 5/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 93/100 done id=mmlu_validation_1437 prediction='C' gold='C' correct=True vote_counts={'C': 4, 'A': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 94/100 start id=mmlu_validation_1442
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 94/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 94/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 94/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 94/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 94/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 94/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 94/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 94/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 94/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 94/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 94/100 done id=mmlu_validation_1442 prediction='A' gold='A' correct=True vote_counts={'A': 4, 'D': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 95/100 start id=mmlu_validation_1466
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 95/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 95/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 95/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 95/100 path 2/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 95/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 95/100 path 3/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 95/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 95/100 path 4/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 95/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 95/100 path 5/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 95/100 done id=mmlu_validation_1466 prediction='B' gold='B' correct=True vote_counts={'B': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 96/100 start id=mmlu_validation_1493
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 96/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 96/100 path 1/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 96/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 96/100 path 2/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 96/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 96/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 96/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 96/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 96/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 96/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 96/100 done id=mmlu_validation_1493 prediction='A' gold='A' correct=True vote_counts={'A': 5}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 97/100 start id=mmlu_validation_1494
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 97/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 97/100 path 1/5 answer='C'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 97/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 97/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 97/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 97/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 97/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 97/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 97/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 97/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 97/100 done id=mmlu_validation_1494 prediction='D' gold='C' correct=False vote_counts={'C': 1, 'D': 3, 'A': 1}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 98/100 start id=mmlu_validation_1508
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 98/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 98/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 98/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 98/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 98/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 98/100 path 3/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 98/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 98/100 path 4/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 98/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 98/100 path 5/5 answer='A'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 98/100 done id=mmlu_validation_1508 prediction='A' gold='C' correct=False vote_counts={'B': 1, 'D': 1, 'A': 3}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 99/100 start id=mmlu_validation_1516
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 99/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 99/100 path 1/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 99/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 99/100 path 2/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 99/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 99/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 99/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 99/100 path 4/5 answer='B'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 99/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 99/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 99/100 done id=mmlu_validation_1516 prediction='B' gold='B' correct=True vote_counts={'B': 3, 'D': 2}
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 100/100 start id=mmlu_validation_1518
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 100/100 path 1/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 100/100 path 1/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 100/100 path 2/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 100/100 path 2/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 100/100 path 3/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 100/100 path 3/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 100/100 path 4/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 100/100 path 4/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 100/100 path 5/5 start
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 100/100 path 5/5 answer='D'
+[self_consistency][qwen2_5_1_5b_instruct][mmlu] sample 100/100 done id=mmlu_validation_1518 prediction='D' gold='D' correct=True vote_counts={'D': 5}
+[taskC] completed name=qwen2_5_1_5b_instruct_mmlu_n5_t0p7 jsonl=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/raw/C_titan_cu124/self_consistency/qwen2_5_1_5b_instruct_mmlu_n5_t0p7.jsonl

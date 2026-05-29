@@ -1,0 +1,8 @@
+[taskC-main-cu124] started at Wed May 27 11:59:39 CST 2026
+[taskC-main-cu124] node=titanrtx03
+/home/xuyang_lab/cse12311031/.conda/envs/fjm-cu124/lib/python3.10/site-packages/torch/cuda/__init__.py:129: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+[taskC-main-cu124] torch 2.6.0+cu124
+[taskC-main-cu124] torch_cuda 12.4
+[taskC-main-cu124] cuda_available False
+[taskC-main-cu124] CUDA is not available; refusing to run formal experiment on CPU.

@@ -1,0 +1,16 @@
+model_key,dataset_key,num_paths,temperature,source,sample_count,correct_count,accuracy,total_paths,relative_path_cost,mean_majority_share,mean_unique_answers,mean_answer_entropy,tie_rate,invalid_answer_rate,answer_extraction_success_rate,baseline_accuracy,accuracy_gain_vs_A_sc,gain_per_extra_path
+qwen2_5_1_5b_instruct,csqa,3,0.7,taskA_baseline,100,67,0.67,300,1.0,0.94,1.18,0.160261,0.02,0.0,1.0,0.67,0.0,
+qwen2_5_1_5b_instruct,gsm8k,3,0.7,taskA_baseline,100,67,0.67,300,1.0,0.693333,1.92,0.776892,0.27,0.0,1.0,0.67,0.0,
+qwen2_5_1_5b_instruct,mmlu,3,0.7,taskA_baseline,100,50,0.5,300,1.0,0.79,1.63,0.543298,0.14,0.0,1.0,0.5,0.0,
+qwen2_5_1_5b_instruct,csqa,3,0.3,taskC,100,66,0.66,300,1.0,0.983333,1.05,0.045915,0.0,0.0,1.0,0.67,-0.01,
+qwen2_5_1_5b_instruct,csqa,3,1.0,taskC,100,58,0.58,300,1.0,0.853333,1.44,0.381404,0.09,0.0,1.0,0.67,-0.09,
+qwen2_5_1_5b_instruct,csqa,5,0.7,taskC,100,68,0.68,500,1.666667,0.924,1.32,0.242313,0.0,0.0,1.0,0.67,0.01,0.005
+qwen2_5_1_5b_instruct,csqa,8,0.7,taskC,100,66,0.66,800,2.666667,0.9225,1.35,0.244628,0.02,0.0,1.0,0.67,-0.01,-0.002
+qwen2_5_1_5b_instruct,gsm8k,3,0.3,taskC,100,75,0.75,300,1.0,0.81,1.57,0.488201,0.14,0.0,1.0,0.67,0.08,
+qwen2_5_1_5b_instruct,gsm8k,3,1.0,taskC,100,57,0.57,300,1.0,0.583333,2.25,1.027088,0.48,0.0,1.0,0.67,-0.1,
+qwen2_5_1_5b_instruct,gsm8k,5,0.7,taskC,100,70,0.7,500,1.666667,0.636,2.71,1.122019,0.19,0.0,1.0,0.67,0.03,0.015
+qwen2_5_1_5b_instruct,gsm8k,8,0.7,taskC,100,77,0.77,800,2.666667,0.64625,3.49,1.291941,0.11,0.0,1.0,0.67,0.1,0.02
+qwen2_5_1_5b_instruct,mmlu,3,0.3,taskC,100,54,0.54,300,1.0,0.9,1.3,0.262907,0.05,0.0,1.0,0.5,0.04,
+qwen2_5_1_5b_instruct,mmlu,3,1.0,taskC,100,47,0.47,300,1.0,0.72,1.84,0.71601,0.22,0.0,1.0,0.5,-0.03,
+qwen2_5_1_5b_instruct,mmlu,5,0.7,taskC,100,53,0.53,500,1.666667,0.754,2.07,0.766425,0.08,0.0,1.0,0.5,0.03,0.015
+qwen2_5_1_5b_instruct,mmlu,8,0.7,taskC,100,55,0.55,800,2.666667,0.74,2.33,0.842836,0.08,0.0,1.0,0.5,0.05,0.01

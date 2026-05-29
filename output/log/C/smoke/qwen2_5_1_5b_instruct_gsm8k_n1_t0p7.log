@@ -1,0 +1,30 @@
+
+===== run started at 2026-05-27T00:45:40 =====
+[taskC] start name=qwen2_5_1_5b_instruct_gsm8k_n1_t0p7 log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/C/smoke/qwen2_5_1_5b_instruct_gsm8k_n1_t0p7.log
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] loaded 1 samples from split=test num_paths=1
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] using 3 few-shot examples for SC prompt
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 start id=gsm8k_test_1309
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 path 1/1 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 path 1/1 answer='Kim raised $430 + $320 = $<<43'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 done id=gsm8k_test_1309 prediction='Kim raised $430 + $320 = $<<43' gold='2280' correct=False vote_counts={'Kim raised $430 + $320 = $<<43': 1}
+[taskC] completed name=qwen2_5_1_5b_instruct_gsm8k_n1_t0p7 jsonl=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/raw/C/smoke_self_consistency/qwen2_5_1_5b_instruct_gsm8k_n1_t0p7.jsonl
+
+===== run started at 2026-05-27T01:18:59 =====
+[taskC] start name=qwen2_5_1_5b_instruct_gsm8k_n1_t0p7 log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/C/smoke/qwen2_5_1_5b_instruct_gsm8k_n1_t0p7.log
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] loaded 1 samples from split=test num_paths=1
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] using 3 few-shot examples for SC prompt
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 start id=gsm8k_test_1309
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 path 1/1 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 path 1/1 answer='Kim raised $430 + $320 = $750'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 done id=gsm8k_test_1309 prediction='Kim raised $430 + $320 = $750' gold='2280' correct=False vote_counts={'Kim raised $430 + $320 = $750': 1}
+[taskC] completed name=qwen2_5_1_5b_instruct_gsm8k_n1_t0p7 jsonl=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/raw/C/titan_smoke_self_consistency/qwen2_5_1_5b_instruct_gsm8k_n1_t0p7.jsonl
+
+===== run started at 2026-05-27T11:10:51 =====
+[taskC] start name=qwen2_5_1_5b_instruct_gsm8k_n1_t0p7 log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/C/smoke/qwen2_5_1_5b_instruct_gsm8k_n1_t0p7.log
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] loaded 1 samples from split=test num_paths=1
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] using 3 few-shot examples for SC prompt
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 start id=gsm8k_test_1309
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 path 1/1 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 path 1/1 answer='Kim raised 320 + 430 = $<<32'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 done id=gsm8k_test_1309 prediction='Kim raised 320 + 430 = $<<32' gold='2280' correct=False vote_counts={'Kim raised 320 + 430 = $<<32': 1}
+[taskC] completed name=qwen2_5_1_5b_instruct_gsm8k_n1_t0p7 jsonl=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/raw/C/cu124_titan_smoke_self_consistency/qwen2_5_1_5b_instruct_gsm8k_n1_t0p7.jsonl

@@ -1,0 +1,19 @@
+[taskC-cu124-smoke] started at Wed May 27 11:10:36 CST 2026
+[taskC-cu124-smoke] node=rtx8000
+[taskC-cu124-smoke] torch 2.6.0+cu124
+[taskC-cu124-smoke] torch_cuda 12.4
+[taskC-cu124-smoke] transformers 5.8.1
+[taskC-cu124-smoke] cuda_available True
+[taskC-cu124-smoke] cuda_device Quadro RTX 8000
+[taskC-cu124-smoke] capability (7, 5)
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<01:29,  3.76it/s]Loading weights:   5%|▍         | 16/338 [00:00<00:05, 54.51it/s]Loading weights:  12%|█▏        | 39/338 [00:00<00:02, 108.95it/s]Loading weights:  16%|█▌        | 54/338 [00:00<00:02, 120.68it/s]Loading weights:  22%|██▏       | 76/338 [00:00<00:01, 137.60it/s]Loading weights:  30%|██▉       | 100/338 [00:00<00:01, 150.97it/s]Loading weights:  37%|███▋      | 124/338 [00:00<00:01, 158.31it/s]Loading weights:  44%|████▍     | 148/338 [00:01<00:01, 174.09it/s]Loading weights:  51%|█████     | 171/338 [00:01<00:00, 183.23it/s]Loading weights:  56%|█████▌    | 190/338 [00:01<00:00, 175.99it/s]Loading weights:  62%|██████▏   | 208/338 [00:01<00:00, 174.47it/s]Loading weights:  68%|██████▊   | 231/338 [00:01<00:00, 168.55it/s]Loading weights:  75%|███████▌  | 254/338 [00:01<00:00, 171.88it/s]Loading weights:  83%|████████▎ | 280/338 [00:01<00:00, 180.90it/s]Loading weights:  90%|████████▉ | 304/338 [00:01<00:00, 189.98it/s]Loading weights:  97%|█████████▋| 327/338 [00:02<00:00, 194.01it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 160.14it/s]
+[taskC] loaded model=qwen2_5_1_5b_instruct datasets=['gsm8k'] num_paths=1 temperature=0.7
+[taskC] start name=qwen2_5_1_5b_instruct_gsm8k_n1_t0p7 log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/C/smoke/qwen2_5_1_5b_instruct_gsm8k_n1_t0p7.log
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] loaded 1 samples from split=test num_paths=1
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] using 3 few-shot examples for SC prompt
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 start id=gsm8k_test_1309
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 path 1/1 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 path 1/1 answer='Kim raised 320 + 430 = $<<32'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 done id=gsm8k_test_1309 prediction='Kim raised 320 + 430 = $<<32' gold='2280' correct=False vote_counts={'Kim raised 320 + 430 = $<<32': 1}
+[taskC] completed name=qwen2_5_1_5b_instruct_gsm8k_n1_t0p7 jsonl=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/raw/C/cu124_titan_smoke_self_consistency/qwen2_5_1_5b_instruct_gsm8k_n1_t0p7.jsonl
+[taskC-cu124-smoke] completed at Wed May 27 11:10:53 CST 2026

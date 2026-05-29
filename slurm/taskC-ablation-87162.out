@@ -1,0 +1,63 @@
+[taskC] minimal ablation started at Wed May 27 00:02:41 CST 2026
+/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/site-packages/torch/cuda/__init__.py:384: UserWarning: Found GPU0 NVIDIA TITAN V which is of compute capability (CC) 7.0.
+The following list shows the CCs this version of PyTorch was built for and the hardware CCs it supports:
+- 7.5 which supports hardware CC >=7.5,<8.0
+- 8.0 which supports hardware CC >=8.0,<9.0 except {8.7}
+- 8.6 which supports hardware CC >=8.6,<9.0 except {8.7}
+- 9.0 which supports hardware CC >=9.0,<10.0
+- 10.0 which supports hardware CC >=10.0,<11.0 except {10.1}
+- 12.0 which supports hardware CC >=12.0,<13.0
+Please follow the instructions at https://pytorch.org/get-started/locally/ to install a PyTorch release that supports one of these CUDA versions: 12.6
+  _warn_unsupported_code(d, device_cc, code_ccs)
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<01:32,  3.63it/s]Loading weights:   5%|▍         | 16/338 [00:00<00:06, 52.51it/s]Loading weights:  10%|▉         | 33/338 [00:00<00:03, 90.20it/s]Loading weights:  15%|█▌        | 52/338 [00:00<00:02, 117.01it/s]Loading weights:  20%|██        | 69/338 [00:00<00:02, 132.35it/s]Loading weights:  26%|██▌       | 87/338 [00:00<00:01, 134.97it/s]Loading weights:  33%|███▎      | 110/338 [00:00<00:01, 161.25it/s]Loading weights:  38%|███▊      | 128/338 [00:01<00:01, 161.27it/s]Loading weights:  43%|████▎     | 147/338 [00:01<00:01, 161.91it/s]Loading weights:  50%|█████     | 169/338 [00:01<00:00, 177.06it/s]Loading weights:  56%|█████▌    | 188/338 [00:01<00:00, 165.04it/s]Loading weights:  61%|██████    | 207/338 [00:01<00:00, 162.05it/s]Loading weights:  68%|██████▊   | 231/338 [00:01<00:00, 175.89it/s]Loading weights:  74%|███████▎  | 249/338 [00:01<00:00, 170.83it/s]Loading weights:  79%|███████▉  | 267/338 [00:01<00:00, 165.42it/s]Loading weights:  85%|████████▌ | 288/338 [00:01<00:00, 177.36it/s]Loading weights:  91%|█████████ | 306/338 [00:02<00:00, 162.82it/s]Loading weights:  97%|█████████▋| 327/338 [00:02<00:00, 160.69it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 151.11it/s]
+[transformers] [1mQwen2ForCausalLM LOAD REPORT[0m from: /home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/models/qwen2_5_1_5b_instruct
+Key            | Status  | 
+---------------+---------+-
+lm_head.weight | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Traceback (most recent call last):
+  File "/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/scripts/run_task_c_sc_ablation.py", line 128, in <module>
+    main()
+  File "/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/scripts/run_task_c_sc_ablation.py", line 93, in main
+    runner = LocalModelRunner(model_config, prompt_config["system_prompt"])
+  File "/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/src/models/runner.py", line 43, in __init__
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 405, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4246, in from_pretrained
+    loading_info = cls._finalize_model_loading(model, load_config, loading_info)
+  File "/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4410, in _finalize_model_loading
+    model._initialize_missing_keys(load_config.is_quantized)
+  File "/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4717, in _initialize_missing_keys
+    self.initialize_weights()
+  File "/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/site-packages/transformers/modeling_utils.py", line 2466, in initialize_weights
+    smart_apply_fn(self._initialize_weights, self.is_remote_code())
+  File "/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/site-packages/transformers/modeling_utils.py", line 2455, in smart_apply
+    smart_apply(child, child._initialize_weights, is_remote_code)
+  File "/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/site-packages/transformers/modeling_utils.py", line 2457, in smart_apply
+    smart_apply(child, fn, is_remote_code)
+  File "/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/site-packages/transformers/modeling_utils.py", line 2457, in smart_apply
+    smart_apply(child, fn, is_remote_code)
+  File "/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/site-packages/transformers/modeling_utils.py", line 2457, in smart_apply
+    smart_apply(child, fn, is_remote_code)
+  [Previous line repeated 1 more time]
+  File "/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/site-packages/transformers/modeling_utils.py", line 2458, in smart_apply
+    fn(module, is_remote_code)
+  File "/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/site-packages/transformers/modeling_utils.py", line 2435, in _initialize_weights
+    self._init_weights(module)
+  File "/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/site-packages/transformers/modeling_utils.py", line 2374, in _init_weights
+    init.normal_(module.weight.float(), mean=0.0, std=std)
+torch.AcceleratorError: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

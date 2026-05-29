@@ -1,0 +1,806 @@
+
+===== run started at 2026-05-27T15:44:57 =====
+[taskC] start name=qwen2_5_1_5b_instruct_gsm8k_n3_t1p0 log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/C_titan_cu124/runs/qwen2_5_1_5b_instruct_gsm8k_n3_t1p0.log
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] loaded 100 samples from split=test num_paths=3
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] using 3 few-shot examples for SC prompt
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/100 start id=gsm8k_test_13
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/100 path 1/3 answer='16'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/100 path 2/3 answer='18'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/100 path 3/3 answer='11'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/100 done id=gsm8k_test_13 prediction='16' gold='18' correct=False vote_counts={'16': 1, '18': 1, '11': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 2/100 start id=gsm8k_test_51
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 2/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 2/100 path 1/3 answer='4'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 2/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 2/100 path 2/3 answer='5'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 2/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 2/100 path 3/3 answer='2'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 2/100 done id=gsm8k_test_51 prediction='4' gold='5' correct=False vote_counts={'4': 1, '5': 1, '2': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 3/100 start id=gsm8k_test_54
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 3/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 3/100 path 1/3 answer='78'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 3/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 3/100 path 2/3 answer="Patchy, the first cat, has had thrice the number of adopted kittens as the adopted kittens from both the mother's and twins' animals, so Patchy has had 3 times 7 plus the original 7 from their other homes' foster kitties, giving us:\n\n7 + (3 * 7) = 28\n\nTrixie has had an additional 12 kittens, bringing the total to:\n\n28 + 12 = 40\n\nNow let’s include all these kittens back to the mother & twin's home for a total:\n- From mother: originally 7\n- From twins' foster cats: originally 7\n- Kittens adopted: 28\n- Kittens of each housecat: 2 * 12 = 24\n- Total number of kittens: 7 + 7 + 28 + 24 = 66\n\nWe see our initial calculation went wrong; rechecking gives us a correct approach.\n\nThus, the corrected answer should be:\n\n28 (for patches) + 24 (twin's) + 7 (mother) + 7 (twins) = 66\n\nSo my earlier mistake overlooked adding correctly.\n\nI apologize for the mix-up. The actual total is:\n\n99\n\nFinal answer: 99 kittens"
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 3/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 3/100 path 3/3 answer='42'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 3/100 done id=gsm8k_test_54 prediction='78' gold='40' correct=False vote_counts={'78': 1, "Patchy, the first cat, has had thrice the number of adopted kittens as the adopted kittens from both the mother's and twins' animals, so Patchy has had 3 times 7 plus the original 7 from their other homes' foster kitties, giving us:\n\n7 + (3 * 7) = 28\n\nTrixie has had an additional 12 kittens, bringing the total to:\n\n28 + 12 = 40\n\nNow let’s include all these kittens back to the mother & twin's home for a total:\n- From mother: originally 7\n- From twins' foster cats: originally 7\n- Kittens adopted: 28\n- Kittens of each housecat: 2 * 12 = 24\n- Total number of kittens: 7 + 7 + 28 + 24 = 66\n\nWe see our initial calculation went wrong; rechecking gives us a correct approach.\n\nThus, the corrected answer should be:\n\n28 (for patches) + 24 (twin's) + 7 (mother) + 7 (twins) = 66\n\nSo my earlier mistake overlooked adding correctly.\n\nI apologize for the mix-up. The actual total is:\n\n99\n\nFinal answer: 99 kittens": 1, '42': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 4/100 start id=gsm8k_test_61
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 4/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 4/100 path 1/3 answer='1430'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 4/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 4/100 path 2/3 answer='First, we calculate the total cost before insurance:\n$500 (material) + $800 (construction) = $<<500+800=1300>>1300.\n\nThen, we find out how much she paid for insurance, which is 10% of the total amount:\n10% of $1300 = 0.10 * $1300 = $<<0.10*1300=130>>130.\n\nNext, we calculate the overall total cost including insurance:\nTotal cost before insurance + Cost of insurance = Total cost.\n$1300 + $130 = $<<1300+130=1430>>1430.\n\nTherefore, Janet paid $1430 in total.'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 4/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 4/100 path 3/3 answer='1430'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 4/100 done id=gsm8k_test_61 prediction='1430' gold='1430' correct=True vote_counts={'1430': 2, 'First, we calculate the total cost before insurance:\n$500 (material) + $800 (construction) = $<<500+800=1300>>1300.\n\nThen, we find out how much she paid for insurance, which is 10% of the total amount:\n10% of $1300 = 0.10 * $1300 = $<<0.10*1300=130>>130.\n\nNext, we calculate the overall total cost including insurance:\nTotal cost before insurance + Cost of insurance = Total cost.\n$1300 + $130 = $<<1300+130=1430>>1430.\n\nTherefore, Janet paid $1430 in total.': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 5/100 start id=gsm8k_test_65
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 5/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 5/100 path 1/3 answer='28'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 5/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 5/100 path 2/3 answer='36'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 5/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 5/100 path 3/3 answer='29'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 5/100 done id=gsm8k_test_65 prediction='28' gold='36' correct=False vote_counts={'28': 1, '36': 1, '29': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 6/100 start id=gsm8k_test_88
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 6/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 6/100 path 1/3 answer='8000'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 6/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 6/100 path 2/3 answer='8000'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 6/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 6/100 path 3/3 answer='8000'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 6/100 done id=gsm8k_test_88 prediction='8000' gold='8000' correct=True vote_counts={'8000': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 7/100 start id=gsm8k_test_93
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 7/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 7/100 path 1/3 answer='82'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 7/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 7/100 path 2/3 answer="Let's denote Lee's initial time to run the 400-meter hurdles as \\( T_L \\). According to the problem, Lee was able to run two seconds faster than Gerald initially (let's denote the initial time taken by Gerald as \\( T_G \\)). So we have:\n\\[ T_L = T_G - 2 \\]\n\nAfter the change in diet, Gerald's time decreased by 10% due to improvement. Let’s calculate the improved times first:\n\nFirst Improvement (after 10% decrease):\nGerald's improved time (\\( T_{improved\\_G} \\)) after the diet changes would be:\n\\[\nT_{improved\\_G} = T_G \\times (1 - 0.10) = T_G \\times 0.90\n\\]\nGiven that Lee still takes 38 seconds to complete the race, let's express Lee's initial time \\( T_L \\) in terms of the original time of Gerald \\( T_G \\):\n\nFrom \\( T_L = T_G - 2 \\), we substitute \\( T_G = T_L + 2 \\) into the equation above:\n\\[\nT_L = \\left(T_L + 2\\right) - 2 \\\\\nT_L = T_L + 2 - 2 \\\\\nT_L = T_L\n\\]\n\nSolving further:\n\nSince \\( T_L \\neq T_G \\) originally, we can find:\nIf \\( T_L = 38 \\)\nThen \\( T_G = T_L + 2 \\Rightarrow T_G = 38 + 2 \\)\nThus,\n\\[\nT_G = 40\n\\]\n\nTherefore,\n\nImproved time of Gerald now becomes:\n\\[\nT_{improved\\_G} = T_G \\times 0.90 \\\\\nT_{improved\\_G} = 40 \\times 0"
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 7/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 7/100 path 3/3 answer="First, let's find out how long it took Lee to run the 400-meter hurdles before his improvement:\n400 meters divided into 9 points equals approximately 44.44 seconds (since each point in track and field is typically 10 meters)\n\nLee ran these times faster; however, he could still complete them in under a second because we know he finished in 38 seconds. So initially, Lee would have completed all his hurdles in about 44 seconds:\n\nNext, let's figure out the total time difference between what Gerald can do and what Lee originally was capable of:\nDifference = Lee original time - Improved time\n\nImproved time: \nTo find Gerald's current time, multiply his initial time by 1 + 0.1 (which represents 10% increase):\n\nInitial improved time = Original time × (1 + Rate of improvement)\nImproved time = 44.44 s × (1 + 0.1) = 44.44 s × 1.1 = ~48.88 s\n\nDifference = 48.88 seconds - 38 seconds ≈ 10.88 seconds \n\nNow, divide this by 9 to find the number of seconds per hurdle for Gerald:\n1 second ≡ (total time difference)/hurdles\n\nHurdle time = Time difference / 9\n\nFor Gerald,\nHurdle time ≡ 10.88 seconds / 9 ≅ 1.21 hours per hurdle\n\nTherefore, we get the number of hurdles Gerald could manage in one minute by multiplying the result above by 9:\nHurdles managed per minute ≣ 9 ∗ 1.21 = 10.89\n\nSince there are 4 hurdles in a 400-meter race (and each hurdles takes"
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 7/100 done id=gsm8k_test_93 prediction='82' gold='36' correct=False vote_counts={'82': 1, "Let's denote Lee's initial time to run the 400-meter hurdles as \\( T_L \\). According to the problem, Lee was able to run two seconds faster than Gerald initially (let's denote the initial time taken by Gerald as \\( T_G \\)). So we have:\n\\[ T_L = T_G - 2 \\]\n\nAfter the change in diet, Gerald's time decreased by 10% due to improvement. Let’s calculate the improved times first:\n\nFirst Improvement (after 10% decrease):\nGerald's improved time (\\( T_{improved\\_G} \\)) after the diet changes would be:\n\\[\nT_{improved\\_G} = T_G \\times (1 - 0.10) = T_G \\times 0.90\n\\]\nGiven that Lee still takes 38 seconds to complete the race, let's express Lee's initial time \\( T_L \\) in terms of the original time of Gerald \\( T_G \\):\n\nFrom \\( T_L = T_G - 2 \\), we substitute \\( T_G = T_L + 2 \\) into the equation above:\n\\[\nT_L = \\left(T_L + 2\\right) - 2 \\\\\nT_L = T_L + 2 - 2 \\\\\nT_L = T_L\n\\]\n\nSolving further:\n\nSince \\( T_L \\neq T_G \\) originally, we can find:\nIf \\( T_L = 38 \\)\nThen \\( T_G = T_L + 2 \\Rightarrow T_G = 38 + 2 \\)\nThus,\n\\[\nT_G = 40\n\\]\n\nTherefore,\n\nImproved time of Gerald now becomes:\n\\[\nT_{improved\\_G} = T_G \\times 0.90 \\\\\nT_{improved\\_G} = 40 \\times 0": 1, "First, let's find out how long it took Lee to run the 400-meter hurdles before his improvement:\n400 meters divided into 9 points equals approximately 44.44 seconds (since each point in track and field is typically 10 meters)\n\nLee ran these times faster; however, he could still complete them in under a second because we know he finished in 38 seconds. So initially, Lee would have completed all his hurdles in about 44 seconds:\n\nNext, let's figure out the total time difference between what Gerald can do and what Lee originally was capable of:\nDifference = Lee original time - Improved time\n\nImproved time: \nTo find Gerald's current time, multiply his initial time by 1 + 0.1 (which represents 10% increase):\n\nInitial improved time = Original time × (1 + Rate of improvement)\nImproved time = 44.44 s × (1 + 0.1) = 44.44 s × 1.1 = ~48.88 s\n\nDifference = 48.88 seconds - 38 seconds ≈ 10.88 seconds \n\nNow, divide this by 9 to find the number of seconds per hurdle for Gerald:\n1 second ≡ (total time difference)/hurdles\n\nHurdle time = Time difference / 9\n\nFor Gerald,\nHurdle time ≡ 10.88 seconds / 9 ≅ 1.21 hours per hurdle\n\nTherefore, we get the number of hurdles Gerald could manage in one minute by multiplying the result above by 9:\nHurdles managed per minute ≣ 9 ∗ 1.21 = 10.89\n\nSince there are 4 hurdles in a 400-meter race (and each hurdles takes": 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 8/100 start id=gsm8k_test_114
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 8/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 8/100 path 1/3 answer='6'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 8/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 8/100 path 2/3 answer='300'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 8/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 8/100 path 3/3 answer='36'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 8/100 done id=gsm8k_test_114 prediction='6' gold='6' correct=True vote_counts={'6': 1, '300': 1, '36': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 9/100 start id=gsm8k_test_135
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 9/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 9/100 path 1/3 answer='30'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 9/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 9/100 path 2/3 answer='25'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 9/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 9/100 path 3/3 answer='70'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 9/100 done id=gsm8k_test_135 prediction='30' gold='40' correct=False vote_counts={'30': 1, '25': 1, '70': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 10/100 start id=gsm8k_test_142
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 10/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 10/100 path 1/3 answer="First, we find out how many hours Jordan spends on his video games in one week. This can be calculated as follows:\n\n\\[ \\text{Hours spent on video games} = \\frac{\\text{Daily hours}}{\\text{Days in a week}} = \\frac{2}{7} \\]\n\nSo, Jordan spends approximately \\( \\frac{2}{7} \\) or 0.286 hours (rounded to three decimal places) on video games each day.\n\nNext, to calculate his earnings from his part-time job, we multiply the number of days in a week by his hourly wage:\n\n\\[ \\text{Weekly income from job} = \\left(0.\\overline{286}\\right) \\times \\$10 = \\$3.49\\overline{9}, \\]\nwhere 3.49... is rounded to one decimal place because you typically round to two significant figures unless otherwise specified.\n\nNow, to find out how much money he would have saved by using his video gaming time, you subtract his weekly job earnings from what he could have made watching video games for free:\n\n\\[ \\text{Money he would save by switching} = 2 - 3.49\\overline{9} = -1.49\\overline{9}. \\]\n\nTherefore, he actually loses money by choosing to work instead of playing, which makes it seem like he doesn't have enough information about the value of leisure time vs. financial gain directly related to the specific problem setup here, indicating an assumption might be required or clarified.\n\nHowever, focusing purely on math-based calculations:\nIf assuming full time job payback based on daily spending on video games without considering potential overtime or special discounts:\n\\[ \\text{Total video game hours in a week} = 2 \\times 7 = 14 \\text{ hours} \\]\nAt"
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 10/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 10/100 path 2/3 answer='140'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 10/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 10/100 path 3/3 answer='42'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 10/100 done id=gsm8k_test_142 prediction="First, we find out how many hours Jordan spends on his video games in one week. This can be calculated as follows:\n\n\\[ \\text{Hours spent on video games} = \\frac{\\text{Daily hours}}{\\text{Days in a week}} = \\frac{2}{7} \\]\n\nSo, Jordan spends approximately \\( \\frac{2}{7} \\) or 0.286 hours (rounded to three decimal places) on video games each day.\n\nNext, to calculate his earnings from his part-time job, we multiply the number of days in a week by his hourly wage:\n\n\\[ \\text{Weekly income from job} = \\left(0.\\overline{286}\\right) \\times \\$10 = \\$3.49\\overline{9}, \\]\nwhere 3.49... is rounded to one decimal place because you typically round to two significant figures unless otherwise specified.\n\nNow, to find out how much money he would have saved by using his video gaming time, you subtract his weekly job earnings from what he could have made watching video games for free:\n\n\\[ \\text{Money he would save by switching} = 2 - 3.49\\overline{9} = -1.49\\overline{9}. \\]\n\nTherefore, he actually loses money by choosing to work instead of playing, which makes it seem like he doesn't have enough information about the value of leisure time vs. financial gain directly related to the specific problem setup here, indicating an assumption might be required or clarified.\n\nHowever, focusing purely on math-based calculations:\nIf assuming full time job payback based on daily spending on video games without considering potential overtime or special discounts:\n\\[ \\text{Total video game hours in a week} = 2 \\times 7 = 14 \\text{ hours} \\]\nAt" gold='140' correct=False vote_counts={"First, we find out how many hours Jordan spends on his video games in one week. This can be calculated as follows:\n\n\\[ \\text{Hours spent on video games} = \\frac{\\text{Daily hours}}{\\text{Days in a week}} = \\frac{2}{7} \\]\n\nSo, Jordan spends approximately \\( \\frac{2}{7} \\) or 0.286 hours (rounded to three decimal places) on video games each day.\n\nNext, to calculate his earnings from his part-time job, we multiply the number of days in a week by his hourly wage:\n\n\\[ \\text{Weekly income from job} = \\left(0.\\overline{286}\\right) \\times \\$10 = \\$3.49\\overline{9}, \\]\nwhere 3.49... is rounded to one decimal place because you typically round to two significant figures unless otherwise specified.\n\nNow, to find out how much money he would have saved by using his video gaming time, you subtract his weekly job earnings from what he could have made watching video games for free:\n\n\\[ \\text{Money he would save by switching} = 2 - 3.49\\overline{9} = -1.49\\overline{9}. \\]\n\nTherefore, he actually loses money by choosing to work instead of playing, which makes it seem like he doesn't have enough information about the value of leisure time vs. financial gain directly related to the specific problem setup here, indicating an assumption might be required or clarified.\n\nHowever, focusing purely on math-based calculations:\nIf assuming full time job payback based on daily spending on video games without considering potential overtime or special discounts:\n\\[ \\text{Total video game hours in a week} = 2 \\times 7 = 14 \\text{ hours} \\]\nAt": 1, '140': 1, '42': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 11/100 start id=gsm8k_test_146
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 11/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 11/100 path 1/3 answer='2125'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 11/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 11/100 path 2/3 answer='2125'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 11/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 11/100 path 3/3 answer='2125'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 11/100 done id=gsm8k_test_146 prediction='2125' gold='2125' correct=True vote_counts={'2125': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 12/100 start id=gsm8k_test_161
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 12/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 12/100 path 1/3 answer='36'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 12/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 12/100 path 2/3 answer='30'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 12/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 12/100 path 3/3 answer='28'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 12/100 done id=gsm8k_test_161 prediction='36' gold='32' correct=False vote_counts={'36': 1, '30': 1, '28': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 13/100 start id=gsm8k_test_163
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 13/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 13/100 path 1/3 answer='275'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 13/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 13/100 path 2/3 answer="In the doll, we have 1 + 3*5 = 16 dollars spent on it.\nOne red car costs 4 dollars and we have 5 such red cars, meaning they totalled up to 5*4 = 20 dollars.\nNow we can subtract what we know from what we want: 16 + 20 = 36 dollars.\nThere are three types of action figures, each costing five dollars. We will thus multiply each type by its price and sum them up to get the total value of all the figures: 3*5 + 3*5 + 5 + 3 = 36.\nThus, there are 36 dollars' worth of figures.\nWe can find out how much the action figures were worth by adding their individual values together (we know they're worth 36) and multiplying that result by 3 (because we have three types): 36*3 = 108 dollars.\nSo the action figures cost 108 dollars.\nTo find the total amount of money all the toys cost us first add the cost of all red cars, the dolls and the action figures. Red cars amount to 50 dollars because there are 5 of them, a doll amounts to 16 dollars and three action figures 108, therefore 50+16+108 = 174 dollars.\nOur answer is 174."
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 13/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 13/100 path 3/3 answer='176'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 13/100 done id=gsm8k_test_163 prediction='275' gold='50' correct=False vote_counts={'275': 1, "In the doll, we have 1 + 3*5 = 16 dollars spent on it.\nOne red car costs 4 dollars and we have 5 such red cars, meaning they totalled up to 5*4 = 20 dollars.\nNow we can subtract what we know from what we want: 16 + 20 = 36 dollars.\nThere are three types of action figures, each costing five dollars. We will thus multiply each type by its price and sum them up to get the total value of all the figures: 3*5 + 3*5 + 5 + 3 = 36.\nThus, there are 36 dollars' worth of figures.\nWe can find out how much the action figures were worth by adding their individual values together (we know they're worth 36) and multiplying that result by 3 (because we have three types): 36*3 = 108 dollars.\nSo the action figures cost 108 dollars.\nTo find the total amount of money all the toys cost us first add the cost of all red cars, the dolls and the action figures. Red cars amount to 50 dollars because there are 5 of them, a doll amounts to 16 dollars and three action figures 108, therefore 50+16+108 = 174 dollars.\nOur answer is 174.": 1, '176': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 14/100 start id=gsm8k_test_178
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 14/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 14/100 path 1/3 answer='122'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 14/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 14/100 path 2/3 answer='122'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 14/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 14/100 path 3/3 answer='122'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 14/100 done id=gsm8k_test_178 prediction='122' gold='122' correct=True vote_counts={'122': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 15/100 start id=gsm8k_test_189
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 15/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 15/100 path 1/3 answer='61'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 15/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 15/100 path 2/3 answer='23.17'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 15/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 15/100 path 3/3 answer='31.5'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 15/100 done id=gsm8k_test_189 prediction='61' gold='34' correct=False vote_counts={'61': 1, '23.17': 1, '31.5': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 16/100 start id=gsm8k_test_191
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 16/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 16/100 path 1/3 answer='115.25'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 16/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 16/100 path 2/3 answer='245'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 16/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 16/100 path 3/3 answer='5'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 16/100 done id=gsm8k_test_191 prediction='115.25' gold='5' correct=False vote_counts={'115.25': 1, '245': 1, '5': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 17/100 start id=gsm8k_test_198
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 17/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 17/100 path 1/3 answer='310'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 17/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 17/100 path 2/3 answer='320'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 17/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 17/100 path 3/3 answer='Initially, Elaine had 20 Pokemon cards. After collecting three times that number:\nInitial cards + 3 times initial cards = 20 + (20 * 3) = 20 + 60 = 80 cards\n\nIn the second month, she collected 20 fewer cards than the first month, so:\nFirst month collection - 20 = 60 - 20 = 40 cards\n\nIn the third month, she collected twice the combined number from the first two months:\nSecond month collection * 2 = 40 * 2 = 80 cards\n\nNow, adding all her collections together:\nFirst month + Second month + Third month = 80 + 40 + 80 = 200 cards\n\nElaine now has 200 Pokemon cards in total.'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 17/100 done id=gsm8k_test_198 prediction='310' gold='320' correct=False vote_counts={'310': 1, '320': 1, 'Initially, Elaine had 20 Pokemon cards. After collecting three times that number:\nInitial cards + 3 times initial cards = 20 + (20 * 3) = 20 + 60 = 80 cards\n\nIn the second month, she collected 20 fewer cards than the first month, so:\nFirst month collection - 20 = 60 - 20 = 40 cards\n\nIn the third month, she collected twice the combined number from the first two months:\nSecond month collection * 2 = 40 * 2 = 80 cards\n\nNow, adding all her collections together:\nFirst month + Second month + Third month = 80 + 40 + 80 = 200 cards\n\nElaine now has 200 Pokemon cards in total.': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 18/100 start id=gsm8k_test_206
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 18/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 18/100 path 1/3 answer='605'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 18/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 18/100 path 2/3 answer='245'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 18/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 18/100 path 3/3 answer='485'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 18/100 done id=gsm8k_test_206 prediction='605' gold='860' correct=False vote_counts={'605': 1, '245': 1, '485': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 19/100 start id=gsm8k_test_209
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 19/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 19/100 path 1/3 answer='1320'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 19/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 19/100 path 2/3 answer='1100'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 19/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 19/100 path 3/3 answer='155'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 19/100 done id=gsm8k_test_209 prediction='1320' gold='145' correct=False vote_counts={'1320': 1, '1100': 1, '155': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 20/100 start id=gsm8k_test_228
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 20/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 20/100 path 1/3 answer='1'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 20/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 20/100 path 2/3 answer='1'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 20/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 20/100 path 3/3 answer='1'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 20/100 done id=gsm8k_test_228 prediction='1' gold='1' correct=True vote_counts={'1': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 21/100 start id=gsm8k_test_255
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 21/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 21/100 path 1/3 answer='22'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 21/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 21/100 path 2/3 answer='176'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 21/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 21/100 path 3/3 answer='192'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 21/100 done id=gsm8k_test_255 prediction='22' gold='192' correct=False vote_counts={'22': 1, '176': 1, '192': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 22/100 start id=gsm8k_test_285
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 22/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 22/100 path 1/3 answer='21'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 22/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 22/100 path 2/3 answer='21'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 22/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 22/100 path 3/3 answer='21'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 22/100 done id=gsm8k_test_285 prediction='21' gold='21' correct=True vote_counts={'21': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 23/100 start id=gsm8k_test_292
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 23/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 23/100 path 1/3 answer='Susan works from 8 a.m. to 11 a.m., which is a total of 3 hours.\nShe pauses halfway through at 9:30 a.m. This counts as one full work session.\nFor each 10-minute period, she earns $5. So, we calculate her earnings from 10-hour work sessions:\n(3 hours - 0.5 hours) * 2 periods (since half an hour is included)\n2.5 hours * 10 minutes/hour * ($5/$10) = 2.5 * 1 * $5 = $<<2.5*1*5=12.5>>12.5\nThen we account for the remaining 10 minutes from the second session at 9:30 a.m.:\n$5 + $5 * (10/100) = $5 + $0.50 = $<<5+.5=5.5>>5.5\nSo, overall she earns $<5.5>.'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 23/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 23/100 path 2/3 answer='36'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 23/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 23/100 path 3/3 answer='105'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 23/100 done id=gsm8k_test_292 prediction='Susan works from 8 a.m. to 11 a.m., which is a total of 3 hours.\nShe pauses halfway through at 9:30 a.m. This counts as one full work session.\nFor each 10-minute period, she earns $5. So, we calculate her earnings from 10-hour work sessions:\n(3 hours - 0.5 hours) * 2 periods (since half an hour is included)\n2.5 hours * 10 minutes/hour * ($5/$10) = 2.5 * 1 * $5 = $<<2.5*1*5=12.5>>12.5\nThen we account for the remaining 10 minutes from the second session at 9:30 a.m.:\n$5 + $5 * (10/100) = $5 + $0.50 = $<<5+.5=5.5>>5.5\nSo, overall she earns $<5.5>.' gold='75' correct=False vote_counts={'Susan works from 8 a.m. to 11 a.m., which is a total of 3 hours.\nShe pauses halfway through at 9:30 a.m. This counts as one full work session.\nFor each 10-minute period, she earns $5. So, we calculate her earnings from 10-hour work sessions:\n(3 hours - 0.5 hours) * 2 periods (since half an hour is included)\n2.5 hours * 10 minutes/hour * ($5/$10) = 2.5 * 1 * $5 = $<<2.5*1*5=12.5>>12.5\nThen we account for the remaining 10 minutes from the second session at 9:30 a.m.:\n$5 + $5 * (10/100) = $5 + $0.50 = $<<5+.5=5.5>>5.5\nSo, overall she earns $<5.5>.': 1, '36': 1, '105': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 24/100 start id=gsm8k_test_318
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 24/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 24/100 path 1/3 answer="Given there are 3 boys,\nthen there are 3 x 3 = <<3*3=9>>9 girls in the class.\n\nThere are also 1/10 of boys' amount of non-gender specific individuals.\nTherefore, there are 30/10 = <<30/10=3>>3 non-gender specific individuals in the class.\n\nCombining both sexes together, we get:\nBoys + Girls + Non-Gender Specifics = Total Children\n\nSo, the total number of children is 3 boys + 9 girls + 3 non-gender-specific individuals \nwhich equals 3+9+3 = <<3+9+3=15>>15.\n\nHence, the total number of children is 15."
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 24/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 24/100 path 2/3 answer='123'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 24/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 24/100 path 3/3 answer='120'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 24/100 done id=gsm8k_test_318 prediction="Given there are 3 boys,\nthen there are 3 x 3 = <<3*3=9>>9 girls in the class.\n\nThere are also 1/10 of boys' amount of non-gender specific individuals.\nTherefore, there are 30/10 = <<30/10=3>>3 non-gender specific individuals in the class.\n\nCombining both sexes together, we get:\nBoys + Girls + Non-Gender Specifics = Total Children\n\nSo, the total number of children is 3 boys + 9 girls + 3 non-gender-specific individuals \nwhich equals 3+9+3 = <<3+9+3=15>>15.\n\nHence, the total number of children is 15." gold='123' correct=False vote_counts={"Given there are 3 boys,\nthen there are 3 x 3 = <<3*3=9>>9 girls in the class.\n\nThere are also 1/10 of boys' amount of non-gender specific individuals.\nTherefore, there are 30/10 = <<30/10=3>>3 non-gender specific individuals in the class.\n\nCombining both sexes together, we get:\nBoys + Girls + Non-Gender Specifics = Total Children\n\nSo, the total number of children is 3 boys + 9 girls + 3 non-gender-specific individuals \nwhich equals 3+9+3 = <<3+9+3=15>>15.\n\nHence, the total number of children is 15.": 1, '123': 1, '120': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 25/100 start id=gsm8k_test_326
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 25/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 25/100 path 1/3 answer='29'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 25/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 25/100 path 2/3 answer='14'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 25/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 25/100 path 3/3 answer='14'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 25/100 done id=gsm8k_test_326 prediction='14' gold='14' correct=True vote_counts={'29': 1, '14': 2}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 26/100 start id=gsm8k_test_333
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 26/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 26/100 path 1/3 answer='100'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 26/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 26/100 path 2/3 answer='100'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 26/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 26/100 path 3/3 answer='100'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 26/100 done id=gsm8k_test_333 prediction='100' gold='100' correct=True vote_counts={'100': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 27/100 start id=gsm8k_test_334
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 27/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 27/100 path 1/3 answer='6'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 27/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 27/100 path 2/3 answer='6'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 27/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 27/100 path 3/3 answer='6'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 27/100 done id=gsm8k_test_334 prediction='6' gold='6' correct=True vote_counts={'6': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 28/100 start id=gsm8k_test_350
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 28/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 28/100 path 1/3 answer='11'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 28/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 28/100 path 2/3 answer='8'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 28/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 28/100 path 3/3 answer='8'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 28/100 done id=gsm8k_test_350 prediction='8' gold='8' correct=True vote_counts={'11': 1, '8': 2}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 29/100 start id=gsm8k_test_393
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 29/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 29/100 path 1/3 answer='20'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 29/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 29/100 path 2/3 answer='74'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 29/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 29/100 path 3/3 answer='20'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 29/100 done id=gsm8k_test_393 prediction='20' gold='20' correct=True vote_counts={'20': 2, '74': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 30/100 start id=gsm8k_test_407
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 30/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 30/100 path 1/3 answer="To solve the problem, let's break it down into steps:\n\n1. **Calculate total steps before the jogging part**: \n   - Elliott started off with half the daily goal:\n     \\[\n     \\text{Steps} = \\frac{10\\,000}{2} = 5\\,000 \\, \\text{steps}\n     \\]\n   \n2. **Add the extra steps** taken on other occasions:\n   - Steps from walking to and from school:\n     \\[\n     \\text{Additional steps} = 5\\,000 + 1,000 = 6,000 \\, \\text{steps}\n     \\]\n\n3. **Subtract these initial totals from the target**:\n   - After these activities, he still needed to reach 2,000 steps:\n   \\[\n   \\text{Remaining steps} = 10\\,000 - (6\\,000 + 2\\,000) = 1,000 \\, \\text{steps}\n   \\]\n   \n4. **Identify how many steps were actually walked while jogging**:\n    Since all the steps taken were either going to and from school or taking a shorter stroll, and those accounted for 6,000 steps. Therefore, any remaining steps belong to the jogging portion:\n   - Steps taken in jogging:\n     \\[\n     \\text{Steps of jog} = 1,000 \\, \\text{steps (remaining)} + 1,000 \\, \\text{(shortest walk with friend)}\n     \\]\n    \nSince 1,000 steps represent one third of what the entire distance would have been, we find out the full jogging step count by multiplying:\n   \\[\n   \\text{Full jogging step count"
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 30/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 30/100 path 2/3 answer='7000'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 30/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 30/100 path 3/3 answer='4500'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 30/100 done id=gsm8k_test_407 prediction="To solve the problem, let's break it down into steps:\n\n1. **Calculate total steps before the jogging part**: \n   - Elliott started off with half the daily goal:\n     \\[\n     \\text{Steps} = \\frac{10\\,000}{2} = 5\\,000 \\, \\text{steps}\n     \\]\n   \n2. **Add the extra steps** taken on other occasions:\n   - Steps from walking to and from school:\n     \\[\n     \\text{Additional steps} = 5\\,000 + 1,000 = 6,000 \\, \\text{steps}\n     \\]\n\n3. **Subtract these initial totals from the target**:\n   - After these activities, he still needed to reach 2,000 steps:\n   \\[\n   \\text{Remaining steps} = 10\\,000 - (6\\,000 + 2\\,000) = 1,000 \\, \\text{steps}\n   \\]\n   \n4. **Identify how many steps were actually walked while jogging**:\n    Since all the steps taken were either going to and from school or taking a shorter stroll, and those accounted for 6,000 steps. Therefore, any remaining steps belong to the jogging portion:\n   - Steps taken in jogging:\n     \\[\n     \\text{Steps of jog} = 1,000 \\, \\text{steps (remaining)} + 1,000 \\, \\text{(shortest walk with friend)}\n     \\]\n    \nSince 1,000 steps represent one third of what the entire distance would have been, we find out the full jogging step count by multiplying:\n   \\[\n   \\text{Full jogging step count" gold='2000' correct=False vote_counts={"To solve the problem, let's break it down into steps:\n\n1. **Calculate total steps before the jogging part**: \n   - Elliott started off with half the daily goal:\n     \\[\n     \\text{Steps} = \\frac{10\\,000}{2} = 5\\,000 \\, \\text{steps}\n     \\]\n   \n2. **Add the extra steps** taken on other occasions:\n   - Steps from walking to and from school:\n     \\[\n     \\text{Additional steps} = 5\\,000 + 1,000 = 6,000 \\, \\text{steps}\n     \\]\n\n3. **Subtract these initial totals from the target**:\n   - After these activities, he still needed to reach 2,000 steps:\n   \\[\n   \\text{Remaining steps} = 10\\,000 - (6\\,000 + 2\\,000) = 1,000 \\, \\text{steps}\n   \\]\n   \n4. **Identify how many steps were actually walked while jogging**:\n    Since all the steps taken were either going to and from school or taking a shorter stroll, and those accounted for 6,000 steps. Therefore, any remaining steps belong to the jogging portion:\n   - Steps taken in jogging:\n     \\[\n     \\text{Steps of jog} = 1,000 \\, \\text{steps (remaining)} + 1,000 \\, \\text{(shortest walk with friend)}\n     \\]\n    \nSince 1,000 steps represent one third of what the entire distance would have been, we find out the full jogging step count by multiplying:\n   \\[\n   \\text{Full jogging step count": 1, '7000': 1, '4500': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 31/100 start id=gsm8k_test_429
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 31/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 31/100 path 1/3 answer='13'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 31/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 31/100 path 2/3 answer='13'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 31/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 31/100 path 3/3 answer='13'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 31/100 done id=gsm8k_test_429 prediction='13' gold='13' correct=True vote_counts={'13': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 32/100 start id=gsm8k_test_432
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 32/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 32/100 path 1/3 answer='10'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 32/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 32/100 path 2/3 answer='10'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 32/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 32/100 path 3/3 answer='30'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 32/100 done id=gsm8k_test_432 prediction='10' gold='30' correct=False vote_counts={'10': 2, '30': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 33/100 start id=gsm8k_test_435
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 33/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 33/100 path 1/3 answer='5'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 33/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 33/100 path 2/3 answer='5'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 33/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 33/100 path 3/3 answer='5'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 33/100 done id=gsm8k_test_435 prediction='5' gold='5' correct=True vote_counts={'5': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 34/100 start id=gsm8k_test_440
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 34/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 34/100 path 1/3 answer='180'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 34/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 34/100 path 2/3 answer='98'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 34/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 34/100 path 3/3 answer='98'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 34/100 done id=gsm8k_test_440 prediction='98' gold='98' correct=True vote_counts={'180': 1, '98': 2}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 35/100 start id=gsm8k_test_447
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 35/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 35/100 path 1/3 answer='25'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 35/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 35/100 path 2/3 answer='5'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 35/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 35/100 path 3/3 answer='5'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 35/100 done id=gsm8k_test_447 prediction='5' gold='5' correct=True vote_counts={'25': 1, '5': 2}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 36/100 start id=gsm8k_test_449
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 36/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 36/100 path 1/3 answer='112'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 36/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 36/100 path 2/3 answer='10'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 36/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 36/100 path 3/3 answer='112'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 36/100 done id=gsm8k_test_449 prediction='112' gold='112' correct=True vote_counts={'112': 2, '10': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 37/100 start id=gsm8k_test_451
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 37/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 37/100 path 1/3 answer='299.64'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 37/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 37/100 path 2/3 answer='10550'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 37/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 37/100 path 3/3 answer='11050'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 37/100 done id=gsm8k_test_451 prediction='299.64' gold='11050' correct=False vote_counts={'299.64': 1, '10550': 1, '11050': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 38/100 start id=gsm8k_test_457
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 38/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 38/100 path 1/3 answer='45'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 38/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 38/100 path 2/3 answer='25'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 38/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 38/100 path 3/3 answer='5'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 38/100 done id=gsm8k_test_457 prediction='45' gold='45' correct=True vote_counts={'45': 1, '25': 1, '5': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 39/100 start id=gsm8k_test_466
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 39/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 39/100 path 1/3 answer='0'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 39/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 39/100 path 2/3 answer='1'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 39/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 39/100 path 3/3 answer='0.1'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 39/100 done id=gsm8k_test_466 prediction='0' gold='1' correct=False vote_counts={'0': 1, '1': 1, '0.1': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 40/100 start id=gsm8k_test_469
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 40/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 40/100 path 1/3 answer='4'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 40/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 40/100 path 2/3 answer='4'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 40/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 40/100 path 3/3 answer='4'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 40/100 done id=gsm8k_test_469 prediction='4' gold='4' correct=True vote_counts={'4': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 41/100 start id=gsm8k_test_476
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 41/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 41/100 path 1/3 answer='5'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 41/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 41/100 path 2/3 answer='5'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 41/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 41/100 path 3/3 answer='5'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 41/100 done id=gsm8k_test_476 prediction='5' gold='5' correct=True vote_counts={'5': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 42/100 start id=gsm8k_test_501
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 42/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 42/100 path 1/3 answer='273'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 42/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 42/100 path 2/3 answer='273'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 42/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 42/100 path 3/3 answer='273'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 42/100 done id=gsm8k_test_501 prediction='273' gold='273' correct=True vote_counts={'273': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 43/100 start id=gsm8k_test_505
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 43/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 43/100 path 1/3 answer='1400'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 43/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 43/100 path 2/3 answer='8'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 43/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 43/100 path 3/3 answer='1200'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 43/100 done id=gsm8k_test_505 prediction='1400' gold='1600' correct=False vote_counts={'1400': 1, '8': 1, '1200': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 44/100 start id=gsm8k_test_538
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 44/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 44/100 path 1/3 answer='For the first two weeks, Emma made 18 + 21 = 39 vlogs.\nTo reach the total of 72 vlogs she needed per month, Emma needs to upload 72 – 39 = 33 vlogs in the remaining week.\nShe needs to create 33 more vlogs in order to meet the requirement per month.'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 44/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 44/100 path 2/3 answer='18'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 44/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 44/100 path 3/3 answer='18'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 44/100 done id=gsm8k_test_538 prediction='18' gold='18' correct=True vote_counts={'For the first two weeks, Emma made 18 + 21 = 39 vlogs.\nTo reach the total of 72 vlogs she needed per month, Emma needs to upload 72 – 39 = 33 vlogs in the remaining week.\nShe needs to create 33 more vlogs in order to meet the requirement per month.': 1, '18': 2}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 45/100 start id=gsm8k_test_541
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 45/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 45/100 path 1/3 answer='49.35'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 45/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 45/100 path 2/3 answer='1500'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 45/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 45/100 path 3/3 answer='50'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 45/100 done id=gsm8k_test_541 prediction='49.35' gold='50' correct=False vote_counts={'49.35': 1, '1500': 1, '50': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 46/100 start id=gsm8k_test_542
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 46/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 46/100 path 1/3 answer='7'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 46/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 46/100 path 2/3 answer='7'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 46/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 46/100 path 3/3 answer='7'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 46/100 done id=gsm8k_test_542 prediction='7' gold='7' correct=True vote_counts={'7': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 47/100 start id=gsm8k_test_546
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 47/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 47/100 path 1/3 answer='65'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 47/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 47/100 path 2/3 answer='52'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 47/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 47/100 path 3/3 answer='65'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 47/100 done id=gsm8k_test_546 prediction='65' gold='130' correct=False vote_counts={'65': 2, '52': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 48/100 start id=gsm8k_test_548
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 48/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 48/100 path 1/3 answer='100'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 48/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 48/100 path 2/3 answer='40'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 48/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 48/100 path 3/3 answer='100'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 48/100 done id=gsm8k_test_548 prediction='100' gold='100' correct=True vote_counts={'100': 2, '40': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 49/100 start id=gsm8k_test_552
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 49/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 49/100 path 1/3 answer='450'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 49/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 49/100 path 2/3 answer='140'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 49/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 49/100 path 3/3 answer='870'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 49/100 done id=gsm8k_test_552 prediction='450' gold='450' correct=True vote_counts={'450': 1, '140': 1, '870': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 50/100 start id=gsm8k_test_563
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 50/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 50/100 path 1/3 answer='12'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 50/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 50/100 path 2/3 answer='12'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 50/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 50/100 path 3/3 answer='24'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 50/100 done id=gsm8k_test_563 prediction='12' gold='12' correct=True vote_counts={'12': 2, '24': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 51/100 start id=gsm8k_test_569
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 51/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 51/100 path 1/3 answer='21'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 51/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 51/100 path 2/3 answer='47'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 51/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 51/100 path 3/3 answer='21'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 51/100 done id=gsm8k_test_569 prediction='21' gold='21' correct=True vote_counts={'21': 2, '47': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 52/100 start id=gsm8k_test_592
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 52/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 52/100 path 1/3 answer='1'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 52/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 52/100 path 2/3 answer='18'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 52/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 52/100 path 3/3 answer='21'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 52/100 done id=gsm8k_test_592 prediction='1' gold='1' correct=True vote_counts={'1': 1, '18': 1, '21': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 53/100 start id=gsm8k_test_600
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 53/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 53/100 path 1/3 answer='10'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 53/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 53/100 path 2/3 answer='13'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 53/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 53/100 path 3/3 answer='2'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 53/100 done id=gsm8k_test_600 prediction='10' gold='10' correct=True vote_counts={'10': 1, '13': 1, '2': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 54/100 start id=gsm8k_test_644
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 54/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 54/100 path 1/3 answer='29'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 54/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 54/100 path 2/3 answer='29'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 54/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 54/100 path 3/3 answer='29'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 54/100 done id=gsm8k_test_644 prediction='29' gold='29' correct=True vote_counts={'29': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 55/100 start id=gsm8k_test_646
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 55/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 55/100 path 1/3 answer='79'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 55/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 55/100 path 2/3 answer='79'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 55/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 55/100 path 3/3 answer='79'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 55/100 done id=gsm8k_test_646 prediction='79' gold='79' correct=True vote_counts={'79': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 56/100 start id=gsm8k_test_664
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 56/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 56/100 path 1/3 answer='32'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 56/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 56/100 path 2/3 answer='32'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 56/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 56/100 path 3/3 answer='32'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 56/100 done id=gsm8k_test_664 prediction='32' gold='32' correct=True vote_counts={'32': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 57/100 start id=gsm8k_test_689
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 57/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 57/100 path 1/3 answer='8.8'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 57/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 57/100 path 2/3 answer='28'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 57/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 57/100 path 3/3 answer='12'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 57/100 done id=gsm8k_test_689 prediction='8.8' gold='7' correct=False vote_counts={'8.8': 1, '28': 1, '12': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 58/100 start id=gsm8k_test_696
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 58/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 58/100 path 1/3 answer='70'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 58/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 58/100 path 2/3 answer='165'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 58/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 58/100 path 3/3 answer='211'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 58/100 done id=gsm8k_test_696 prediction='70' gold='145' correct=False vote_counts={'70': 1, '165': 1, '211': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 59/100 start id=gsm8k_test_704
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 59/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 59/100 path 1/3 answer='50'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 59/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 59/100 path 2/3 answer='65'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 59/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 59/100 path 3/3 answer='50'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 59/100 done id=gsm8k_test_704 prediction='50' gold='50' correct=True vote_counts={'50': 2, '65': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 60/100 start id=gsm8k_test_727
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 60/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 60/100 path 1/3 answer='32'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 60/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 60/100 path 2/3 answer='40'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 60/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 60/100 path 3/3 answer='160'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 60/100 done id=gsm8k_test_727 prediction='32' gold='112' correct=False vote_counts={'32': 1, '40': 1, '160': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 61/100 start id=gsm8k_test_735
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 61/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 61/100 path 1/3 answer='50'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 61/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 61/100 path 2/3 answer='50'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 61/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 61/100 path 3/3 answer='40'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 61/100 done id=gsm8k_test_735 prediction='50' gold='50' correct=True vote_counts={'50': 2, '40': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 62/100 start id=gsm8k_test_740
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 62/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 62/100 path 1/3 answer='25'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 62/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 62/100 path 2/3 answer="We start with 50 students, so there are 50 - 10 (like baking) - 5 (like basketball) = 35 who might like music or video games. Let \\( V \\) represent the number of students who like video games. Since playing music corresponds to \\( 2V \\), we can write:\n\n\\[ V + 2V = 35 \\]\n\\[ 3V = 35 \\]\n\nSo solving for \\( V \\):\n\n\\[ V = \\frac{35}{3} \\approx 11.67 \\]\n\nSince the number of students must be whole, there seems to be a minor calculation oversight here; it appears likely the initial data provided had some inconsistency or rounding issue that was overlooked. Given proper arithmetic would align correctly around such issues but without further context or specific corrections, our best reasonable conclusion remains focused on applying logical constraints directly onto given conditions where feasible under assumptions:\n\nGiven:\n- Total students: 50\n- Bake lovers: 10\n- Basketball players: 5\n\nTherefore,\nNumber of remaining students interested in other activities: \n\\[ 50 - 10 - 5 = 35 \\]\n\nThose remaining students could choose from two categories now—video games and music—where the number involved must meet specific ratio stated i.e., the interest to music is doubled when comparing to basketball interest. \n\nConsidering this constraint strictly mathematically under given setup, since the question asks about direct countable quantities rather than derived ratios without specified exact overlaps within student preferences not explicitly outlined in steps yet detailed, I'll focus purely on direct counts:\n\nThus based on explicit counting:\n- Students preferring to play music over remaining category is double the percentage interest of those into basketball,\n\nConsequently, assuming every possibility meets criteria described directly without further adjustment needed beyond these counts initially established, we arrive logically at count"
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 62/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 62/100 path 3/3 answer='40'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 62/100 done id=gsm8k_test_740 prediction='25' gold='25' correct=True vote_counts={'25': 1, "We start with 50 students, so there are 50 - 10 (like baking) - 5 (like basketball) = 35 who might like music or video games. Let \\( V \\) represent the number of students who like video games. Since playing music corresponds to \\( 2V \\), we can write:\n\n\\[ V + 2V = 35 \\]\n\\[ 3V = 35 \\]\n\nSo solving for \\( V \\):\n\n\\[ V = \\frac{35}{3} \\approx 11.67 \\]\n\nSince the number of students must be whole, there seems to be a minor calculation oversight here; it appears likely the initial data provided had some inconsistency or rounding issue that was overlooked. Given proper arithmetic would align correctly around such issues but without further context or specific corrections, our best reasonable conclusion remains focused on applying logical constraints directly onto given conditions where feasible under assumptions:\n\nGiven:\n- Total students: 50\n- Bake lovers: 10\n- Basketball players: 5\n\nTherefore,\nNumber of remaining students interested in other activities: \n\\[ 50 - 10 - 5 = 35 \\]\n\nThose remaining students could choose from two categories now—video games and music—where the number involved must meet specific ratio stated i.e., the interest to music is doubled when comparing to basketball interest. \n\nConsidering this constraint strictly mathematically under given setup, since the question asks about direct countable quantities rather than derived ratios without specified exact overlaps within student preferences not explicitly outlined in steps yet detailed, I'll focus purely on direct counts:\n\nThus based on explicit counting:\n- Students preferring to play music over remaining category is double the percentage interest of those into basketball,\n\nConsequently, assuming every possibility meets criteria described directly without further adjustment needed beyond these counts initially established, we arrive logically at count": 1, '40': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 63/100 start id=gsm8k_test_747
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 63/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 63/100 path 1/3 answer='350'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 63/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 63/100 path 2/3 answer='350'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 63/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 63/100 path 3/3 answer='105'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 63/100 done id=gsm8k_test_747 prediction='350' gold='350' correct=True vote_counts={'350': 2, '105': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 64/100 start id=gsm8k_test_758
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 64/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 64/100 path 1/3 answer='133'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 64/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 64/100 path 2/3 answer='133'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 64/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 64/100 path 3/3 answer='133'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 64/100 done id=gsm8k_test_758 prediction='133' gold='133' correct=True vote_counts={'133': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 65/100 start id=gsm8k_test_775
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 65/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 65/100 path 1/3 answer='276'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 65/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 65/100 path 2/3 answer='276'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 65/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 65/100 path 3/3 answer='276'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 65/100 done id=gsm8k_test_775 prediction='276' gold='276' correct=True vote_counts={'276': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 66/100 start id=gsm8k_test_777
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 66/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 66/100 path 1/3 answer='2520'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 66/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 66/100 path 2/3 answer='3240'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 66/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 66/100 path 3/3 answer='4800'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 66/100 done id=gsm8k_test_777 prediction='2520' gold='4400' correct=False vote_counts={'2520': 1, '3240': 1, '4800': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 67/100 start id=gsm8k_test_778
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 67/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 67/100 path 1/3 answer='38'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 67/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 67/100 path 2/3 answer='38'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 67/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 67/100 path 3/3 answer='38'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 67/100 done id=gsm8k_test_778 prediction='38' gold='38' correct=True vote_counts={'38': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 68/100 start id=gsm8k_test_810
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 68/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 68/100 path 1/3 answer='9920'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 68/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 68/100 path 2/3 answer='95'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 68/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 68/100 path 3/3 answer='10'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 68/100 done id=gsm8k_test_810 prediction='9920' gold='310' correct=False vote_counts={'9920': 1, '95': 1, '10': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 69/100 start id=gsm8k_test_821
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 69/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 69/100 path 1/3 answer='85'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 69/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 69/100 path 2/3 answer='35'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 69/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 69/100 path 3/3 answer='35'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 69/100 done id=gsm8k_test_821 prediction='35' gold='35' correct=True vote_counts={'85': 1, '35': 2}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 70/100 start id=gsm8k_test_859
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 70/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 70/100 path 1/3 answer='1520'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 70/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 70/100 path 2/3 answer='880'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 70/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 70/100 path 3/3 answer='38'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 70/100 done id=gsm8k_test_859 prediction='1520' gold='1520' correct=True vote_counts={'1520': 1, '880': 1, '38': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 71/100 start id=gsm8k_test_864
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 71/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 71/100 path 1/3 answer='80'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 71/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 71/100 path 2/3 answer='480'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 71/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 71/100 path 3/3 answer='80'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 71/100 done id=gsm8k_test_864 prediction='80' gold='80' correct=True vote_counts={'80': 2, '480': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 72/100 start id=gsm8k_test_865
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 72/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 72/100 path 1/3 answer='23'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 72/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 72/100 path 2/3 answer='23'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 72/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 72/100 path 3/3 answer='13'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 72/100 done id=gsm8k_test_865 prediction='23' gold='23' correct=True vote_counts={'23': 2, '13': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 73/100 start id=gsm8k_test_919
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 73/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 73/100 path 1/3 answer='90'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 73/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 73/100 path 2/3 answer='10'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 73/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 73/100 path 3/3 answer='90'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 73/100 done id=gsm8k_test_919 prediction='90' gold='90' correct=True vote_counts={'90': 2, '10': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 74/100 start id=gsm8k_test_928
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 74/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 74/100 path 1/3 answer='42.4'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 74/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 74/100 path 2/3 answer='32.5'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 74/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 74/100 path 3/3 answer='18.576'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 74/100 done id=gsm8k_test_928 prediction='42.4' gold='60' correct=False vote_counts={'42.4': 1, '32.5': 1, '18.576': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 75/100 start id=gsm8k_test_939
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 75/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 75/100 path 1/3 answer='620'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 75/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 75/100 path 2/3 answer='1100'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 75/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 75/100 path 3/3 answer='650'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 75/100 done id=gsm8k_test_939 prediction='620' gold='650' correct=False vote_counts={'620': 1, '1100': 1, '650': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 76/100 start id=gsm8k_test_940
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 76/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 76/100 path 1/3 answer='175'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 76/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 76/100 path 2/3 answer='280'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 76/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 76/100 path 3/3 answer='280'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 76/100 done id=gsm8k_test_940 prediction='280' gold='280' correct=True vote_counts={'175': 1, '280': 2}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 77/100 start id=gsm8k_test_946
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 77/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 77/100 path 1/3 answer='450'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 77/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 77/100 path 2/3 answer='450'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 77/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 77/100 path 3/3 answer='450'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 77/100 done id=gsm8k_test_946 prediction='450' gold='450' correct=True vote_counts={'450': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 78/100 start id=gsm8k_test_1022
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 78/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 78/100 path 1/3 answer='4'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 78/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 78/100 path 2/3 answer='Let \\( S \\) represent the number of small stuffed animals sold, and let \\( L \\) represent the number of large stuffed animals sold.\n\nGiven:\n1. Small stuffed animal cost = \\$4\n2. Teresa earned \\$120 in total.\n3. Teresa sold twice as many small stuffed animals as large ones.\n4. Each small stuffed animal costs \\$4.\n\nFirst, calculate the revenue from selling all small stuffed animals:\n\\[ \\text{Revenue from small stuffed animals} = 2S \\times \\$4 \\]\n\nNext, express the revenue from large stuffed animals using the relationship between the prices given in the problem. Let the price of each large stuffed animal be \\( P \\). According to the problem, the price of a large stuffed animal is three times the price of a small one:\n\\[ P = 3 \\times \\$4 = \\$12 \\]\n\nTeresa sold twice as many small stuffed animals as large ones:\n\\[ S = 2L \\]\n\nCalculate the total amount of money Teresa earned from both types of stuffed animals:\n\\[ \\$120 = (2L \\times \\$4) + (L \\times \\$12) \\]\n\\[ \\$120 = 2L \\times \\$4 + L \\times \\$12 \\]\n\\[ \\$120 = \\$8L + \\$12L \\]\n\\[ \\$120 = \\$20L \\]\n\nSolve for \\( L \\):\n\\[ L = \\frac{\\$120}{\\$20} \\]\n\\[ L = 6 \\]\n\nNow, substitute \\( L = 6 \\) back into the equation \\( S = 2L \\) to find the number of small stuffed animals sold:\n\\[ S = 2 \\times 6 \\]\n\\[ S = 12 \\]\n\nThus, Teresa sold 12 small stuffed animals.\n\nThe answer'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 78/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 78/100 path 3/3 answer='6'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 78/100 done id=gsm8k_test_1022 prediction='4' gold='12' correct=False vote_counts={'4': 1, 'Let \\( S \\) represent the number of small stuffed animals sold, and let \\( L \\) represent the number of large stuffed animals sold.\n\nGiven:\n1. Small stuffed animal cost = \\$4\n2. Teresa earned \\$120 in total.\n3. Teresa sold twice as many small stuffed animals as large ones.\n4. Each small stuffed animal costs \\$4.\n\nFirst, calculate the revenue from selling all small stuffed animals:\n\\[ \\text{Revenue from small stuffed animals} = 2S \\times \\$4 \\]\n\nNext, express the revenue from large stuffed animals using the relationship between the prices given in the problem. Let the price of each large stuffed animal be \\( P \\). According to the problem, the price of a large stuffed animal is three times the price of a small one:\n\\[ P = 3 \\times \\$4 = \\$12 \\]\n\nTeresa sold twice as many small stuffed animals as large ones:\n\\[ S = 2L \\]\n\nCalculate the total amount of money Teresa earned from both types of stuffed animals:\n\\[ \\$120 = (2L \\times \\$4) + (L \\times \\$12) \\]\n\\[ \\$120 = 2L \\times \\$4 + L \\times \\$12 \\]\n\\[ \\$120 = \\$8L + \\$12L \\]\n\\[ \\$120 = \\$20L \\]\n\nSolve for \\( L \\):\n\\[ L = \\frac{\\$120}{\\$20} \\]\n\\[ L = 6 \\]\n\nNow, substitute \\( L = 6 \\) back into the equation \\( S = 2L \\) to find the number of small stuffed animals sold:\n\\[ S = 2 \\times 6 \\]\n\\[ S = 12 \\]\n\nThus, Teresa sold 12 small stuffed animals.\n\nThe answer': 1, '6': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 79/100 start id=gsm8k_test_1034
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 79/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 79/100 path 1/3 answer='66'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 79/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 79/100 path 2/3 answer='66'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 79/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 79/100 path 3/3 answer='66'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 79/100 done id=gsm8k_test_1034 prediction='66' gold='66' correct=True vote_counts={'66': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 80/100 start id=gsm8k_test_1093
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 80/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 80/100 path 1/3 answer='144'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 80/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 80/100 path 2/3 answer='144'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 80/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 80/100 path 3/3 answer='To calculate the total area to be painted:\n\nNorth and South Walls: \n(10 ft * 8 ft) + (10 ft * 8 ft) = 80 sq ft + 80 sq ft = 160 sq ft\n\nEast and West Walls:\n(5 ft * 8 ft) + (5 ft * 8 ft) = 40 sq ft + 40 sq ft = 80 sq ft\n\nTotal area to be painted:\n160 sq ft + 80 sq ft = 240 sq ft\n\nCalculate the number of gallons needed:\n240 sq ft ÷ 20 sq ft/gallon = 12 gallons\n\nCost of paint:\n12 gallons * $12/gallon = $144\n\nTherefore, the cost to paint the room would be $144.'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 80/100 done id=gsm8k_test_1093 prediction='144' gold='144' correct=True vote_counts={'144': 2, 'To calculate the total area to be painted:\n\nNorth and South Walls: \n(10 ft * 8 ft) + (10 ft * 8 ft) = 80 sq ft + 80 sq ft = 160 sq ft\n\nEast and West Walls:\n(5 ft * 8 ft) + (5 ft * 8 ft) = 40 sq ft + 40 sq ft = 80 sq ft\n\nTotal area to be painted:\n160 sq ft + 80 sq ft = 240 sq ft\n\nCalculate the number of gallons needed:\n240 sq ft ÷ 20 sq ft/gallon = 12 gallons\n\nCost of paint:\n12 gallons * $12/gallon = $144\n\nTherefore, the cost to paint the room would be $144.': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 81/100 start id=gsm8k_test_1098
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 81/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 81/100 path 1/3 answer='If Mike is 24 years old, then Martha is 24 - 4 = 20 years old since Martha is 4 years younger than Mike.\nJeff is 10 years older than his younger sister Martha who is 20 years old so Jeff is 20 + 10 = 30 years old.'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 81/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 81/100 path 2/3 answer='30'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 81/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 81/100 path 3/3 answer='30'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 81/100 done id=gsm8k_test_1098 prediction='30' gold='30' correct=True vote_counts={'If Mike is 24 years old, then Martha is 24 - 4 = 20 years old since Martha is 4 years younger than Mike.\nJeff is 10 years older than his younger sister Martha who is 20 years old so Jeff is 20 + 10 = 30 years old.': 1, '30': 2}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 82/100 start id=gsm8k_test_1103
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 82/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 82/100 path 1/3 answer='72'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 82/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 82/100 path 2/3 answer='18'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 82/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 82/100 path 3/3 answer='90'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 82/100 done id=gsm8k_test_1103 prediction='72' gold='90' correct=False vote_counts={'72': 1, '18': 1, '90': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 83/100 start id=gsm8k_test_1116
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 83/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 83/100 path 1/3 answer='60'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 83/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 83/100 path 2/3 answer='72'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 83/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 83/100 path 3/3 answer='70'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 83/100 done id=gsm8k_test_1116 prediction='60' gold='60' correct=True vote_counts={'60': 1, '72': 1, '70': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 84/100 start id=gsm8k_test_1130
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 84/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 84/100 path 1/3 answer='93.75'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 84/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 84/100 path 2/3 answer='237.50'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 84/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 84/100 path 3/3 answer='25'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 84/100 done id=gsm8k_test_1130 prediction='93.75' gold='25' correct=False vote_counts={'93.75': 1, '237.50': 1, '25': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 85/100 start id=gsm8k_test_1140
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 85/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 85/100 path 1/3 answer='54'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 85/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 85/100 path 2/3 answer='54'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 85/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 85/100 path 3/3 answer='6'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 85/100 done id=gsm8k_test_1140 prediction='54' gold='27' correct=False vote_counts={'54': 2, '6': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 86/100 start id=gsm8k_test_1149
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 86/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 86/100 path 1/3 answer='93'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 86/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 86/100 path 2/3 answer='93'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 86/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 86/100 path 3/3 answer='30'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 86/100 done id=gsm8k_test_1149 prediction='93' gold='93' correct=True vote_counts={'93': 2, '30': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 87/100 start id=gsm8k_test_1161
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 87/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 87/100 path 1/3 answer="First, we calculate how much land Abraham sells in each transaction:\n\nSale of first half:\nTotal area before sale = 80 m²\nLand sold first time = 80 / 2 = 40 m²\nPrice per m² = $50\n\nSale price for first portion = 40 m² * $50/m² = $<<40*50=2000>>2000\n\nSale of next quarter:\nTotal area left = 80 - 40 = 40 m²\nNext quarter land sold = 40 / 4 = 10 m²\nPrice per m² = $30\n\nSale price for second portion = 10 m² * $30/m² = $<<10*30=300>>300\n\nNow, we can find out the total money Abraham made so far:\nMoney from first sale + Money from second sale = Total money\n$2000 + $300 = $<<2000+300=2300>>2300\n\nFinally, we determine the amount of money required to finish buying all unused land at $3 per square meter:\nLand to complete purchase = 80 m² (the total size)\nPrice needed = 80 m² * $3/m² = $<<80*3=240>>240\n\nAdding up all these amounts will show Abraham's total earnings:\n$2300 + $240 = $<<2300+240=2540>>2540\n\nThus, Abraham is going to make $<<2540>>2540."
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 87/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 87/100 path 2/3 answer='200'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 87/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 87/100 path 3/3 answer='2660'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 87/100 done id=gsm8k_test_1161 prediction="First, we calculate how much land Abraham sells in each transaction:\n\nSale of first half:\nTotal area before sale = 80 m²\nLand sold first time = 80 / 2 = 40 m²\nPrice per m² = $50\n\nSale price for first portion = 40 m² * $50/m² = $<<40*50=2000>>2000\n\nSale of next quarter:\nTotal area left = 80 - 40 = 40 m²\nNext quarter land sold = 40 / 4 = 10 m²\nPrice per m² = $30\n\nSale price for second portion = 10 m² * $30/m² = $<<10*30=300>>300\n\nNow, we can find out the total money Abraham made so far:\nMoney from first sale + Money from second sale = Total money\n$2000 + $300 = $<<2000+300=2300>>2300\n\nFinally, we determine the amount of money required to finish buying all unused land at $3 per square meter:\nLand to complete purchase = 80 m² (the total size)\nPrice needed = 80 m² * $3/m² = $<<80*3=240>>240\n\nAdding up all these amounts will show Abraham's total earnings:\n$2300 + $240 = $<<2300+240=2540>>2540\n\nThus, Abraham is going to make $<<2540>>2540." gold='170' correct=False vote_counts={"First, we calculate how much land Abraham sells in each transaction:\n\nSale of first half:\nTotal area before sale = 80 m²\nLand sold first time = 80 / 2 = 40 m²\nPrice per m² = $50\n\nSale price for first portion = 40 m² * $50/m² = $<<40*50=2000>>2000\n\nSale of next quarter:\nTotal area left = 80 - 40 = 40 m²\nNext quarter land sold = 40 / 4 = 10 m²\nPrice per m² = $30\n\nSale price for second portion = 10 m² * $30/m² = $<<10*30=300>>300\n\nNow, we can find out the total money Abraham made so far:\nMoney from first sale + Money from second sale = Total money\n$2000 + $300 = $<<2000+300=2300>>2300\n\nFinally, we determine the amount of money required to finish buying all unused land at $3 per square meter:\nLand to complete purchase = 80 m² (the total size)\nPrice needed = 80 m² * $3/m² = $<<80*3=240>>240\n\nAdding up all these amounts will show Abraham's total earnings:\n$2300 + $240 = $<<2300+240=2540>>2540\n\nThus, Abraham is going to make $<<2540>>2540.": 1, '200': 1, '2660': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 88/100 start id=gsm8k_test_1182
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 88/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 88/100 path 1/3 answer='1800'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 88/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 88/100 path 2/3 answer='162'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 88/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 88/100 path 3/3 answer='1800'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 88/100 done id=gsm8k_test_1182 prediction='1800' gold='1800' correct=True vote_counts={'1800': 2, '162': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 89/100 start id=gsm8k_test_1206
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 89/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 89/100 path 1/3 answer='90000'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 89/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 89/100 path 2/3 answer='40000'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 89/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 89/100 path 3/3 answer='40'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 89/100 done id=gsm8k_test_1206 prediction='90000' gold='40000' correct=False vote_counts={'90000': 1, '40000': 1, '40': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 90/100 start id=gsm8k_test_1209
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 90/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 90/100 path 1/3 answer='63'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 90/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 90/100 path 2/3 answer='29'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 90/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 90/100 path 3/3 answer='29'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 90/100 done id=gsm8k_test_1209 prediction='29' gold='29' correct=True vote_counts={'63': 1, '29': 2}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 91/100 start id=gsm8k_test_1232
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 91/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 91/100 path 1/3 answer='15'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 91/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 91/100 path 2/3 answer='10'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 91/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 91/100 path 3/3 answer='15'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 91/100 done id=gsm8k_test_1232 prediction='15' gold='15' correct=True vote_counts={'15': 2, '10': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 92/100 start id=gsm8k_test_1236
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 92/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 92/100 path 1/3 answer='84'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 92/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 92/100 path 2/3 answer='84'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 92/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 92/100 path 3/3 answer='84'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 92/100 done id=gsm8k_test_1236 prediction='84' gold='84' correct=True vote_counts={'84': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 93/100 start id=gsm8k_test_1247
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 93/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 93/100 path 1/3 answer='7'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 93/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 93/100 path 2/3 answer='7'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 93/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 93/100 path 3/3 answer='7'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 93/100 done id=gsm8k_test_1247 prediction='7' gold='7' correct=True vote_counts={'7': 3}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 94/100 start id=gsm8k_test_1266
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 94/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 94/100 path 1/3 answer='133'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 94/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 94/100 path 2/3 answer='147'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 94/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 94/100 path 3/3 answer='For each German Shepherd, there will be a consumption of 3x5=15 kg of dog food every day.\nSince, there are three German Shepherds, they consume on a daily basis a total of 3x15kg = 45kg.\nSo, for one German Shepherd, the amount of dog food needed in a week would be 45 x 7 days = 315kg.\nSimilarly, for two Bulldogs, with an average consumption of 3kg of food per day, their combined daily consumption is 2 x 3 = 6kg.\nThus, for one Bulldog, the weekly consumption is 6 x 7 days = 42kg.\nTherefore, for all the dogs in total, it takes 315 + 42 = 357kg of dog food in a week.'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 94/100 done id=gsm8k_test_1266 prediction='133' gold='147' correct=False vote_counts={'133': 1, '147': 1, 'For each German Shepherd, there will be a consumption of 3x5=15 kg of dog food every day.\nSince, there are three German Shepherds, they consume on a daily basis a total of 3x15kg = 45kg.\nSo, for one German Shepherd, the amount of dog food needed in a week would be 45 x 7 days = 315kg.\nSimilarly, for two Bulldogs, with an average consumption of 3kg of food per day, their combined daily consumption is 2 x 3 = 6kg.\nThus, for one Bulldog, the weekly consumption is 6 x 7 days = 42kg.\nTherefore, for all the dogs in total, it takes 315 + 42 = 357kg of dog food in a week.': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 95/100 start id=gsm8k_test_1287
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 95/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 95/100 path 1/3 answer='292'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 95/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 95/100 path 2/3 answer='60'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 95/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 95/100 path 3/3 answer='196'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 95/100 done id=gsm8k_test_1287 prediction='292' gold='84' correct=False vote_counts={'292': 1, '60': 1, '196': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 96/100 start id=gsm8k_test_1300
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 96/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 96/100 path 1/3 answer='120'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 96/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 96/100 path 2/3 answer='48'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 96/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 96/100 path 3/3 answer='120'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 96/100 done id=gsm8k_test_1300 prediction='120' gold='120' correct=True vote_counts={'120': 2, '48': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 97/100 start id=gsm8k_test_1301
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 97/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 97/100 path 1/3 answer='19'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 97/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 97/100 path 2/3 answer='15'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 97/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 97/100 path 3/3 answer='35'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 97/100 done id=gsm8k_test_1301 prediction='19' gold='23' correct=False vote_counts={'19': 1, '15': 1, '35': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 98/100 start id=gsm8k_test_1309
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 98/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 98/100 path 1/3 answer='Kim raised 430 + 320 = $<1750>1750.\nMaryam raised 300 + 400 = $<<300+400=700>>700 more.\nSo, Maryam raised 700 + 300 = $<<700+300=1000>>1000.\nTherefore, the three girls raised 1750 + 1000 + 430 = $<<1750+1000+430=3180>>3180.\nSarah had raised $300 already, so in total the group raised 3180 + 300 = $\\boxed{3480}$.'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 98/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 98/100 path 2/3 answer='2180'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 98/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 98/100 path 3/3 answer='1450'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 98/100 done id=gsm8k_test_1309 prediction='Kim raised 430 + 320 = $<1750>1750.\nMaryam raised 300 + 400 = $<<300+400=700>>700 more.\nSo, Maryam raised 700 + 300 = $<<700+300=1000>>1000.\nTherefore, the three girls raised 1750 + 1000 + 430 = $<<1750+1000+430=3180>>3180.\nSarah had raised $300 already, so in total the group raised 3180 + 300 = $\\boxed{3480}$.' gold='2280' correct=False vote_counts={'Kim raised 430 + 320 = $<1750>1750.\nMaryam raised 300 + 400 = $<<300+400=700>>700 more.\nSo, Maryam raised 700 + 300 = $<<700+300=1000>>1000.\nTherefore, the three girls raised 1750 + 1000 + 430 = $<<1750+1000+430=3180>>3180.\nSarah had raised $300 already, so in total the group raised 3180 + 300 = $\\boxed{3480}$.': 1, '2180': 1, '1450': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 99/100 start id=gsm8k_test_1310
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 99/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 99/100 path 1/3 answer='8'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 99/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 99/100 path 2/3 answer='1024'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 99/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 99/100 path 3/3 answer='32'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 99/100 done id=gsm8k_test_1310 prediction='8' gold='64' correct=False vote_counts={'8': 1, '1024': 1, '32': 1}
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 100/100 start id=gsm8k_test_1316
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 100/100 path 1/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 100/100 path 1/3 answer='430'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 100/100 path 2/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 100/100 path 2/3 answer='230'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 100/100 path 3/3 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 100/100 path 3/3 answer='630'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 100/100 done id=gsm8k_test_1316 prediction='430' gold='230' correct=False vote_counts={'430': 1, '230': 1, '630': 1}
+[taskC] completed name=qwen2_5_1_5b_instruct_gsm8k_n3_t1p0 jsonl=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/raw/C_titan_cu124/self_consistency/qwen2_5_1_5b_instruct_gsm8k_n3_t1p0.jsonl

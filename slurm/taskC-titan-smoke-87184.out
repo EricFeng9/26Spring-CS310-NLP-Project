@@ -1,0 +1,17 @@
+[taskC-titan-smoke] started at Wed May 27 01:18:24 CST 2026
+[taskC-titan-smoke] node=titanrtx03
+/home/xuyang_lab/cse12311031/.conda/envs/fjm/lib/python3.10/site-packages/torch/cuda/__init__.py:187: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 12090). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  return torch._C._cuda_getDeviceCount() > 0
+[taskC-titan-smoke] torch 2.12.0+cu130
+[taskC-titan-smoke] cuda_available False
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  85%|████████▍ | 287/338 [00:00<00:00, 2837.16it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 2616.21it/s]
+[taskC] loaded model=qwen2_5_1_5b_instruct datasets=['gsm8k'] num_paths=1 temperature=0.7
+[taskC] start name=qwen2_5_1_5b_instruct_gsm8k_n1_t0p7 log_path=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/log/C/smoke/qwen2_5_1_5b_instruct_gsm8k_n1_t0p7.log
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] loaded 1 samples from split=test num_paths=1
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] using 3 few-shot examples for SC prompt
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 start id=gsm8k_test_1309
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 path 1/1 start
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 path 1/1 answer='Kim raised $430 + $320 = $750'
+[self_consistency][qwen2_5_1_5b_instruct][gsm8k] sample 1/1 done id=gsm8k_test_1309 prediction='Kim raised $430 + $320 = $750' gold='2280' correct=False vote_counts={'Kim raised $430 + $320 = $750': 1}
+[taskC] completed name=qwen2_5_1_5b_instruct_gsm8k_n1_t0p7 jsonl=/home/xuyang_lab/cse12311031/26Spring-CS310-NLP-Project/output/raw/C/titan_smoke_self_consistency/qwen2_5_1_5b_instruct_gsm8k_n1_t0p7.jsonl
+[taskC-titan-smoke] completed at Wed May 27 01:19:31 CST 2026
